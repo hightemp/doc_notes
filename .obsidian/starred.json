@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Случайные заметки",
+      "path": "Заметка дня/Случайные заметки.md"
+    },
+    {
+      "type": "file",
+      "title": "ChatGPT",
+      "path": "Заметка дня/ChatGPT.md"
+    },
+    {
+      "type": "file",
+      "title": "Планы",
+      "path": "Планы.md"
+    }
+  ]
+}
