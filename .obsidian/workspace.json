@@ -97,7 +97,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Сети - маршрутизация.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d8839be48b7905f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
                 "mode": "source",
                 "source": false
               }
@@ -212,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Планы.md"
+                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md"
               }
             }
           }
@@ -341,17 +353,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "3d8839be48b7905f",
   "lastOpenFiles": [
-    "README.md",
-    "Планы.md",
-    "Заметки/Программы/ranger.md",
     "Заметки/Сети - маршрутизация.md",
-    "Заметки/Сети - протоколы.md",
     "Заметки/Сети - маршрутизация/Netlink Protocol Library Suite (libnl).md",
-    "Заметки/Словарик.md",
-    "Заметки/Сети - маршрутизация/Pyroute2.md",
+    "Заметки/Нейросети - NLP.md",
     "Заметка дня/Случайные заметки.md",
-    "Заметки/Нейросети - NLP.md"
+    "Планы.md",
+    "README.md",
+    "Заметки/Программы/ranger.md",
+    "Заметки/Сети - протоколы.md",
+    "Заметки/Словарик.md",
+    "Заметки/Сети - маршрутизация/Pyroute2.md"
   ]
 }
