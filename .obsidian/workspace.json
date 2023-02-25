@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети/Маршрутизация/Pyroute2.md",
+                "file": "Заметки/Сеть/Маршрутизация/Pyroute2.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+                "file": "Заметки/Сеть/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,6 +146,126 @@
               "type": "markdown",
               "state": {
                 "file": "Заметка дня/ChatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdbb29831bf17cca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметка дня/ChatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bb434fa3782d8e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Обучение, курсы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10115b7c07ccfb39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4259893697aed60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной сетевой анализ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b7305bc2cc9fa6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e63293067ac2d115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Основы анализа текстовых данных.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33b4d660a66d6ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe0832bd1465da0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe3bb4e5fcec32b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ace2053236e95540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Сайты о IT.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +313,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети/Маршрутизация/Pyroute2.md",
+                "file": "Заметки/Сеть/Маршрутизация/Pyroute2.md",
                 "mode": "source",
                 "source": false
               }
@@ -280,7 +400,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -312,7 +432,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -346,7 +466,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Подборки/Сайты о IT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +483,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Подборки/Сайты о IT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +506,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT.md"
+                "file": "Заметки/Подборки/Сайты о IT.md"
               }
             }
           }
@@ -409,17 +529,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e5eb5fbee253a267",
+  "active": "ace2053236e95540",
   "lastOpenFiles": [
-    "Заметки/Операционные системы/IPC Межпроцессное взаимодействие.md",
-    "Заметки/Операционные системы/Linux/Средства System V IPC.md",
+    "Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md",
+    "Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md",
+    "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md",
+    "Заметки/Подборки/Содержание дисциплин, курсов/Основы анализа текстовых данных.md",
+    "Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md",
+    "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной сетевой анализ.md",
+    "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
+    "Заметки/Подборки/Обучение, курсы.md",
     "Заметка дня/ChatGPT.md",
-    "Заметки/Операционные системы/Linux/System V IPC.md",
-    "Заметка дня/Случайные заметки.md",
-    "Планы.md",
-    "Заметки/Сети/Маршрутизация/NetLink.md",
-    "Заметки/Сети/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
-    "Заметки/Сети - маршрутизация.md",
-    "Заметки/Сети/Маршрутизация/Netlink Protocol Library Suite (libnl).md"
+    "Заметки/Операционные системы/Linux/Системное программирование.md"
   ]
 }
