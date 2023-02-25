@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "2202910064406d90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b1502a0830042a46",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md"
+                "file": "README.md"
               }
             }
           }
@@ -281,8 +293,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c22bdf85da783988",
+  "active": "2202910064406d90",
   "lastOpenFiles": [
+    "Заметка дня/Случайные заметки.md",
     "Заметка дня/2023-02-21.md",
     "Pasted image 20230220070648.png",
     "Статьи/Widgets Picking Options.md",
@@ -291,7 +304,6 @@
     "Заметки/Создание расширения для vscode.md",
     "Заметки/Сети - маршрутизация.md",
     "Заметки/Работа браузера.md",
-    "Заметки/Паттерны.md",
-    "Заметки/Нейросети - NLP.md"
+    "Заметки/Паттерны.md"
   ]
 }
