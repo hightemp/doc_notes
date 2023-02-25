@@ -1,0 +1,6 @@
+- репо https://github.com/ranger/ranger
+- установка `pip install ranger`
+- настройки
+- заметки
+	- сортировка по времени создания
+		- `oc  chain set sort=ctime; set sort_reverse=False`

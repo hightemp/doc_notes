@@ -61,7 +61,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети - маршрутизация.md",
+                "file": "Заметки/Сети - маршрутизация/Pyroute2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0dbc1498fc98a2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Сети - протоколы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5afb9555e454fd4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Словарик.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b25523accc5223d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Планы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c5767af3f54f773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Планы.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -230,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Сети - маршрутизация.md",
+                "file": "Планы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Сети - маршрутизация.md",
+                "file": "Планы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Сети - маршрутизация.md"
+                "file": "Планы.md"
               }
             }
           }
@@ -293,17 +341,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c22bdf85da783988",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Сети - маршрутизация/Pyroute2.md",
-    "Заметки/Сети - маршрутизация.md",
-    "Заметка дня/Случайные заметки.md",
     "README.md",
     "Планы.md",
-    "Заметки/Нейросети - NLP.md",
-    "Заметка дня/2023-02-21.md",
-    "Pasted image 20230220070648.png",
-    "Статьи/Widgets Picking Options.md",
-    "Найденное/Репозитории.md"
+    "Заметки/Программы/ranger.md",
+    "Заметки/Сети - маршрутизация.md",
+    "Заметки/Сети - протоколы.md",
+    "Заметки/Сети - маршрутизация/Netlink Protocol Library Suite (libnl).md",
+    "Заметки/Словарик.md",
+    "Заметки/Сети - маршрутизация/Pyroute2.md",
+    "Заметка дня/Случайные заметки.md",
+    "Заметки/Нейросети - NLP.md"
   ]
 }
