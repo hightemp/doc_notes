@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Pyroute2.md",
+                "file": "Заметки/Сети/Маршрутизация/Pyroute2.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+                "file": "Заметки/Сети/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b90380504acb1ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Планы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6cbb25bee87d4d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Операционные системы/Межпроцессное взаимодействие.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5eb5fbee253a267",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметка дня/ChatGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d032733646dbcdb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Операционные системы/Linux/System V IPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Pyroute2.md",
+                "file": "Заметки/Сети/Маршрутизация/Pyroute2.md",
                 "mode": "source",
                 "source": false
               }
@@ -224,7 +272,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -290,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+                "file": "Заметки/Операционные системы/Linux/System V IPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +355,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+                "file": "Заметки/Операционные системы/Linux/System V IPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +378,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Сети - маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md"
+                "file": "Заметки/Операционные системы/Linux/System V IPC.md"
               }
             }
           }
@@ -353,17 +401,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3d8839be48b7905f",
+  "active": "d032733646dbcdb7",
   "lastOpenFiles": [
-    "Заметки/Сети - маршрутизация.md",
-    "Заметки/Сети - маршрутизация/Netlink Protocol Library Suite (libnl).md",
-    "Заметки/Нейросети - NLP.md",
+    "Заметка дня/ChatGPT.md",
+    "Заметки/Операционные системы/Межпроцессное взаимодействие.md",
     "Заметка дня/Случайные заметки.md",
     "Планы.md",
-    "README.md",
-    "Заметки/Программы/ranger.md",
-    "Заметки/Сети - протоколы.md",
-    "Заметки/Словарик.md",
-    "Заметки/Сети - маршрутизация/Pyroute2.md"
+    "Заметки/Сети/Маршрутизация/NetLink.md",
+    "Заметки/Сети/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
+    "Заметки/Сети - маршрутизация.md",
+    "Заметки/Сети/Маршрутизация/Netlink Protocol Library Suite (libnl).md",
+    "Заметки/Нейросети - NLP.md",
+    "README.md"
   ]
 }
