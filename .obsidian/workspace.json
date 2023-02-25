@@ -272,6 +272,30 @@
             }
           },
           {
+            "id": "89bedff5925ce5e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Сайты.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4fb44257f60d024",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Операционные системы/Linux/Введение в Netlink.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d032733646dbcdb7",
             "type": "leaf",
             "state": {
@@ -400,7 +424,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -466,7 +490,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Подборки/Сайты о IT.md",
+                "file": "Заметки/Операционные системы/Linux/Введение в Netlink.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -483,7 +507,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Подборки/Сайты о IT.md",
+                "file": "Заметки/Операционные системы/Linux/Введение в Netlink.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -506,7 +530,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Подборки/Сайты о IT.md"
+                "file": "Заметки/Операционные системы/Linux/Введение в Netlink.md"
               }
             }
           }
@@ -529,8 +553,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ace2053236e95540",
+  "active": "c4fb44257f60d024",
   "lastOpenFiles": [
+    "Заметки/Подборки/Сайты.md",
+    "Заметки/Подборки/Сайты о IT.md",
     "Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md",
     "Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md",
     "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md",
@@ -538,8 +564,6 @@
     "Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md",
     "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной сетевой анализ.md",
     "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
-    "Заметки/Подборки/Обучение, курсы.md",
-    "Заметка дня/ChatGPT.md",
-    "Заметки/Операционные системы/Linux/Системное программирование.md"
+    "Заметки/Подборки/Обучение, курсы.md"
   ]
 }
