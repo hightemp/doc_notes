@@ -1,0 +1,9 @@
+- text summarization - обобщение текста
+	- Описание
+		- Обобщение — это задача создания более короткой версии документа с сохранением важной информации. Некоторые модели могут извлекать текст из исходного ввода, в то время как другие модели могут генерировать совершенно новый текст.
+		- https://huggingface.co/tasks/summarization
+	- Инструменты
+		- https://www.paraphraser.io/text-summarizer
+		- https://www.editpad.org/tool/text-summarizer
+		- https://www.summarizer.org/
+		- https://www.facebook.com/autosummarizer/

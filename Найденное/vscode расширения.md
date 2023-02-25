@@ -1,0 +1,7 @@
+- php
+	- Статьи
+		- https://guides.hexlet.io/ru/vscode-for-php-setup/
+	- Расширения
+		- PHP Intelephense
+		- PHP Debug
+		- PHP Sniffer
