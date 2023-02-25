@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
+                "file": "Заметки/Сети - маршрутизация.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa6cc1b1ff353bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Сети - маршрутизация/Pyroute2.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
+                "file": "Заметки/Сети - маршрутизация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
+                "file": "Заметки/Сети - маршрутизация.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md"
+                "file": "Заметки/Сети - маршрутизация.md"
               }
             }
           }
@@ -283,15 +295,15 @@
   },
   "active": "c22bdf85da783988",
   "lastOpenFiles": [
+    "Заметки/Сети - маршрутизация/Pyroute2.md",
+    "Заметки/Сети - маршрутизация.md",
+    "Заметка дня/Случайные заметки.md",
     "README.md",
     "Планы.md",
     "Заметки/Нейросети - NLP.md",
-    "Заметка дня/Случайные заметки.md",
     "Заметка дня/2023-02-21.md",
     "Pasted image 20230220070648.png",
     "Статьи/Widgets Picking Options.md",
-    "Найденное/Репозитории.md",
-    "Найденное/vscode расширения.md",
-    "Заметки/Создание расширения для vscode.md"
+    "Найденное/Репозитории.md"
   ]
 }
