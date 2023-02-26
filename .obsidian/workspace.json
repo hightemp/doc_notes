@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "5eec2973bc3a73f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/vue/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4da3949e7980ef58",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
+                "file": "Заметки/Разарботка/vue/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
+                "file": "Заметки/Разарботка/vue/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Репозитории.md"
+                "file": "Заметки/Разарботка/vue/Ссылки.md"
               }
             }
           }
@@ -185,17 +197,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5de27a4350a6cc08",
+  "active": "5eec2973bc3a73f1",
   "lastOpenFiles": [
+    "Заметки/AI/Репозитории.md",
+    "Заметки/AI/Темы.md",
+    "Заметка дня/Случайные заметки.md",
+    "Заметка дня/ChatGPT.md",
     "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
     "Заметки/AI/NLP/Нейросети - NLP.md",
     "Заметки/AI/Ссылки.md",
-    "Заметки/AI/Темы.md",
     "Заметки/Конференции.md",
-    "Заметки/AI/Репозитории.md",
     "Заметки/Подборки/Сайты об IT.md",
-    "Заметки/Подборки/Книги.md",
-    "Заметки/Подборки/Сайты.md",
-    "Заметки/Подборки/Обучение, курсы.md"
+    "Заметки/Подборки/Книги.md"
   ]
 }
