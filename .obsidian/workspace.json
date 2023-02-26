@@ -13,442 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd21e04472881756",
+            "id": "4010f3b1f7cd8288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Найденное/vscode расширения.md",
+                "file": "Заметки/AI/Темы.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0a151cbd38761591",
+            "id": "5de27a4350a6cc08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/Случайные заметки.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7061c2bb6a6d5f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Нейросети - NLP.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c22bdf85da783988",
+            "id": "4da3949e7980ef58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Сеть/Маршрутизация/Pyroute2.md",
+                "file": "Заметки/Конференции.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "b0dbc1498fc98a2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Сети - протоколы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5afb9555e454fd4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Словарик.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b25523accc5223d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Сети - маршрутизация.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d8839be48b7905f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Сеть/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b90380504acb1ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Планы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6cbb25bee87d4d05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Операционные системы/IPC Межпроцессное взаимодействие.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5eb5fbee253a267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметка дня/ChatGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdbb29831bf17cca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметка дня/ChatGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bb434fa3782d8e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Обучение, курсы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10115b7c07ccfb39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4259893697aed60c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной сетевой анализ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b7305bc2cc9fa6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e63293067ac2d115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Основы анализа текстовых данных.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33b4d660a66d6ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe0832bd1465da0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe3bb4e5fcec32b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ace2053236e95540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Сайты об IT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89bedff5925ce5e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Сайты.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4fb44257f60d024",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Операционные системы/Linux/Введение в Netlink.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01644e375394899b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Сайты.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fdc29654a10353e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Для работы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d032733646dbcdb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметка дня/ChatGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2292390c23b6eef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметка дня/ChatGPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c5767af3f54f773",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Планы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa6cc1b1ff353bab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Сеть/Маршрутизация/Pyroute2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1502a0830042a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Создание расширения для vscode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed1ee9bd9e1492ea",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3506a1e79be8e895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Паттерны.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df3601a58e3a3762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Работа браузера.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec985eae18224e88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Создание расширения для vscode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf6a030f1964cc97",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "41a7173a0f058b9d",
-            "type": "leaf",
-            "state": {
-              "type": "card-board-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "a9d628315f95ef9e",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 25
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -514,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Подборки/Для работы.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Подборки/Для работы.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -554,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Подборки/Для работы.md"
+                "file": "Заметки/AI/Репозитории.md"
               }
             }
           }
@@ -577,17 +185,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4fdc29654a10353e",
+  "active": "5de27a4350a6cc08",
   "lastOpenFiles": [
-    "Заметки/Подборки/Сайты.md",
-    "Заметки/Подборки/Сайты об IT.md",
+    "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
+    "Заметки/AI/NLP/Нейросети - NLP.md",
+    "Заметки/AI/Ссылки.md",
+    "Заметки/AI/Темы.md",
+    "Заметки/Конференции.md",
     "Заметки/AI/Репозитории.md",
-    "Заметка дня/Случайные заметки.md",
-    "Заметки/Операционные системы/Linux/Введение в Netlink.md",
-    "Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md",
-    "Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md",
-    "Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md",
-    "Заметки/Подборки/Содержание дисциплин, курсов/Основы анализа текстовых данных.md",
-    "Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md"
+    "Заметки/Подборки/Сайты об IT.md",
+    "Заметки/Подборки/Книги.md",
+    "Заметки/Подборки/Сайты.md",
+    "Заметки/Подборки/Обучение, курсы.md"
   ]
 }
