@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/AI/Репозитории.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8a5bf793d6e5c3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Сайты со научными публикациями.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Подборки/Сайты со научными публикациями.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Подборки/Сайты со научными публикациями.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT.md"
+                "file": "Заметки/Подборки/Сайты со научными публикациями.md"
               }
             }
           }
@@ -148,17 +161,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9ef8e77e11f5eaaf",
+  "active": "f8a5bf793d6e5c3e",
   "lastOpenFiles": [
-    "Заметка дня/Случайные заметки.md",
-    "Заметка дня/ChatGPT.md",
+    "Заметки/AI/Репозитории.md",
+    "Заметки/AI/NLP/Нейросети - NLP.md",
+    "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
+    "Заметки/AI/Ссылки.md",
+    "Заметки/AI/Темы.md",
     "test.csv",
     "Untitled.md",
-    "README.md",
-    "Планы.md",
-    "Заметки/Разарботка/typescript/Ссылки.md",
-    "Заметки/FAQ/typescript.md",
-    "Заметки/Конференции.md",
-    "Заметки/AI/Репозитории.md"
+    "Заметка дня/ChatGPT.md",
+    "Заметка дня/Случайные заметки.md",
+    "README.md"
   ]
 }
