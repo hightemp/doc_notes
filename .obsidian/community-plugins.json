@@ -2,5 +2,7 @@
   "card-board",
   "obsidian-full-calendar",
   "obsidian-kanban",
-  "obsidian-git"
+  "obsidian-git",
+  "hot-reload",
+  "grid-view"
 ]

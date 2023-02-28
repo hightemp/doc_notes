@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5feb4efe18d6b7ae",
+        "id": "0b6347b58ab46d1c",
         "type": "tabs",
         "children": [
           {
-            "id": "6cf425ddf3f8aff3",
+            "id": "9ef8e77e11f5eaaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4010f3b1f7cd8288",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Темы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5de27a4350a6cc08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Репозитории.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5eec2973bc3a73f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/vue/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4da3949e7980ef58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Конференции.md",
+                "file": "Заметка дня/ChatGPT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/vue/Ссылки.md",
+                "file": "Заметка дня/ChatGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/vue/Ссылки.md",
+                "file": "Заметка дня/ChatGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/vue/Ссылки.md"
+                "file": "Заметка дня/ChatGPT.md"
               }
             }
           }
@@ -197,17 +148,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5eec2973bc3a73f1",
+  "active": "9ef8e77e11f5eaaf",
   "lastOpenFiles": [
-    "Заметки/AI/Репозитории.md",
-    "Заметки/AI/Темы.md",
     "Заметка дня/Случайные заметки.md",
     "Заметка дня/ChatGPT.md",
-    "Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md",
-    "Заметки/AI/NLP/Нейросети - NLP.md",
-    "Заметки/AI/Ссылки.md",
+    "test.csv",
+    "Untitled.md",
+    "README.md",
+    "Планы.md",
+    "Заметки/Разарботка/typescript/Ссылки.md",
+    "Заметки/FAQ/typescript.md",
     "Заметки/Конференции.md",
-    "Заметки/Подборки/Сайты об IT.md",
-    "Заметки/Подборки/Книги.md"
+    "Заметки/AI/Репозитории.md"
   ]
 }
