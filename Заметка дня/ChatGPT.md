@@ -1,3 +1,10 @@
+- что нужно чтобы получить степень MBA
+	1.  Для получения степени MBA вам нужно иметь минимум два года полноценного профессионального опыта в бизнесе.
+	2.  Вам необходимо пройти серию предметов, таких как финансы, маркетинг, менеджмент и информационные технологии.
+	3.  Вам также необходимо иметь бакалаврскую степень или ее эквивалент.
+	4.  Чтобы подать заявку на степень MBA, вам необходимо пройти тест GMAT или GRE.
+	5.  Вам также потребуются письма рекомендации и личное заявление.
+	6.  Кроме того, вам могут потребоваться дополнитель
 - describe each method in more detail make it a list
 	1.  The Cornell Notes system: This method involves dividing a page into two sections: the left side for notes and the right side for summaries and questions. The notes are written in short phrases or bullet points and should include key facts and ideas. After taking notes, the student should review their notes, summarize the key points on the right side, and generate questions that can be used to test their understanding.
 	2.  The Outline Method: This method involves breaking down notes into categories and subcategories. It is an effective way to organize information into logical and hierarchical structures.
