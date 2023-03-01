@@ -374,3 +374,18 @@ for file_path in list_of_files:
 print(file_path)
 
 ```
+
+## Ошибки
+
+### python get error message
+
+```python
+```python
+try:
+    with open(filepath,'rb') as f:
+        con.storbinary('STOR '+ filepath, f)
+    logger.info('File successfully uploaded to '+ FTPADDR)
+except Exception as e: # work on python 3.x
+    logger.error('Failed to upload to ftp: '+ str(e))
+```
+```
