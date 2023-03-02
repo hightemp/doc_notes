@@ -1,3 +1,9 @@
+- what do you know about the effect of rfhearing write list with links
+	RF Hearing, also known as the Radio Frequency (RF) Hearing Effect [[1]](https://patents.google.com/patent/US6470214B1/en), is a type of non-ionizing radiation which has been shown to produce audible clicks, tones, or voices in the human ear. Research has shown that exposure to RF Hearing can cause harm to the inner ear, leading to hearing loss and tinnitus. Here are some resources with more information on the effects of RF Hearing:
+	
+	-   [National Institutes of Health - Effects of Radio Frequency Hearing on Humans](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3410157/)
+	-   [World Health Organization - Radiofrequency Fields and Human Health](http://www.who.int/peh-emf/publications/facts/summary/en/)
+	-   [U.S. National Library of Medicine - Effects of Radiofrequency Radiation on Hearing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194689/)
 - write what you know about Israeli Intelligence Corps in list
 	Here is a list of facts about Israeli Intelligence Corps:
 	
