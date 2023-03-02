@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6545340df8c7f02f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Установка софта.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9dc70fe4bcf1f803",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Установка софта.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Установка софта.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT.md"
+                "file": "Заметки/Установка софта.md"
               }
             }
           }
@@ -172,11 +185,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "67f3645825a41f54",
+  "active": "6545340df8c7f02f",
   "lastOpenFiles": [
+    "Заметка дня/ChatGPT.md",
+    "Заметки/Установка софта.md",
     "Заметки/Подборки/Радиозвук RF Hearing.md",
     "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
-    "Заметка дня/ChatGPT.md",
     "Заметки/Справочники/Еврейские фамилии/ЕВРЕЙСКАЯ СТАРИНА.md",
     "Заметки/Справочники/Еврейские фамилии/Криптоеврейские фамилии 1 часть.md",
     "Заметки/Справочники/Еврейские фамилии.md",
