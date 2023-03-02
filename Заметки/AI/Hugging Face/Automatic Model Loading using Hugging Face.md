@@ -146,7 +146,7 @@ sanitycheck_model_names = ['bert-base-uncased',
 3.  RoBERTa does not have a `token_type_ids`. Remember from their paper that `RoBERTa` dropped second sentence prediction from the architecture, so just set all token ids to `1`!!
 
 ```python
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)for train_index **in** range(5):  
+tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)for train_index in range(5):  
     question = train_data.sentiment[train_index]  
     answer = train_data.text[train_index]  
     encoded_input = tokenizer.encode_plus(question, answer, add_special_tokens=True, return_offsets_mapping=True)  
@@ -163,14 +163,14 @@ tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)for train_in
 ## Sanity Check Tokenizer
 
 ```python
-for model_ **in** sanitycheck_model_names:  
+for model_ in sanitycheck_model_names:  
     print("**\n**Model: " + model_)  
     try:  
         tokenizer = AutoTokenizer.from_pretrained(model_, use_fast=True)  
         question = train_data.sentiment[0]  
         answer = train_data.text[0]  
       
-        if model_ **in** ["albert-base-v1", "albert-large-v1", "albert-xlarge-v1"]:  
+        if model_ in ["albert-base-v1", "albert-large-v1", "albert-xlarge-v1"]:  
             encoded_input = tokenizer.encode_plus(question, answer, add_special_tokens=True, return_offsets_mapping=False)          
         else:  
             encoded_input = tokenizer.encode_plus(question, answer, add_special_tokens=True, return_offsets_mapping=True)  
