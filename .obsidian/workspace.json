@@ -20,6 +20,66 @@
             }
           },
           {
+            "id": "60bfe24e816647be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Справочники/Еврейские фамилии.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb877addcfd12c0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Их происхождение, значение, особенности.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db223b2183067476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Справочники/Еврейские фамилии/Russia Jewish Records.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc2d77094d722cb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57f8cadb2d68c33e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91e55a15907223a2",
             "type": "leaf",
             "state": {
@@ -67,7 +127,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -133,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT.md"
+                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md"
               }
             }
           }
@@ -196,17 +257,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "67f3645825a41f54",
+  "active": "57f8cadb2d68c33e",
   "lastOpenFiles": [
-    "Заметки/AI/Hugging Face/How to Summarize Text With Google’s T5.md",
+    "Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md",
+    "Заметки/Справочники/Еврейские фамилии/Russia Jewish Records.md",
+    "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Их происхождение, значение, особенности.md",
+    "Заметки/Справочники/Еврейские фамилии.md",
     "Заметка дня/ChatGPT.md",
+    "Заметки/AI/Hugging Face/How to Summarize Text With Google’s T5.md",
     "Заметки/AI/Hugging Face/Accelerating HuggingFace T5 Inference with TensorRT.md",
     "Заметки/AI/Hugging Face/mT5 Multilingual T5.md",
     "Заметки/AI/Hugging Face/Automatic Model Loading using Hugging Face.md",
-    "Заметки/FAQ/python.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметка дня/Случайные заметки.md",
-    "test2.csv",
-    "Планы.md"
+    "Заметки/FAQ/python.md"
   ]
 }

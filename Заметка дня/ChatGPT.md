@@ -1,3 +1,12 @@
+- список еврейских фамилий
+	Список еврейских фамилий можно найти в многих местах. Например, в следующих источниках:
+	
+	• Онлайн-словарь еврейских фамилий (JewishGen) 
+	• Онлайн-словарь немецких еврейских фамилий (Avotaynu) 
+	• Онлайн-словарь польских еврейских фамилий (Jewish Records Indexing – Poland) 
+	• Онлайн-словарь русских еврейских фамилий (Jewish Records Indexing – Russia) 
+	• Книга «Словарь еврейских фамилий» Аллана Сталина (1982) 
+	• Книга «Словарь еврейских фамилий» Джона Темпла (2005)
 - распиши структуру и обязаности подразделений армии обороны Израиля, которые занимаются стартапами
 	The Israel Defense Forces (IDF) has several units that are involved in the start-up ecosystem. These include the Technology and Logistics Directorate, the Intelligence Corps, the Research and Development Directorate, and the Air Force.
 	
