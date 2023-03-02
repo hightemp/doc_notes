@@ -20,115 +20,19 @@
             }
           },
           {
-            "id": "60bfe24e816647be",
+            "id": "9dc70fe4bcf1f803",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb877addcfd12c0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Их происхождение, значение, особенности.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db223b2183067476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Russia Jewish Records.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc2d77094d722cb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57f8cadb2d68c33e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91e55a15907223a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Hugging Face/Automatic Model Loading using Hugging Face.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba745e4cd2b0341c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Hugging Face/mT5 Multilingual T5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de6a1a3006ccc815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Hugging Face/How to Summarize Text With Google’s T5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc9a639707de51fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/FAQ/python.md",
+                "file": "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
+                "file": "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
+                "file": "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md"
+                "file": "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md"
               }
             }
           }
@@ -257,17 +161,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "57f8cadb2d68c33e",
+  "active": "9dc70fe4bcf1f803",
   "lastOpenFiles": [
-    "Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md",
-    "Заметки/Справочники/Еврейские фамилии/Russia Jewish Records.md",
-    "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Их происхождение, значение, особенности.md",
-    "Заметки/Справочники/Еврейские фамилии.md",
     "Заметка дня/ChatGPT.md",
-    "Заметки/AI/Hugging Face/How to Summarize Text With Google’s T5.md",
-    "Заметки/AI/Hugging Face/Accelerating HuggingFace T5 Inference with TensorRT.md",
-    "Заметки/AI/Hugging Face/mT5 Multilingual T5.md",
-    "Заметки/AI/Hugging Face/Automatic Model Loading using Hugging Face.md",
-    "Заметки/FAQ/python.md"
+    "Заметки/Справочники/Еврейские фамилии/ЕВРЕЙСКАЯ СТАРИНА.md",
+    "Заметки/Справочники/Еврейские фамилии/Криптоеврейские фамилии 1 часть.md",
+    "Заметки/Справочники/Еврейские фамилии.md",
+    "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии.md",
+    "Заметки/Справочники/Еврейские фамилии/По фамилии Еврейсон. Цикл интервью с Александром Бейдером.md",
+    "Заметки/Справочники/Еврейские фамилии/Окно в Россию евреи в Петербурге.md",
+    "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Как понять, кто есть кто.md",
+    "Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md",
+    "Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md"
   ]
 }

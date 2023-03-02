@@ -1,3 +1,39 @@
+- write what you know about Israeli Intelligence Corps in list
+	Here is a list of facts about Israeli Intelligence Corps:
+	
+	1.  It is a unit of the Israel Defense Forces responsible for gathering intelligence [[1]](https://en.wikipedia.org/wiki/Unit_8200).
+	2.  It is composed of several different branches and sub-units.
+	3.  The Intelligence Corps is divided into four branches: Human Intelligence (HUMINT), Signals Intelligence (SIGINT), Visual Intelligence (VISINT), and Cyber Intelligence (CYBERINT).
+	4.  The Intelligence Corps is headed by the Chief of Military Intelligence (CMI).
+	5.  The Intelligence Corps is responsible for gathering intelligence related to Israel's security and the security of its citizens.
+	6.  The Intelligence Corps is one of the most secretive and well-known intelligence organizations in the world.
+	7.  It is believed to have played a key role in Israel's success in the 1973 Yom Kippur War.
+	8.  The Intelligence Corps is known to have used innovative technologies and techniques in its operations.
+	9.  The Intelligence Corps is believed to have also used psychological warfare against its enemies.
+	10.  The Intelligence Corps has been known to use a variety of methods to collect intelligence, including signals intelligence, human intelligence, and visual intelligence.
+- write everything you know about Jewish pogroms in a list with links for each europe country
+	1.  Jewish pogroms have occurred throughout Europe since the Middle Ages.
+	2.  The most notable pogroms occurred in the late 19th and early 20th centuries, in countries such as Tsarist Russia, Romania, and Germany.
+	3.  Pogroms were violent attacks against Jews, often resulting in destruction of property and death.
+	4.  Pogroms in Russia began in the 1880s, and reached their peak between 1903-1906.
+	5.  Pogroms in Romania began in the 1880s and continued until World War II.
+	6.  The most infamous pogrom was the Kristallnacht in Germany in 1938.
+	7.  Pogroms in other countries included attacks in Hungary, Poland, and France.
+	
+	Links:
+	
+	-   Russia: [https://en.wikipedia.org/wiki/Pogroms_in_the_Russian_Empire](https://en.wikipedia.org/wiki/Pogroms_in_the_Russian_Empire)
+	-   Romania: [https://en.wikipedia.org/wiki/History_of_the_Jews_in_Romania](https://en.wikipedia.org/wiki/History_of_the_Jews_in_Romania)
+	-   Germany: [https://en.wikipedia.org/wiki/Kristallnacht](https://en.wikipedia.org/wiki/Kristallnacht)
+	-   Hungary: [https://en.wikipedia.org/wiki/History_of_the_Jews_in_Hungary](https://en.wikipedia.org/wiki/History_of_the_Jews_in_Hungary)
+	-   Poland: [https://en.wikipedia.org/wiki/History_of_the_Jews_in_Poland](https://en.wikipedia.org/wiki/History_of_the_Jews_in_Poland)
+	-   France: [https://en.wikipedia.org/wiki/History_of_the_Jews_in_France](https://en.wikipedia.org/wiki/History_of_the_Jews_in_France)
+- write everything you know about Jewish pogroms in a list for each country
+	1.  Poland: Pogroms in Poland began in the late 19th century, with the most famous being the Kishinev Pogrom of 1903. Other notable pogroms include the Radom Pogrom of 1918 and the Lviv Pogroms of 1918 and 1919.
+	2.  Ukraine: Pogroms in Ukraine began in the late 19th century and peaked during the Civil War of 1918-1920. Notable pogroms include the Odessa Pogrom of 1905, the Proskurov Pogrom of 1919, and the Kiev Pogrom of 1919.
+	3.  Russia: Pogroms in Russia began in the late 19th century, with the most famous being the Kishinev Pogrom of 1903. Other notable pogroms include the Bialystok Pogrom of 1906, the Beilis Trial of 1911, and the Kiev Pogrom of 1919.
+	4.  Belarus: Pogroms in Belarus began in the late 19th century, with the most famous being the Bialystok Pogrom of 1906. Other notable pogroms include the Proskurov Pogrom of 1919 and the Lviv Pogroms of 1918 and 1919.
+	5.  Germany: Pogroms in Germany began in the late 19th century, with the most famous being the Berlin Pogrom of 1938. Other notable pogroms include the Hamburg Pogrom of 1938 and the Kristallnacht Pogrom of 1938.
 - список еврейских фамилий
 	Список еврейских фамилий можно найти в многих местах. Например, в следующих источниках:
 	
