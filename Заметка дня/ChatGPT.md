@@ -1,3 +1,11 @@
+- напиши список что нового в MySQL
+	MySQL 8.0 offers a number of new features, including: 
+	• Support for NoSQL/JSON documents: MySQL 8.0 introduces a new data type for storing JSON documents. This allows for easier integration between SQL and NoSQL data models. 
+	• Improved performance: MySQL 8.0 offers improvements to both the InnoDB and MyISAM storage engines, resulting in better performance and scalability. 
+	• Improved security: MySQL 8.0 offers improved security features, including support for secure password management, improved encryption, and better authentication methods. 
+	• Improved replication: MySQL 8.0 offers improved replication features, including support for multi-threaded replication and improved replication performance. 
+	• Improved partitioning: MySQL 8.0 offers improved partitioning support, including support for partitioning by range, list, and hash. 
+	• Improved query optimization: MySQL 8.0 offers improved query optimization features, including support for query optimization hints, better join optimization, and improved query optimization hints.
 - what do you know about the effect of rfhearing write list with links
 	RF Hearing, also known as the Radio Frequency (RF) Hearing Effect [[1]](https://patents.google.com/patent/US6470214B1/en), is a type of non-ionizing radiation which has been shown to produce audible clicks, tones, or voices in the human ear. Research has shown that exposure to RF Hearing can cause harm to the inner ear, leading to hearing loss and tinnitus. Here are some resources with more information on the effects of RF Hearing:
 	

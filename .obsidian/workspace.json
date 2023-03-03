@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "be3a83219ba23c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f860544641124223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Программы/sshuttle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6545340df8c7f02f",
             "type": "leaf",
             "state": {
@@ -32,24 +56,12 @@
             }
           },
           {
-            "id": "149072ce38afd8d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/FAQ/i3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ada430a450a89c6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Подборки/Радиозвук RF Hearing.md",
+                "file": "Заметки/Биология/Радиозвук RF Hearing.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md",
+                "file": "Заметки/Программы/sshuttle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md",
+                "file": "Заметки/Программы/sshuttle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md"
+                "file": "Заметки/Программы/sshuttle.md"
               }
             }
           }
@@ -221,20 +233,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9db9ce01e3ed1564",
+  "active": "f860544641124223",
   "lastOpenFiles": [
+    "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
+    "Заметки/Программы/sshuttle.md",
+    "Заметки/Разарботка/mysql/Статьи",
+    "Заметка дня/ChatGPT.md",
+    "Заметки/Разарботка/mysql",
+    "Заметки/Установка софта.md",
+    "Заметки/FAQ/i3.md",
+    "Заметки/Биология/Радиозвук RF Hearing.md",
     "Заметки/Биология/Радиозвук/Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md",
     "Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md",
     "Заметки/Биология/Радиозвук/Auditory response to pulsed radiofrequency energy.md",
-    "Заметки/Подборки/Радиозвук RF Hearing.md",
     "Заметки/Биология/Радиозвук",
     "Заметки/Биология",
-    "Заметки/FAQ/i3.md",
     "Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
     "Заметки/FAQ/python.md",
     "Заметки/FAQ/linux cli.md",
-    "Заметки/Установка софта.md",
-    "Заметка дня/ChatGPT.md",
     "Заметки/Справочники/Еврейские фамилии/ЕВРЕЙСКАЯ СТАРИНА.md",
     "Заметки/Справочники/Еврейские фамилии/Криптоеврейские фамилии 1 часть.md",
     "Заметки/Справочники/Еврейские фамилии.md",
