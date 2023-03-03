@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Ссылки.md"
+                "file": "Заметка дня/ChatGPT и AI боты.md"
               }
             }
           }
@@ -245,10 +245,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "a5511f5e96b32b58",
   "lastOpenFiles": [
+    "Заметки/AI/Ссылки.md",
     "Заметки/AI/Hugging Face/Empathetic-DialoGPT.md",
-    "Заметка дня/ChatGPT.md",
+    "Заметка дня/ChatGPT и AI боты.md",
     "Заметки/Программы/sshuttle.md",
     "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
     "Заметки/Разарботка/mysql/Статьи",

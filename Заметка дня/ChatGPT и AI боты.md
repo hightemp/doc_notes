@@ -1,3 +1,51 @@
+- напиши пример кода
+	Конечно, вот пример кода для создания аналога ChatGPT на PyTorch:
+	
+	```python
+	import torch
+	from transformers import GPT2Tokenizer, GPT2LMHeadModel
+	
+	# загружаем предобученную модель и токенайзер
+	tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+	model = GPT2LMHeadModel.from_pretrained('gpt2')
+	
+	# функция для генерации текста на основе заданного промпта
+	def generate_text(prompt, length=100):
+	    input_ids = tokenizer.encode(prompt, return_tensors='pt')
+	    output = model.generate(input_ids=input_ids, max_length=length, do_sample=True)
+	    return tokenizer.decode(output[0], skip_special_tokens=True)
+	
+	# пример использования функции
+	prompt = "Привет, как дела?"
+	generated_text = generate_text(prompt, length=50)
+	print(generated_text) 
+	```
+	
+	В этом примере мы используем предобученную модель GPT-2, загружаем ее в PyTorch, а затем создаем функцию `generate_text`, которая генерирует текст на основе заданного промпта. Мы также задаем максимальную длину генерируемого текста и флаг `do_sample=True`, чтобы модель могла генерировать текст с некоторой степенью случайности. В конце мы используем функцию для генерации текста на основе примера промпта "Привет, как дела?" и выводим результат в консоль.
+- Напиши общий код для использования любой текстовой модели huggingface
+	Для использования любой текстовой модели от Hugging Face существует общий шаблон кода:
+	
+	```python
+	from transformers import AutoTokenizer, AutoModelForCausalLM
+	
+	# Выбор модели и токенизатора
+	model_name = "название_модели"
+	tokenizer = AutoTokenizer.from_pretrained(model_name)
+	model = AutoModelForCausalLM.from_pretrained(model_name)
+	
+	# Генерация текста
+	prompts = ["пример_промпта_1", "пример_промпта_2"]
+	for prompt in prompts:
+	    input_ids = tokenizer.encode(prompt, return_tensors="pt")
+	    output = model.generate(input_ids, max_length=50, do_sample=True)
+	    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+	
+	    # Вывод результатов
+	    print(f"Пример промпта: {prompt}")
+	    print(f"Сгенерированный текст: {generated_text}") 
+	```
+	
+	В этом шаблоне мы сначала выбираем название модели и загружаем соответствующий токенизатор и модель. Затем мы создаем список примеров промптов и используем модель и токенизатор для генерации текста на основе каждого промпта. Наконец, мы выводим результаты для каждого промпта.
 - напиши таблицей сравнение БД MySQL, PostgreSQL, MongoDB
 	<table><thead><tr><th>MySQL</th><th>PostgreSQL</th><th>MongoDB</th></tr></thead><tbody><tr><td>Open-source relational database management system</td><td>Open-source object-relational database management system</td><td>Open-source cross-platform document-oriented database</td></tr><tr><td>Uses SQL language</td><td>Uses SQL language</td><td>Uses JSON-like documents</td></tr><tr><td>Supports ACID transactions</td><td>Supports ACID transactions</td><td>Supports transactions but with limited ACID properties</td></tr><tr><td>Supports XML and spatial data types</td><td>Supports XML and spatial data types</td><td>Supports embedded data models</td></tr><tr><td>High scalability</td><td>High scalability</td><td>High scalability</td></tr><tr><td>High availability</td><td>High availability</td><td>High availability</td></tr></tbody></table>
 - напиши списоком что нового в php 8
