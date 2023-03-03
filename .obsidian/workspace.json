@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a5511f5e96b32b58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "be3a83219ba23c26",
             "type": "leaf",
             "state": {
@@ -103,7 +115,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT.md"
+                "file": "Заметки/AI/Ссылки.md"
               }
             }
           }
@@ -232,12 +245,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "67f3645825a41f54",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/AI/Hugging Face/Empathetic-DialoGPT.md",
+    "Заметка дня/ChatGPT.md",
     "Заметки/Программы/sshuttle.md",
     "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
     "Заметки/Разарботка/mysql/Статьи",
-    "Заметка дня/ChatGPT.md",
     "Заметки/Разарботка/mysql",
     "Заметки/Установка софта.md",
     "Заметки/FAQ/i3.md",
