@@ -1,3 +1,56 @@
+- напиши код чат бота использующего модель huggingface
+	Код чат-бота, использующего модель Hugging Face, может выглядеть следующим образом на языке Python:
+	
+	```python
+	from transformers import pipeline, set_seed
+	
+	# Задаем генератор текста
+	generator = pipeline('text-generation', model='gpt2')
+	
+	# Функция для получения ответа на вопрос пользователя
+	def generate_response(prompt):
+	    set_seed(42)  # Задаем seed для воспроизводимости
+	    response = generator(prompt, max_length=100, num_return_sequences=1)
+	    return response[0]['generated_text'].strip()
+	
+	# Пример использования
+	while True:
+	    user_input = input('Вы: ')
+	    if user_input.lower() == 'выход':
+	        break
+	    else:
+	        bot_response = generate_response(user_input)
+	        print('Бот:', bot_response) 
+	```
+	
+	В этом примере мы используем генератор текста из библиотеки Transformers от Hugging Face. Функция `generate_response()` принимает на вход промпт пользователя и генерирует ответ на основе модели GPT-2. Мы также задаем seed для воспроизводимости результатов. В цикле while мы ожидаем ввода пользователя и генерируем ответ бота на основе введенного сообщения, пока пользователь не введет "выход".
+- напиши пример кода как использовать модель mt5 от huggingface
+	Код для использования модели MT5 от Hugging Face может выглядеть следующим образом:
+	
+	```python
+	from transformers import MT5ForConditionalGeneration, T5Tokenizer
+	
+	# Загрузка модели и токенизатора
+	model = MT5ForConditionalGeneration.from_pretrained('google/mt5-small')
+	tokenizer = T5Tokenizer.from_pretrained('google/mt5-small')
+	
+	# Пример промпта
+	prompt = "translate English to French: Hello, how are you?"
+	
+	# Преобразование промпта в токены
+	inputs = tokenizer.encode(prompt, return_tensors='pt')
+	
+	# Генерация текста на основе промпта
+	outputs = model.generate(inputs)
+	
+	# Декодирование сгенерированного текста в строку
+	translated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+	
+	# Вывод результата в консоль
+	print(translated_text) 
+	```
+	
+	В этом примере мы используем модель MT5 для перевода английского текста на французский язык. Мы загружаем модель и токенизатор, преобразуем промпт в токены, генерируем текст на основе промпта и декодируем результат в строку. Наконец, мы выводим переведенный текст в консоль.
 - напиши пример кода
 	Конечно, вот пример кода для создания аналога ChatGPT на PyTorch:
 	
