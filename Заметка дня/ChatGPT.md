@@ -1,3 +1,5 @@
+- напиши таблицей сравнение БД MySQL, PostgreSQL, MongoDB
+	<table><thead><tr><th>MySQL</th><th>PostgreSQL</th><th>MongoDB</th></tr></thead><tbody><tr><td>Open-source relational database management system</td><td>Open-source object-relational database management system</td><td>Open-source cross-platform document-oriented database</td></tr><tr><td>Uses SQL language</td><td>Uses SQL language</td><td>Uses JSON-like documents</td></tr><tr><td>Supports ACID transactions</td><td>Supports ACID transactions</td><td>Supports transactions but with limited ACID properties</td></tr><tr><td>Supports XML and spatial data types</td><td>Supports XML and spatial data types</td><td>Supports embedded data models</td></tr><tr><td>High scalability</td><td>High scalability</td><td>High scalability</td></tr><tr><td>High availability</td><td>High availability</td><td>High availability</td></tr></tbody></table>
 - напиши списоком что нового в php 8
 	PHP 8 is the latest version of the popular server-side scripting language. It includes a number of new features and improvements, including:
 	
