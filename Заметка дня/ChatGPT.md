@@ -1,3 +1,28 @@
+- напиши списоком что нового в php 8
+	PHP 8 is the latest version of the popular server-side scripting language. It includes a number of new features and improvements, including:
+	
+	1.  Just-in-time (JIT) compilation for faster performance
+	2.  Union types for improved type safety
+	3.  Nullsafe operator for easier handling of null values
+	4.  Named arguments for improved code readability
+	5.  Attributes for improved code organization
+	6.  Match expression for improved code readability
+	7.  Improved type system for better type safety
+	8.  OPCache preloading for improved performance
+	9.  Improved error handling
+	10.  Support for the latest versions of MySQL, PostgreSQL, and other database engines
+- напиши списоком что нового в php
+	Here is a list of some of the new features available in PHP 7: 
+	• PHP 7 has improved performance and memory usage. 
+	• It supports return type declarations and scalar type hints. 
+	• It has improved Error Handling and Exception Handling. 
+	• It has support for the new Operators, such as the Spaceship Operator. 
+	• It has improved support for Anonymous Classes. 
+	• It supports the new Null Coalesce Operator. 
+	• It supports the new Group Use Declarations. 
+	• It has support for the new Uniform Variable Syntax. 
+	• It has improved support for the Standard PHP Library (SPL). 
+	• It has support for the new Generator Return Expressions.
 - напиши список что нового в MySQL
 	MySQL 8.0 offers a number of new features, including: 
 	• Support for NoSQL/JSON documents: MySQL 8.0 introduces a new data type for storing JSON documents. This allows for easier integration between SQL and NoSQL data models. 
