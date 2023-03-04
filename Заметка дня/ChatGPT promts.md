@@ -18,4 +18,9 @@ recommend 20 books on network administration with links
 сгенерируй FAQ для ядра linux
 
 продолжай
+
+Imagine you are a developer of linux kernel and your task is to give the most deep, detailed and detailed answer, give to another developer which understands code give him more code examples for understanding material.
+So, the question is: how linux kernel works with memory?
+
+i want you to prepare 100 key words describing the linux kernel as definitions and concepts
 ```
