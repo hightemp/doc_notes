@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md"
+                "file": "Заметки/Разарботка/javascript/FAQ.md"
               }
             }
           }
@@ -255,8 +255,10 @@
   },
   "active": "8a36a9f1e5b85bdb",
   "lastOpenFiles": [
-    "Заметки/FAQ/linux core.md",
     "Заметки/Разарботка/php/FAQ.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
+    "Заметки/Разарботка/javascript",
+    "Заметки/FAQ/linux core.md",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Книги.md",
     "Заметки/Linux/Темы.md",
@@ -288,8 +290,6 @@
     "Заметки/Linux/Сетевые утилиты/scp",
     "Заметки/Репозитории.md",
     "Заметки/Подборки.md",
-    "Заметки/Linux/Отладка/strace.md",
-    "Заметки/Linux/Сетевые утилиты/curl/curl.md",
-    "Заметки/Linux/Сетевые утилиты/curl"
+    "Заметки/Linux/Отладка/strace.md"
   ]
 }
