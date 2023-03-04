@@ -43,9 +43,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b40d2ac6bc4c3125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/nuxt/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd1c54989e343358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Структура linux/SystemD/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "90171f8499a0e1ff",
@@ -130,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Книги.md",
+                "file": "Заметки/Linux/Структура linux/SystemD/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Книги.md",
+                "file": "Заметки/Linux/Структура linux/SystemD/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Книги.md"
+                "file": "Заметки/Linux/Структура linux/SystemD/FAQ.md"
               }
             }
           }
@@ -193,8 +217,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a8e05f126c2fdc4f",
+  "active": "fd1c54989e343358",
   "lastOpenFiles": [
+    "Заметка дня/ChatGPT promts.md",
+    "Заметки/Linux/Структура linux/SystemD/FAQ.md",
+    "Заметки/Разарботка/nuxt/FAQ.md",
+    "Заметки/Linux/Структура linux",
+    "Заметки/Linux/Структура linux/SystemD",
+    "Заметки/Книги.md",
+    "Заметки/Разарботка/nuxt",
     "Заметки/Architecture and Design Patterns/Design patterns.md",
     "Заметки/Architecture and Design Patterns/PHP.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны.md",
@@ -205,11 +236,9 @@
     "Заметки/Architecture and Design Patterns/Архитектурные патерны",
     "Заметки/Architecture and Design Patterns/Javascript.md",
     "Заметки/Структуры данных",
-    "Заметки/Книги.md",
     "Заметки/Architecture and Design Patterns",
     "Заметки/Браузер/Как работает браузер....md",
     "Заметки/Браузер",
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Темы.md",
     "Заметки/Linux/Сетевые утилиты/scp/scp.md",
     "Заметки/Linux/Сетевые утилиты/scp",
@@ -221,15 +250,10 @@
     "Заметки/WebScrapping",
     "Заметка дня/ChatGPT и AI боты.md",
     "Заметки/Linux/Сетевые утилиты/nmap/nmap.md",
-    "Заметки/Linux/Сетевые утилиты/nmap",
     "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
     "Заметки/Linux/Сетевые утилиты/ip/ip.md",
-    "Заметки/Linux/Сетевые утилиты/ssh",
     "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
     "Заметки/Linux/Процессы/nice/nice.md",
-    "Заметки/Разарботка/php",
-    "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
-    "Заметки/Linux/Сетевые утилиты/ss/ss.md",
-    "Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md"
+    "Заметки/Linux/Сетевые утилиты/netstat/netstat.md"
   ]
 }
