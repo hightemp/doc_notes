@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "45770213263d28ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f860544641124223",
             "type": "leaf",
             "state": {
@@ -235,8 +247,10 @@
   },
   "active": "a5511f5e96b32b58",
   "lastOpenFiles": [
-    "Заметки/Установка софта.md",
+    "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
     "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/AI/pytorch",
+    "Заметки/Установка софта.md",
     "Заметки/AI/Hugging Face/pipelines.md",
     "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
     "Заметки/AI/Ссылки.md",
