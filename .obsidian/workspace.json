@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "45770213263d28ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f860544641124223",
             "type": "leaf",
             "state": {
@@ -54,69 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6545340df8c7f02f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Установка софта.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ada430a450a89c6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/Радиозвук RF Hearing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ae149409c92d088",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/Радиозвук/Auditory response to pulsed radiofrequency energy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3171cbc5db59e5c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/Радиозвук/Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9db9ce01e3ed1564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметка дня/ChatGPT и AI боты.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Ссылки.md"
+                "file": "Заметка дня/ChatGPT и AI боты.md"
               }
             }
           }
@@ -245,17 +172,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a5511f5e96b32b58",
+  "active": "67f3645825a41f54",
   "lastOpenFiles": [
+    "Заметки/AI/Ссылки.md",
     "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/Программы/sshuttle.md",
+    "Заметки/Установка софта.md",
     "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
     "Заметки/AI/pytorch",
-    "Заметки/Установка софта.md",
     "Заметки/AI/Hugging Face/pipelines.md",
     "Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md",
-    "Заметки/AI/Ссылки.md",
     "Заметки/AI/Hugging Face/Empathetic-DialoGPT.md",
-    "Заметки/Программы/sshuttle.md",
     "Заметки/Разарботка/mysql/Статьи",
     "Заметки/Разарботка/mysql",
     "Заметки/FAQ/i3.md",

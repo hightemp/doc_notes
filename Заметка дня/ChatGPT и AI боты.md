@@ -1,4 +1,24 @@
 ![](https://asdertasd.site/counter/chatgpt)
+- recommend books on financial analysis
+	Sure! Here are some books on financial analysis that you might find useful:
+	
+	1.  "Financial Statements: A Step-by-Step Guide to Understanding and Creating Financial Reports" by Thomas R. Ittelson.
+	2.  "Security Analysis" by Benjamin Graham and David Dodd.
+	3.  "The Intelligent Investor" by Benjamin Graham.
+	4.  "Financial Shenanigans: How to Detect Accounting Gimmicks & Fraud in Financial Reports" by Howard Schilit.
+	5.  "Financial Modeling and Valuation: A Practical Guide to Investment Banking and Private Equity" by Paul Pignataro.
+	
+	Each of these books offers valuable insights into financial analysis from different perspectives, including financial statement analysis, security analysis, value investing, fraud detection, and financial modeling.
+- порекоммендуй книги по финансовому анализу
+	1.  "Финансовый анализ: Управление финансами предприятия" автора Павла Петрова. Книга покрывает все основные аспекты финансового анализа, включая анализ финансовой отчетности, оценку инвестиционных проектов и управление финансами предприятия.
+	    
+	2.  "Финансовый анализ и прогнозирование: фундаментальный подход" авторов Томаса Р. Проути и Джонна Г. Бродки. Книга описывает основные методы финансового анализа и прогнозирования, включая анализ финансовой отчетности, анализ денежных потоков и оценку компаний.
+	    
+	3.  "Финансовый анализ: теория и практика" авторов Петра Ханга и Яна Ван Хорна. Эта книга представляет собой исчерпывающее руководство по финансовому анализу, включая анализ финансовой отчетности, оценку инвестиционных проектов и управление финансами предприятия.
+	    
+	4.  "Анализ финансовой отчетности" автора Леопольда А. Бердера. Книга представляет собой подробное руководство по анализу финансовой отчетности, включая различные методы анализа, такие как горизонтальный, вертикальный и пропорциональный анализ.
+	    
+	5.  "Основы финансового анализа" автора Памелы Петтибоун. Книга описывает основные методы финансового анализа, включая анализ финансовой отчетности, анализ денежных потоков и оценку компаний. Она также покрывает темы, связанные с управлением финансами предприятия.
 - напиши pytorch код для генерации текста для модели "bigscience/bloom" от huggingface
 ```python
 import torch
