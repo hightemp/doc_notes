@@ -8,4 +8,7 @@
 распиши для чего нужен nice у процессов
 
 сделай подробную таблицу сравнения потоков и процессов в linux
+
+recommend books on network administration
+recommend 20 books on network administration with links
 ```
