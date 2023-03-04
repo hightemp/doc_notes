@@ -32,24 +32,12 @@
             }
           },
           {
-            "id": "2d47e30675cd1310",
+            "id": "bbaf360a6ecfd42c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Процессы/nice/nice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bef12c60c8c68285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "netstat",
+                "query": "tag:#сеть",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md"
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/ssh.md"
               }
             }
           }
@@ -197,12 +185,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bef12c60c8c68285",
+  "active": "bbaf360a6ecfd42c",
   "lastOpenFiles": [
+    "Заметки/Linux/Сетевые утилиты/ip/ip.md",
+    "Заметки/Linux/Темы.md",
+    "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
+    "Заметки/Linux/Сетевые утилиты/ssh",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
     "Заметки/Linux/Процессы/nice/nice.md",
-    "Заметки/Linux/Темы.md",
+    "Заметки/Разарботка/php",
+    "Заметки/Linux/Сетевые утилиты/ip",
     "Заметки/Linux/Процессы/nice",
     "Заметки/Linux/Потоки",
     "Заметки/Linux/Процессы",
@@ -217,23 +210,18 @@
     "Заметки/Linux/Сетевые утилиты/ping/ping.md",
     "Заметки/Linux/Сетевые утилиты/ping",
     "Заметки/Linux/Сетевые утилиты/ifconfig/ifconfig.md",
-    "Заметки/Linux/Утилиты/pbcopy",
-    "Заметки/Linux/Утилиты",
     "Заметки/Linux/Журанлы и журналирование/Какова цель файлов utmp, wtmp и btmp на Linux.md",
     "Заметки/Linux/Сетевые утилиты/tcpdump/Используем tcpdump для анализа и перехвата сетевого трафика.md",
     "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump.md",
     "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump Linux примеры использования.md",
     "Заметки/Linux/Мониторинг/top/Как пользоваться командой top для наблюдения за процессами в Linux.md",
     "Заметки/Linux/Мониторинг/lsof/lsof.md",
-    "Заметки/Linux/Сетевые утилиты/ifconfig",
     "Заметки/Linux/Отладка/strace.md",
     "Заметки/Linux/Мониторинг/iotop/iotop.md",
     "Заметки/Linux/Мониторинг/atop/atop.md",
     "Заметки/Linux/Мониторинг/iftop/iftop.md",
     "Заметки/Linux/Мониторинг/top/top.md",
     "Заметки/Linux/Сетевые утилиты/nethogs/Что такое NetHogs?.md",
-    "Заметки/Linux/Сетевые утилиты/nethogs/nethogs.md",
-    "Заметки/Linux/Сетевые утилиты/nethogs/NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md",
-    "Заметки/Linux/Журанлы и журналирование/Темы.md"
+    "Заметки/Linux/Сетевые утилиты/nethogs/nethogs.md"
   ]
 }
