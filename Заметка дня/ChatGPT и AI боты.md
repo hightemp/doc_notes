@@ -1,3 +1,87 @@
+- напиши пропрамму курс по HuggingFace
+	**Module 1: Introduction to Hugging Face**
+	- What is Hugging Face?
+	- Why use Hugging Face?
+	- Key features and benefits of Hugging Face
+	
+	**Module 2: Hugging Face Models**
+	- Overview of Hugging Face models
+	- Pre-trained language models: BERT, GPT-2, RoBERTa, etc.
+	- Model architectures and configurations
+	- Fine-tuning pre-trained models for specific tasks
+	
+	**Module 3: Using Hugging Face**
+	- Hugging Face API and libraries
+	- Integrating Hugging Face with other libraries and frameworks
+	- Working with datasets in Hugging Face
+	- Training and evaluating models with Hugging Face
+	
+	**Module 4: NLP Applications with Hugging Face**
+	- Text classification
+	- Named entity recognition (NER)
+	- Question answering
+	- Machine translation
+	
+	**Module 5: Advanced Hugging Face Concepts**
+	- Multi-task learning
+	- Transfer learning
+	- Model compression techniques
+	- Model interpretability
+	
+	**Module 6: Hugging Face in Industry**
+	- Real-world applications of Hugging Face
+	- Case studies and success stories
+	- Best practices and tips for using Hugging Face in industry settings
+	
+	**Module 7: Future of Hugging Face**
+	- Emerging trends and technologies in NLP
+	- Hugging Face's roadmap and future plans
+	- Open problems and challenges in NLP
+	
+	**Module 8: Final Project**
+	- Build and deploy a machine learning model using Hugging Face for a real-world NLP task.
+	
+	Written by Chatsonic
+- напиши код чат бота использующий фреймворк модели huggingface и интерфес для отображения формы ввода
+	Вот пример кода для чат-бота, использующего фреймворк модели Hugging Face и интерфейс для отображения формы ввода:
+	
+	```python
+	import streamlit as st
+	from transformers import pipeline, Conversation
+	
+	# Создаем конвейер моделей для генерации ответов на вопросы
+	model = pipeline('conversational')
+	
+	# Настройки интерфейса формы ввода
+	st.set_page_config(page_title='Chatbot', page_icon=':robot_face:')
+	
+	# Задаем заголовок страницы 
+	st.title('Chatbot')
+	
+	# Определяем функцию для взаимодействия с ботом
+	def chatbot():
+	    # Получаем ввод пользователя
+	    user_input = st.text_input('You:', key='user_input')
+	
+	    # Создаем объект конверсации
+	    conv = Conversation()
+	
+	    # Если пользователь ввел текст, добавляем его в конверсацию и генерируем ответ от бота
+	    if user_input:
+	        conv.add_user_input(user_input)
+	        bot_response = model(conv)
+	        st.text_area('Bot:', value=bot_response.generated_responses[-1], height=100, key='bot_response')
+	
+	# Запускаем бота
+	if __name__ == '__main__':
+	    chatbot()
+	```
+	
+	Этот код создает простой интерфейс формы ввода, где пользователь может вводить свои вопросы, а чат-бот, основанный на модели Hugging Face, генерирует ответы на основе введенного текста.
+	
+	`streamlit run test_chat_bot.py`
+	
+	Written by Chatsonic
 - напиши пропрамму курса по машинному обучению
 	Вот примерный план курса по машинному обучению:
 	
