@@ -32,31 +32,43 @@
             }
           },
           {
-            "id": "f75e4efc474c4fd6",
+            "id": "2d47e30675cd1310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ss/ss.md",
+                "file": "Заметки/Linux/Процессы/nice/nice.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9cefab670dd67fcf",
+            "id": "bef12c60c8c68285",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
+                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa7748df56c55103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметка дня/ChatGPT promts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ss/ss.md",
+                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ss/ss.md",
+                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ss/ss.md"
+                "file": "Заметки/Linux/Процессы/Сравнение потоков и процессов.md"
               }
             }
           }
@@ -185,12 +197,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f75e4efc474c4fd6",
+  "active": "bef12c60c8c68285",
   "lastOpenFiles": [
+    "Заметка дня/ChatGPT promts.md",
+    "Заметки/Linux/Процессы/Сравнение потоков и процессов.md",
+    "Заметки/Linux/Процессы/nice/nice.md",
     "Заметки/Linux/Темы.md",
+    "Заметки/Linux/Процессы/nice",
+    "Заметки/Linux/Потоки",
+    "Заметки/Linux/Процессы",
+    "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
     "Заметки/Linux/Сетевые утилиты/ss/ss.md",
     "Заметки/Linux/Сетевые утилиты/ss",
-    "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
     "Заметки/Linux/Сетевые утилиты/netstat",
     "Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md",
     "Заметки/Linux/Сетевые утилиты/traceroute/traceroute.md",
@@ -208,20 +226,14 @@
     "Заметки/Linux/Мониторинг/top/Как пользоваться командой top для наблюдения за процессами в Linux.md",
     "Заметки/Linux/Мониторинг/lsof/lsof.md",
     "Заметки/Linux/Сетевые утилиты/ifconfig",
-    "Заметки/Linux/Мониторинг/lsof",
     "Заметки/Linux/Отладка/strace.md",
-    "Заметки/Linux/Отладка",
     "Заметки/Linux/Мониторинг/iotop/iotop.md",
-    "Заметки/Linux/Мониторинг/iotop",
     "Заметки/Linux/Мониторинг/atop/atop.md",
     "Заметки/Linux/Мониторинг/iftop/iftop.md",
     "Заметки/Linux/Мониторинг/top/top.md",
     "Заметки/Linux/Сетевые утилиты/nethogs/Что такое NetHogs?.md",
     "Заметки/Linux/Сетевые утилиты/nethogs/nethogs.md",
     "Заметки/Linux/Сетевые утилиты/nethogs/NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md",
-    "Заметки/Linux/Журанлы и журналирование/Темы.md",
-    "Заметки/Linux/Журанлы и журналирование/Кто же был на сервере?.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Программы/sshuttle.md"
+    "Заметки/Linux/Журанлы и журналирование/Темы.md"
   ]
 }
