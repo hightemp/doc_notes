@@ -105,6 +105,30 @@
             }
           },
           {
+            "id": "133abcc6030efd79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Layered architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c940a22d4f898fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "296a5b642d26f5c0",
             "type": "leaf",
             "state": {
@@ -141,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       },
       {
         "id": "90171f8499a0e1ff",
@@ -226,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md",
+                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md",
+                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md"
+                "file": "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md"
               }
             }
           }
@@ -289,10 +313,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cc6fd2a03aa66051",
+  "active": "c940a22d4f898fc2",
   "lastOpenFiles": [
-    "Заметки/Architecture and Design Patterns/Архитектурные патерны.md",
+    "Заметки/Architecture and Design Patterns/Архитектурные патерны/Layered architecture.md",
+    "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md",
+    "Заметки/Architecture and Design Patterns/Архитектурные патерны.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны",
     "Заметки/Architecture and Design Patterns/Design patterns.md",
     "Заметки/Architecture and Design Patterns/Javascript.md",
@@ -324,8 +350,6 @@
     "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
     "Заметки/Linux/Сетевые утилиты/ss/ss.md",
     "Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md",
-    "Заметки/Linux/Сетевые утилиты/traceroute/traceroute.md",
-    "Заметки/Linux/Сетевые утилиты/ping/ping.md",
-    "Заметки/Linux/Сетевые утилиты/ifconfig/ifconfig.md"
+    "Заметки/Linux/Сетевые утилиты/traceroute/traceroute.md"
   ]
 }
