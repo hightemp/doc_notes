@@ -15,5 +15,7 @@ recommend 20 books on network administration with links
 напиши 20 примеров использования strace
 посоветуй 20 книг по Машинное обучение
 
+сгенерируй FAQ для ядра linux
+
 продолжай
 ```
