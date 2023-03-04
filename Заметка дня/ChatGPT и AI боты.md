@@ -1,3 +1,46 @@
+- напиши все что знаешь про huggingface ONNX
+	Hugging Face предоставляет возможность экспортировать модели в формате ONNX (Open Neural Network Exchange), который является открытым стандартом для обмена моделями между различными фреймворками машинного обучения. Это позволяет развернуть модель Hugging Face на других платформах, таких как TensorFlow, PyTorch или Caffe2.
+	
+	Экспорт модели Hugging Face в формате ONNX можно осуществить с помощью метода `export_to_onnx()`, который принимает путь к файлу для сохранения экспортированной модели. Например:
+	
+	```python
+	from transformers import pipeline
+	
+	# Создание pipeline
+	classifier = pipeline('sentiment-analysis')
+	
+	# Экспорт модели в ONNX
+	classifier.model.export_to_onnx('sentiment.onnx')
+	```
+	
+	Эта команда экспортирует модель классификатора настроения в формате ONNX и сохраняет ее в файл `sentiment.onnx`.
+	
+	Written by Chatsonic
+- напиши все что знаешь про huggingface text generattion с примерами
+	Hugging Face `transformers` библиотека предоставляет мощный и гибкий API для генерации текста на основе предобученных моделей. С помощью `pipeline` функции `text generation`, можно создавать различные типы текстов, такие как продолжения предложений, генерация диалогов, генерация стихов и т.д.
+	
+	Пример:
+	
+	```python
+	from transformers import pipeline
+	
+	generator = pipeline('text-generation', model='gpt2')
+	prompt = 'The quick brown fox'
+	generated_text = generator(prompt, max_length=30, do_sample=True)[0]['generated_text']
+	print(generated_text)
+	```
+	
+	В этом примере мы используем предварительно обученную модель GPT-2 для генерации текста на основе фразы "The quick brown fox". Мы указываем максимальную длину генерируемого текста в 30 символов, и включаем случайную выборку из возможных вариантов с помощью параметра `do_sample=True`. Мы затем выбираем первый вариант из списка возможных сгенерированных текстов и выводим его на экран.
+	
+	Примеры результатов:
+	
+	- The quick brown fox jumped over the lazy dog.
+	- The quick brown foxes are a common sight in the forest.
+	- The quick brown fox was a famous character in children's literature.
+	
+	`transformers` библиотека также позволяет настраивать параметры генерации текста, такие как температуру, число вариантов и длину префикса. Это позволяет создавать более разнообразные и интересные тексты.
+	
+	Written by Chatsonic
 - напиши все что знаешь про huggingface pipelines
 	Hugging Face pipelines - это удобный и простой способ использования предобученных моделей Hugging Face для различных задач обработки естественного языка (NLP). Hugging Face pipelines предоставляют готовые к использованию модели для выполнения задач, таких как классификация текста, заполнение пропущенных слов, анализ тональности, извлечение именованных сущностей и многих других.
 	
