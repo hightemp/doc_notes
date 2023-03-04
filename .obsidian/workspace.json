@@ -69,6 +69,18 @@
             }
           },
           {
+            "id": "864ae40903d607b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b7734c64971f1fb3",
             "type": "leaf",
             "state": {
@@ -81,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "90171f8499a0e1ff",
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
+                "file": "Заметки/FAQ/linux core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
+                "file": "Заметки/FAQ/linux core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md"
+                "file": "Заметки/FAQ/linux core.md"
               }
             }
           }
@@ -229,15 +241,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "bdd47dbf6f628341",
+  "active": "b40d2ac6bc4c3125",
   "lastOpenFiles": [
-    "Заметки/FAQ/linux core.md",
+    "Заметки/Linux/Темы.md",
+    "Заметки/Книги.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
+    "Заметки/FAQ/linux core.md",
+    "Заметки/Linux/Ссылки.md",
+    "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md",
+    "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md",
     "Заметки/Linux/Структура linux/Linux IP Networking",
     "Заметки/Разарботка/nuxt/FAQ.md",
     "Заметки/AI/Ссылки.md",
-    "Заметки/Linux/Темы.md",
-    "Заметки/Книги.md",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Структура linux/SystemD/FAQ.md",
     "Заметки/Linux/Структура linux",
@@ -263,9 +278,6 @@
     "Заметки/Linux/Отладка/strace.md",
     "Заметки/Linux/Сетевые утилиты/curl/curl.md",
     "Заметки/Linux/Сетевые утилиты/curl",
-    "Заметка дня/ChatGPT и AI боты.md",
-    "Заметки/Linux/Сетевые утилиты/nmap/nmap.md",
-    "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
-    "Заметки/Linux/Сетевые утилиты/ip/ip.md"
+    "Заметка дня/ChatGPT и AI боты.md"
   ]
 }
