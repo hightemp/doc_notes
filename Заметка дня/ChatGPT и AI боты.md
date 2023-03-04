@@ -1,3 +1,112 @@
+-  напиши как использовать модель huggingface распараллелив на несколько GPU напиши пример с text prediction используя device map
+	Кроме того, можно использовать `torch.nn.parallel.DistributedDataParallel` для распределенного обучения на нескольких устройствах. Для этого нужно создать `torch.distributed.ProcessGroup` и установить переменную окружения `WORLD_SIZE` в количество устройств, на которых будет выполняться обучение.
+	
+	Вот пример использования `nn.parallel.DistributedDataParallel` для распараллеливания модели BERT на двух GPU:
+	
+	```python
+	import os
+	import torch
+	from transformers import BertForSequenceClassification, BertTokenizer
+	
+	# Инициализация процесса и установка переменных окружения
+	torch.distributed.init_process_group(backend='nccl', init_method='env://')
+	world_size = int(os.environ['WORLD_SIZE'])
+	rank = torch.distributed.get_rank()
+	# Создание модели и токенизатора
+	model = BertForSequenceClassification.from_pretrained('bert-base-uncased')
+	tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+	# Распределение модели на устройства
+	device_ids = [i for i in range(torch.cuda.device_count())]
+	device_map = {i: d for i, d in enumerate(device_ids)}
+	model = torch.nn.parallel.DistributedDataParallel(model, device_ids=device_ids, device_ids=device_ids)
+	# Генерация текста на основе заданного префикса
+	generated_text = model.generate(input_ids=input_ids, max_length=50, num_beams=5, early_stopping=True, clean_up_tokenization_spaces=True, do_sample=True, top_p=0.92, top_k=0, temperature=0.7, no_repeat_ngram_size=2, num_return_sequences=1, decoder_start_token_id=model.config.decoder_start_token_id, eos_token_id=model.config.eos_token_id, pad_token_id=model.config.pad_token_id, bos_token_id=model.config.bos_token_id, length_penalty=1.0, min_length=0, use_cache=True, device_ids=device_ids, device_map=device_map)
+	# Вывод результата
+	generated_text = tokenizer.decode(generated_text[0], skip_special_tokens=True)
+	print(generated_text)
+	```
+	
+	Источники:
+	- Официальная документация PyTorch: https://pytorch.org/docs/stable/notes/ddp.html
+	- Статья на Towards Data Science: https://towardsdatascience.com/how-to-fine-tune-bert-for-text-classification-9b2a3a88d8d9
+	- Статья на Medium: https://towardsdatascience.com/how-to-use-multiple-gpus-for-efficient-deep-learning-in-pytorch-ecf191b9c1bf
+
+	Written by Chatsonic
+- напиши как использовать модель huggingface распараллелив на несколько GPU напиши пример с text prediction
+	Для распараллеливания модели Hugging Face на несколько GPU вместе с генерацией текста можно использовать модуль `nn.DataParallel` из PyTorch. Вот пример кода, демонстрирующего, как это можно сделать для генерации текста с помощью модели GPT-2:
+	
+	```python
+	import torch
+	from transformers import GPT2LMHeadModel, GPT2Tokenizer
+	from torch.nn import DataParallel
+	
+	# Загрузка модели GPT-2
+	model = GPT2LMHeadModel.from_pretrained('gpt2')
+	tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+	
+	# Распараллеливание модели на два GPU
+	model = DataParallel(model, device_ids=[0, 1])
+	
+	# Генерация текста
+	input_text = "The quick brown fox"
+	input_ids = tokenizer.encode(input_text, return_tensors='pt')
+	output = model.generate(input_ids.cuda(), max_length=50, num_beams=5, early_stopping=True)
+	generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+	print(generated_text)
+	```
+	
+	В этом примере модель GPT-2 загружается из библиотеки Transformers, а затем распараллеливается на два GPU с помощью `nn.DataParallel`. Далее, используя распараллеленную модель, генерируется текст на основе заданного префикса.
+	
+	Written by Chatsonic
+- напиши как использовать модель huggingface распараллелив на несколько GPU
+	Использование нескольких GPU в Hugging Face может быть достигнуто с помощью библиотеки `torch.nn.DataParallel`. Например, если у вас есть модель `model` и вы хотите распараллелить ее на две GPU, вы можете использовать следующий код:
+	
+	```python
+	import torch
+	from torch.nn import DataParallel
+	from transformers import AutoModel
+	
+	model_name = 'bert-base-uncased'
+	model = AutoModel.from_pretrained(model_name)
+	
+	# Распараллеливание модели на две GPU
+	device_ids = [0, 1]
+	model = DataParallel(model, device_ids=device_ids)
+	
+	# Пример использования распараллеленной модели
+	inputs = {'input_ids': torch.randn(2, 10, dtype=torch.long),
+	          'attention_mask': torch.ones(2, 10, dtype=torch.long)}
+	
+	outputs = model(**inputs)
+	```
+	
+	В этом примере модель BERT, загруженная из Hugging Face, распараллеливается на две GPU с помощью `torch.nn.DataParallel`. Затем модель может использоваться для обработки входных данных, передаваемых в виде словаря `inputs`. Каждый ключ в словаре соответствует названию входных тензоров, описанных в документации Hugging Face для данной модели.
+	
+	Written by Chatsonic
+- напиши все что знаешь про huggingface - Model outputs
+	Hugging Face предоставляет различные выходные данные для моделей, которые могут быть использованы для различных задач. Некоторые из наиболее распространенных выходных данных включают в себя:
+	
+	1. Sequence Classification Output: вероятности для каждой категории классификации в задаче классификации последовательностей.
+	
+	2. Token Classification Output: метки для каждого токена в задаче классификации токенов.
+	
+	3. Question Answering Output: начальный и конечный индексы ответа на вопрос, заданный в тексте.
+	
+	4. Summarization Output: сгенерированный краткий текст, содержащий основные моменты исходного текста.
+	
+	5. Text Generation Output: сгенерированный текст на основе заданного префикса.
+	
+	Эти выходные данные могут быть использованы для различных задач, таких как классификация, разметка, ответы на вопросы, резюмирование и генерация текста.
+	
+	Written by Chatsonic
+- где и как используется ONNX
+	ONNX (Open Neural Network Exchange) - это формат обмена моделями глубокого обучения между различными фреймворками и платформами. ONNX позволяет экспортировать модели из одного фреймворка и использовать их в других без необходимости переписывать код модели или переобучать ее.
+	
+	ONNX поддерживается многими фреймворками, включая PyTorch, TensorFlow, MXNet и другие. Он используется для развертывания моделей глубокого обучения на различных платформах, включая мобильные устройства, IoT-устройства и веб-сервисы.
+	
+	В Hugging Face ONNX используется для экспорта моделей глубокого обучения в формате ONNX, что позволяет использовать их в других фреймворках и платформах. Например, вы можете экспортировать модель Hugging Face в ONNX и использовать ее для развертывания на устройстве IoT, где может не быть доступа к Python или TensorFlow.
+	
+	Written by Chatsonic
 - напиши все что знаешь про huggingface ONNX
 	Hugging Face предоставляет возможность экспортировать модели в формате ONNX (Open Neural Network Exchange), который является открытым стандартом для обмена моделями между различными фреймворками машинного обучения. Это позволяет развернуть модель Hugging Face на других платформах, таких как TensorFlow, PyTorch или Caffe2.
 	
