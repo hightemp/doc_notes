@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "79f6a05e8c1ee125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f614243b0aaae591",
             "type": "leaf",
             "state": {
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
+                "file": "Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
+                "file": "Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md"
+                "file": "Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md"
               }
             }
           }
@@ -185,9 +197,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f614243b0aaae591",
+  "active": "79f6a05e8c1ee125",
   "lastOpenFiles": [
     "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md",
+    "Заметки/Linux/Ссылки.md",
+    "Заметки/Linux/Темы.md",
+    "Заметки/Linux/Маршрутизация",
+    "Заметки/Linux",
     "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Программы/sshuttle.md",
@@ -214,7 +231,6 @@
     "Заметки/Справочники/Еврейские фамилии.md",
     "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии.md",
     "Заметки/Справочники/Еврейские фамилии/По фамилии Еврейсон. Цикл интервью с Александром Бейдером.md",
-    "Заметки/Справочники/Еврейские фамилии/Окно в Россию евреи в Петербурге.md",
-    "Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Как понять, кто есть кто.md"
+    "Заметки/Справочники/Еврейские фамилии/Окно в Россию евреи в Петербурге.md"
   ]
 }
