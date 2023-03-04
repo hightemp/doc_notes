@@ -1,5 +1,7 @@
 ![](https://asdertasd.site/counter/chatgpt)
 - 
+- для чего нужна nethogs
+	Nethogs - это утилита для мониторинга трафика по процессам, которая позволяет определить, какая программа "жрет" трафик. Она удобна для сисадминов и не требует загрузки модулей ядра. Установка и запуск Nethogs просты, а параметры запуска можно настроить под свои нужды
 - write all top utils you know and describe them
 	Sure, here are some of the top Linux utilities and a brief description of what they do:
 	
