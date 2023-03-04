@@ -212,3 +212,148 @@ systemctl status my-timer.timer
 A: Вы можете удалить файлы `.timer` и `.service` из каталога `/etc/systemd/system`. Например, чтобы удалить таймер `my-timer.timer`, необходимо удалить файлы `/etc/systemd/system/my-timer.timer` и `/etc/systemd/system/my-script.service`.
 
 
+Конфигурационные файлы для systemd называются Unit файлами и имеют расширение `.service`, `.socket`, `.timer`, `.mount`, `.path`, `.device` и т.д. Вот несколько примеров Unit файлов для systemd:
+
+1. Unit файл `.service`:
+
+```
+[Unit]
+Description=My Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/my-service
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Этот Unit файл описывает службу, которая запускает программу `/usr/bin/my-service` после того, как сеть загружена. В качестве типа сервиса указан `simple`, что означает, что сервис выполняется в фоновом режиме и не отслеживается systemd.
+
+2. Unit файл `.timer`:
+
+```
+[Unit]
+Description=My Timer
+
+[Timer]
+OnCalendar=*-*-* 10:30:00
+Unit=my-service.service
+
+[Install]
+WantedBy=timers.target
+```
+
+Этот Unit файл описывает таймер, который запускает службу `my-service.service` каждый день в 10:30 утра. Таймер устанавливается в `timers.target`, который автоматически запускается при загрузке системы.
+
+3. Unit файл `.mount`:
+
+```
+[Unit]
+Description=My Mount
+Requires=network-online.target
+After=network-online.target
+
+[Mount]
+What=//server/share
+Where=/mnt/share
+Type=cifs
+Options=username=user,password=pass
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Этот Unit файл описывает точку монтирования, которая монтирует удаленный ресурс с сервера в локальную папку `/mnt/share`. Точка монтирования зависит от службы `network-online.target`, что означает, что она будет запущена только после того, как сеть загрузится.
+
+Конфигурационные файлы для systemd имеют различные расширения в зависимости от типа юнита:
+
+1.  `.service`: Этот файл определяет юнит-сервис, который запускает определенное приложение или службу и управляет ею. Пример: `/etc/systemd/system/nginx.service`.
+    
+2.  `.socket`: Этот файл определяет Unix-сокет, который слушает входящие подключения на определенном адресе. Пример: `/etc/systemd/system/my-socket.socket`.
+    
+3.  `.timer`: Этот файл определяет таймер, который позволяет запускать задачи с определенной периодичностью. Пример: `/etc/systemd/system/my-timer.timer`.
+    
+4.  `.mount`: Этот файл определяет точку монтирования, которая может быть автоматически смонтирована при загрузке системы. Пример: `/etc/systemd/system/my-mount.mount`.
+    
+5.  `.path`: Этот файл определяет файловый путь, который может быть мониторингом на наличие изменений. Пример: `/etc/systemd/system/my-path.path`.
+    
+6.  `.device`: Этот файл определяет устройство, которое может быть автоматически создано при загрузке системы. Пример: `/etc/systemd/system/my-device.device`.
+
+Конфигурация файла .service:
+```
+[Unit]
+Description=My Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/my_service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Конфигурация файла .socket:
+```
+[Unit]
+Description=My Socket
+
+[Socket]
+ListenStream=127.0.0.1:8080
+Accept=yes
+
+[Install]
+WantedBy=sockets.target
+```
+
+Конфигурация файла .timer:
+```
+[Unit]
+Description=My Timer
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+Unit=my_service.service
+
+[Install]
+WantedBy=timers.target
+```
+
+Конфигурация файла .mount:
+```
+[Unit]
+Description=My Mount
+Requires=network-online.target
+After=network-online.target
+
+[Mount]
+What=/dev/sdb1
+Where=/mnt/my_mount
+Type=ext4
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Конфигурация файла .path:
+```
+[Unit]
+Description=My Path
+
+[Path]
+PathExists=/etc/my_config.conf
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Конфигурация файла .device:
+```
+[Device]
+Type=oneshot
+ExecStart=/bin/mkdir /mnt/my_device
+``` 
