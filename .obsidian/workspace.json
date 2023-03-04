@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f614243b0aaae591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a5511f5e96b32b58",
             "type": "leaf",
             "state": {
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Ссылки.md"
+                "file": "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md"
               }
             }
           }
@@ -173,9 +185,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a5511f5e96b32b58",
+  "active": "f614243b0aaae591",
   "lastOpenFiles": [
     "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Программы/sshuttle.md",
     "Заметки/Установка софта.md",
