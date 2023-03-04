@@ -45,6 +45,54 @@
             }
           },
           {
+            "id": "a88fbb017d8593a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Design Patterns/Design patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44e2766d71afa71a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Design Patterns/PHP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "579e676b4d7d41a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Design Patterns/Design patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "296a5b642d26f5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Браузер/Как работает браузер....md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d73639c5859a7177",
             "type": "leaf",
             "state": {
@@ -69,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "90171f8499a0e1ff",
@@ -154,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Книги.md",
+                "file": "Заметки/Design Patterns/Design patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Книги.md",
+                "file": "Заметки/Design Patterns/Design patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Книги.md"
+                "file": "Заметки/Design Patterns/Design patterns.md"
               }
             }
           }
@@ -217,10 +265,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a8e05f126c2fdc4f",
+  "active": "579e676b4d7d41a7",
   "lastOpenFiles": [
-    "Заметка дня/ChatGPT promts.md",
+    "Заметки/Design Patterns/Javascript.md",
+    "Заметки/Design Patterns/PHP.md",
+    "Заметки/Структуры данных",
+    "Заметки/Design Patterns/Design patterns.md",
     "Заметки/Книги.md",
+    "Заметки/Design Patterns",
+    "Заметки/Браузер/Как работает браузер....md",
+    "Заметки/Браузер",
+    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Темы.md",
     "Заметки/Linux/Сетевые утилиты/scp/scp.md",
     "Заметки/Linux/Сетевые утилиты/scp",
@@ -240,9 +295,6 @@
     "Заметки/Linux/Процессы/nice/nice.md",
     "Заметки/Разарботка/php",
     "Заметки/Linux/Сетевые утилиты/ip",
-    "Заметки/Linux/Процессы/nice",
-    "Заметки/Linux/Потоки",
-    "Заметки/Linux/Процессы",
     "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
     "Заметки/Linux/Сетевые утилиты/ss/ss.md",
     "Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md",
@@ -250,10 +302,6 @@
     "Заметки/Linux/Сетевые утилиты/ping/ping.md",
     "Заметки/Linux/Сетевые утилиты/ifconfig/ifconfig.md",
     "Заметки/Linux/Журанлы и журналирование/Какова цель файлов utmp, wtmp и btmp на Linux.md",
-    "Заметки/Linux/Сетевые утилиты/tcpdump/Используем tcpdump для анализа и перехвата сетевого трафика.md",
-    "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump.md",
-    "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump Linux примеры использования.md",
-    "Заметки/Linux/Мониторинг/top/Как пользоваться командой top для наблюдения за процессами в Linux.md",
-    "Заметки/Linux/Мониторинг/lsof/lsof.md"
+    "Заметки/Linux/Сетевые утилиты/tcpdump/Используем tcpdump для анализа и перехвата сетевого трафика.md"
   ]
 }
