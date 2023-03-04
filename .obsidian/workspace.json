@@ -6,6 +6,7 @@
       {
         "id": "fabc201b875e29f5",
         "type": "tabs",
+        "dimension": 55.58375634517766,
         "children": [
           {
             "id": "434599d845a6f692",
@@ -32,12 +33,12 @@
             }
           },
           {
-            "id": "845a6c21546376f0",
+            "id": "730927b4c94d07a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/curl/curl.md",
+                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +79,15 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "90171f8499a0e1ff",
+        "type": "tabs",
+        "dimension": 44.41624365482234,
+        "children": [
           {
             "id": "aa7748df56c55103",
             "type": "leaf",
@@ -91,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/curl/curl.md",
+                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/curl/curl.md",
+                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/curl/curl.md"
+                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md"
               }
             }
           }
@@ -221,17 +229,20 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "845a6c21546376f0",
+  "active": "730927b4c94d07a1",
   "lastOpenFiles": [
     "Заметки/Linux/Темы.md",
+    "Заметки/Linux/Сетевые утилиты/scp/scp.md",
+    "Заметки/Linux/Сетевые утилиты/scp",
+    "Заметки/Репозитории.md",
+    "Заметки/Подборки.md",
+    "Заметки/Книги.md",
+    "Заметки/Linux/Отладка/strace.md",
+    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Сетевые утилиты/curl/curl.md",
     "Заметки/Linux/Сетевые утилиты/curl",
-    "Заметки/Книги.md",
-    "Заметки/Подборки.md",
     "Заметки/WebScrapping",
-    "Заметки/Репозитории.md",
     "Заметка дня/ChatGPT и AI боты.md",
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Сетевые утилиты/nmap/nmap.md",
     "Заметки/Linux/Сетевые утилиты/nmap",
     "Заметки/Linux/Сетевые утилиты/ssh/ssh.md",
@@ -246,7 +257,6 @@
     "Заметки/Linux/Процессы",
     "Заметки/Linux/Сетевые утилиты/netstat/netstat.md",
     "Заметки/Linux/Сетевые утилиты/ss/ss.md",
-    "Заметки/Linux/Сетевые утилиты/ss",
     "Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md",
     "Заметки/Linux/Сетевые утилиты/traceroute/traceroute.md",
     "Заметки/Linux/Сетевые утилиты/ping/ping.md",
@@ -256,8 +266,6 @@
     "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump.md",
     "Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump Linux примеры использования.md",
     "Заметки/Linux/Мониторинг/top/Как пользоваться командой top для наблюдения за процессами в Linux.md",
-    "Заметки/Linux/Мониторинг/lsof/lsof.md",
-    "Заметки/Linux/Отладка/strace.md",
-    "Заметки/Linux/Мониторинг/iotop/iotop.md"
+    "Заметки/Linux/Мониторинг/lsof/lsof.md"
   ]
 }
