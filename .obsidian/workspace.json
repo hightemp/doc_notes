@@ -33,18 +33,6 @@
             }
           },
           {
-            "id": "730927b4c94d07a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a8e05f126c2fdc4f",
             "type": "leaf",
             "state": {
@@ -166,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
+                "file": "Заметки/Книги.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md",
+                "file": "Заметки/Книги.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/scp/scp.md"
+                "file": "Заметки/Книги.md"
               }
             }
           }
@@ -229,16 +217,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "730927b4c94d07a1",
+  "active": "a8e05f126c2fdc4f",
   "lastOpenFiles": [
+    "Заметка дня/ChatGPT promts.md",
+    "Заметки/Книги.md",
     "Заметки/Linux/Темы.md",
     "Заметки/Linux/Сетевые утилиты/scp/scp.md",
     "Заметки/Linux/Сетевые утилиты/scp",
     "Заметки/Репозитории.md",
     "Заметки/Подборки.md",
-    "Заметки/Книги.md",
     "Заметки/Linux/Отладка/strace.md",
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Сетевые утилиты/curl/curl.md",
     "Заметки/Linux/Сетевые утилиты/curl",
     "Заметки/WebScrapping",
