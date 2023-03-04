@@ -1,4 +1,15 @@
 ![](https://asdertasd.site/counter/chatgpt)
+- напиши pytorch код для генерации текста для модели "bigscience/bloom" от huggingface
+```python
+import torch
+from transformers import AutoTokenizer, AutoModelWithLMHead
+tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom-3b")
+model = AutoModelWithLMHead.from_pretrained("bigscience/bloom-3b")
+prompt = "The quick brown fox"
+input_ids = tokenizer.encode(prompt, return_tensors='pt')
+output = model.generate(input_ids, max_length=50, do_sample=True)
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+```
 - распиши чем занимается - Актуарий
 	Актуарий занимается анализом статистических данных и математических моделей для оценки рисков и разработки финансовых стратегий для компаний или организаций. Актуарии используют данные о смертности, заболеваниях, возрасте и других факторах, чтобы определить вероятность возникновения рисков и разработать соответствующие страховые программы или инвестиционные стратегии. Они также могут оценивать стоимость будущих пенсий и других планов социального обеспечения. Актуарий должен быть хорошо знаком с математическими методами, статистикой, экономикой и финансами.
 - распиши каждую тему подробнее

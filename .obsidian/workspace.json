@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/ChatGPT и AI боты.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT и AI боты.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT и AI боты.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT и AI боты.md"
+                "file": "Заметки/AI/Ссылки.md"
               }
             }
           }
@@ -247,8 +247,8 @@
   },
   "active": "a5511f5e96b32b58",
   "lastOpenFiles": [
-    "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
     "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md",
     "Заметки/AI/pytorch",
     "Заметки/Установка софта.md",
     "Заметки/AI/Hugging Face/pipelines.md",
