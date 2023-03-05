@@ -168,3 +168,163 @@ class ArticleSpider(scrapy.Spider):
 
 Настройки `custom_settings` позволяют нам сохранять результаты в формате HTML в папку с именем `articles` внутри указанной директории вывода.
 
+## напиши пример обучения нейросети для извлечения данных из html страницы используя pytorch на python
+
+Конечно, вот пример кода на Python с использованием библиотеки PyTorch для обучения нейросети для извлечения данных из HTML-страниц:
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import numpy as np
+import requests
+from bs4 import BeautifulSoup
+
+# загрузка и парсинг HTML-страницы
+url = 'https://example.com'
+page = requests.get(url)
+soup = BeautifulSoup(page.content, 'html.parser')
+
+# получение списка заголовков
+headers = soup.find_all('h2')
+text = [header.get_text() for header in headers]
+
+# создание словаря символов
+all_chars = set(''.join(text))
+char_to_index = {char: i for i, char in enumerate(all_chars)}
+index_to_char = {i: char for i, char in enumerate(all_chars)}
+
+# преобразование текста в последовательности индексов
+max_len = len(max(text, key=len))
+input_data = np.zeros((len(text), max_len, len(all_chars)))
+for i, example in enumerate(text):
+    for j, char in enumerate(example):
+        input_data[i, j, char_to_index[char]] = 1
+
+# определение модели нейросети
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.lstm = nn.LSTM(len(all_chars), 128)
+        self.fc = nn.Linear(128, len(all_chars))
+        
+    def forward(self, x):
+        x, _ = self.lstm(x)
+        x = self.fc(x)
+        return x
+
+# создание экземпляра модели
+net = Net()
+
+# определение функции ошибки и оптимизатора
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(net.parameters(), lr=0.001)
+
+# обучение модели
+for epoch in range(100):
+    optimizer.zero_grad()
+    inputs = torch.tensor(input_data).float()
+    outputs = net(inputs)
+    targets = torch.argmax(inputs, dim=2)
+    loss = criterion(outputs.view(-1, len(all_chars)), targets.view(-1))
+    loss.backward()
+    optimizer.step()
+    print(f'Epoch {epoch}, Loss {loss.item()}')
+```
+
+Этот пример демонстрирует, как можно использовать PyTorch для создания и обучения нейросети для извлечения данных из HTML-страниц. Мы загружаем страницу, извлекаем список заголовков, преобразуем текст в последовательность индексов, определяем модель нейросети, определяем функцию ошибки и оптимизатор, и обучаем модель на наших данных.
+
+## можно ли переписать с использованием трансформеров
+
+Да, можно использовать трансформеры для обучения нейросети для извлечения данных из HTML-страниц. Трансформеры - это нейронные сети, которые способны обрабатывать последовательности данных, такие как тексты. Они были разработаны для достижения лучшей производительности на задачах обработки естественного языка. 
+
+В PyTorch для реализации трансформеров используется модуль `torch.nn.Transformer`, который позволяет легко определить трансформерную модель. Пример обучения нейросети для извлечения данных из HTML-страниц с использованием трансформеров на PyTorch:
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
+
+# Определяем класс нашей модели
+class HTMLTransformer(nn.Module):
+    def __init__(self, vocab_size, embedding_dim, num_heads, hidden_dim, num_layers):
+        super().__init__()
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        self.transformer = nn.Transformer(d_model=embedding_dim, nhead=num_heads, num_encoder_layers=num_layers, num_decoder_layers=num_layers, dim_feedforward=hidden_dim)
+        self.fc = nn.Linear(embedding_dim, 1)
+
+    def forward(self, x):
+        x = self.embedding(x)
+        x = self.transformer(x, x)
+        x = self.fc(x)
+        return x
+
+# Определяем наш датасет
+class HTMLDataset(Dataset):
+    def __init__(self, X, y):
+        self.X = X
+        self.y = y
+
+    def __len__(self):
+        return len(self.X)
+
+    def __getitem__(self, idx):
+        return self.X[idx], self.y[idx]
+
+# Определяем нашу функцию обучения
+def train(model, dataloader, optimizer, criterion):
+    model.train()
+    train_loss = 0.0
+    for X, y in dataloader:
+        optimizer.zero_grad()
+        output = model(X)
+        loss = criterion(output.squeeze(), y.float())
+        loss.backward()
+        optimizer.step()
+        train_loss += loss.item()
+    return train_loss / len(dataloader)
+
+# Определяем нашу функцию оценки производительности модели
+def evaluate(model, dataloader, criterion):
+    model.eval()
+    eval_loss = 0.0
+    with torch.no_grad():
+        for X, y in dataloader:
+            output = model(X)
+            loss = criterion(output.squeeze(), y.float())
+            eval_loss += loss.item()
+    return eval_loss / len(dataloader)
+
+# Определяем параметры обучения
+vocab_size = 10000
+embedding_dim = 128
+num_heads = 4
+hidden_dim = 256
+num_layers = 2
+batch_size = 32
+lr = 0.001
+epochs = 10
+
+# Создаем экземпляр модели и оптимизатора
+model = HTMLTransformer(vocab_size, embedding_dim, num_heads, hidden_dim, num_layers)
+optimizer = optim.Adam(model.parameters(), lr=lr)
+criterion = nn.BCEWithLogitsLoss()
+
+# Загружаем данные и создаем датасет и даталоадер
+X_train = ...
+y_train = ...
+train_dataset = HTMLDataset(X_train, y_train)
+train_dataloader = DataLoader(train_dataset, batch_size=batch_size)
+
+# Обучаем модель
+for epoch in range(epochs):
+    train_loss = train(model, train_dataloader, optimizer, criterion)
+    print(f"Epoch {epoch+1}/{epochs}, train loss: {train_loss:.4f}")
+```
+
+В этом примере мы определяем класс `HTMLTransformer`, который наследуется от класса `nn.Module`. В методе `__init__` мы определяем слои нашей модели: `nn.Embedding` для преобразования текста в векторы, `nn.Transformer` для обработки последовательности векторов и `nn.Linear` для преобразования выхода модели в одно число. 
+
+Затем мы определяем класс `HTMLDataset`, который наследуется от класса `
+
+Written by Chatsonic

@@ -134,7 +134,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/bash/FAQ.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/bash/FAQ.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/bash/FAQ.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/bash/FAQ.md"
+                "file": "Заметки/Разарботка/scrapping/FAQ.md"
               }
             }
           }
@@ -289,11 +289,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "40adab70ac49639a",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Linux/Структура linux/proc/FAQ.md",
     "Заметка дня/ChatGPT promts.md",
-    "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/bash",
     "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Linux/Структура linux/proc",
