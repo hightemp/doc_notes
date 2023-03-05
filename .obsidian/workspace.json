@@ -26,7 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Темы.md",
+                "file": "Заметки/Разарботка/vpn/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "968b64eb60d1f314",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,9 +151,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d16fba49d2eda7c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/История/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
@@ -226,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md",
+                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md",
+                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md"
+                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md"
               }
             }
           }
@@ -289,26 +313,31 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "968b64eb60d1f314",
   "lastOpenFiles": [
-    "Заметки/Разарботка/bash/FAQ.md",
-    "Заметки/Linux/Структура linux/proc/FAQ.md",
+    "Заметки/Linux/Структура linux/Сеть/Tunneling and Port Forwarding.md",
     "Заметка дня/ChatGPT promts.md",
-    "Заметки/Разарботка/bash",
-    "Заметки/Разарботка/scrapping/FAQ.md",
-    "Заметки/Linux/Структура linux/proc",
-    "Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md",
-    "Заметки/Разарботка/scrapping",
+    "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
+    "Заметки/Linux/Структура linux/Сеть/Прокси",
     "Заметки/Разарботка/vpn/FAQ.md",
-    "Заметки/Linux/Структура linux/Сеть",
-    "Заметки/Разарботка/security/FAQ.md",
-    "Заметки/Разарботка/vpn",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/security",
-    "Заметки/Разарботка/regexp/FAQ.md",
-    "Заметки/Разарботка/javascript/FAQ.md",
-    "Заметки/Разарботка/regexp",
     "Заметки/Linux/Темы.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
+    "Заметки/Разарботка/regexp/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/security/FAQ.md",
+    "Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md",
+    "Заметки/Разарботка/scrapping/FAQ.md",
+    "Заметки/Linux/Структура linux/proc/FAQ.md",
+    "Заметки/История/Ссылки.md",
+    "Заметки/История",
+    "Заметки/Разарботка/bash/FAQ.md",
+    "Заметки/Разарботка/bash",
+    "Заметки/Linux/Структура linux/proc",
+    "Заметки/Разарботка/scrapping",
+    "Заметки/Linux/Структура linux/Сеть",
+    "Заметки/Разарботка/vpn",
+    "Заметки/Разарботка/security",
+    "Заметки/Разарботка/regexp",
     "Заметки/Разарботка/python",
     "README.md",
     "Заметки/Книги.md",
@@ -317,15 +346,10 @@
     "Заметки/OSINT/Ссылки.md",
     "Планы.md",
     "Заметки/Разарботка/obsidian/FAQ.md",
-    "Заметки/Разарботка/obsidian",
-    "Заметки/OSINT",
     "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
     "Заметки/Linux/Ссылки.md",
-    "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md",
-    "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md",
-    "Заметки/Разарботка/nuxt/FAQ.md",
-    "Заметки/AI/Ссылки.md"
+    "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md"
   ]
 }

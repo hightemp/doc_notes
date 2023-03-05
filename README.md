@@ -19,6 +19,8 @@
    - [Работа браузера.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0.md)
    - [Программирование - Паттерны.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20-%20%D0%9F%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
    - [Конференции.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8.md)
+   - История
+     - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
    - OSINT
      - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/OSINT/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
    - Architecture and Design Patterns
@@ -40,7 +42,10 @@
        - proc
          - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/proc/FAQ.md)
        - Сеть
+         - [Tunneling and Port Forwarding.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Tunneling%20and%20Port%20Forwarding.md)
          - [Linux — Networking Deep Dive.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Linux%20%E2%80%94%20Networking%20Deep%20Dive.md)
+         - Прокси
+           - [ssh socks proxy.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8/ssh%20socks%20proxy.md)
        - Linux IP Networking
          - [D.2. ip route.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/D.2.%20ip%20route.md)
          - [Linux IP Networking(EN).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking(EN).md)
