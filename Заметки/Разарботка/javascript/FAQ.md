@@ -351,4 +351,3 @@ main();
 
 Обратите внимание, что для использования GramJS вам также понадобится установить зависимости, включая `telegram-mtproto`, `tweetnacl`, `buffer`, `events`, `fs`, `path`.
 
-Written by Chatsonic
