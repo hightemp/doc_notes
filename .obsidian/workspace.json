@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "90171f8499a0e1ff",
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/regexp/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/regexp/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/regexp/FAQ.md"
+                "file": "Заметки/Разарботка/python/FAQ.md"
               }
             }
           }
@@ -217,10 +217,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e0e746579d196e59",
+  "active": "7409bea8d886ccc0",
   "lastOpenFiles": [
-    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/regexp/FAQ.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/regexp",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Linux/Темы.md",

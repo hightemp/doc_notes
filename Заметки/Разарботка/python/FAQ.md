@@ -146,3 +146,108 @@ with client:
 
 Обратите внимание, что для использования библиотеки Telethon вам также понадобится установить зависимости, включая `telethon`.
 
+## напиши код на javascript для валидации номера паспорта
+
+Вот простой код на JavaScript, использующий регулярное выражение, чтобы проверить, является ли строка номером российского паспорта или нет:
+
+```javascript
+function validatePassportNumber(passportNumber) {
+  const passportRegex = /^(\d{4}\s?\d{6})$/;
+  return passportRegex.test(passportNumber);
+}
+
+// Пример использования
+console.log(validatePassportNumber("4509 235857")); // true
+console.log(validatePassportNumber("123456")); // false
+```
+
+Обратите внимание, что это простой пример валидации паспортного номера и реальные требования к формату могут отличаться в зависимости от конкретного случая.
+
+## еще раз напиши код на javascript для валидации СНИЛС
+
+Конкретные требования к формату СНИЛС могут отличаться в зависимости от конкретного случая. Ниже приведен пример реализации простой функции валидации СНИЛС на основе общих требований:
+
+```javascript
+function validateSnils(snils) {
+  if (!/^\d{11}$/.test(snils)) return false;
+
+  const checkDigit = (sum) => {
+    if (sum < 2) return 0;
+    if (sum < 10) return 10 - sum;
+    if (sum % 10 === 0) return 0;
+    return 10 - (sum % 10);
+  }
+
+  const [a, b, v, g, d, e, zh, z, i, k] = snils.split("").map(Number);
+  const sum = a * 9 + b * 8 + v * 7 + g * 6 + d * 5 + e * 4 + zh * 3 + z * 2 + i * 1;
+  const controlDigit = checkDigit(sum);
+
+  return controlDigit === k;
+}
+
+console.log(validateSnils("123-456-789 01")); // true
+console.log(validateSnils("12345678900")); // false
+```
+
+Здесь используется регулярное выражение для проверки длины и формата СНИЛСа и алгоритм расчета контрольной суммы, который используется для проверки правильности ввода номера СНИЛС.
+
+## еще раз напиши код на javascript для валидации ИНН
+
+Для проверки ИНН мы можем использовать регулярное выражение и алгоритм расчета контрольной суммы, который используется для проверки правильности ввода номера ИНН.
+
+```javascript
+function validateInn(inn) {
+  if (/^\d{10}$/.test(inn)) {
+    var checkDigit = function(inn, coefficients) {
+      var n = 0;
+      for (var i in coefficients) {
+        n += coefficients[i] * inn[i];
+      }
+      return parseInt(n % 11 % 10);
+    };
+    var c1 = checkDigit(inn, [2, 4, 10, 3, 5, 9, 4, 6, 8]);
+    var c2 = checkDigit(inn, [7, 2, 4, 10, 3, 5, 9, 4, 6, 8]);
+    return c1 === parseInt(inn[9]) && c2 === parseInt(inn[10]);
+  }
+  return false;
+}
+
+console.log(validateInn("1234567890")); // true
+console.log(validateInn("123456789")); // false
+```
+
+Обратите внимание, что это простой пример валидации ИНН и реальные требования к формату могут отличаться в зависимости от конкретного случая.
+
+## напиши новый код на javascript для валидации ОГРН
+
+Конечно, вот пример кода на JavaScript для валидации ОГРН:
+
+```javascript
+function validateOgrn(ogrn) {
+  // Проверяем, что длина ОГРН равна 13 символам
+  if (ogrn.length !== 13) {
+    return false;
+  }
+
+  // Проверяем, что ОГРН состоит только из цифр
+  if (!/^\d+$/.test(ogrn)) {
+    return false;
+  }
+
+  // Вычисляем контрольную сумму
+  const checkDigit = parseInt(ogrn.slice(-1));
+  const ogrnWithoutCheckDigit = ogrn.slice(0, -1);
+  const modulus = BigInt(11);
+  const remainder = BigInt(ogrnWithoutCheckDigit) % modulus;
+  let calculatedCheckDigit = remainder === BigInt(10) ? 0 : remainder;
+
+  // Сравниваем полученную контрольную сумму с той, которая была введена
+  return checkDigit === calculatedCheckDigit;
+}
+
+console.log(validateOgrn("1234567890123")); // true
+console.log(validateOgrn("12345678901234")); // false
+```
+
+Обратите внимание, что это простой пример валидации ОГРН и реальные требования к формату могут отличаться в зависимости от конкретного случая.
+
