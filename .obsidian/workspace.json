@@ -67,9 +67,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7da0c87d5048d92b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/security/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aba576d5ca112579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/vpn/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "90171f8499a0e1ff",
@@ -154,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/vpn/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/vpn/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md"
+                "file": "Заметки/Разарботка/vpn/FAQ.md"
               }
             }
           }
@@ -217,12 +241,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7409bea8d886ccc0",
+  "active": "aba576d5ca112579",
   "lastOpenFiles": [
+    "Заметки/Разарботка/security/FAQ.md",
+    "Заметки/Разарботка/vpn/FAQ.md",
+    "Заметки/Разарботка/vpn",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/security",
     "Заметки/Разарботка/regexp/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/regexp",
-    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Linux/Темы.md",
     "Заметки/Разарботка/python",
     "README.md",
@@ -248,12 +276,8 @@
     "Заметки/Разарботка/nuxt/FAQ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Linux/Структура linux/SystemD/FAQ.md",
-    "Заметки/Linux/Структура linux",
-    "Заметки/Linux/Структура linux/SystemD",
     "Заметки/Architecture and Design Patterns/Design patterns.md",
     "Заметки/Architecture and Design Patterns/PHP.md",
-    "Заметки/Architecture and Design Patterns/Архитектурные патерны.md",
-    "Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md",
-    "Заметки/Architecture and Design Patterns/Архитектурные патерны/Layered architecture.md"
+    "Заметки/Architecture and Design Patterns/Архитектурные патерны.md"
   ]
 }
