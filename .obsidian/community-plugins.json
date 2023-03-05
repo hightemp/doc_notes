@@ -5,5 +5,6 @@
   "obsidian-git",
   "hot-reload",
   "obsidian-jupyter",
-  "grid-view"
+  "grid-view",
+  "obsidian-files-tree-toc"
 ]
