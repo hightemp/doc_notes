@@ -37,6 +37,8 @@
      - [Темы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
      - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - Структура linux
+       - proc
+         - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/proc/FAQ.md)
        - Сеть
          - [Linux — Networking Deep Dive.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Linux%20%E2%80%94%20Networking%20Deep%20Dive.md)
        - Linux IP Networking
