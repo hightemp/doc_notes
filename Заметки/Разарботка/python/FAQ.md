@@ -108,4 +108,41 @@ print(even_numbers)
 
 Это только некоторые из способов работы со списками в Python. В зависимости от вашей задачи, вы можете выбрать наиболее подходящий для вас метод.
 
-Written by Chatsonic
+## напиши на python код telegram использующий библиотеку telethon клиента который выгружает абсолютно все ссылки из канала telegram и использовать нужно telegram api и не использовать API для бота
+
+Вот пример кода на Python, использующий библиотеку Telethon для выгрузки всех ссылок из канала Telegram:
+
+```python
+from telethon.sync import TelegramClient
+
+api_id = 'YOUR_API_ID'
+api_hash = 'YOUR_API_HASH'
+channel_username = 'CHANNEL_USERNAME'
+
+client = TelegramClient('session_name', api_id, api_hash)
+
+async def main():
+    await client.start()
+
+    channel = await client.get_entity(channel_username)
+    messages = await client.get_messages(channel, limit=None)
+
+    links = []
+    for message in messages:
+        if message.text:
+            links += re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', message.text)
+
+    print(links)
+
+    await client.disconnect()
+
+with client:
+    client.loop.run_until_complete(main())
+```
+
+В этом примере мы создаем экземпляр клиента `TelegramClient`, используя свой `api_id` и `api_hash` из настроек приложения Telegram. Затем мы используем метод `get_entity` для получения объекта `channel` по имени пользователя канала. Затем мы получаем все сообщения канала, используя метод `get_messages`, передавая параметр `limit=None`, чтобы получить все сообщения.
+
+Затем мы проходим по всем сообщениям и извлекаем ссылки из текста сообщений с помощью регулярного выражения. Мы добавляем все найденные ссылки в список `links`. В конце мы выводим список всех ссылок в консоль.
+
+Обратите внимание, что для использования библиотеки Telethon вам также понадобится установить зависимости, включая `telethon`.
+

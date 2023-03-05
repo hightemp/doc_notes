@@ -233,3 +233,12 @@ function isPrime(num) {
 
 ---
 
+## как в bash получить version из package.json
+
+Вы можете использовать следующую команду в вашем скрипте bash для получения версии из файла package.json:
+
+```sh
+VERSION=$(node -p "require('./package.json').version")
+```
+
+Эта команда использует Node.js для загрузки файла package.json и извлечения версии из поля "version". Значение версии затем сохраняется в переменной $ VERSION.
