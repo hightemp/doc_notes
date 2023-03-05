@@ -93,6 +93,18 @@
             }
           },
           {
+            "id": "34726a3aa0d74204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/obsidian/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d4766ed0e11b0614",
             "type": "leaf",
             "state": {
@@ -141,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "90171f8499a0e1ff",
@@ -226,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/OSINT/Ссылки.md",
+                "file": "Заметки/Разарботка/obsidian/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/OSINT/Ссылки.md",
+                "file": "Заметки/Разарботка/obsidian/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/OSINT/Ссылки.md"
+                "file": "Заметки/Разарботка/obsidian/FAQ.md"
               }
             }
           }
@@ -289,10 +301,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8f42d54132d897b2",
+  "active": "34726a3aa0d74204",
   "lastOpenFiles": [
-    "Заметки/Подборки.md",
     "Заметки/OSINT/Ссылки.md",
+    "Заметки/Разарботка/obsidian/FAQ.md",
+    "Заметки/Разарботка/obsidian",
+    "Заметки/Подборки.md",
     "Заметки/OSINT",
     "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
@@ -324,8 +338,6 @@
     "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны",
     "Заметки/Architecture and Design Patterns/Javascript.md",
-    "Заметки/Структуры данных",
-    "Заметки/Браузер/Как работает браузер....md",
-    "Заметки/Linux/Сетевые утилиты/scp/scp.md"
+    "Заметки/Браузер/Как работает браузер....md"
   ]
 }
