@@ -23,4 +23,6 @@ Imagine you are a developer of linux kernel and your task is to give the most de
 So, the question is: how linux kernel works with memory?
 
 i want you to prepare 100 key words describing the linux kernel as definitions and concepts
+
+напиши 20 примеров для Настройка сети в папке proc linux
 ```

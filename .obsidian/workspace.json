@@ -127,9 +127,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "40adab70ac49639a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/bash/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "90171f8499a0e1ff",
@@ -214,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Структура linux/proc/FAQ.md",
+                "file": "Заметки/Разарботка/bash/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Структура linux/proc/FAQ.md",
+                "file": "Заметки/Разарботка/bash/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Структура linux/proc/FAQ.md"
+                "file": "Заметки/Разарботка/bash/FAQ.md"
               }
             }
           }
@@ -277,10 +289,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e8bc719a1f29fe50",
+  "active": "40adab70ac49639a",
   "lastOpenFiles": [
-    "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Linux/Структура linux/proc/FAQ.md",
+    "Заметка дня/ChatGPT promts.md",
+    "Заметки/Разарботка/bash/FAQ.md",
+    "Заметки/Разарботка/bash",
+    "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Linux/Структура linux/proc",
     "Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md",
     "Заметки/Разарботка/scrapping",
@@ -305,15 +320,12 @@
     "Заметки/Разарботка/obsidian",
     "Заметки/OSINT",
     "Заметки/Разарботка/rust/actix/FAQ.md",
-    "Заметки/Разарботка/rust",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
     "Заметки/Linux/Ссылки.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md",
     "Заметки/Разарботка/nuxt/FAQ.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Linux/Структура linux/SystemD/FAQ.md"
+    "Заметки/AI/Ссылки.md"
   ]
 }
