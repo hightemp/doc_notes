@@ -242,3 +242,113 @@ VERSION=$(node -p "require('./package.json').version")
 ```
 
 Эта команда использует Node.js для загрузки файла package.json и извлечения версии из поля "version". Значение версии затем сохраняется в переменной $ VERSION.
+
+## сделай выгрузку всех каналов с помощью библиотеки GramJS
+
+Для выгрузки всех каналов вам необходимо создать сеанс в GramJS, подключиться к серверам Telegram и использовать метод `get_dialogs`, чтобы получить список всех диалогов. Затем вы можете отфильтровать только каналы и вывести их в консоль.
+
+Ниже приведен пример кода на JavaScript, показывающий, как это сделать с помощью библиотеки GramJS:
+
+```javascript
+const { TelegramClient } = require('gramjs');
+const { StringSession } = require('telegram-mtproto');
+
+async function main() {
+  // Создаем новую сессию
+  const session = new StringSession('');
+
+  // Подключаемся к серверам Telegram
+  const client = new TelegramClient({
+    session,
+    apiId: YOUR_API_ID,
+    apiHash: 'YOUR_API_HASH',
+  });
+
+  await client.start({
+    phoneNumber: async () => await prompt('Введите ваш номер телефона: '),
+    password: async () => await prompt('Введите ваш пароль: '),
+  });
+
+  // Получаем список всех диалогов
+  const dialogs = await client.getDialogs();
+
+  // Отфильтровываем только каналы
+  const channels = dialogs.filter(dialog => dialog.isChannel);
+
+  // Выводим список каналов в консоль
+  channels.forEach(channel => {
+    console.log(`${channel.id._serialized}: ${channel.title}`);
+  });
+
+  await client.disconnect();
+}
+
+main();
+```
+
+Обратите внимание, что для использования GramJS вам также понадобится установить зависимости, включая `telegram-mtproto` и `tweetnacl`.
+
+## напиши на javascript код использующий библиотеку GramJS клиента который выгружает абсолютно все ссылки из канала telegram и использовать нужно telegram api и не использовать API для бота
+
+Для получения всех ссылок из канала Telegram с помощью GramJS нужно выполнить следующие шаги:
+
+1. Подключиться к Telegram API с помощью `gramjs/mtproto` и `gramjs/client`
+2. Получить объект канала по его названию или идентификатору
+3. Получить все сообщения из канала с помощью `client.messages.getHistory`
+4. Извлечь ссылки из текста сообщений с помощью регулярного выражения
+5. Вывести все найденные ссылки в консоль
+
+Вот пример кода, который реализует эту логику:
+
+```javascript
+const { MTProto } = require('telegram-mtproto');
+const { TelegramClient } = require('gramjs');
+
+const api_id = YOUR_API_ID;
+const api_hash = 'YOUR_API_HASH';
+const phone_number = 'YOUR_PHONE_NUMBER';
+
+const client = new TelegramClient(new MTProto({
+  api_id,
+  api_hash,
+}), async () => ({
+  phoneNumber: phone_number,
+  phoneCode: async () => { return '12345'; },
+  firstName: 'John',
+  lastName: 'Doe',
+}));
+
+async function main() {
+  await client.start({
+    botAuthToken: null,
+  });
+
+  // Получаем объект канала по его названию или идентификатору
+  const channel = await client.getEntity('YOUR_CHANNEL_NAME_OR_ID');
+
+  // Получаем все сообщения из канала
+  const messages = await client.messages.getHistory(channel.id, { limit: 0 });
+
+  // Извлекаем ссылки из текста сообщений с помощью регулярного выражения
+  const links = [];
+  messages.forEach(message => {
+    const regex = /(https?:\/\/[^\s]+)/g;
+    const matches = message.message.match(regex);
+    if (matches) {
+      links.push(...matches);
+    }
+  });
+
+  // Выводим все найденные ссылки в консоль
+  console.log(`Found ${links.length} links`);
+  links.forEach(link => console.log(link));
+
+  await client.disconnect();
+}
+
+main();
+```
+
+Обратите внимание, что для использования GramJS вам также понадобится установить зависимости, включая `telegram-mtproto`, `tweetnacl`, `buffer`, `events`, `fs`, `path`.
+
+Written by Chatsonic

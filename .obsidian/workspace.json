@@ -33,7 +33,7 @@
             }
           },
           {
-            "id": "694a1fb124ba5b7d",
+            "id": "f5f543e4de88b9a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,7 +45,7 @@
             }
           },
           {
-            "id": "f5f543e4de88b9a4",
+            "id": "7409bea8d886ccc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md"
+                "file": "Заметки/Разарботка/javascript/FAQ.md"
               }
             }
           }
@@ -207,8 +207,8 @@
   },
   "active": "f5f543e4de88b9a4",
   "lastOpenFiles": [
-    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Linux/Темы.md",
     "Заметки/Разарботка/python",
     "README.md",
