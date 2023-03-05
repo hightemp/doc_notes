@@ -31,129 +31,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a8e05f126c2fdc4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Книги.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b40d2ac6bc4c3125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/FAQ/linux core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a36a9f1e5b85bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c320e842ed7ee410",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f42d54132d897b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/OSINT/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34726a3aa0d74204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/obsidian/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4766ed0e11b0614",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdd47dbf6f628341",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "864ae40903d607b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7734c64971f1fb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       },
       {
         "id": "90171f8499a0e1ff",
@@ -238,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/obsidian/FAQ.md",
+                "file": "Заметки/Linux/Темы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/obsidian/FAQ.md",
+                "file": "Заметки/Linux/Темы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/obsidian/FAQ.md"
+                "file": "Заметки/Linux/Темы.md"
               }
             }
           }
@@ -301,23 +181,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "34726a3aa0d74204",
+  "active": "a5511f5e96b32b58",
   "lastOpenFiles": [
+    "Заметки/Linux/Темы.md",
+    "README.md",
+    "Заметки/Книги.md",
+    "Заметки/FAQ/linux core.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
+    "Заметки/Подборки.md",
     "Заметки/OSINT/Ссылки.md",
+    "Планы.md",
     "Заметки/Разарботка/obsidian/FAQ.md",
     "Заметки/Разарботка/obsidian",
-    "Заметки/Подборки.md",
     "Заметки/OSINT",
     "Заметки/Разарботка/rust/actix/FAQ.md",
-    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/rust",
     "Заметки/Разарботка/rust/actix",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/javascript",
-    "Заметки/FAQ/linux core.md",
     "Заметка дня/ChatGPT promts.md",
-    "Заметки/Книги.md",
-    "Заметки/Linux/Темы.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
     "Заметки/Linux/Ссылки.md",
     "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md",
@@ -336,8 +218,6 @@
     "Заметки/Architecture and Design Patterns/Архитектурные патерны/Layered architecture.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны/Microservices.md",
     "Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md",
-    "Заметки/Architecture and Design Patterns/Архитектурные патерны",
-    "Заметки/Architecture and Design Patterns/Javascript.md",
-    "Заметки/Браузер/Как работает браузер....md"
+    "Заметки/Architecture and Design Patterns/Архитектурные патерны"
   ]
 }
