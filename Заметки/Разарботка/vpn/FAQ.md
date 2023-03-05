@@ -143,3 +143,26 @@ sudo tar -czvf client.tar.gz client.ovpn ca.crt client1.crt client1.key ta.key
 
 Теперь у вас есть готовый файл конфигурации клиента OpenVPN с ключами и сертификатами.
 
+## напиши что делают эти команды 
+
+sudo ./easyrsa init-pki 
+sudo ./easyrsa build-ca 
+sudo ./easyrsa gen-dh 
+sudo ./easyrsa gen-crl 
+sudo ./easyrsa build-server-full server nopass 
+sudo ./easyrsa build-client-full client1 nopas
+
+Эти команды используются для настройки и создания сертификатов и ключей для OpenVPN на Linux.
+
+- `sudo ./easyrsa init-pki` - инициализирует общую инфраструктуру ключей (PKI) для управления сертификатами и ключами.
+
+- `sudo ./easyrsa build-ca` - создает корневой сертификат (CA), который используется для подписи сертификатов сервера и клиента.
+
+- `sudo ./easyrsa gen-dh` - генерирует параметры безопасного соглашения по обмену ключами Диффи-Хеллмана (DH).
+
+- `sudo ./easyrsa gen-crl` - создает список отзыва сертификатов (CRL), который содержит информацию об отозванных сертификатах клиента и сервера.
+
+- `sudo ./easyrsa build-server-full server nopass` - создает сертификат и ключ сервера OpenVPN с именем "server".
+
+- `sudo ./easyrsa build-client-full client1 nopass` - создает сертификат и ключ клиента OpenVPN с именем "client1".
+
