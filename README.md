@@ -3,203 +3,203 @@
 ![](https://asdertasd.site/counter/doc_notes)
 
 <!-- TOC -->
- - [Планы.md](/Планы.md)
+ - [Планы.md](/%D0%9F%D0%BB%D0%B0%D0%BD%D1%8B.md)
  - [README.md](/README.md)
  - Найденное
-   - [Репозитории.md](/Найденное/Репозитории.md)
-   - [vscode расширения.md](/Найденное/vscode расширения.md)
+   - [Репозитории.md](/%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
+   - [vscode расширения.md](/%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/vscode%20%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F.md)
  - Заметки
-   - [Подборки.md](/Заметки/Подборки.md)
-   - [Репозитории.md](/Заметки/Репозитории.md)
-   - [Книги.md](/Заметки/Книги.md)
-   - [Установка софта.md](/Заметки/Установка софта.md)
-   - [Словарик.md](/Заметки/Словарик.md)
-   - [Сети - протоколы.md](/Заметки/Сети - протоколы.md)
-   - [Сети - маршрутизация.md](/Заметки/Сети - маршрутизация.md)
-   - [Работа браузера.md](/Заметки/Работа браузера.md)
-   - [Программирование - Паттерны.md](/Заметки/Программирование - Паттерны.md)
-   - [Конференции.md](/Заметки/Конференции.md)
+   - [Подборки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8.md)
+   - [Репозитории.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
+   - [Книги.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
+   - [Установка софта.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D0%B0.md)
+   - [Словарик.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%BA.md)
+   - [Сети - протоколы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D0%B8%20-%20%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B.md)
+   - [Сети - маршрутизация.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D0%B8%20-%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F.md)
+   - [Работа браузера.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0.md)
+   - [Программирование - Паттерны.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20-%20%D0%9F%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
+   - [Конференции.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8.md)
    - OSINT
-     - [Ссылки.md](/Заметки/OSINT/Ссылки.md)
+     - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/OSINT/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
    - Architecture and Design Patterns
-     - [Архитектурные патерны.md](/Заметки/Architecture and Design Patterns/Архитектурные патерны.md)
-     - [Javascript.md](/Заметки/Architecture and Design Patterns/Javascript.md)
-     - [PHP.md](/Заметки/Architecture and Design Patterns/PHP.md)
-     - [Design patterns.md](/Заметки/Architecture and Design Patterns/Design patterns.md)
+     - [Архитектурные патерны.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
+     - [Javascript.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Javascript.md)
+     - [PHP.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/PHP.md)
+     - [Design patterns.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Design%20patterns.md)
      - Архитектурные патерны
-       - [Microservices.md](/Заметки/Architecture and Design Patterns/Архитектурные патерны/Microservices.md)
-       - [Domain Driven Design.md](/Заметки/Architecture and Design Patterns/Архитектурные патерны/Domain Driven Design.md)
-       - [Layered architecture.md](/Заметки/Architecture and Design Patterns/Архитектурные патерны/Layered architecture.md)
-       - [Hexagonal architecture.md](/Заметки/Architecture and Design Patterns/Архитектурные патерны/Hexagonal architecture.md)
+       - [Microservices.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Microservices.md)
+       - [Domain Driven Design.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Domain%20Driven%20Design.md)
+       - [Layered architecture.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Layered%20architecture.md)
+       - [Hexagonal architecture.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Hexagonal%20architecture.md)
    - Браузер
-     - [Как работает браузер....md](/Заметки/Браузер/Как работает браузер....md)
+     - [Как работает браузер....md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80/%D0%9A%D0%B0%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80....md)
    - Linux
-     - [Темы.md](/Заметки/Linux/Темы.md)
-     - [Ссылки.md](/Заметки/Linux/Ссылки.md)
+     - [Темы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
+     - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - Структура linux
        - Linux IP Networking
-         - [D.2. ip route.md](/Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md)
-         - [Linux IP Networking(EN).md](/Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking(EN).md)
-         - [Linux IP Networking.md](/Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md)
+         - [D.2. ip route.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/D.2.%20ip%20route.md)
+         - [Linux IP Networking(EN).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking(EN).md)
+         - [Linux IP Networking.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking.md)
        - SystemD
-         - [FAQ.md](/Заметки/Linux/Структура linux/SystemD/FAQ.md)
+         - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/SystemD/FAQ.md)
      - Процессы
-       - [Сравнение потоков и процессов.md](/Заметки/Linux/Процессы/Сравнение потоков и процессов.md)
+       - [Сравнение потоков и процессов.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2.md)
        - nice
-         - [nice.md](/Заметки/Linux/Процессы/nice/nice.md)
+         - [nice.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/nice/nice.md)
      - Утилиты
        - pbcopy
-         - [Как использовать команды Pbcopy и Pbpaste в Linux.md](/Заметки/Linux/Утилиты/pbcopy/Как использовать команды Pbcopy и Pbpaste в Linux.md)
+         - [Как использовать команды Pbcopy и Pbpaste в Linux.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/pbcopy/%D0%9A%D0%B0%D0%BA%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20Pbcopy%20%D0%B8%20Pbpaste%20%D0%B2%20Linux.md)
      - Отладка
-       - [strace.md](/Заметки/Linux/Отладка/strace.md)
+       - [strace.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0/strace.md)
      - Мониторинг
        - lsof
-         - [lsof.md](/Заметки/Linux/Мониторинг/lsof/lsof.md)
+         - [lsof.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/lsof/lsof.md)
        - iotop
-         - [iotop.md](/Заметки/Linux/Мониторинг/iotop/iotop.md)
+         - [iotop.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iotop/iotop.md)
        - atop
-         - [atop.md](/Заметки/Linux/Мониторинг/atop/atop.md)
+         - [atop.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/atop/atop.md)
        - iftop
-         - [iftop.md](/Заметки/Linux/Мониторинг/iftop/iftop.md)
+         - [iftop.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iftop/iftop.md)
        - top
-         - [Как пользоваться командой top для наблюдения за процессами в Linux.md](/Заметки/Linux/Мониторинг/top/Как пользоваться командой top для наблюдения за процессами в Linux.md)
-         - [top.md](/Заметки/Linux/Мониторинг/top/top.md)
+         - [Как пользоваться командой top для наблюдения за процессами в Linux.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9%20top%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0%D0%BC%D0%B8%20%D0%B2%20Linux.md)
+         - [top.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/top.md)
      - Сетевые утилиты
        - scp
-         - [scp.md](/Заметки/Linux/Сетевые утилиты/scp/scp.md)
+         - [scp.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/scp/scp.md)
        - curl
-         - [curl.md](/Заметки/Linux/Сетевые утилиты/curl/curl.md)
+         - [curl.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/curl/curl.md)
        - nmap
-         - [nmap.md](/Заметки/Linux/Сетевые утилиты/nmap/nmap.md)
+         - [nmap.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nmap/nmap.md)
        - ssh
-         - [ssh.md](/Заметки/Linux/Сетевые утилиты/ssh/ssh.md)
+         - [ssh.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ssh/ssh.md)
        - ip
-         - [ip.md](/Заметки/Linux/Сетевые утилиты/ip/ip.md)
+         - [ip.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ip/ip.md)
        - ss
-         - [ss.md](/Заметки/Linux/Сетевые утилиты/ss/ss.md)
+         - [ss.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ss/ss.md)
        - netstat
-         - [netstat.md](/Заметки/Linux/Сетевые утилиты/netstat/netstat.md)
+         - [netstat.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/netstat/netstat.md)
        - traceroute
-         - [traceroute.md](/Заметки/Linux/Сетевые утилиты/traceroute/traceroute.md)
+         - [traceroute.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/traceroute/traceroute.md)
        - ping
-         - [ping.md](/Заметки/Linux/Сетевые утилиты/ping/ping.md)
+         - [ping.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ping/ping.md)
        - ifconfig
-         - [ifconfig.md](/Заметки/Linux/Сетевые утилиты/ifconfig/ifconfig.md)
+         - [ifconfig.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ifconfig/ifconfig.md)
        - tcpdump
-         - [tcpdump Linux примеры использования.md](/Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump Linux примеры использования.md)
-         - [Используем tcpdump для анализа и перехвата сетевого трафика.md](/Заметки/Linux/Сетевые утилиты/tcpdump/Используем tcpdump для анализа и перехвата сетевого трафика.md)
-         - [tcpdump.md](/Заметки/Linux/Сетевые утилиты/tcpdump/tcpdump.md)
+         - [tcpdump Linux примеры использования.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump%20Linux%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.md)
+         - [Используем tcpdump для анализа и перехвата сетевого трафика.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%20tcpdump%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
+         - [tcpdump.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump.md)
        - nethogs
-         - [nethogs.md](/Заметки/Linux/Сетевые утилиты/nethogs/nethogs.md)
-         - [Что такое NetHogs?.md](/Заметки/Linux/Сетевые утилиты/nethogs/Что такое NetHogs?.md)
-         - [NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md](/Заметки/Linux/Сетевые утилиты/nethogs/NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md)
+         - [nethogs.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/nethogs.md)
+         - [Что такое NetHogs?.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20NetHogs?.md)
+         - [NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/NetHogs%20-%20Linux%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
      - Журанлы и журналирование
-       - [Какова цель файлов utmp, wtmp и btmp на Linux.md](/Заметки/Linux/Журанлы и журналирование/Какова цель файлов utmp, wtmp и btmp на Linux.md)
-       - [Кто же был на сервере?.md](/Заметки/Linux/Журанлы и журналирование/Кто же был на сервере?.md)
+       - [Какова цель файлов utmp, wtmp и btmp на Linux.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%20%D1%86%D0%B5%D0%BB%D1%8C%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20utmp,%20wtmp%20%D0%B8%20btmp%20%D0%BD%D0%B0%20Linux.md)
+       - [Кто же был на сервере?.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D1%82%D0%BE%20%D0%B6%D0%B5%20%D0%B1%D1%8B%D0%BB%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5?.md)
      - Маршрутизация
-       - [Использование и примеры маршрутизации Linux.md](/Заметки/Linux/Маршрутизация/Использование и примеры маршрутизации Linux.md)
-       - [А вы хорошо знаете статическую маршрутизацию?.md](/Заметки/Linux/Маршрутизация/А вы хорошо знаете статическую маршрутизацию?.md)
-       - [Маршрутизация в Linux.md](/Заметки/Linux/Маршрутизация/Маршрутизация в Linux.md)
+       - [Использование и примеры маршрутизации Linux.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20Linux.md)
+       - [А вы хорошо знаете статическую маршрутизацию?.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%90%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%B5%D1%82%D0%B5%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E?.md)
+       - [Маршрутизация в Linux.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B2%20Linux.md)
    - Биология
-     - [Радиозвук RF Hearing.md](/Заметки/Биология/Радиозвук RF Hearing.md)
+     - [Радиозвук RF Hearing.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%20RF%20Hearing.md)
      - Радиозвук
-       - [Generalized model of the microwave auditory effect.md](/Заметки/Биология/Радиозвук/Generalized model of the microwave auditory effect.md)
-       - [Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md](/Заметки/Биология/Радиозвук/Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md)
-       - [Auditory response to pulsed radiofrequency energy.md](/Заметки/Биология/Радиозвук/Auditory response to pulsed radiofrequency energy.md)
+       - [Generalized model of the microwave auditory effect.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Generalized%20model%20of%20the%20microwave%20auditory%20effect.md)
+       - [Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Hearing%20of%20microwave%20pulses%20by%20humans%20and%20animals%20effects,%20mechanism,%20and%20thresholds.md)
+       - [Auditory response to pulsed radiofrequency energy.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Auditory%20response%20to%20pulsed%20radiofrequency%20energy.md)
    - Справочники
-     - [Еврейские фамилии.md](/Заметки/Справочники/Еврейские фамилии.md)
+     - [Еврейские фамилии.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8.md)
      - Еврейские фамилии
-       - [По фамилии Еврейсон. Цикл интервью с Александром Бейдером.md](/Заметки/Справочники/Еврейские фамилии/По фамилии Еврейсон. Цикл интервью с Александром Бейдером.md)
-       - [Окно в Россию евреи в Петербурге.md](/Заметки/Справочники/Еврейские фамилии/Окно в Россию евреи в Петербурге.md)
-       - [Новая карта еврейских общин Российской империи.md](/Заметки/Справочники/Еврейские фамилии/Новая карта еврейских общин Российской империи.md)
-       - [Криптоеврейские фамилии 1 часть.md](/Заметки/Справочники/Еврейские фамилии/Криптоеврейские фамилии 1 часть.md)
-       - [Еврейские фамилии.md](/Заметки/Справочники/Еврейские фамилии/Еврейские фамилии.md)
-       - [Еврейские фамилии. Как понять, кто есть кто.md](/Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Как понять, кто есть кто.md)
-       - [Еврейские фамилии. Их происхождение, значение, особенности.md](/Заметки/Справочники/Еврейские фамилии/Еврейские фамилии. Их происхождение, значение, особенности.md)
-       - [ЕВРЕЙСКАЯ СТАРИНА.md](/Заметки/Справочники/Еврейские фамилии/ЕВРЕЙСКАЯ СТАРИНА.md)
-       - [Russia Jewish Records.md](/Заметки/Справочники/Еврейские фамилии/Russia Jewish Records.md)
-       - [A New Map of Jewish Communities in the Russian Empire.md](/Заметки/Справочники/Еврейские фамилии/A New Map of Jewish Communities in the Russian Empire.md)
+       - [По фамилии Еврейсон. Цикл интервью с Александром Бейдером.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%9F%D0%BE%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8%20%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BE%D0%BD.%20%D0%A6%D0%B8%D0%BA%D0%BB%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E%20%D1%81%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%20%D0%91%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D0%BE%D0%BC.md)
+       - [Окно в Россию евреи в Петербурге.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%9E%D0%BA%D0%BD%D0%BE%20%D0%B2%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8E%20%D0%B5%D0%B2%D1%80%D0%B5%D0%B8%20%D0%B2%20%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D0%B5.md)
+       - [Новая карта еврейских общин Российской империи.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%B0%D1%80%D1%82%D0%B0%20%D0%B5%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D1%85%20%D0%BE%D0%B1%D1%89%D0%B8%D0%BD%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D0%B8.md)
+       - [Криптоеврейские фамилии 1 часть.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B5%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8%201%20%D1%87%D0%B0%D1%81%D1%82%D1%8C.md)
+       - [Еврейские фамилии.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8.md)
+       - [Еврейские фамилии. Как понять, кто есть кто.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8.%20%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C,%20%D0%BA%D1%82%D0%BE%20%D0%B5%D1%81%D1%82%D1%8C%20%D0%BA%D1%82%D0%BE.md)
+       - [Еврейские фамилии. Их происхождение, значение, особенности.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8.%20%D0%98%D1%85%20%D0%BF%D1%80%D0%BE%D0%B8%D1%81%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5,%20%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5,%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8.md)
+       - [ЕВРЕЙСКАЯ СТАРИНА.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/%D0%95%D0%92%D0%A0%D0%95%D0%99%D0%A1%D0%9A%D0%90%D0%AF%20%D0%A1%D0%A2%D0%90%D0%A0%D0%98%D0%9D%D0%90.md)
+       - [Russia Jewish Records.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/Russia%20Jewish%20Records.md)
+       - [A New Map of Jewish Communities in the Russian Empire.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8/A%20New%20Map%20of%20Jewish%20Communities%20in%20the%20Russian%20Empire.md)
      - Армия Израиля
-       - [Что ищет Израиль в далёкой Аргентине?.md](/Заметки/Справочники/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md)
+       - [Что ищет Израиль в далёкой Аргентине?.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%90%D1%80%D0%BC%D0%B8%D1%8F%20%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8F/%D0%A7%D1%82%D0%BE%20%D0%B8%D1%89%D0%B5%D1%82%20%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C%20%D0%B2%20%D0%B4%D0%B0%D0%BB%D1%91%D0%BA%D0%BE%D0%B9%20%D0%90%D1%80%D0%B3%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%B5?.md)
    - Сеть
      - Маршрутизация
-       - [Простой монитор сетевых интерфейсов Linux, с помощью netlink.md](/Заметки/Сеть/Маршрутизация/Простой монитор сетевых интерфейсов Linux, с помощью netlink.md)
-       - [Pyroute2.md](/Заметки/Сеть/Маршрутизация/Pyroute2.md)
-       - [Netlink Protocol Library Suite (libnl).md](/Заметки/Сеть/Маршрутизация/Netlink Protocol Library Suite (libnl).md)
-       - [NetLink.md](/Заметки/Сеть/Маршрутизация/NetLink.md)
+       - [Простой монитор сетевых интерфейсов Linux, с помощью netlink.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D1%85%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20Linux,%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20netlink.md)
+       - [Pyroute2.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/Pyroute2.md)
+       - [Netlink Protocol Library Suite (libnl).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/Netlink%20Protocol%20Library%20Suite%20(libnl).md)
+       - [NetLink.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/NetLink.md)
    - Разарботка
      - obsidian
-       - [FAQ.md](/Заметки/Разарботка/obsidian/FAQ.md)
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - rust
        - actix
-         - [FAQ.md](/Заметки/Разарботка/rust/actix/FAQ.md)
+         - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/actix/FAQ.md)
      - javascript
-       - [FAQ.md](/Заметки/Разарботка/javascript/FAQ.md)
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/FAQ.md)
      - nuxt
-       - [FAQ.md](/Заметки/Разарботка/nuxt/FAQ.md)
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/FAQ.md)
      - php
-       - [FAQ.md](/Заметки/Разарботка/php/FAQ.md)
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
      - mysql
        - Статьи
-         - [MySQL Document Store.md](/Заметки/Разарботка/mysql/Статьи/MySQL Document Store.md)
+         - [MySQL Document Store.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/MySQL%20Document%20Store.md)
      - vue
-       - [Ссылки.md](/Заметки/Разарботка/vue/Ссылки.md)
+       - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vue/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - typescript
-       - [Ссылки.md](/Заметки/Разарботка/typescript/Ссылки.md)
+       - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/typescript/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
    - Программы
-     - [sshuttle.md](/Заметки/Программы/sshuttle.md)
-     - [ranger.md](/Заметки/Программы/ranger.md)
+     - [sshuttle.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/sshuttle.md)
+     - [ranger.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/ranger.md)
    - Подборки
-     - [Сайты.md](/Заметки/Подборки/Сайты.md)
-     - [Сайты со научными публикациями.md](/Заметки/Подборки/Сайты со научными публикациями.md)
-     - [Сайты об IT.md](/Заметки/Подборки/Сайты об IT.md)
-     - [Обучение, курсы.md](/Заметки/Подборки/Обучение, курсы.md)
-     - [Книги.md](/Заметки/Подборки/Книги.md)
-     - [Для работы.md](/Заметки/Подборки/Для работы.md)
+     - [Сайты.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%B0%D0%B9%D1%82%D1%8B.md)
+     - [Сайты со научными публикациями.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%B0%D0%B9%D1%82%D1%8B%20%D1%81%D0%BE%20%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%BC%D0%B8%20%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%D0%BC%D0%B8.md)
+     - [Сайты об IT.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%B0%D0%B9%D1%82%D1%8B%20%D0%BE%D0%B1%20IT.md)
+     - [Обучение, курсы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5,%20%D0%BA%D1%83%D1%80%D1%81%D1%8B.md)
+     - [Книги.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
+     - [Для работы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B.md)
      - Содержание дисциплин, курсов
-       - [Прикладной сетевой анализ.md](/Заметки/Подборки/Содержание дисциплин, курсов/Прикладной сетевой анализ.md)
-       - [Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md](/Заметки/Подборки/Содержание дисциплин, курсов/Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md)
-       - [Основы анализа текстовых данных.md](/Заметки/Подборки/Содержание дисциплин, курсов/Основы анализа текстовых данных.md)
-       - [Анализ текстовых данных.md](/Заметки/Подборки/Содержание дисциплин, курсов/Анализ текстовых данных.md)
+       - [Прикладной сетевой анализ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD,%20%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.md)
+       - [Прикладной анализ текстовых данных на Python. Машинное обучение и создание приложений. Бенгфорт Б..md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD,%20%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%20Python.%20%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9.%20%D0%91%D0%B5%D0%BD%D0%B3%D1%84%D0%BE%D1%80%D1%82%20%D0%91..md)
+       - [Основы анализа текстовых данных.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD,%20%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.md)
+       - [Анализ текстовых данных.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD,%20%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.md)
      - Обзоры IT
-       - [Loginom Аналитическая платформа.md](/Заметки/Подборки/Обзоры IT/Loginom Аналитическая платформа.md)
-       - [Business Intelligence (рынок России).md](/Заметки/Подборки/Обзоры IT/Business Intelligence (рынок России).md)
+       - [Loginom Аналитическая платформа.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%D1%8B%20IT/Loginom%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0.md)
+       - [Business Intelligence (рынок России).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%D1%8B%20IT/Business%20Intelligence%20(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8).md)
    - Операционные системы
-     - [IPC Межпроцессное взаимодействие.md](/Заметки/Операционные системы/IPC Межпроцессное взаимодействие.md)
+     - [IPC Межпроцессное взаимодействие.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/IPC%20%D0%9C%D0%B5%D0%B6%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BD%D0%BE%D0%B5%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5.md)
      - Linux
-       - [Средства System V IPC.md](/Заметки/Операционные системы/Linux/Средства System V IPC.md)
-       - [Системное программирование.md](/Заметки/Операционные системы/Linux/Системное программирование.md)
-       - [Введение в Netlink.md](/Заметки/Операционные системы/Linux/Введение в Netlink.md)
-       - [System V IPC.md](/Заметки/Операционные системы/Linux/System V IPC.md)
+       - [Средства System V IPC.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/%D0%A1%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20System%20V%20IPC.md)
+       - [Системное программирование.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.md)
+       - [Введение в Netlink.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Netlink.md)
+       - [System V IPC.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/System%20V%20IPC.md)
    - vscode
-     - [Создание расширения для vscode.md](/Заметки/vscode/Создание расширения для vscode.md)
+     - [Создание расширения для vscode.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/vscode/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20vscode.md)
    - FAQ
-     - [linux core.md](/Заметки/FAQ/linux core.md)
-     - [i3.md](/Заметки/FAQ/i3.md)
-     - [typescript.md](/Заметки/FAQ/typescript.md)
-     - [rust.md](/Заметки/FAQ/rust.md)
-     - [python.md](/Заметки/FAQ/python.md)
-     - [linux cli.md](/Заметки/FAQ/linux cli.md)
+     - [linux core.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/linux%20core.md)
+     - [i3.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/i3.md)
+     - [typescript.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/typescript.md)
+     - [rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/rust.md)
+     - [python.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/python.md)
+     - [linux cli.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/linux%20cli.md)
    - AI
-     - [Темы.md](/Заметки/AI/Темы.md)
-     - [Ссылки.md](/Заметки/AI/Ссылки.md)
-     - [Репозитории.md](/Заметки/AI/Репозитории.md)
+     - [Темы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A2%D0%B5%D0%BC%D1%8B.md)
+     - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - [Репозитории.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
      - pytorch
-       - [УЧЕБНИК ПО ЧАТ- БОТУ.md](/Заметки/AI/pytorch/УЧЕБНИК ПО ЧАТ- БОТУ.md)
-       - [НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md](/Заметки/AI/pytorch/НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md)
+       - [УЧЕБНИК ПО ЧАТ- БОТУ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/%D0%A3%D0%A7%D0%95%D0%91%D0%9D%D0%98%D0%9A%20%D0%9F%D0%9E%20%D0%A7%D0%90%D0%A2-%20%D0%91%D0%9E%D0%A2%D0%A3.md)
+       - [НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/%D0%9D%D0%90%D0%A7%D0%90%D0%9B%D0%9E%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%A1%20%D0%A0%D0%90%D0%A1%D0%9F%D0%A0%D0%95%D0%94%D0%95%D0%9B%D0%95%D0%9D%D0%9D%D0%AB%D0%9C%D0%98%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%9C%D0%98%20PARALLEL.md)
      - NLP
-       - [Нейросети - NLP.md](/Заметки/AI/NLP/Нейросети - NLP.md)
-       - [Как устроена нейросеть BERT от Google.md](/Заметки/AI/NLP/Как устроена нейросеть BERT от Google.md)
+       - [Нейросети - NLP.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/NLP/%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%B8%20-%20NLP.md)
+       - [Как устроена нейросеть BERT от Google.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/NLP/%D0%9A%D0%B0%D0%BA%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B0%20%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8C%20BERT%20%D0%BE%D1%82%20Google.md)
      - Hugging Face
-       - [pipelines.md](/Заметки/AI/Hugging Face/pipelines.md)
-       - [Empathetic-DialoGPT.md](/Заметки/AI/Hugging Face/Empathetic-DialoGPT.md)
-       - [mT5 Multilingual T5.md](/Заметки/AI/Hugging Face/mT5 Multilingual T5.md)
-       - [How to Summarize Text With Google’s T5.md](/Заметки/AI/Hugging Face/How to Summarize Text With Google’s T5.md)
-       - [Automatic Model Loading using Hugging Face.md](/Заметки/AI/Hugging Face/Automatic Model Loading using Hugging Face.md)
-       - [Accelerating HuggingFace T5 Inference with TensorRT.md](/Заметки/AI/Hugging Face/Accelerating HuggingFace T5 Inference with TensorRT.md)
+       - [pipelines.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/pipelines.md)
+       - [Empathetic-DialoGPT.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Empathetic-DialoGPT.md)
+       - [mT5 Multilingual T5.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/mT5%20Multilingual%20T5.md)
+       - [How to Summarize Text With Google’s T5.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/How%20to%20Summarize%20Text%20With%20Google%E2%80%99s%20T5.md)
+       - [Automatic Model Loading using Hugging Face.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Automatic%20Model%20Loading%20using%20Hugging%20Face.md)
+       - [Accelerating HuggingFace T5 Inference with TensorRT.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Accelerating%20HuggingFace%20T5%20Inference%20with%20TensorRT.md)
  - Заметка дня
-   - [ChatGPT promts.md](/Заметка дня/ChatGPT promts.md)
-   - [ChatGPT и AI боты.md](/Заметка дня/ChatGPT и AI боты.md)
-   - [Случайные заметки.md](/Заметка дня/Случайные заметки.md)
+   - [ChatGPT promts.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
+   - [ChatGPT и AI боты.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20%D0%B8%20AI%20%D0%B1%D0%BE%D1%82%D1%8B.md)
+   - [Случайные заметки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8.md)
 
 <!-- TOC -->
