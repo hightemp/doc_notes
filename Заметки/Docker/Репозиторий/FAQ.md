@@ -69,4 +69,44 @@ curl http://localhost:5000/v2/_catalog
 
 Примечание: убедитесь, что у вас есть права на копирование Docker образов из указанного репозитория.
 
+## напиши скрипт который делает это беря названия образов из файла images.txt
+
+Вот пример скрипта на языке bash, который читает названия Docker образов из файла images.txt, клонирует их в локальный Docker Registry и удаляет их из локального хранилища:
+
+```bash
+#!/bin/bash
+
+# Указываем путь к файлу со списком образов
+IMAGES_FILE="images.txt"
+
+# Указываем адрес локального Docker Registry
+LOCAL_REGISTRY="localhost:5000"
+
+# Проверяем, что Docker запущен и работает
+if ! command -v docker &> /dev/null
+then
+    echo "Docker не установлен"
+    exit
+fi
+
+# Проверяем, что локальный Docker Registry запущен и работает
+if ! docker ps | grep -q "registry"; then
+    echo "Локальный Docker Registry не запущен"
+    exit
+fi
+
+# Читаем названия Docker образов из файла и клонируем их в локальный Docker Registry
+while read image; do
+    echo "Клонирую образ $image в локальный Docker Registry"
+    docker pull $image
+    docker tag $image $LOCAL_REGISTRY/$image
+    docker push $LOCAL_REGISTRY/$image
+    docker rmi $image
+done < "$IMAGES_FILE"
+
+echo "Готово"
+```
+
+Примечание: убедитесь, что у вас есть права на копирование Docker образов из указанного репозитория. Также не забудьте изменить адрес локального Docker Registry и путь к файлу со списком образов, если они отличаются от указанных в скрипте.
+
 Written by Chatsonic
