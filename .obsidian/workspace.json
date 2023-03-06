@@ -45,6 +45,30 @@
             }
           },
           {
+            "id": "aaee902011bfcf07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/vue/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4c0772dc667b114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f5f543e4de88b9a4",
             "type": "leaf",
             "state": {
@@ -165,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "90171f8499a0e1ff",
@@ -250,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
+                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
+                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md"
+                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md"
               }
             }
           }
@@ -313,11 +337,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "968b64eb60d1f314",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Linux/Структура linux/Сеть/Tunneling and Port Forwarding.md",
+    "Заметки/OSINT/Корпоративная разведка",
+    "Заметки/Разарботка/vue/FAQ.md",
+    "Заметки/Linux/Пакетный менеджер/FAQ.md",
+    "Заметки/Linux/Пакетный менеджер",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
+    "Заметки/Linux/Структура linux/Сеть/Tunneling and Port Forwarding.md",
     "Заметки/Linux/Структура linux/Сеть/Прокси",
     "Заметки/Разарботка/vpn/FAQ.md",
     "Заметки/Linux/Темы.md",
@@ -338,7 +366,6 @@
     "Заметки/Разарботка/vpn",
     "Заметки/Разарботка/security",
     "Заметки/Разарботка/regexp",
-    "Заметки/Разарботка/python",
     "README.md",
     "Заметки/Книги.md",
     "Заметки/FAQ/linux core.md",
@@ -347,9 +374,6 @@
     "Планы.md",
     "Заметки/Разарботка/obsidian/FAQ.md",
     "Заметки/Разарботка/rust/actix/FAQ.md",
-    "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Linux/Структура linux/Linux IP Networking/Linux IP Networking.md",
-    "Заметки/Linux/Ссылки.md",
-    "Заметки/Linux/Структура linux/Linux IP Networking/D.2. ip route.md"
+    "Заметки/Разарботка/php/FAQ.md"
   ]
 }
