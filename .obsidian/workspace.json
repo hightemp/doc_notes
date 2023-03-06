@@ -69,12 +69,24 @@
             }
           },
           {
-            "id": "3596fc2bc075ffa3",
+            "id": "e0b24e76b02d183a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Docker/Репозиторий/FAQ.md",
+                "file": "Заметки/AI/pytorch/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10c9402b894f1caf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/pytorch/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "90171f8499a0e1ff",
@@ -249,7 +261,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#сеть",
+                "query": "pytorch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -286,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Docker/Репозиторий/FAQ.md",
+                "file": "Заметки/AI/pytorch/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Docker/Репозиторий/FAQ.md",
+                "file": "Заметки/AI/pytorch/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Docker/Репозиторий/FAQ.md"
+                "file": "Заметки/AI/pytorch/FAQ.md"
               }
             }
           }
@@ -349,14 +361,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3596fc2bc075ffa3",
+  "active": "10c9402b894f1caf",
   "lastOpenFiles": [
+    "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
+    "Заметки/AI/pytorch/FAQ.md",
     "Заметки/Linux/Пакетный менеджер/FAQ.md",
+    "README.md",
+    "Заметки/Разарботка/vue/FAQ.md",
     "Заметки/Docker/Репозиторий/FAQ.md",
     "Заметки/Docker/Репозиторий",
     "Заметки/Docker",
     "Заметки/OSINT/Корпоративная разведка",
-    "Заметки/Разарботка/vue/FAQ.md",
     "Заметки/Linux/Пакетный менеджер",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
@@ -378,14 +393,11 @@
     "Заметки/Linux/Структура linux/proc",
     "Заметки/Разарботка/scrapping",
     "Заметки/Linux/Структура linux/Сеть",
-    "README.md",
     "Заметки/Книги.md",
     "Заметки/FAQ/linux core.md",
     "Заметки/Подборки.md",
     "Заметки/OSINT/Ссылки.md",
     "Планы.md",
-    "Заметки/Разарботка/obsidian/FAQ.md",
-    "Заметки/Разарботка/rust/actix/FAQ.md",
-    "Заметки/Разарботка/php/FAQ.md"
+    "Заметки/Разарботка/obsidian/FAQ.md"
   ]
 }

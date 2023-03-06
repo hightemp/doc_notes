@@ -212,6 +212,8 @@
      - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - [Репозитории.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
      - pytorch
+       - [Bert Model For Text Extraction With Code (Pytorch).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/Bert%20Model%20For%20Text%20Extraction%20With%20Code%20(Pytorch).md)
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/FAQ.md)
        - [УЧЕБНИК ПО ЧАТ- БОТУ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/%D0%A3%D0%A7%D0%95%D0%91%D0%9D%D0%98%D0%9A%20%D0%9F%D0%9E%20%D0%A7%D0%90%D0%A2-%20%D0%91%D0%9E%D0%A2%D0%A3.md)
        - [НАЧАЛО РАБОТЫ С РАСПРЕДЕЛЕННЫМИ ДАННЫМИ PARALLEL.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/%D0%9D%D0%90%D0%A7%D0%90%D0%9B%D0%9E%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%A1%20%D0%A0%D0%90%D0%A1%D0%9F%D0%A0%D0%95%D0%94%D0%95%D0%9B%D0%95%D0%9D%D0%9D%D0%AB%D0%9C%D0%98%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%9C%D0%98%20PARALLEL.md)
      - NLP

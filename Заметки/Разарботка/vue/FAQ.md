@@ -566,3 +566,63 @@ export default {
 
 4.  Редактирование ячеек: мы можем добавить возможность редактировать ячейки таблицы. Для этого мы можем добавить состояние редактирования, методы для отображения и скрытия поля ввода и обработку изменений.
 
+## напиши скрипт vue который из yaml схемы генерирует элементы формы и форму, в yaml указываются все свойства
+
+```Vue
+<template>
+  <form>
+    <div v-for="field in fields">
+      <label>{{ field.label }}</label>
+      <input :type="field.type" :name="field.name" :placeholder="field.placeholder" v-model="field.value" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</template>
+
+<script>
+  import yaml from 'js-yaml';
+  import axios from 'axios';
+
+  export default {
+    data() {
+      return {
+        schema: null,
+        fields: [],
+      };
+    },
+    async created() {
+      try {
+        const response = await axios.get('schema.yaml');
+        this.schema = yaml.safeLoad(response.data);
+        this.fields = this.schema.fields;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+  };
+</script>
+```
+
+Этот скрипт Vue использует библиотеку `js-yaml` для загрузки YAML-файла, содержащего схему формы, и генерирует элементы формы и саму форму на основе этой схемы. Каждый элемент формы создается с помощью директивы `v-for`, которая проходит по массиву `fields` и создает элементы формы на основе свойств, указанных в YAML-файле. Когда элементы формы будут созданы, пользователь сможет заполнить поля и отправить форму.
+
+## напиши пример yaml схемы
+
+Конечно, вот пример YAML-схемы для формы авторизации:
+
+```yaml
+title: Авторизация
+fields:
+  - name: email
+    label: Email
+    type: email
+    placeholder: Введите ваш email
+    value: ''
+  - name: password
+    label: Пароль
+    type: password
+    placeholder: Введите ваш пароль
+    value: ''
+```
+
+В этой схеме есть два поля: `email` и `password`. Каждое поле имеет свойства `name`, `label`, `type`, `placeholder` и `value`. Свойство `name` указывает имя поля в форме, `label` - текст метки поля, `type` - тип поля (например, `email` или `password`), `placeholder` - текст заполнителя поля, а `value` - значение поля по умолчанию. При загрузке этой схемы приложение Vue создаст элементы формы для ввода email и пароля.
+
