@@ -129,6 +129,42 @@
             }
           },
           {
+            "id": "f137a684a19a53d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Биология/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97f8bbfa6fb451ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc3671e884a71c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f5f543e4de88b9a4",
             "type": "leaf",
             "state": {
@@ -249,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       },
       {
         "id": "90171f8499a0e1ff",
@@ -334,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Биология/FAQ.md",
+                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Биология/FAQ.md",
+                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +410,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Биология/FAQ.md"
+                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md"
               }
             }
           }
@@ -397,13 +433,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "dc3671e884a71c35",
   "lastOpenFiles": [
+    "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
+    "Заметки/Подборки/Для работы/qtile/FAQ.md",
+    "Заметки/Подборки/Для работы/qtile",
+    "Заметки/Биология/Ссылки.md",
+    "Заметки/Подборки/Для работы/Файловые менеджеры",
+    "Заметки/Биология/FAQ.md",
     "Заметки/AI/Статьи/GPT-2 в картинках (визуализация языковых моделей Трансформера).md",
     "Заметки/AI/Статьи/The Illustrated GPT-2 (Visualizing Transformer Language Models).md",
     "Заметки/AI/Ссылки.md",
     "Заметки/AI/Статьи",
-    "Заметки/Биология/FAQ.md",
     "Заметки/AI/pytorch/FAQ.md",
     "Заметки/Untitled",
     "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
@@ -429,11 +470,6 @@
     "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Linux/Структура linux/proc/FAQ.md",
     "Заметки/История/Ссылки.md",
-    "Заметки/История",
-    "Заметки/Разарботка/bash/FAQ.md",
-    "Заметки/Разарботка/bash",
-    "Заметки/Linux/Структура linux/proc",
-    "Заметки/Книги.md",
-    "Заметки/FAQ/linux core.md"
+    "Заметки/История"
   ]
 }
