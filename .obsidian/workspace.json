@@ -93,6 +93,42 @@
             }
           },
           {
+            "id": "a76f602482403790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14343fbedbafa70d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/Статьи/The Illustrated GPT-2 (Visualizing Transformer Language Models).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ea6fb3e12bc7dee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Биология/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f5f543e4de88b9a4",
             "type": "leaf",
             "state": {
@@ -213,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       },
       {
         "id": "90171f8499a0e1ff",
@@ -298,7 +334,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/pytorch/FAQ.md",
+                "file": "Заметки/Биология/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/pytorch/FAQ.md",
+                "file": "Заметки/Биология/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +374,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/pytorch/FAQ.md"
+                "file": "Заметки/Биология/FAQ.md"
               }
             }
           }
@@ -361,10 +397,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "10c9402b894f1caf",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
+    "Заметки/AI/Статьи/GPT-2 в картинках (визуализация языковых моделей Трансформера).md",
+    "Заметки/AI/Статьи/The Illustrated GPT-2 (Visualizing Transformer Language Models).md",
+    "Заметки/AI/Ссылки.md",
+    "Заметки/AI/Статьи",
+    "Заметки/Биология/FAQ.md",
     "Заметки/AI/pytorch/FAQ.md",
+    "Заметки/Untitled",
+    "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/Linux/Пакетный менеджер/FAQ.md",
     "README.md",
     "Заметки/Разарботка/vue/FAQ.md",
@@ -391,13 +433,7 @@
     "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/bash",
     "Заметки/Linux/Структура linux/proc",
-    "Заметки/Разарботка/scrapping",
-    "Заметки/Linux/Структура linux/Сеть",
     "Заметки/Книги.md",
-    "Заметки/FAQ/linux core.md",
-    "Заметки/Подборки.md",
-    "Заметки/OSINT/Ссылки.md",
-    "Планы.md",
-    "Заметки/Разарботка/obsidian/FAQ.md"
+    "Заметки/FAQ/linux core.md"
   ]
 }
