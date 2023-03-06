@@ -69,6 +69,18 @@
             }
           },
           {
+            "id": "3596fc2bc075ffa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Docker/Репозиторий/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f5f543e4de88b9a4",
             "type": "leaf",
             "state": {
@@ -189,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "90171f8499a0e1ff",
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
+                "file": "Заметки/Docker/Репозиторий/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
+                "file": "Заметки/Docker/Репозиторий/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md"
+                "file": "Заметки/Docker/Репозиторий/FAQ.md"
               }
             }
           }
@@ -337,11 +349,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "3596fc2bc075ffa3",
   "lastOpenFiles": [
+    "Заметки/Linux/Пакетный менеджер/FAQ.md",
+    "Заметки/Docker/Репозиторий/FAQ.md",
+    "Заметки/Docker/Репозиторий",
+    "Заметки/Docker",
     "Заметки/OSINT/Корпоративная разведка",
     "Заметки/Разарботка/vue/FAQ.md",
-    "Заметки/Linux/Пакетный менеджер/FAQ.md",
     "Заметки/Linux/Пакетный менеджер",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
@@ -363,9 +378,6 @@
     "Заметки/Linux/Структура linux/proc",
     "Заметки/Разарботка/scrapping",
     "Заметки/Linux/Структура linux/Сеть",
-    "Заметки/Разарботка/vpn",
-    "Заметки/Разарботка/security",
-    "Заметки/Разарботка/regexp",
     "README.md",
     "Заметки/Книги.md",
     "Заметки/FAQ/linux core.md",
