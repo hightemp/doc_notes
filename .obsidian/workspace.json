@@ -43,9 +43,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2eb82ef7b3af51ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/nuxt/Статьи/How to load dynamic images in Vue and Nuxt with ease.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ae67a89290b6855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0b7f59d8df7ebe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "90171f8499a0e1ff",
@@ -130,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
+                "file": "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
+                "file": "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md"
+                "file": "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md"
               }
             }
           }
@@ -193,10 +229,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "113ffe648ae1045f",
+  "active": "b0b7f59d8df7ebe0",
   "lastOpenFiles": [
-    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
+    "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+    "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
+    "Заметки/Разарботка/nuxt/Статьи/How to load dynamic images in Vue and Nuxt with ease.md",
+    "Заметки/Разарботка/nuxt/Статьи/How to handle file upload(images, documents etc.) in nuxt.js and vue.js with vuex and axios API..md",
     "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
+    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
     "Заметки/Разарботка/nuxt/FAQ.md",
     "Заметки/Разарботка/nuxt/Статьи/How to correctly register the plugin in nuxt.js.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -225,10 +265,6 @@
     "Заметки/AI/Статьи",
     "Заметки/AI/pytorch/FAQ.md",
     "Заметки/Untitled",
-    "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
-    "Заметки/Linux/Пакетный менеджер/FAQ.md",
-    "README.md",
-    "Заметки/Docker/Репозиторий/FAQ.md",
     "Заметки/Docker/Репозиторий",
     "Заметки/Docker"
   ]
