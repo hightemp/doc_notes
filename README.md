@@ -160,6 +160,9 @@
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - rust
        - Статьи
+         - [Использование SQLite с Rust и Actix Web (с тестами).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20SQLite%20%D1%81%20Rust%20%D0%B8%20Actix%20Web%20(%D1%81%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%D0%BC%D0%B8).md)
+         - [Creating an API with Rust and SQLite.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Creating%20an%20API%20with%20Rust%20and%20SQLite.md)
+         - [Demystifying Rust’s lazy_static pattern.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Demystifying%20Rust%E2%80%99s%20lazy_static%20pattern.md)
          - [How to Idiomatically Use Global Variables in Rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Idiomatically%20Use%20Global%20Variables%20in%20Rust.md)
          - [Day12 Write web app with actix-web - 100DayOfRust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Day12%20Write%20web%20app%20with%20actix-web%20-%20100DayOfRust.md)
          - [Writing a Modern HTTP(S) Tunnel in Rust..md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
