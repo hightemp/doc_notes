@@ -160,6 +160,7 @@
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - rust
        - Статьи
+         - [Rust Web Scraping.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Web%20Scraping.md)
          - [Использование SQLite с Rust и Actix Web (с тестами).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20SQLite%20%D1%81%20Rust%20%D0%B8%20Actix%20Web%20(%D1%81%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%D0%BC%D0%B8).md)
          - [Creating an API with Rust and SQLite.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Creating%20an%20API%20with%20Rust%20and%20SQLite.md)
          - [Demystifying Rust’s lazy_static pattern.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Demystifying%20Rust%E2%80%99s%20lazy_static%20pattern.md)

@@ -115,9 +115,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f7a45e8be2db613b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "90171f8499a0e1ff",
@@ -202,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
+                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
+                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md"
+                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md"
               }
             }
           }
@@ -265,10 +277,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f17ae959b95d3488",
+  "active": "f7a45e8be2db613b",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/Статьи/Creating an API with Rust and SQLite.md",
     "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
+    "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
+    "Заметки/Разарботка/rust/Статьи/Creating an API with Rust and SQLite.md",
     "Заметки/Разарботка/rust/Статьи/Demystifying Rust’s lazy_static pattern.md",
     "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
     "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
@@ -298,7 +311,6 @@
     "Заметки/Подборки/Для работы/qtile",
     "Заметки/Биология/Ссылки.md",
     "Заметки/Подборки/Для работы/Файловые менеджеры",
-    "Заметки/AI/Статьи/GPT-2 в картинках (визуализация языковых моделей Трансформера).md",
     "Заметки/AI/Статьи",
     "Заметки/Untitled",
     "Заметки/Docker/Репозиторий",
