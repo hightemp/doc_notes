@@ -159,12 +159,22 @@
      - obsidian
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - rust
+       - Статьи
+         - [Writing a Modern HTTP(S) Tunnel in Rust..md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
        - actix
          - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/actix/FAQ.md)
      - javascript
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/FAQ.md)
+       - npm
+         - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/npm/FAQ.md)
      - nuxt
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/FAQ.md)
+       - Статьи
+         - [Nuxt.js для занятых разработчиков.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt.js%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D1%85%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2.md)
+         - [Nuxt.js for Busy Developers.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt.js%20for%20Busy%20Developers.md)
+         - [How to correctly register the plugin in nuxt.js.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20correctly%20register%20the%20plugin%20in%20nuxt.js.md)
+         - [Additional SSR performance with Nuxt fullstack server (Часть 2).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Additional%20SSR%20performance%20with%20Nuxt%20fullstack%20server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202).md)
+         - [Nuxt as fullstack server - frontend + backend API Server (Часть 1).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt%20as%20fullstack%20server%20-%20frontend%20+%20backend%20API%20Server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201).md)
      - php
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
      - mysql

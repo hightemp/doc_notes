@@ -351,3 +351,20 @@ main();
 
 Обратите внимание, что для использования GramJS вам также понадобится установить зависимости, включая `telegram-mtproto`, `tweetnacl`, `buffer`, `events`, `fs`, `path`.
 
+## Use package.json engines version
+
+Fingers cross that this will happen soon:
+
+1.  check for local .nvmrc
+2.  check for package.json "engines"
+3.  check for inherited .nvmrc
+4.  use default, if present
+5.  error and show help text
+
+```
+nvm use $(jq -r .engines.node package.json)
+```
+
+```
+node -v > .nvmrc
+```

@@ -9,283 +9,43 @@
         "dimension": 55.58375634517766,
         "children": [
           {
-            "id": "434599d845a6f692",
+            "id": "204d00eabe9bb327",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметка дня/ChatGPT и AI боты.md",
+                "file": "Заметки/Разарботка/nuxt/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a5511f5e96b32b58",
+            "id": "7d0088679064b097",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/vpn/FAQ.md",
+                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "968b64eb60d1f314",
+            "id": "113ffe648ae1045f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aaee902011bfcf07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/vue/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4c0772dc667b114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Пакетный менеджер/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0b24e76b02d183a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/pytorch/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10c9402b894f1caf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/pytorch/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a76f602482403790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14343fbedbafa70d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Статьи/The Illustrated GPT-2 (Visualizing Transformer Language Models).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ea6fb3e12bc7dee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f137a684a19a53d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Биология/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97f8bbfa6fb451ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc3671e884a71c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5f543e4de88b9a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0e746579d196e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/regexp/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7409bea8d886ccc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7da0c87d5048d92b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/security/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aba576d5ca112579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/vpn/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ecfe73aea2afc820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47928ef6bdb25c17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8bc719a1f29fe50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Структура linux/proc/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40adab70ac49639a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d16fba49d2eda7c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/История/Ссылки.md",
+                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
@@ -370,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
+                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md",
+                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Подборки/Для работы/qtile/FAQ.md"
+                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md"
               }
             }
           }
@@ -433,14 +193,32 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "dc3671e884a71c35",
+  "active": "113ffe648ae1045f",
   "lastOpenFiles": [
-    "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
+    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
+    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
+    "Заметки/Разарботка/nuxt/FAQ.md",
+    "Заметки/Разарботка/nuxt/Статьи/How to correctly register the plugin in nuxt.js.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/javascript/npm/FAQ.md",
+    "Заметка дня/ChatGPT и AI боты.md",
+    "Заметки/Разарботка/vpn/FAQ.md",
+    "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
+    "Заметки/Разарботка/vue/FAQ.md",
+    "Заметки/Разарботка/nuxt/Статьи/Nuxt as fullstack server - frontend + backend API Server (Часть 1).md",
+    "Заметки/Разарботка/javascript/npm",
+    "Заметки/Разарботка/nuxt/Статьи/Additional SSR performance with Nuxt fullstack server (Часть 2).md",
+    "Заметки/Разарботка/javascript/FAQ.md",
+    "Заметки/Разарботка/nuxt/Статьи",
+    "Заметки/Разарботка/rust/Статьи/Writing a Modern HTTP(S) Tunnel in Rust..md",
+    "Заметки/Разарботка/javascript/node",
+    "Заметки/Биология/FAQ.md",
+    "Заметки/Разарботка/rust/Статьи",
     "Заметки/Подборки/Для работы/qtile/FAQ.md",
+    "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
     "Заметки/Подборки/Для работы/qtile",
     "Заметки/Биология/Ссылки.md",
     "Заметки/Подборки/Для работы/Файловые менеджеры",
-    "Заметки/Биология/FAQ.md",
     "Заметки/AI/Статьи/GPT-2 в картинках (визуализация языковых моделей Трансформера).md",
     "Заметки/AI/Статьи/The Illustrated GPT-2 (Visualizing Transformer Language Models).md",
     "Заметки/AI/Ссылки.md",
@@ -450,26 +228,8 @@
     "Заметки/AI/pytorch/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/Linux/Пакетный менеджер/FAQ.md",
     "README.md",
-    "Заметки/Разарботка/vue/FAQ.md",
     "Заметки/Docker/Репозиторий/FAQ.md",
     "Заметки/Docker/Репозиторий",
-    "Заметки/Docker",
-    "Заметки/OSINT/Корпоративная разведка",
-    "Заметки/Linux/Пакетный менеджер",
-    "Заметка дня/ChatGPT promts.md",
-    "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
-    "Заметки/Linux/Структура linux/Сеть/Tunneling and Port Forwarding.md",
-    "Заметки/Linux/Структура linux/Сеть/Прокси",
-    "Заметки/Разарботка/vpn/FAQ.md",
-    "Заметки/Linux/Темы.md",
-    "Заметки/Разарботка/javascript/FAQ.md",
-    "Заметки/Разарботка/regexp/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/security/FAQ.md",
-    "Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md",
-    "Заметки/Разарботка/scrapping/FAQ.md",
-    "Заметки/Linux/Структура linux/proc/FAQ.md",
-    "Заметки/История/Ссылки.md",
-    "Заметки/История"
+    "Заметки/Docker"
   ]
 }
