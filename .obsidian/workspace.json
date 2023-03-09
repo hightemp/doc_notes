@@ -211,9 +211,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5dbfe43e45040fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/sqlx/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b62dd5ca9a4c0b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/actix/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "500186e18733d769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 19
       },
       {
         "id": "90171f8499a0e1ff",
@@ -298,7 +334,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/FAQ.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/FAQ.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +374,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/FAQ.md"
+                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md"
               }
             }
           }
@@ -361,13 +397,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "67d5092597439957",
+  "active": "500186e18733d769",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/sqlx/Статьи/Illustrated guide to SQLX.md",
+    "Заметки/Разарботка/rust/actix/FAQ.md",
+    "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+    "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+    "Заметки/Разарботка/rust/sqlx/FAQ.md",
     "Заметки/Разарботка/rust/FAQ.md",
+    "Заметки/Разарботка/rust/sqlx/Статьи/Illustrated guide to SQLX.md",
     "Заметки/Разарботка/rust/sqlx/Статьи",
     "Заметки/Разарботка/rust/sqlx",
-    "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Here’s How to Execute Raw SQL queries in Rust with Diesel.md",
     "Заметки/Разарботка/sqlite",
     "Первая установка.md",
@@ -390,9 +429,6 @@
     "Заметки/Разарботка/nuxt/Статьи/How to correctly register the plugin in nuxt.js.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/javascript/npm/FAQ.md",
-    "Заметка дня/ChatGPT и AI боты.md",
-    "Заметки/Разарботка/vpn/FAQ.md",
-    "Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md",
     "Заметки/Разарботка/javascript/npm",
     "Заметки/Разарботка/nuxt/Статьи",
     "Заметки/Разарботка/javascript/node",
