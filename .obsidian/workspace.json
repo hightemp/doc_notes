@@ -127,9 +127,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "916e248e39e7fd46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd3e2570c673dcb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ae9a3dbd76230f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/mysql/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 12
       },
       {
         "id": "90171f8499a0e1ff",
@@ -214,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
+                "file": "Заметки/Разарботка/mysql/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
+                "file": "Заметки/Разарботка/mysql/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md"
+                "file": "Заметки/Разарботка/mysql/FAQ.md"
               }
             }
           }
@@ -277,9 +313,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f7a45e8be2db613b",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
     "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
+    "Заметки/Разарботка/mysql/FAQ.md",
+    "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust 2.md",
+    "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust.md",
     "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
     "Заметки/Разарботка/rust/Статьи/Creating an API with Rust and SQLite.md",
     "Заметки/Разарботка/rust/Статьи/Demystifying Rust’s lazy_static pattern.md",
@@ -306,10 +345,7 @@
     "Заметки/Разарботка/javascript/node",
     "Заметки/Биология/FAQ.md",
     "Заметки/Разарботка/rust/Статьи",
-    "Заметки/Подборки/Для работы/qtile/FAQ.md",
-    "Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md",
     "Заметки/Подборки/Для работы/qtile",
-    "Заметки/Биология/Ссылки.md",
     "Заметки/Подборки/Для работы/Файловые менеджеры",
     "Заметки/AI/Статьи",
     "Заметки/Untitled",

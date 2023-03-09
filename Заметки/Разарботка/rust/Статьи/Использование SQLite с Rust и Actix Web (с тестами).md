@@ -1,4 +1,5 @@
 https://nuancesprog.ru/p/8787/
+https://github.com/ukchukx/diesel-sqlite
 
 В этой статье мы рассмотрим, как использовать SQLite (вместе с Diesel) и Rust как в файловом режиме, так и в режиме памяти.
 
