@@ -242,14 +242,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+                "file": "Заметки/AI/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97e51d8de5461b0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Репозитории.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "979f0f483ad9b730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/DIY/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 21
       },
       {
         "id": "90171f8499a0e1ff",
@@ -334,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+                "file": "Заметки/DIY/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+                "file": "Заметки/DIY/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md"
+                "file": "Заметки/DIY/FAQ.md"
               }
             }
           }
@@ -397,10 +421,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "500186e18733d769",
+  "active": "979f0f483ad9b730",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/actix/FAQ.md",
+    "Найденное/Репозитории.md",
+    "Заметки/DIY/FAQ.md",
+    "Заметки/DIY",
+    "Заметки/Химия/FAQ.md",
+    "Заметки/AI/Ссылки.md",
+    "Заметки/Химия",
     "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
+    "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
     "Заметки/Разарботка/rust/sqlx/FAQ.md",
     "Заметки/Разарботка/rust/FAQ.md",
@@ -425,15 +455,9 @@
     "Заметки/Разарботка/nuxt/Статьи/How to handle file upload(images, documents etc.) in nuxt.js and vue.js with vuex and axios API..md",
     "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
     "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
-    "Заметки/Разарботка/nuxt/FAQ.md",
-    "Заметки/Разарботка/nuxt/Статьи/How to correctly register the plugin in nuxt.js.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/javascript/npm/FAQ.md",
     "Заметки/Разарботка/javascript/npm",
     "Заметки/Разарботка/nuxt/Статьи",
     "Заметки/Разарботка/javascript/node",
-    "Заметки/Разарботка/rust/Статьи",
-    "Заметки/Подборки/Для работы/qtile",
-    "Заметки/Подборки/Для работы/Файловые менеджеры"
+    "Заметки/Разарботка/rust/Статьи"
   ]
 }
