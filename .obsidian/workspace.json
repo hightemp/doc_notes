@@ -38,14 +38,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/flask/Статьи/Custom filters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fe5465549c31708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f8d5fea1a1a0035",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "90171f8499a0e1ff",
@@ -130,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md"
+                "file": "Заметки/Разарботка/flask/FAQ.md"
               }
             }
           }
@@ -193,12 +217,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "6f8d5fea1a1a0035",
   "lastOpenFiles": [
+    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
+    "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
+    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/FAQ.md",
+    "Заметки/Разарботка/flask/Статьи/Untitled",
+    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
     "Заметки/Разарботка/rust/FAQ.md",
-    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/Статьи",
     "Заметки/Разарботка/flask",
@@ -222,14 +250,10 @@
     "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
     "Заметки/Разарботка/rust/sqlx/FAQ.md",
-    "Заметки/Разарботка/rust/sqlx/Статьи/Illustrated guide to SQLX.md",
     "Заметки/Разарботка/rust/sqlx/Статьи",
     "Заметки/Разарботка/rust/sqlx",
-    "Заметки/Разарботка/rust/Статьи/Here’s How to Execute Raw SQL queries in Rust with Diesel.md",
     "Заметки/Разарботка/sqlite",
-    "Первая установка.md",
     "Найденное/Obsidian",
-    "Заметки/Разарботка/javascript/npm",
-    "Заметки/Разарботка/nuxt/Статьи"
+    "Заметки/Разарботка/javascript/npm"
   ]
 }

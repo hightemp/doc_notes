@@ -1,3 +1,17 @@
+# напиши какие библиотеки можно использовать для создания flask приложения использующего таблицы(datagrid), меню, вложенные списки
+
+Для создания Flask приложения, использующего таблицы, меню и вложенные списки, я бы порекомендовал следующие библиотеки:
+
+1. Flask-Admin - библиотека для создания административных интерфейсов, позволяющая легко создавать таблицы, фильтры, поиск и меню для навигации по разделам приложения.
+
+2. Flask-Menu - библиотека, которая позволяет создавать меню и вложенные списки для навигации по приложению.
+
+3. Flask-Table - библиотека, которая позволяет легко создавать таблицы из данных, а также управлять их отображением, фильтрацией и сортировкой.
+
+4. Flask-JSGlue - библиотека, которая позволяет использовать Javascript с Flask, что позволяет создавать более сложные пользовательские интерфейсы.
+
+5. Flask-Bootstrap - библиотека, которая позволяет использовать Twitter Bootstrap в приложениях Flask, что позволяет быстро создавать приятный дизайн и адаптивный интерфейс.
+
 # Redirecting to URL in Flask
 
 You have to return a redirect:
@@ -390,3 +404,226 @@ def active_url_cls(context, cls, path):
 	else:
 		return ""
 ```
+
+## RuntimeError: working outside of application context
+
+Flask has an [Application Context](http://flask.pocoo.org/docs/latest/appcontext/#creating-an-application-context), and it seems like you'll need to do something like:
+
+```python
+def test_connection(self):
+    with app.app_context():
+        #test code
+```
+
+You can probably also shove the `app.app_context()` call into a test setup method as well.
+
+# напиши пример как в Flask-Table сделать пагинацию
+
+Для добавления пагинации в Flask-Table, необходимо использовать класс Pagination класса Flask. 
+Пример кода:
+
+```python
+from flask_table import Table, Col
+from flask import Flask, request, render_template
+from flask_sqlalchemy import SQLAlchemy
+from flask_paginate import Pagination, get_page_args
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://user:password@localhost/mydatabase'
+app.config['SECRET_KEY'] = 'mysecret'
+db = SQLAlchemy(app)
+
+class MyTable(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    age = db.Column(db.Integer)
+
+class MyTableData(Table):
+    id = Col('Id', show=False)
+    name = Col('Name')
+    age = Col('Age')
+
+def mytable_data(page=1, per_page=10):
+    data = MyTable.query.all()
+    pagination = Pagination(page=page, per_page=per_page, total=len(data), css_framework='bootstrap4')
+    return data, pagination
+
+@app.route('/')
+def index():
+    page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
+    data, pagination = mytable_data(page=page, per_page=per_page)
+    table = MyTableData(data)
+    table.border = True
+    return render_template('index.html', table=table, pagination=pagination)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+В этом примере мы добавляем класс Pagination из библиотеки flask_paginate, и используем его для определения параметров страницы и количества элементов на странице. Мы затем передаем эту информацию в нашу функцию, которая загружает данные из базы данных и использует их для создания экземпляра нашего класса таблицы. Мы также передаем объект пагинации в наш шаблон для отображения навигации по страницам.
+
+В шаблоне, мы используем переменную pagination для отображения ссылок на страницы и экземпляров класса таблицы для отображения данных.
+
+# напиши пример как в Flask-Table сделать пагинацию и напиши что находится в шаблоне
+
+Пример кода Flask-Table с пагинацией:
+
+```python
+from flask import Flask, render_template
+from flask_table import Table, Col
+from flask_paginate import Pagination, get_page_parameter
+
+app = Flask(__name__)
+
+# example data
+class Item(object):
+    def __init__(self, name, description):
+        self.name = name
+        self.description = description
+
+items = [Item('Name1', 'Description1'),
+         Item('Name2', 'Description2'),
+         Item('Name3', 'Description3'),
+         Item('Name4', 'Description4'),
+         Item('Name5', 'Description5'),
+         Item('Name6', 'Description6'),
+         Item('Name7', 'Description7'),
+         Item('Name8', 'Description8'),
+         Item('Name9', 'Description9'),
+         Item('Name10', 'Description10'),
+         Item('Name11', 'Description11'),
+         Item('Name12', 'Description12'),
+         Item('Name13', 'Description13'),
+         Item('Name14', 'Description14'),
+         Item('Name15', 'Description15'),
+         Item('Name16', 'Description16'),
+         Item('Name17', 'Description17'),
+         Item('Name18', 'Description18'),
+         Item('Name19', 'Description19'),
+         Item('Name20', 'Description20')]
+
+# Flask-Table
+class ItemTable(Table):
+    name = Col('Name')
+    description = Col('Description')
+
+# Flask-Paginate
+def get_items(offset=0, per_page=5):
+    return items[offset: offset + per_page]
+
+@app.route('/')
+def index():
+    page = int(request.args.get(get_page_parameter(), 1))
+    per_page = 5
+    offset = (page - 1) * per_page
+    pagination_items = get_items(offset=offset, per_page=per_page)
+    
+    table = ItemTable(pagination_items)
+    table.border = True
+
+    pagination = Pagination(page=page,
+                            total=len(items),
+                            per_page=per_page,
+                            search=False,
+                            css_framework='bootstrap4')
+    return render_template('index.html', table=table, pagination=pagination)
+```
+
+В шаблоне `index.html` находится код для отображения таблицы и блока с пагинацией:
+
+```html
+{% extends 'base.html' %}
+
+{% block title %}
+    Flask-Table with Pagination
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    {{ table }}
+    {{ pagination.links }}
+</div>
+{% endblock %}
+```
+
+`{{ table }}` отображает таблицу, а `{{ pagination.links }}` - блок с ссылками на страницы. Оба этих компонента формируются в Python коде при помощи Flask-Table и Flask-Paginate.
+
+# напиши пример для flask и sqlalchemy добавления элементов в БД, удаления и обновления
+
+Добавление элемента в БД:
+
+```python
+from flask import Flask, request
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.sqlite3'
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    email = db.Column(db.String(100))
+
+@app.route('/add_user', methods=['POST'])
+def add_user():
+    name = request.form['name']
+    email = request.form['email']
+    user = User(name=name, email=email)
+    db.session.add(user)
+    db.session.commit()
+    return 'User added successfully'
+```
+
+Удаление элемента из БД:
+
+```python
+@app.route('/delete_user/<user_id>', methods=['DELETE'])
+def delete_user(user_id):
+    user = User.query.get(user_id)
+    db.session.delete(user)
+    db.session.commit()
+    return 'User deleted successfully'
+```
+
+Обновление элемента в БД:
+
+```python
+@app.route('/update_user/<user_id>', methods=['PUT'])
+def update_user(user_id):
+    user = User.query.get(user_id)
+    name = request.form['name']
+    email = request.form['email']
+    user.name = name
+    user.email = email
+    db.session.commit()
+    return 'User updated successfully'
+```
+
+# напиши пример для flask и sqlalchemy как удалить все элементы из таблицы
+
+Вот пример кода, который удаляет все записи из таблицы используя Flask и SQLAlchemy:
+
+```python
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///example.db' # замените на свой URI
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(80), unique=True)
+
+if __name__ == '__main__':
+    db.create_all()
+
+    # удаляем все записи из таблицы User
+    User.query.delete()
+
+    db.session.commit()
+    print('Все записи удалены')
+```
+
+В этом примере мы создаем таблицу User и удаляем все записи из нее с помощью метода `query.delete()`. После этого мы сохраняем изменения в базе данных с помощью метода `db.session.commit()`. Если все прошло успешно, то на экран будет выведено сообщение "Все записи удалены".
