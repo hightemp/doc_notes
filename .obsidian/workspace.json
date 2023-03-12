@@ -6,202 +6,10 @@
       {
         "id": "fabc201b875e29f5",
         "type": "tabs",
-        "dimension": 55.58375634517766,
+        "dimension": 55.203045685279186,
         "children": [
           {
             "id": "204d00eabe9bb327",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nuxt/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d0088679064b097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "113ffe648ae1045f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eb82ef7b3af51ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nuxt/Статьи/How to load dynamic images in Vue and Nuxt with ease.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ae67a89290b6855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0b7f59d8df7ebe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96a06e5b65ccf686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Demystifying Rust’s lazy_static pattern.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7caf77bb473947e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Creating an API with Rust and SQLite.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f17ae959b95d3488",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7a45e8be2db613b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "916e248e39e7fd46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd3e2570c673dcb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ae9a3dbd76230f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/mysql/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78ea575cb9f0ac98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Obsidian/Расширения.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45cc0ac4cc5bac56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Первая установка.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8362e2d974d58b8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/actix/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67d5092597439957",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,72 +21,36 @@
             }
           },
           {
-            "id": "5dbfe43e45040fb2",
+            "id": "19e583f1fc42f8a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/rust/sqlx/FAQ.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1b62dd5ca9a4c0b2",
+            "id": "5579f8dc1abd376d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/rust/actix/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "500186e18733d769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97e51d8de5461b0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Репозитории.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "979f0f483ad9b730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/DIY/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
         "type": "tabs",
-        "dimension": 44.41624365482234,
+        "dimension": 44.79695431472081,
         "children": [
           {
             "id": "aa7748df56c55103",
@@ -321,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pytorch",
+                "query": "Темы",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -358,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/DIY/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/DIY/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/DIY/FAQ.md"
+                "file": "Заметки/Разарботка/python/FAQ.md"
               }
             }
           }
@@ -421,10 +193,27 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "979f0f483ad9b730",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Найденное/Репозитории.md",
+    "Заметки/Разарботка/flask/FAQ.md",
+    "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
+    "Заметки/Разарботка/rust/FAQ.md",
+    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
+    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
+    "Заметки/Разарботка/flask/Статьи",
+    "Заметки/Разарботка/flask",
+    "Заметки/Разарботка/rust/Статьи/GraphQL на Rust.md",
+    "Заметки/Разарботка/rust/Статьи/Three Kinds of Polymorphism in Rust.md",
+    "Заметки/Разарботка/rust/Статьи/Polymorphism in Rust.md",
+    "Заметки/Разарботка/rust/Статьи/Vector.md",
+    "Заметки/Разарботка/rust/Статьи/Arrays, Vectors, and Slices.md",
+    "Заметки/Темы.md",
+    "Заметки/AI/Темы.md",
     "Заметки/DIY/FAQ.md",
+    "Заметки/Разарботка/nuxt/FAQ.md",
+    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
+    "Заметки/Linux/Темы.md",
+    "Найденное/Репозитории.md",
     "Заметки/DIY",
     "Заметки/Химия/FAQ.md",
     "Заметки/AI/Ссылки.md",
@@ -433,31 +222,14 @@
     "Заметки/Разарботка/rust/actix/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
     "Заметки/Разарботка/rust/sqlx/FAQ.md",
-    "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/rust/sqlx/Статьи/Illustrated guide to SQLX.md",
     "Заметки/Разарботка/rust/sqlx/Статьи",
     "Заметки/Разарботка/rust/sqlx",
     "Заметки/Разарботка/rust/Статьи/Here’s How to Execute Raw SQL queries in Rust with Diesel.md",
     "Заметки/Разарботка/sqlite",
     "Первая установка.md",
-    "Найденное/Obsidian/Расширения.md",
-    "Заметки/Разарботка/mysql/FAQ.md",
     "Найденное/Obsidian",
-    "Заметки/Разарботка/rust/Статьи/Использование SQLite с Rust и Actix Web (с тестами).md",
-    "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust 2.md",
-    "Заметки/Разарботка/rust/Статьи/Web Scraping With Rust.md",
-    "Заметки/Разарботка/rust/Статьи/Rust Web Scraping.md",
-    "Заметки/Разарботка/rust/Статьи/Creating an API with Rust and SQLite.md",
-    "Заметки/Разарботка/rust/Статьи/Demystifying Rust’s lazy_static pattern.md",
-    "Заметки/Разарботка/rust/Статьи/How to Idiomatically Use Global Variables in Rust.md",
-    "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
-    "Заметки/Разарботка/nuxt/Статьи/How to load dynamic images in Vue and Nuxt with ease.md",
-    "Заметки/Разарботка/nuxt/Статьи/How to handle file upload(images, documents etc.) in nuxt.js and vue.js with vuex and axios API..md",
-    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js для занятых разработчиков.md",
-    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
     "Заметки/Разарботка/javascript/npm",
-    "Заметки/Разарботка/nuxt/Статьи",
-    "Заметки/Разарботка/javascript/node",
-    "Заметки/Разарботка/rust/Статьи"
+    "Заметки/Разарботка/nuxt/Статьи"
   ]
 }

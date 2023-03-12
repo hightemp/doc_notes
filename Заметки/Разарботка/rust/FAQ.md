@@ -246,3 +246,139 @@ db_pool.close().await?;
       ```
 
    В этом примере мы использовали `SqlitePoolOptions` для создания пула соединений с базой данных SQLite, а затем выполним выборку из таблицы `users`.
+
+## Is there a faster/shorter way to initialize variables in a Rust struct?
+
+## Добавить дефолтные значения
+
+## Есть ли более быстрый/короткий способ инициализации переменных в структуре Rust?
+
+ou can provide default values for your struct by implementing the `Default` trait. The `default` function would look like your current `new` function:
+
+```rust
+impl Default for cParams {
+    fn default() -> cParams {
+        cParams {
+            iInsertMax: -1,
+            iUpdateMax: -1,
+            iDeleteMax: -1,
+            iInstanceMax: -1,
+            tFirstInstance: false,
+            tCreateTables: false,
+            tContinue: false,
+        }
+    }
+}
+```
+
+You can then instantiate the struct by giving only the non-default values:
+
+```rust
+let p = cParams { iInsertMax: 10, ..Default::default() };
+```
+
+With some minor changes to your data structure, you can take advantage of an automatically derived default implementation. If you use `#[derive(Default)]` on a data structure, the compiler will automatically create a default function for you that fills each field with its default value. The default boolean value is false, the default integral value is 0.
+
+An integer's default value being 0 is a problem here since you want the integer fields to be -1 by default. You could define a new type that implements a default value of -1 and use that instead of `i64` in your struct. (I haven't tested that, but it should work).
+
+However, I'd suggest to slightly change your data structure and use `Option<i64>` instead of `i64`. I don't know the context of your code, but it looks like you're using the special value of -1 to represent the special meaning "infinite", or "there's no max". In Rust, we use an `Option` to represent an optionally present value. There's no need for a -1 hack. An option can be either `None` or `Some(x)` where x would be your `i64` here. It might even be an unsigned integer if -1 was the only negative value. The default `Option` value is `None`, so with the proposed changes, your code could look like this:
+
+```rust
+#[derive(Default)]
+struct cParams {
+    iInsertMax: Option<u64>,
+    iUpdateMax: Option<u64>,
+    iDeleteMax: Option<u64>,
+    iInstanceMax: Option<u64>,
+    tFirstInstance: bool,
+    tCreateTables: bool,
+    tContinue: bool,
+}
+
+let p = cParams { iInsertMax: Some(10), ..Default::default() };
+```
+
+## How do I concatenate strings?
+
+When you concatenate strings, you need to allocate memory to store the result. The easiest to start with is `String` and `&str`:
+
+```rust
+fn main() {
+    let mut owned_string: String = "hello ".to_owned();
+    let borrowed_string: &str = "world";
+    
+    owned_string.push_str(borrowed_string);
+    println!("{}", owned_string);
+}
+```
+
+Here, we have an owned string that we can mutate. This is efficient as it potentially allows us to reuse the memory allocation. There's a similar case for `String` and `String`, as `&String` [can be dereferenced as `&str`](https://doc.rust-lang.org/std/string/struct.String.html#deref-methods).
+
+```rust
+fn main() {
+    let mut owned_string: String = "hello ".to_owned();
+    let another_owned_string: String = "world".to_owned();
+    
+    owned_string.push_str(&another_owned_string);
+    println!("{}", owned_string);
+}
+```
+
+After this, `another_owned_string` is untouched (note no `mut` qualifier). There's another variant that _consumes_ the `String` but doesn't require it to be mutable. This is an [implementation of the `Add` trait](https://doc.rust-lang.org/std/string/struct.String.html#impl-Add%3C%26%27_%20str%3E) that takes a `String` as the left-hand side and a `&str` as the right-hand side:
+
+```rust
+fn main() {
+    let owned_string: String = "hello ".to_owned();
+    let borrowed_string: &str = "world";
+    
+    let new_owned_string = owned_string + borrowed_string;
+    println!("{}", new_owned_string);
+}
+```
+
+Note that `owned_string` is no longer accessible after the call to `+`.
+
+What if we wanted to produce a new string, leaving both untouched? The simplest way is to use [`format!`](https://doc.rust-lang.org/std/macro.format.html):
+
+```rust
+fn main() {
+    let borrowed_string: &str = "hello ";
+    let another_borrowed_string: &str = "world";
+    
+    let together = format!("{}{}", borrowed_string, another_borrowed_string);
+
+    // After https://rust-lang.github.io/rfcs/2795-format-args-implicit-identifiers.html
+    // let together = format!("{borrowed_string}{another_borrowed_string}");
+
+    println!("{}", together);
+}
+```
+
+Note that both input variables are immutable, so we know that they aren't touched. If we wanted to do the same thing for any combination of `String`, we can use the fact that `String` also can be formatted:
+
+```rust
+fn main() {
+    let owned_string: String = "hello ".to_owned();
+    let another_owned_string: String = "world".to_owned();
+    
+    let together = format!("{}{}", owned_string, another_owned_string);
+
+    // After https://rust-lang.github.io/rfcs/2795-format-args-implicit-identifiers.html
+    // let together = format!("{owned_string}{another_owned_string}");
+    println!("{}", together);
+}
+```
+
+You don't _have_ to use `format!` though. You can [clone one string](https://doc.rust-lang.org/std/string/struct.String.html#impl-Clone) and append the other string to the new string:
+
+```rust
+fn main() {
+    let owned_string: String = "hello ".to_owned();
+    let borrowed_string: &str = "world";
+    
+    let together = owned_string.clone() + borrowed_string;
+    println!("{}", together);
+}
+```
+
+**Note** - all of the type specification I did is redundant - the compiler can infer all the types in play here. I added them simply to be clear to people new to Rust, as I expect this question to be popular with that group!

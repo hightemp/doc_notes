@@ -12,6 +12,7 @@
    - Obsidian
      - [Расширения.md](/%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/Obsidian/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F.md)
  - Заметки
+   - [Темы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D1%8B.md)
    - [Подборки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8.md)
    - [Репозитории.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
    - [Книги.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
@@ -151,6 +152,12 @@
        - [Netlink Protocol Library Suite (libnl).md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/Netlink%20Protocol%20Library%20Suite%20(libnl).md)
        - [NetLink.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/NetLink.md)
    - Разарботка
+     - flask
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/FAQ.md)
+       - Статьи
+         - [Декораторы для добавления фильтров или функции в среду Jinja..md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20%D0%B8%D0%BB%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D1%83%20Jinja..md)
+         - [Custom filters.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
+         - [Функция render_template() модуля flask в Python..md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
      - bash
        - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bash/FAQ.md)
      - scrapping
@@ -170,6 +177,11 @@
        - sqlx
          - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/sqlx/FAQ.md)
        - Статьи
+         - [GraphQL на Rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GraphQL%20%D0%BD%D0%B0%20Rust.md)
+         - [Three Kinds of Polymorphism in Rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Three%20Kinds%20of%20Polymorphism%20in%20Rust.md)
+         - [Polymorphism in Rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Polymorphism%20in%20Rust.md)
+         - [Vector.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Vector.md)
+         - [Arrays, Vectors, and Slices.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Arrays,%20Vectors,%20and%20Slices.md)
          - [Build a Simple API with Rust and Actix Web.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Build%20a%20Simple%20API%20with%20Rust%20and%20Actix%20Web.md)
          - [Top 3 templating libraries for Rust.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Top%203%20templating%20libraries%20for%20Rust.md)
          - [Here’s How to Execute Raw SQL queries in Rust with Diesel.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Here%E2%80%99s%20How%20to%20Execute%20Raw%20SQL%20queries%20in%20Rust%20with%20Diesel.md)

@@ -54,3 +54,20 @@ https://ieeexplore.ieee.org/abstract/document/8409876
 4. Кластерный анализ (cluster analysis) для сегментации изображения на области с различными свойствами.
 5. Методы машинного обучения, такие как нейронные сети, используемые для обучения систем распознавания образов на изображениях.
 
+## математические методы используются для восстановление изображения из данных радара
+
+Да, математические методы используются для восстановления изображения из данных радара
+
+[[1]](https://tekhnosfera.com/metody-i-algoritmy-obrabotki-informatsii-v-avtonomnyh-sistemah-radiovideniya-pri-malovysotnyh-poletah-letatelnyh-apparato)
+
+[[2]](https://cyberleninka.ru/article/n/ustoychivye-metody-vosstanovleniya-zashumlennyh-izobrazheniy)
+
+[[3]](https://www.dissercat.com/content/matematicheskie-metody-analiza-dannykh-v-usloviyakh-primenimosti-statisticheskoi-modeli-rais)
+
+. Для решения этой задачи применяются современный математический аппарат линейной алгебры, теории оптимальной классификации и регуляризирующие алгоритмы
+
+[[1]](https://tekhnosfera.com/metody-i-algoritmy-obrabotki-informatsii-v-avtonomnyh-sistemah-radiovideniya-pri-malovysotnyh-poletah-letatelnyh-apparato)
+
+[[2]](https://cyberleninka.ru/article/n/ustoychivye-metody-vosstanovleniya-zashumlennyh-izobrazheniy)
+
+.
