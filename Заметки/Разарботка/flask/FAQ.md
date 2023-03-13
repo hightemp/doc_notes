@@ -627,3 +627,174 @@ if __name__ == '__main__':
 ```
 
 В этом примере мы создаем таблицу User и удаляем все записи из нее с помощью метода `query.delete()`. После этого мы сохраняем изменения в базе данных с помощью метода `db.session.commit()`. Если все прошло успешно, то на экран будет выведено сообщение "Все записи удалены".
+
+# Flask, как сделать пагинацию страниц?
+
+Установака : `pip install -U flask-paginate`
+
+Вью:
+
+```python
+@app.route('/')
+def index():
+    search = False
+    q = request.args.get('q')
+    if q:
+        search = True
+
+    page = request.args.get('page', type=int, default=1)
+
+    users = User.find(...)
+    pagination = Pagination(page=page, total=users.count(), search=search, record_name='users')
+    return render_template('users/index.html',
+                           users=users,
+                           pagination=pagination,
+                           )
+```
+
+темплейт:
+
+```python
+{{ pagination.info }}
+{{ pagination.links }}
+```
+
+# Python flask-paginate returning too many results on page
+
+I see that you opted to use Flask-SQLAlchemy instead, but hopefully this answer will help someone else:
+
+You were almost there - you correctly captured page, per_page, and offset (there's actually a [built-in](https://github.com/lixxu/flask-paginate/blob/master/example/app.py) for this, which you can import using `from flask_paginate import get_page_args`), but you also need to use the per_page and offset on your query. So in your example:
+
+```python
+all_links = Item.query.all()
+links_for_render_template = Item.query.limit(per_page).offset(offset)
+```
+
+Here's a full example as well:
+
+```python
+from flask_paginate import Pagination, get_page_args
+
+@search.route('/search')
+def search():
+    page, per_page, offset = get_page_args()
+    all_links = Item.query.all()
+    links_for_render_template = Item.query.limit(per_page).offset(offset)
+
+    pagination = get_pagination(page=page, per_page=per_page, offset=offset, total=all_links.count(), record_name='links')
+
+    return render_template('search/searchPage.html', links=links_for_render_template, pagination=pagination)
+```
+
+# напиши пример работы flask, sqlalchemy, wtforms, где радактируется запись базы данных
+
+Пример работы Flask, SQLAlchemy, WTForms в котором редактируется запись базы данных:
+
+1. Создание модели базы данных:
+
+```
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
+
+class user(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50))
+    email = db.Column(db.String(100))
+```
+
+2. Создание формы для редактирования записи в базе данных:
+
+```
+from wtforms import Form, StringField, validators
+
+class UserEditForm(Form):
+    name = StringField('Name', [validators.DataRequired()])
+    email = StringField('Email', [validators.DataRequired(), validators.Email()])
+```
+
+3. Создание представления (view) для редактирования записи в базе данных:
+
+```
+from flask import Flask, render_template, redirect, url_for
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///example.sqlite3'
+app.config['SECRET_KEY'] = 'secret-key'
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50))
+    email = db.Column(db.String(50))
+
+class UserForm(FlaskForm):
+    name = StringField('Name', validators=[DataRequired()])
+    email = StringField('Email', validators=[DataRequired()])
+    submit = SubmitField('Save Changes')
+
+@app.route('/edit/<int:id>', methods=['GET', 'POST'])
+def edit_user(id):
+    user = User.query.get(id) # get user by id
+    form = UserForm(obj=user) # populate form with existing user data
+    if form.validate_on_submit():
+        form.populate_obj(user) # update user object with submitted form data
+        db.session.commit() # save changes to database
+        return redirect(url_for('users'))
+    return render_template('edit_user.html', form=form, user=user)
+```
+
+4. Создание шаблона (template) для страницы редактирования записи в базе данных:
+
+```
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Edit User</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {{ form.name.label }} {{ form.name() }}<br>
+        {{ form.email.label }} {{ form.email() }}<br>
+        {{ form.submit() }}
+    </form>
+{% endblock %}
+```
+
+В данном примере, когда пользователь переходит на страницу /edit/<int:id>, мы получаем данные о пользователе из базы данных, заполняем форму предварительно сохраненными данными и отображаем форму на странице. Когда пользователь отправляет форму, мы обновляем объект пользователя с данными из формы и сохраняем изменения в базе данных. Если все прошло успешно, пользователь перенаправляется на страницу со списком пользователей в системе.
+
+# напиши пример для sqlalchemy удаления жлемента по id
+
+Ниже приведен пример кода SQLAlchemy для удаления записи из таблицы по заданному ID:
+
+```python
+from sqlalchemy import create_engine, MetaData, Table
+from sqlalchemy.orm import sessionmaker
+
+# создаем подключение к базе данных
+engine = create_engine('sqlite:///example.db')
+metadata = MetaData(bind=engine)
+Session = sessionmaker(bind=engine)
+session = Session()
+
+# определяем таблицу
+my_table = Table('my_table', metadata, autoload=True)
+
+# задаем ID записи, которую нужно удалить
+id_to_delete = 42
+
+# получаем запись по ID
+record_to_delete = my_table.select().where(my_table.c.id == id_to_delete).execute().fetchone()
+
+if record_to_delete:
+    # удаляем запись
+    session.delete(record_to_delete)
+    session.commit()
+    print(f'Запись с ID {id_to_delete} удалена успешно.')
+else:
+    print(f'Запись с ID {id_to_delete} не найдена.')
+``` 
+
+В этом примере мы используем объект `Table` для получения записи из таблицы `my_table` по заданному ID, а затем удаляем эту запись из базы данных, используя метод `delete` объекта `session`. Обратите внимание, что мы сначала проверяем, найдена ли запись с заданным ID, чтобы избежать ошибки при попытке удалить несуществующую запись.

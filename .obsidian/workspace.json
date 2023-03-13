@@ -21,42 +21,6 @@
             }
           },
           {
-            "id": "19e583f1fc42f8a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5579f8dc1abd376d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Custom filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fe5465549c31708",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6f8d5fea1a1a0035",
             "type": "leaf",
             "state": {
@@ -69,7 +33,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "90171f8499a0e1ff",
@@ -219,14 +183,14 @@
   },
   "active": "6f8d5fea1a1a0035",
   "lastOpenFiles": [
-    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
-    "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
-    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
+    "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
+    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
+    "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
+    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/Статьи/Untitled",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
-    "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/Статьи",
     "Заметки/Разарботка/flask",
