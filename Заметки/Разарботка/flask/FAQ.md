@@ -1,3 +1,37 @@
+# напиши какие крупные проекты были сделаны на flask, django напши список (что, на чем сделано, ссылка на проект)
+
+Проекты на Flask:
+
+1. Flask-RESTful: библиотека для создания RESTful API на Flask. https://flask-restful.readthedocs.io/en/latest/
+
+2. Flask-SQLAlchemy: интеграция SQLAlchemy с Flask. https://flask-sqlalchemy.palletsprojects.com/en/latest/
+
+3. Flask-Admin: панель администратора для Flask приложений. https://flask-admin.readthedocs.io/en/latest/
+
+4. Flask-Mail: интеграция электронной почты в Flask приложения. https://pythonhosted.org/Flask-Mail/
+
+5. Flask-SocketIO: интеграция сокетов в Flask приложения. https://flask-socketio.readthedocs.io/en/latest/
+
+6. Flask-WTF: инструменты форм для Flask приложений. https://flask-wtf.readthedocs.io/en/stable/
+
+Проекты на Django:
+
+1. Instagram: социальная сеть для обмена фотографиями. https://github.com/Instagram/instagram-web-react
+
+2. Disqus: комментарии и обсуждения на сайтах. https://disqus.com/
+
+3. Mozilla: сайт Mozilla Foundation, создателей Firefox. https://www.mozilla.org/
+
+4. Dropbox: облачное хранилище и синхронизация файлов. https://www.dropbox.com/
+
+5. Pinterest: социальная сеть для обмена идеями и вдохновением. https://www.pinterest.com/
+
+6. The Washington Post: новостной сайт с множеством разделов и функций. https://www.washingtonpost.com/
+
+7. The Guardian: британская газета с онлайн-версией для чтения новостей. https://www.theguardian.com/uk
+
+8. Bitbucket: хранилище репозиториев и управление версиями для Git и Mercurial. https://bitbucket.org/
+
 # напиши какие библиотеки можно использовать для создания flask приложения использующего таблицы(datagrid), меню, вложенные списки
 
 Для создания Flask приложения, использующего таблицы, меню и вложенные списки, я бы порекомендовал следующие библиотеки:

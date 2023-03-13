@@ -21,19 +21,31 @@
             }
           },
           {
-            "id": "6f8d5fea1a1a0035",
+            "id": "f29ac66d5ab86fd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41e136161fb27907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Найденное/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Найденное/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md"
+                "file": "Найденное/Ссылки.md"
               }
             }
           }
@@ -181,10 +193,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6f8d5fea1a1a0035",
+  "active": "41e136161fb27907",
   "lastOpenFiles": [
+    "Заметки/Разарботка/Ссылки.md",
+    "Найденное/Ссылки.md",
+    "Заметки/Разарботка/ruby/FAQ.md",
     "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
+    "Заметки/Разарботка/Веб-разработка/FAQ.md",
+    "Заметки/Химия/FAQ.md",
+    "Заметки/Разарботка/Веб-разработка",
+    "Заметки/Разарботка/ruby/Статьи",
+    "Заметки/Разарботка/ruby",
     "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
@@ -207,17 +227,9 @@
     "Заметки/Linux/Темы.md",
     "Найденное/Репозитории.md",
     "Заметки/DIY",
-    "Заметки/Химия/FAQ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Химия",
-    "Заметки/Разарботка/rust/Статьи/Build a Simple API with Rust and Actix Web.md",
-    "Заметки/Разарботка/rust/actix/FAQ.md",
-    "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
-    "Заметки/Разарботка/rust/sqlx/FAQ.md",
     "Заметки/Разарботка/rust/sqlx/Статьи",
-    "Заметки/Разарботка/rust/sqlx",
-    "Заметки/Разарботка/sqlite",
-    "Найденное/Obsidian",
-    "Заметки/Разарботка/javascript/npm"
+    "Заметки/Разарботка/rust/sqlx"
   ]
 }
