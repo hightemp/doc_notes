@@ -56,5 +56,213 @@
 19. chef.io
 20. puppet.com
 
+## как упаковать в AppImage проект наpython с flask
 
+Для упаковки проекта на Python с Flask в AppImage следуйте инструкциям ниже:
+
+1. Установите PyInstaller
+
+Сначала установите PyInstaller, выполнив следующую команду:
+
+```
+pip3 install pyinstaller
+```
+
+2. Упакуйте свой проект в один исполняемый файл
+
+Чтобы упаковать свой проект в один исполняемый файл, введите следующую команду в терминале:
+
+```
+pyinstaller --onefile <path_to_your_script>
+```
+
+3. Скопируйте исполняемый файл в каталог AppDir
+
+Создайте каталог AppDir для вашего приложения и скопируйте ваш исполняемый файл в этот каталог:
+
+```
+mkdir -p MyApp.AppDir/usr/bin
+cp dist/my_app MyApp.AppDir/usr/bin/
+```
+
+4. Создайте файл типа .desktop
+
+Создайте файл my_app.desktop в каталоге MyApp.AppDir/usr/share/applications со следующим содержимым:
+
+```
+[Desktop Entry]
+Name=My App
+Exec=my_app
+Icon=my_app
+StartupNotify=true
+Type=Application
+Categories=Utility;
+```
+
+5. Создайте скрипт appimagetool
+
+Создайте скрипт appimagetool с помощью следующего кода:
+
+```
+#!/bin/bash
+
+PATH="$PATH:/usr/local/bin"
+cd "$(dirname "$0")"
+wget -c "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"
+chmod +x appimagetool-x86_64.AppImage
+./appimagetool-x86_64.AppImage "$@"
+```
+
+6. Установите скрипт appimagetool
+
+Создайте каталог bin в каталоге MyApp.AppDir и скопируйте скрипт appimagetool в этот каталог:
+
+```
+mkdir -p MyApp.AppDir/usr/bin
+cp appimagetool MyApp.AppDir/usr/bin/
+```
+
+7. Создайте AppImage
+
+Для создания AppImage выполните следующую команду:
+
+```
+cd MyApp.AppDir
+./usr/bin/appimagetool .
+```
+
+В результате будет создан файл MyApp-x86_64.AppImage, который будет содержать ваше приложение.
+
+8. Запустите AppImage
+
+Запуск AppImage происходит по щелчку на этом файле. Приложение будет запущено среди операционных систем совместимых с Linux.
+
+Надеюсь, эти инструкции помогут вам упаковать ваш Python с Flask проект в AppImage. Удачной разработки!
+
+## как упаковать в AppImage проект на python с flask без использования pyinstaller
+
+Для упаковки проекта на Python с Flask в AppImage без использования pyinstaller, вы можете использовать инструменты, такие как cx_Freeze или PyOxidizer.
+
+1. Используя cx_Freeze:
+
+- Установите cx_Freeze с помощью команды: `pip install cx_Freeze`
+- Создайте setup.py файл с таким содержанием:
+
+  ```python
+  from cx_Freeze import setup, Executable
+
+  build_exe_options = {"packages": ["flask"], "excludes": []}
+
+  setup(
+      name="App Name",
+      version="0.1",
+      description="App description",
+      options={"build_exe": build_exe_options},
+      executables=[Executable("app.py")])
+  ```
+
+- В командной строке перейдите в каталог с вашим проектом и запустите команду: `python setup.py build`
+- Скопируйте созданный каталог с названием «build» в каталог со скриптом AppRun.
+- Создайте файл .desktop со следующим содержанием:
+
+  ```
+  [Desktop Entry]
+  Name=App Name
+  Exec= ./AppImageName.AppRun
+  Type=Application
+  Terminal=true
+  ```
+
+- Запустите команду `appimagetool-x86_64.AppImage "path/to/appdir"`.
+
+2. Используя PyOxidizer:
+
+- Установите PyOxidizer с помощью команды: `pip install pyoxidizer`
+- Создайте pyoxidizer.toml файл следующего содержания:
+
+  ```toml
+  [project]
+  name = "App Name"
+  version = "0.1"
+  authors = ["Author Name <author-email@example.com>"]
+
+  [[default_bin]]
+  name = "app"
+  path = "app.py"
+  target = "python"
+ 
+  [build_options]
+  debug = false
+  bundled_libraries = ["flask", "jinja2", "werkzeug", "click", "markupsafe"]
+
+  [build_options.native_packages]
+  enabled = true
+
+  [[build_options.native_packages.exclude]]
+  names = ["libpython*.so*", "libpython-*.so", "libpython*.a", "libpython*.dylib", "python*.dll", "python.exe"]
+
+  [[bin_app]]
+  name = "App Name"
+  path = "app.py"
+  entrypoint = "main"
+
+  [bin_app.args]
+  # command line arguments go here
+  ```
+
+- В командной строке перейдите в каталог с вашим проектом и запустите команду `pyoxidizer build`.
+- Скопируйте созданный каталог с названием «build» в каталог со скриптом AppRun.
+- Создайте файл .desktop со следующим содержанием:
+
+  ```
+  [Desktop Entry]
+  Name=App Name
+  Exec= ./AppImageName.AppRun
+  Type=Application
+  Terminal=true
+  ```
+
+- Запустите команду `appimagetool-x86_64.AppImage "path/to/appdir"`.
+
+## как упаковать в AppImage проект на python с flask без использования упаковщиков типа pyinstaller и т.п.
+
+Для упаковки проекта на Python с Flask в AppImage без использования упаковщиков типа PyInstaller можно воспользоваться инструментом `linuxdeploy`, который позволяет создавать AppImage-пакеты для приложений на различных языках программирования, включая Python.
+
+Вот как можно упаковать проект на Python с Flask в AppImage с помощью `linuxdeploy`:
+
+1. Установите `linuxdeploy` на свой компьютер. Вы можете скачать его с официального сайта https://github.com/linuxdeploy/linuxdeploy/releases или установить из исходных кодов.
+
+2. Скопируйте ваш проект в папку, которую вы хотите упаковать в AppImage. В этой папке должен быть файл `app.py`, который содержит код вашего приложения Flask.
+
+3. Создайте файл `appimage.yml` в корневой папке вашего проекта. В этом файле вы можете настроить параметры для создания AppImage-пакета. Вот пример такого файла:
+
+```
+app:
+  # Имя приложения
+  name: My Flask App
+  # Версия приложения
+  version: 1.0
+  # Команды для установки зависимостей
+  # Эти команды будут выполнены перед упаковкой приложения в AppImage
+  dependencies:
+    - pip install flask
+  # Команда для запуска приложения
+  # Эта команда будет выполнена при запуске AppImage-пакета
+  run:
+    - python app.py
+```
+
+4. Запустите `linuxdeploy` с помощью команды:
+
+```
+linuxdeploy --appdir <path_to_your_project_folder>
+```
+
+В этой команде `<path_to_your_project_folder>` должен быть путь к корневой папке вашего проекта.
+
+5. После выполнения команды `linuxdeploy` в папке вашего проекта должен появиться файл `My Flask App-x86_64.AppImage`, который является AppImage-пакетом вашего приложения.
+
+6. Запустите AppImage-пакет, чтобы проверить, что ваше приложение работает корректно.
+
+Это простой способ упаковать проект на Python с Flask в AppImage без использования упаковщиков типа PyInstaller.
 
