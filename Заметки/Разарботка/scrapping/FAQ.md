@@ -327,4 +327,80 @@ for epoch in range(epochs):
 
 Затем мы определяем класс `HTMLDataset`, который наследуется от класса `
 
-Written by Chatsonic
+## Scrape with scrapy using saved html pages
+
+I have had great success with using [`request_fingerprint`](https://github.com/scrapy/scrapy/blob/1.5.1/scrapy/utils/request.py#L19) to inject existing HTML files into [`HTTPCACHE_DIR`](https://github.com/scrapy/scrapy/blob/1.5.1/scrapy/extensions/httpcache.py#L275) (which is almost always `.scrapy/httpcache/${spider_name}`). Then, turning on the aforementioned [http cache middleware](https://doc.scrapy.org/en/1.5/topics/downloader-middleware.html#module-scrapy.downloadermiddlewares.httpcache) which defaults to the file based cache storage, and the "Dummy Policy" which considers the on-disk file authoritative and won't make a network request if it finds the URL in the cache.
+
+I would expect the script would something like (this is just the general idea, and not guaranteed to even run):
+
+```xml
+import sys
+from scrapy.extensions.httpcache import FilesystemCacheStorage
+from scrapy.http import Request, HtmlResponse
+from scrapy.settings import Settings
+
+# this value is the actual URL from which the on-disk file was saved
+# not the "file://" version
+url = sys.argv[1]
+html_filename = sys.argv[2]
+with open(html_filename) as fh:
+    html_bytes = fh.read()
+req = Request(url=url)
+resp = HtmlResponse(url=req.url, body=html_bytes, encoding='utf-8', request=req)
+settings = Settings()
+cache = FilesystemCacheStorage(settings)
+spider = None  # fill in your Spider class here
+cache.store_response(spider, req, resp)
+```
+
+## как в scrapy при парсинге сайта сохранять html и кэшировать его?
+
+Scrapy использует свой собственный инструмент для загрузки веб-страниц, который называется `scrapy.Request`. Вы можете использовать этот инструмент для загрузки страниц и сохранения HTML-кода в файлы.
+
+Для сохранения HTML-кода в файлы вы можете использовать средства, предоставляемые Scrapy. Например, вы можете использовать класс `scrapy.extensions.httpcache.FilesystemCacheStorage`, чтобы кэшировать загруженные страницы на диск. Этот класс сохраняет кэшированные страницы в директории, указанной в настройке `HTTPCACHE_DIR`. Если страницы уже загружены и сохранены в кэше, Scrapy будет использовать их, вместо загрузки снова.
+
+Вот пример кода, который загружает страницу с помощью `scrapy.Request`, сохраняет HTML-код в файл и кэширует его, если это необходимо:
+
+```python
+import scrapy
+
+class MySpider(scrapy.Spider):
+    name = 'myspider'
+
+    def start_requests(self):
+        # URL страницы для загрузки
+        url = 'https://example.com/'
+
+        # Имя файла для сохранения HTML-кода
+        filename = 'example.html'
+
+        # Загружаем страницу с помощью scrapy.Request
+        yield scrapy.Request(url, callback=self.parse, meta={'filename': filename})
+
+    def parse(self, response):
+        # Получаем имя файла для сохранения HTML-кода из метаданных ответа
+        filename = response.meta['filename']
+
+        # Сохраняем HTML-код в файл
+        with open(filename, 'wb') as f:
+            f.write(response.body)
+
+        # Возвращаем HTML-код в виде строки
+        html = response.text
+
+        # Теперь вы можете использовать HTML-код для парсинга страницы
+        # ...
+
+```
+
+В этом примере, если файл уже существует, Scrapy загрузит его из кэша, вместо загрузки страницы снова. Если файла еще нет, Scrapy загрузит страницу и сохранит ее в файл, а затем сохранит ее в кэше для будущих загрузок.
+
+Обратите внимание, что для использования кэша вам нужно настроить настройки Scrapy, связанные с кэшированием. Вы можете настроить эти настройки в файле `settings.py` вашего проекта. Например, чтобы использовать `FilesystemCacheStorage`, вы можете добавить следующие строки в `settings.py`:
+
+```python
+HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+HTTPCACHE_ENABLED = True
+HTTPCACHE_DIR = 'httpcache'
+``` 
+
+Здесь `HTTPCACHE_STORAGE` указывает класс для хранения кэшированных страниц, `HTTPCACHE_ENABLED` указывает, включено ли кэширование, а `HTTPCACHE_DIR` указывает директорию, в которой будут храниться кэшированные страницы.

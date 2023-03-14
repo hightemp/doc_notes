@@ -122,7 +122,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
+                "file": "Заметки/Разарботка/scrapping/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md"
+                "file": "Заметки/Разарботка/scrapping/FAQ.md"
               }
             }
           }
@@ -289,10 +289,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6c9f69ffb88cd680",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Linux/FAQ.md",
     "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
+    "Заметки/Linux/FAQ.md",
     "Заметки/Разарботка/python/Статьи",
     "Заметки/Linux/Ссылки.md",
     "Заметки/Темы.md",
