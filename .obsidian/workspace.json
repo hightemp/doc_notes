@@ -43,9 +43,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "086156fbc3f3facd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/nim/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "597a6c1012651a24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Конвертирование форматов/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73f9eade808e0515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc773ec6437abe40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd7877bb2c1f6f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Темы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "90171f8499a0e1ff",
@@ -130,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Найденное/Ссылки.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Найденное/Ссылки.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Найденное/Ссылки.md"
+                "file": "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md"
               }
             }
           }
@@ -193,10 +253,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "41e136161fb27907",
+  "active": "fc773ec6437abe40",
   "lastOpenFiles": [
-    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
+    "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
+    "Заметки/Linux/Конвертирование форматов/FAQ.md",
+    "Заметки/Разарботка/nim/FAQ.md",
+    "Заметки/Linux/Конвертирование форматов",
     "Найденное/Ссылки.md",
+    "Заметки/Разарботка/nim",
+    "Заметки/Темы.md",
+    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/ruby/FAQ.md",
     "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
@@ -219,17 +286,10 @@
     "Заметки/Разарботка/rust/Статьи/Polymorphism in Rust.md",
     "Заметки/Разарботка/rust/Статьи/Vector.md",
     "Заметки/Разарботка/rust/Статьи/Arrays, Vectors, and Slices.md",
-    "Заметки/Темы.md",
     "Заметки/AI/Темы.md",
     "Заметки/DIY/FAQ.md",
     "Заметки/Разарботка/nuxt/FAQ.md",
-    "Заметки/Разарботка/nuxt/Статьи/Nuxt.js for Busy Developers.md",
-    "Заметки/Linux/Темы.md",
-    "Найденное/Репозитории.md",
     "Заметки/DIY",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Химия",
-    "Заметки/Разарботка/rust/sqlx/Статьи",
-    "Заметки/Разарботка/rust/sqlx"
+    "Заметки/Химия"
   ]
 }
