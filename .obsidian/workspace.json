@@ -21,108 +21,12 @@
             }
           },
           {
-            "id": "f29ac66d5ab86fd2",
+            "id": "aae2f6a2ee28179a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41e136161fb27907",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "086156fbc3f3facd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nim/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "597a6c1012651a24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Конвертирование форматов/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73f9eade808e0515",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc773ec6437abe40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17c7c69ca72ec815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/магинное обучение/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e8fe0ccfa6e4fd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c9f69ffb88cd680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/scrapping/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       },
       {
         "id": "90171f8499a0e1ff",
@@ -238,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md"
+                "file": "Заметки/Экономика/FAQ.md"
               }
             }
           }
@@ -301,12 +205,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "dfc0feaf6172efe3",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/scrapy/FAQ.md",
+    "Заметки/Разарботка/rust/FAQ.md",
+    "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
-    "Заметки/Разарботка/python/django",
+    "Заметки/Разарботка/python/scrapy/FAQ.md",
     "Заметки/Разарботка/scrapping/FAQ.md",
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Экономика",
+    "Заметки/Радиоэлектроника",
+    "Заметки/Разарботка/python/django",
     "Заметки/Linux/Ссылки.md",
     "Заметки/Разарботка/python/scrapy",
     "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
@@ -322,22 +231,17 @@
     "Заметки/Linux/Конвертирование форматов",
     "Найденное/Ссылки.md",
     "Заметки/Разарботка/nim",
-    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/ruby/FAQ.md",
-    "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
     "Заметки/Разарботка/Веб-разработка/FAQ.md",
     "Заметки/Химия/FAQ.md",
     "Заметки/Разарботка/Веб-разработка",
     "Заметки/Разарботка/ruby/Статьи",
-    "Заметки/Разарботка/ruby",
     "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
-    "Заметки/Разарботка/flask/Статьи/Untitled",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
-    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
-    "Заметки/Разарботка/rust/Статьи/GraphQL на Rust.md"
+    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md"
   ]
 }
