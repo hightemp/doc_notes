@@ -33,6 +33,30 @@
             }
           },
           {
+            "id": "63fd6a7af424bab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/scrapy/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3c1698f6617f244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d712f16a37c470e0",
             "type": "leaf",
             "state": {
@@ -57,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "90171f8499a0e1ff",
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Экономика/FAQ.md",
+                "file": "Заметки/Разарботка/python/scrapy/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Экономика/FAQ.md",
+                "file": "Заметки/Разарботка/python/scrapy/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Экономика/FAQ.md"
+                "file": "Заметки/Разарботка/python/scrapy/FAQ.md"
               }
             }
           }
@@ -207,8 +231,11 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/FAQ.md",
+    "Заметки/Разарботка/python/scrapy/Статьи/Saving Scraped Data To CSV With Scrapy Feed Exporters.md",
+    "Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.md",
     "Заметки/Экономика/FAQ.md",
+    "Заметки/Разарботка/python/scrapy/Статьи",
+    "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/python/scrapy/FAQ.md",
     "Заметки/Разарботка/scrapping/FAQ.md",
@@ -236,12 +263,9 @@
     "Заметки/Разарботка/Веб-разработка/FAQ.md",
     "Заметки/Химия/FAQ.md",
     "Заметки/Разарботка/Веб-разработка",
-    "Заметки/Разарботка/ruby/Статьи",
     "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
-    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md"
+    "Заметки/Разарботка/python/FAQ.md"
   ]
 }
