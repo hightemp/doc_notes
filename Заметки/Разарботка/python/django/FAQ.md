@@ -1444,6 +1444,8 @@ def create_person(request):
 ```html
 {% extends 'base.html' %}
 
+{% load crispy_forms_tags %}
+
 {% block content %}
   <h2>Create Person</h2>
   <form method="post">
@@ -1465,3 +1467,122 @@ urlpatterns = [
 ```
 
 Теперь при переходе на страницу `/person/create/` вы увидите форму для создания объекта модели `Person` с использованием Django Crispy Forms.
+
+## как добавить django-crispy-forms в проект
+
+Чтобы добавить Django Crispy Forms в проект, нужно выполнить несколько шагов:
+
+1. Установить пакет `django-crispy-forms` с помощью менеджера пакетов `pip`, например:
+
+```
+pip install django-crispy-forms
+```
+
+2. Добавить `crispy_forms` в `INSTALLED_APPS` в файле `settings.py`:
+
+```python
+INSTALLED_APPS = [
+    # ...
+    'crispy_forms',
+    # ...
+]
+```
+
+3. Настроить `CRISPY_TEMPLATE_PACK` в `settings.py` для использования одного из доступных шаблонов, например:
+
+```python
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+```
+
+4. Для использования Django Crispy Forms в шаблонах, нужно подключить тег `{% load crispy_forms_tags %}` в начале шаблона, например:
+
+```html
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <!-- your content here -->
+{% endblock %}
+```
+
+Теперь вы можете использовать Django Crispy Forms в своих формах и шаблонах.
+
+## почему возникает ошибка django.template.exceptions.TemplateDoesNotExist: bootstrap4/uni_form.html
+
+Ошибка `django.template.exceptions.TemplateDoesNotExist: bootstrap4/uni_form.html` может возникнуть, если вы используете Django Crispy Forms в своем проекте и неправильно настроили настройки `CRISPY_TEMPLATE_PACK` в файле `settings.py`.
+
+По умолчанию, если не указано иное, Django Crispy Forms использует шаблон `bootstrap4`, который требует наличие шаблона `uni_form.html` в папке шаблонов. Однако, этот шаблон больше не поддерживается в более новых версиях Django Crispy Forms, поэтому возникает ошибка.
+
+Чтобы исправить эту ошибку, вам нужно изменить `CRISPY_TEMPLATE_PACK` на другой шаблон, например `bootstrap`, который использует другие шаблоны, не требующие `uni_form.html`. Для этого вам нужно изменить настройки в файле `settings.py` следующим образом:
+
+```python
+CRISPY_TEMPLATE_PACK = 'bootstrap'
+```
+
+После этого, перезапустите свой сервер и проверьте, что ошибка больше не возникает.
+
+```
+pip install crispy-bootstrap5
+```
+
+```
+INSTALLED_APPS = (
+    ...
+    "crispy_forms",
+    "crispy_bootstrap5",
+    ...
+)
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+```
+
+## почему cripsy-forms не отображается helper self.helper.add_input(Submit('submit', 'Добавить'))
+
+Если `crispy-forms` не отображается в вашем шаблоне, возможно, это связано с настройками `crispy-forms` или с вашим шаблоном.
+
+Возможные причины:
+
+1. Вы не подключили тег `{% load crispy_forms_tags %}` в начале вашего шаблона. Без этого тега `crispy-forms` не будет работать. Убедитесь, что вы добавили этот тег в начале шаблона.
+
+2. У вас неправильно настроен `CRISPY_TEMPLATE_PACK` в файле `settings.py`. Проверьте, что вы выбрали правильный шаблон, который поддерживает `helper`.
+
+3. В вашем шаблоне отсутствует блок `crispy`. Убедитесь, что вы добавили блок `crispy` в ваш шаблон, как показано ниже:
+
+```html
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <h2>Добавление объекта</h2>
+  <form method="post">
+    {% csrf_token %}
+    {% crispy form %}
+  </form>
+{% endblock %}
+```
+
+4. В вашей форме отсутствует `helper`. Убедитесь, что вы добавили `helper` в вашу форму, как показано ниже:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+from .models import MyModel
+
+class MyForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2']
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.add_input(Submit('submit', 'Добавить'))
+```
+
+Если вы проверили все эти причины и `crispy-forms` все еще не работает, попробуйте удалить кеш, перезапустить сервер и проверить еще раз.
+
