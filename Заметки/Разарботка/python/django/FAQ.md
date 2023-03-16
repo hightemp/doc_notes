@@ -571,3 +571,897 @@ for app in settings.INSTALLED_APPS:
 		]
 ```
 
+```python
+for app in settings.INSTALLED_APPS:
+    try:
+        app_config = apps.get_app_config(app.rsplit('.')[0])
+        urlpatterns += [
+            path(f'{app_config.urls}/', include(f'{app_config.name}.urls')),
+        ]
+    except ModuleNotFoundError:
+        pass
+    except LookupError:
+        pass
+    except AttributeError:
+        pass
+```
+
+## как в djano использовать в шаблоне layout
+
+В Django для реализации шаблона layout (или базового шаблона) используются наследование шаблонов. Это означает, что вы можете создать базовый шаблон, содержащий общую структуру вашего сайта (например, шапку, меню, футер и т.д.), а затем наследовать его в других шаблонах и заполнять контентом, уникальным для каждой страницы.
+
+Вот пример реализации шаблона layout в Django:
+
+1. Создайте базовый шаблон (например, base.html) с общей структурой вашего сайта:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <!-- шапка сайта -->
+    </header>
+    <nav>
+        <!-- меню сайта -->
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <!-- футер сайта -->
+    </footer>
+</body>
+</html>
+```
+
+Здесь мы определили базовую структуру нашего сайта, включая шапку, меню, контент и футер. Обратите внимание на блоки `{% block %}`, которые мы определили для заголовка страницы (`title`) и контента (`content`).
+
+2. Создайте другие шаблоны (например, home.html) и наследуйте базовый шаблон с помощью директивы `{% extends %}`:
+
+```
+{% extends 'base.html' %}
+
+{% block title %}Домашняя страница{% endblock %}
+
+{% block content %}
+    <h1>Добро пожаловать на наш сайт!</h1>
+    <p>Здесь вы найдете много интересной информации.</p>
+{% endblock %}
+```
+
+Здесь мы наследуем базовый шаблон `base.html` с помощью директивы `{% extends %}`. Затем мы переопределяем блок `title`, чтобы задать заголовок страницы, и блок `content`, чтобы заполнить контентом.
+
+3. Включите шаблон в ваше представление (view) с помощью функции `render()`:
+
+```
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'home.html')
+```
+
+Здесь мы включаем шаблон `home.html` в наше представление `home()` с помощью функции `render()`.
+
+Теперь, когда вы открываете страницу `http://localhost:8000/home/`, вы увидите контент, определенный в шаблоне `home.html`, внутри базовой структуры вашего сайта, определенной в шаблоне `base.html`.
+
+## как в django получить url по имени
+
+В Django для получения URL по имени используется функция `reverse`. 
+
+Пример:
+```python
+from django.urls import reverse
+
+url = reverse('имя_маршрута')
+```
+Вместо `'имя_маршрута'` нужно указать имя маршрута, для которого вы хотите получить URL. 
+
+Если маршрут содержит параметры, то нужно передать их в функцию `reverse` в виде именованных аргументов. 
+
+Пример:
+```python
+url = reverse('имя_маршрута', kwargs={'параметр1': 'значение1', 'параметр2': 'значение2'})
+```
+Здесь `'параметр1'` и `'параметр2'` - имена параметров маршрута, а `'значение1'` и `'значение2'` - соответствующие значения. 
+
+Функция `reverse` может использоваться в шаблонах, представлениях и других местах, где необходимо получить URL по имени маршрута.
+
+## как в django получить url по имени в шаблоне в ссылке
+
+В шаблоне Django для получения URL по имени в ссылке используется фильтр `url`. 
+
+Пример:
+```html
+<a href="{% url 'имя_маршрута' %}">Ссылка на страницу</a>
+```
+Вместо `'имя_маршрута'` нужно указать имя маршрута, для которого вы хотите получить URL. 
+
+Если маршрут содержит параметры, то их нужно передать в фильтр `url` в виде именованных аргументов. 
+
+Пример:
+```html
+<a href="{% url 'имя_маршрута' параметр1='значение1' параметр2='значение2' %}">Ссылка на страницу</a>
+```
+Здесь `'параметр1'` и `'параметр2'` - имена параметров маршрута, а `'значение1'` и `'значение2'` - соответствующие значения. 
+
+Фильтр `url` может использоваться внутри атрибутов `href`, `src`, `action` и других атрибутов, которые принимают URL.
+
+## как подключить в django css и bootstrap
+
+Для подключения CSS-файлов и библиотеки Bootstrap в Django вы можете использовать следующие шаги:
+
+1. Создайте папку `static` в корневой директории вашего Django проекта, если ее еще нет.
+
+2. В папке `static` создайте еще одну папку для ваших статических файлов (например, `css`).
+
+3. Скачайте файлы CSS-стилей и библиотеку Bootstrap и поместите их в папку `static/css` вашего Django проекта.
+
+4. В шаблоне HTML добавьте тег `<link>` для подключения CSS-файлов. Например, чтобы подключить файл `styles.css`, используйте следующий код:
+
+```
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+```
+
+Этот код использует тег `{% static %}` для создания правильного URL-адреса для вашего CSS-файла. Затем он использует тег `<link>` для подключения файла.
+
+5. Для подключения библиотеки Bootstrap добавьте следующий код в шаблон HTML:
+
+```
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+```
+
+Этот код подключает CSS-файл и JavaScript-файл для библиотеки Bootstrap. Обратите внимание, что мы используем тег `<script>` для подключения JavaScript-файла.
+
+6. Если вы хотите использовать библиотеку Bootstrap на конкретной странице, вы должны добавить соответствующие классы к HTML-элементам на этой странице. Например, чтобы использовать кнопки Bootstrap, добавьте класс `btn` к элементу `<button>`:
+
+```
+<button type="button" class="btn btn-primary">Нажми меня</button>
+```
+
+Этот код создает кнопку с классом `btn` и классом `btn-primary`, который определяет стиль кнопки в соответствии с библиотекой Bootstrap.
+
+Теперь вы можете использовать стили CSS и библиотеку Bootstrap в вашем Django проекте.
+
+## как запустить django сервер, который перезагружался бы, если изменяется контент
+
+Для запуска Django-сервера, который будет перезагружаться при изменении контента, можно использовать команду `runserver` с флагом `--noreload`. Однако, это решение не очень удобно, так как при каждом изменении необходимо вручную останавливать и перезапускать сервер.
+
+Более удобным решением является использование инструментов, таких как `watchdog` или `django-autoreload`, которые автоматически перезапускают сервер при изменении файлов.
+
+Пример использования `django-autoreload`:
+
+1. Установите `django-autoreload`:
+```bash
+pip install django-autoreload
+```
+
+2. Добавьте `autoreload` в список установленных приложений в файле `settings.py`:
+```python
+INSTALLED_APPS = [
+    ...
+    'autoreload',
+    ...
+]
+```
+
+3. Запустите сервер с использованием команды `runserver_plus` из пакета `django_extensions`:
+```bash
+python manage.py runserver_plus --cert certname
+```
+Здесь `--cert certname` - необязательный параметр, который позволяет использовать HTTPS.
+
+После этого сервер будет автоматически перезапускаться при изменении файлов.
+
+Примечание: не забудьте установить пакет `django_extensions`:
+```bash
+pip install django_extensions
+```
+
+## как в django сделать проверку в шаблоне для вывода active class в ссылке для текущего url
+
+Для того, чтобы добавить класс `active` в ссылку для текущего URL в Django-шаблоне, можно использовать следующий код:
+
+```html
+{% load urlmatch %}
+
+<ul>
+  <li><a href="{% url 'home' %}" class="{% urlmatch 'home' %}">Главная</a></li>
+  <li><a href="{% url 'about' %}" class="{% urlmatch 'about' %}">О нас</a></li>
+  <li><a href="{% url 'contact' %}" class="{% urlmatch 'contact' %}">Контакты</a></li>
+</ul>
+```
+
+Здесь мы используем фильтр `urlmatch`, который сравнивает текущий URL с URL, указанным в ссылке. Если URL совпадает, то фильтр возвращает строку `active`, которая добавляется в атрибут `class` ссылки.
+
+Примечание: для использования фильтра `urlmatch` необходимо добавить его в список контекстных процессоров в файле `settings.py`. Например:
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',
+                'path.to.urlmatch.context_processors.urlmatch',
+            ],
+        },
+    },
+]
+```
+
+Здесь `'path.to.urlmatch.context_processors.urlmatch'` - путь к файлу с контекстным процессором и функцией `urlmatch`.
+
+## напиши файл urlmatch (path.to.urlmatch.context_processors.urlmatch)
+
+Контекстный процессор `urlmatch` должен быть определен в файле `context_processors.py` внутри приложения. 
+
+1. Создайте файл `context_processors.py` внутри вашего приложения.
+2. В этом файле определите функцию `urlmatch`, которая будет сравнивать текущий URL с URL, указанным в ссылке. 
+
+Пример:
+
+```python
+from django.urls import resolve
+
+def urlmatch(request):
+    """
+    Сравнивает текущий URL с URL, указанным в ссылке.
+    Возвращает строку 'active', если URL совпадает, иначе пустую строку.
+    """
+    url_name = resolve(request.path_info).url_name # получаем имя текущего маршрута
+    return {'urlmatch': lambda url: 'active' if url == url_name else ''}
+```
+
+3. Добавьте путь к файлу `context_processors.py` в список контекстных процессоров в файле `settings.py`.
+
+Пример:
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.template.context_processors.request',
+                'myapp.context_processors.urlmatch',
+            ],
+        },
+    },
+]
+```
+
+Здесь `'myapp'` - имя вашего приложения, а `'context_processors.urlmatch'` - имя функции `urlmatch` в файле `context_processors.py`.
+
+После этого вы можете использовать фильтр `urlmatch` в шаблоне Django для добавления класса `active` в ссылку для текущего URL.
+
+## напиши файл для {% urlmatch 'home' %} (path.to.urlmatch.context_processors.urlmatch)
+
+Файл `context_processors.py` для использования фильтра `urlmatch` в шаблоне Django может выглядеть следующим образом:
+
+```python
+from django.urls import resolve
+
+def urlmatch(request):
+    """
+    Сравнивает текущий URL с URL, указанным в ссылке.
+    Возвращает строку 'active', если URL совпадает, иначе пустую строку.
+    """
+    def urlmatch_inner(url_name):
+        if resolve(request.path_info).url_name == url_name:
+            return 'active'
+        return ''
+        
+    return {'urlmatch': urlmatch_inner}
+```
+
+Здесь мы определяем функцию `urlmatch`, которая принимает имя URL в качестве аргумента и возвращает строку `'active'`, если текущий URL совпадает с URL, указанным в ссылке, иначе возвращает пустую строку.
+
+Функция `urlmatch` используется в фильтре `urlmatch_inner`, который принимает имя URL в качестве аргумента и вызывает функцию `resolve`, чтобы получить имя текущего URL. Если имена совпадают, то фильтр возвращает строку `'active'`, которая добавляется в атрибут `class` ссылки.
+
+Для использования этого контекстного процессора необходимо добавить его в список контекстных процессоров в файле `settings.py`.
+
+Пример:
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.template.context_processors.request',
+                'path.to.urlmatch.context_processors.urlmatch',
+            ],
+        },
+    },
+]
+```
+
+Здесь `'path.to.urlmatch.context_processors.urlmatch'` - путь к файлу с контекстным процессором и функцией `urlmatch`. После этого вы можете использовать фильтр `urlmatch` в шаблоне Django для добавления класса `active` в ссылку для текущего URL.
+
+## напиши пример создания context processor в django
+
+Контекстные процессоры - это функции, которые добавляют дополнительные переменные в контекст шаблона Django. Эти переменные могут быть использованы в шаблоне для отображения данных, например, меню навигации, текущий пользователь и т.д.
+
+Чтобы создать контекстный процессор в Django, нужно определить функцию, которая будет добавлять переменные в контекст. Затем эту функцию нужно добавить в список контекстных процессоров в файле `settings.py`.
+
+Например, создадим контекстный процессор, который добавляет в контекст текущий год:
+
+1. Создайте файл `context_processors.py` внутри вашего приложения.
+
+2. В этом файле определите функцию `current_year`, которая будет добавлять переменную `current_year` в контекст:
+
+```python
+import datetime
+
+def current_year(request):
+    """
+    Добавляет текущий год в контекст шаблона.
+    """
+    return {'current_year': datetime.date.today().year}
+```
+
+3. Добавьте путь к файлу `context_processors.py` в список контекстных процессоров в файле `settings.py`:
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',
+                'myapp.context_processors.current_year',
+            ],
+        },
+    },
+]
+```
+
+Здесь `'myapp'` - имя вашего приложения, а `'context_processors.current_year'` - имя функции `current_year` в файле `context_processors.py`.
+
+4. Используйте `current_year` в вашем шаблоне:
+
+```html
+<footer>
+  © {{ current_year }} Моя компания
+</footer>
+```
+
+Теперь в контекст шаблона будет добавлена переменная `current_year`, которая содержит текущий год, и вы можете использовать ее в шаблоне для отображения текущего года.
+
+## напиши пример создания context processor с передачей параметров в django
+
+Чтобы передать параметры в контекстный процессор в Django, нужно определить функцию, которая будет принимать параметры и добавлять их в контекст. Затем эту функцию нужно добавить в список контекстных процессоров в файле `settings.py`.
+
+Например, создадим контекстный процессор, который добавляет в контекст переменную `menu_items` для меню навигации. Параметры для этого контекстного процессора будут передаваться из файла `settings.py`.
+
+1. В файле `settings.py` добавьте параметры для контекстного процессора:
+
+```python
+MENU_ITEMS = [
+    {'title': 'Главная', 'url': '/'},
+    {'title': 'О нас', 'url': '/about/'},
+    {'title': 'Контакты', 'url': '/contact/'},
+]
+```
+
+2. Создайте файл `context_processors.py` внутри вашего приложения.
+
+3. В этом файле определите функцию `menu_items`, которая будет добавлять переменную `menu_items` в контекст:
+
+```python
+def menu_items(request):
+    """
+    Добавляет переменную `menu_items` в контекст шаблона.
+    """
+    from django.conf import settings
+    return {'menu_items': settings.MENU_ITEMS}
+```
+
+Здесь мы используем функцию `getattr` для получения значения параметра `MENU_ITEMS` из файла `settings.py`.
+
+4. Добавьте путь к файлу `context_processors.py` в список контекстных процессоров в файле `settings.py`:
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.request',
+                'myapp.context_processors.menu_items',
+            ],
+        },
+    },
+]
+```
+
+Здесь `'myapp'` - имя вашего приложения, а `'context_processors.menu_items'` - имя функции `menu_items` в файле `context_processors.py`.
+
+5. Используйте `menu_items` в вашем шаблоне:
+
+```html
+<nav>
+  <ul>
+    {% for item in menu_items %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+```
+
+Теперь в контекст шаблона будет добавлена переменная `menu_items`, которая содержит список пунктов меню, и вы можете использовать ее в шаблоне для отображения меню навигации.
+
+## напиши пример контекстного процессора для django в который передаются в контекстный процессор параметры из шаблона
+
+Контекстные процессоры в Django могут получать дополнительные параметры из шаблона, которые затем могут быть использованы для генерации контекста. Чтобы создать контекстный процессор в Django, который принимает параметры из шаблона, нужно выполнить следующие шаги:
+
+1. Создайте файл `context_processors.py` в папке приложения Django, которое вы хотите использовать для передачи параметров.
+
+2. Определите функцию, которая будет использоваться в качестве контекстного процессора. Эта функция должна принимать параметры и возвращать словарь с параметрами, которые вы хотите передать в каждый шаблон.
+
+Например, создадим контекстный процессор, который будет получать параметр `user_name` из шаблона и добавлять его в контекст:
+
+```python
+def user_name_processor(request, user_name):
+    return {'user_name': user_name}
+```
+
+3. Зарегистрируйте контекстный процессор в настройках проекта Django. Для этого добавьте его в список `context_processors` в файле настроек `settings.py`.
+
+```python
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'myapp.context_processors.user_name_processor',
+            ],
+        },
+    },
+]
+```
+
+4. Теперь вы можете использовать переданные параметры в любом шаблоне. Например, вы можете передать имя пользователя в контекстный процессор из шаблона следующим образом:
+
+```html
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello, {{ user_name }}!</h1>
+{% endblock %}
+```
+
+В результате, при каждом запросе к странице, в которой используется этот шаблон, будет отображаться приветствие с именем пользователя, переданным из шаблона в контекстный процессор.
+
+## напиши тэг для django который получал бы ссылку в качестве параметра и проверял бы совпадение ссылки с текущем url и возвращал бы active если это так
+
+Чтобы создать тег для Django, который будет проверять совпадение ссылки с текущим URL и возвращать `active`, если они совпадают, выполните следующие шаги:
+
+1. Создайте файл `mytags.py` в папке приложения Django.
+
+2. Импортируйте необходимые модули:
+
+```python
+from django import template
+from django.urls import resolve, reverse
+```
+
+3. Зарегистрируйте ваш тег в качестве тега шаблона:
+
+```python
+register = template.Library()
+```
+
+4. Определите функцию вашего тега, которая будет получать ссылку в качестве параметра и проверять на совпадение с текущим URL:
+
+```python
+@register.simple_tag(takes_context=True)
+def active_link(context, url):
+    # Получаем текущий URL
+    current_url = context['request'].path
+    
+    # Получаем полный URL по имени ссылки
+    full_url = reverse(url)
+    
+    # Проверяем совпадение текущего URL и полного URL
+    if resolve(current_url).url_name == resolve(full_url).url_name:
+        return 'active'
+    else:
+        return ''
+```
+
+5. Теперь вы можете использовать ваш тег в шаблонах. Например, вы можете использовать его в меню навигации для выделения активной ссылки:
+
+```html
+<ul>
+    <li class="{% active_link 'home' %}"><a href="{% url 'home' %}">Home</a></li>
+    <li class="{% active_link 'about' %}"><a href="{% url 'about' %}">About</a></li>
+    <li class="{% active_link 'contact' %}"><a href="{% url 'contact' %}">Contact</a></li>
+</ul>
+```
+
+Здесь мы передаем имя ссылки в качестве параметра в тег `active_link`, который проверяет совпадение ссылки с текущим URL и возвращает `active`, если они совпадают. Если ссылка не активна, тег возвращает пустую строку.
+
+## как подключать тэги в django
+
+Чтобы использовать свои теги в Django, нужно выполнить следующие шаги:
+
+1. Создайте файл `mytags.py` в папке приложения Django, и определите в нем свои теги.
+
+2. Зарегистрируйте свои теги в Django, используя метод `register.tag()` или `register.simple_tag()`.
+
+3. Импортируйте свои теги в шаблон, где вы хотите использовать их в следующем формате:
+
+```html
+{% load mytags %}
+```
+
+4. Теперь вы можете использовать свои теги в этом шаблоне.
+
+Например, если вы создали тег `my_tag` в файле `mytags.py`, зарегистрировали его с помощью `register.tag()`, и импортировали свои теги в шаблон, вы можете использовать его следующим образом:
+
+```html
+{% load mytags %}
+{% my_tag %}
+```
+
+Теги могут принимать аргументы, которые могут передаваться через шаблон. Например, если ваш тег `my_tag` принимает один аргумент `arg1`, вы можете вызвать его следующим образом:
+
+```html
+{% load mytags %}
+{% my_tag arg1 %}
+```
+
+Также в Django существует множество стандартных тегов, которые можно использовать без дополнительной настройки. Они находятся в модуле `django.template.defaulttags`. Чтобы использовать эти теги, вам не нужно регистрировать их. Просто импортируйте их в шаблон с помощью команды `{% load %}`.
+
+## напиши пример использования django_tables2 с моделью
+
+Django-tables2 - это библиотека, которая упрощает создание таблиц на основе моделей Django. Чтобы использовать Django-tables2 с моделью, нужно выполнить следующие шаги:
+
+1. Установите `django-tables2` в ваш проект:
+
+```sh
+pip install django-tables2
+```
+
+2. Создайте файл `tables.py` в папке приложения Django, которое вы хотите использовать для создания таблицы.
+
+3. Импортируйте класс `Table` из `django_tables2`, а также модель, которую вы хотите использовать для создания таблицы:
+
+```python
+import django_tables2 as tables
+from .models import MyModel
+```
+
+4. Определите класс вашей таблицы, который будет наследоваться от класса `Table`, и в качестве модели будет использоваться ваша модель:
+
+```python
+class MyModelTable(tables.Table):
+    class Meta:
+        model = MyModel
+```
+
+5. Теперь вы можете использовать вашу таблицу во вьюхах Django. Например, вы можете отображать таблицу на странице в следующей функции-контроллере:
+
+```python
+from django.shortcuts import render
+from .models import MyModel
+from .tables import MyModelTable
+
+def my_view(request):
+    my_model_data = MyModel.objects.all()
+    table = MyModelTable(my_model_data)
+    return render(request, 'my_template.html', {'table': table})
+```
+
+6. Наконец, вы можете отображать таблицу в шаблоне, который вы указали в функции-контроллере. Для этого используйте тег `{% render_table %}`:
+
+```html
+{% load render_table from django_tables2 %}
+{% render_table table %}
+```
+
+В результате, на странице будет отображаться таблица, созданная на основе вашей модели.
+
+## как решается ошибка в django: It is impossible to add a non-nullable field 'save_local_database_model' to spider without specifying a default. This is because the database needs something to populate existing rows.
+
+Ошибка возникает в случае, когда в модели Django добавляется новое поле `save_local_database_model`, которое не может быть NULL, и не указывается значение по умолчанию для уже существующих записей в базе данных.
+
+Для решения ошибки необходимо указать значение по умолчанию для нового поля в модели. Например:
+
+```python
+from django.db import models
+
+class Spider(models.Model):
+    # Добавляем новое поле save_local_database_model
+    save_local_database_model = models.BooleanField(default=False)
+    # Другие поля модели
+    name = models.CharField(max_length=100)
+    url = models.URLField()
+
+```
+
+Теперь при выполнении миграции Django значение по умолчанию будет использоваться для заполнения уже существующих записей в базе данных.
+
+## как добавить в django_tables2 классы bootstrap
+
+Для того, чтобы добавить классы Bootstrap к таблице, созданной с помощью django_tables2, можно использовать параметр `attrs` при определении класса таблицы.
+
+Например, чтобы добавить класс `table` из Bootstrap, можно сделать следующее:
+
+```python
+import django_tables2 as tables
+
+class MyTable(tables.Table):
+    name = tables.Column()
+    age = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table"}
+```
+
+Атрибут `attrs` в метаклассе `Meta` позволяет задавать произвольные атрибуты HTML-элементу, представляющему таблицу. В данном случае мы задаем атрибут `class` со значением `table`, что соответствует классу Bootstrap для таблиц.
+
+Аналогично можно добавить другие классы Bootstrap, например, `table-striped` для разделения строк таблицы:
+
+```python
+class MyTable(tables.Table):
+    name = tables.Column()
+    age = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped"}
+``` 
+
+Также можно добавлять произвольные классы, например, для добавления стилей через CSS:
+
+```python
+class MyTable(tables.Table):
+    name = tables.Column()
+    age = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped my-custom-class"}
+```
+
+## как добавить в django_tables2 добавить чекбоксы для выделения элементов для отправки в form
+
+Для добавления чекбоксов в таблицу django_tables2, необходимо создать новый столбец, в котором будут расположены чекбоксы.
+
+Например, чтобы добавить чекбоксы для выбора элементов таблицы, можно сделать следующее:
+
+```python
+import django_tables2 as tables
+
+class MyTable(tables.Table):
+    selection = tables.CheckBoxColumn(accessor="pk", orderable=False)
+    name = tables.Column()
+    age = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped my-custom-class"}
+```
+
+В данном примере мы создали новый столбец `selection`, который содержит чекбоксы для выбора элементов таблицы. Атрибут `accessor` указывает на поле модели, которое будет использоваться для выбора элемента. В данном случае, мы используем первичный ключ (pk) элемента.
+
+Затем, для получения выбранных элементов, можно использовать метод `get_selected()` объекта таблицы:
+
+```python
+form = MyForm(request.POST)
+table = MyTable(MyModel.objects.all())
+if request.method == "POST" and form.is_valid():
+    selected_ids = table.get_selected()
+    ...
+```
+
+Метод `get_selected()` возвращает список первичных ключей выбранных элементов таблицы.
+
+Для того, чтобы отображать чекбоксы в виде колонки слева, можно использовать атрибут `sequence` в метаклассе `Meta`:
+
+```python
+class MyTable(tables.Table):
+    selection = tables.CheckBoxColumn(accessor="pk", orderable=False)
+    name = tables.Column()
+    age = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped my-custom-class"}
+        sequence = ("selection", "...")  # "..." - остальные поля таблицы
+```
+
+В данном примере мы указали, что столбец `selection` должен быть расположен первым в таблице.
+
+## Django autoreload: add watched file
+
+### Django>=2.2
+
+The autoreloading was given a major overhaul (thanks to @Glenn who notified about the incoming changes in [this comment](https://stackoverflow.com/questions/42907285/django-autoreload-add-watched-file/43593959?noredirect=1#comment95849808_43593959)!), so one doesn't have to use the undocumented Django features and append files to `_cached_filenames` anymore. Instead, register custom signal listener, listening to autoreloading start:
+
+```python
+# apps.py
+from django.apps import AppConfig
+from django.utils.autoreload import autoreload_started
+
+
+def my_watchdog(sender, **kwargs):
+    sender.watch_file('/tmp/foo.bar')
+    # to listen to multiple files, use watch_dir, e.g.
+    # sender.watch_dir('/tmp/', '*.bar')
+
+
+class EggsConfig(AppConfig):
+    name = 'eggs'
+
+    def ready(self):
+        autoreload_started.connect(my_watchdog)
+```
+
+### Django<2.2
+
+Django stores the watched filepaths in the `django.utils.autoreload._cached_filenames` list, so adding to or removing items from it will force django to start or stop watching files.
+
+As for your problem, this is the (kind of a hacky) solution. For the demo purpose, I adapted the `apps.py` so the file starts being watched right after django initializes, but feel free to put the code wherever you want to. First of all, create the file as django can watch only files that already exist:
+
+```python
+$ touch /tmp/foo.bar
+```
+
+In your django app:
+
+```python
+# apps.py
+from django.apps import AppConfig
+...
+import django.utils.autoreload
+
+
+class MyAppConfig(AppConfig):
+    name = 'myapp'
+
+    def ready(self):
+        ...
+        django.utils.autoreload._cached_filenames.append('/tmp/foo.bar')
+```
+
+Now start the server, in another console modify the watched file:
+
+```python
+$ echo baz >> /tmp/foo.bar
+```
+
+The server should trigger an autoreload now.
+
+## как в django_table2 сделать изменить ширину колонки
+
+Для изменения ширины колонки в таблице `django_table2` можно использовать атрибут `attrs` для соответствующего поля модели, указав значение `width` для свойства `style`.
+
+Например, если у вас есть таблица, содержащая столбцы `name`, `age` и `email`, и вы хотите изменить ширину столбца `name`, можно сделать следующее:
+
+```python
+import django_tables2 as tables
+
+class MyTable(tables.Table):
+    name = tables.Column(attrs={"td": {"style": "width: 200px;"}})
+    age = tables.Column()
+    email = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped"}
+```
+
+В этом примере мы указываем, что для столбца `name` необходимо задать ширину 200 пикселей с помощью атрибута `attrs`. Атрибут `td` указывает на ячейки таблицы, соответствующие этому столбцу. Свойство `style` позволяет задавать стили для ячеек.
+
+Если вы хотите изменить ширину заголовка столбца, можно использовать атрибут `th` вместо `td`:
+
+```python
+class MyTable(tables.Table):
+    name = tables.Column(attrs={"th": {"style": "width: 200px;"}})
+    age = tables.Column()
+    email = tables.Column()
+    ...
+
+    class Meta:
+        attrs = {"class": "table table-striped"}
+```
+
+В этом случае мы указываем, что для заголовка столбца `name` необходимо задать ширину 200 пикселей с помощью атрибута `attrs` и свойства `style`.
+
+## напиши пример django crispy forms добавления объекта модели
+
+Хорошо, вот пример:
+
+1. Создайте модель, например, в файле `models.py`:
+
+```python
+from django.db import models
+
+class Person(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+    email = models.EmailField()
+```
+
+2. Создайте форму в файле `forms.py`:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+from .models import Person
+
+class PersonForm(forms.ModelForm):
+    class Meta:
+        model = Person
+        fields = ['name', 'age', 'email']
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.add_input(Submit('submit', 'Create'))
+```
+
+3. Создайте представление для создания объекта модели в файле `views.py`:
+
+```python
+from django.shortcuts import render, redirect
+from .forms import PersonForm
+
+def create_person(request):
+    if request.method == 'POST':
+        form = PersonForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('person_list')
+    else:
+        form = PersonForm()
+    return render(request, 'create_person.html', {'form': form})
+```
+
+4. Создайте шаблон `create_person.html` в папке `templates`:
+
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Create Person</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+  </form>
+{% endblock %}
+```
+
+5. Добавьте URL-адрес в файле `urls.py`:
+
+```python
+from django.urls import path
+from .views import create_person
+
+urlpatterns = [
+    path('person/create/', create_person, name='create_person'),
+]
+```
+
+Теперь при переходе на страницу `/person/create/` вы увидите форму для создания объекта модели `Person` с использованием Django Crispy Forms.

@@ -9,67 +9,7 @@
         "dimension": 55.203045685279186,
         "children": [
           {
-            "id": "204d00eabe9bb327",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/rust/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aae2f6a2ee28179a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Экономика/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "63fd6a7af424bab9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3c1698f6617f244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d712f16a37c470e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/scrapy/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfc0feaf6172efe3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "90171f8499a0e1ff",
@@ -166,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md"
+                "file": "Заметки/Разарботка/python/django/FAQ.md"
               }
             }
           }
@@ -229,8 +168,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "63fd6a7af424bab9",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/python/scrapy/FAQ.md",
     "Заметки/Разарботка/python/scrapy/Статьи/Saving Scraped Data To CSV With Scrapy Feed Exporters.md",
@@ -265,7 +205,6 @@
     "Заметки/Разарботка/Веб-разработка",
     "Заметки/Разарботка/flask/Статьи/Custom filters.md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
-    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
-    "Заметки/Разарботка/python/FAQ.md"
+    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md"
   ]
 }
