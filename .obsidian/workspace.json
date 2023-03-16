@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md"
+                "file": "Заметки/Разарботка/python/FAQ.md"
               }
             }
           }
@@ -231,8 +231,8 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/scrapy/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Разарботка/python/scrapy/FAQ.md",
     "Заметки/Разарботка/python/scrapy/Статьи/Saving Scraped Data To CSV With Scrapy Feed Exporters.md",
     "Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.md",
     "Заметки/Экономика/FAQ.md",

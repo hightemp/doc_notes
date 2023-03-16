@@ -356,3 +356,218 @@ class PersonTable(tables.Table):
 
 После этого в таблице появятся поля для ввода фильтров, которые автоматически фильтруют данные при вводе.
 
+## как в django создать контроллеры
+
+В Django контроллеры называются view-функциями, и они определяются в файле `views.py`. 
+
+Пример создания простой view-функции:
+
+```python
+from django.http import HttpResponse
+
+def hello(request):
+    return HttpResponse("Hello, world!")
+```
+
+В данном примере мы определяем функцию `hello`, которая принимает объект `HttpRequest` и возвращает объект `HttpResponse`, содержащий строку "Hello, world!".
+
+Чтобы использовать эту view-функцию в URL-адресах, необходимо создать маршрут в файле `urls.py`. 
+
+Пример:
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('hello/', views.hello, name='hello'),
+]
+```
+
+В данном примере мы создали маршрут для URL-адреса `/hello/`, который будет вызывать функцию `hello` из модуля `views`. Мы также задали имя маршрута `hello`, которое может быть использовано для создания ссылок на этот маршрут.
+
+View-функции также могут использоваться для отображения HTML-шаблонов. Для этого необходимо использовать функцию `render` из модуля `django.shortcuts`.
+
+Пример:
+
+```python
+from django.shortcuts import render
+
+def hello(request):
+    context = {'message': 'Hello, world!'}
+    return render(request, 'hello.html', context)
+```
+
+В данном примере мы используем функцию `render` для отображения HTML-шаблона `hello.html`. Мы также передаем в шаблон контекст, содержащий переменную `message`, которая будет использована в шаблоне для отображения сообщения.
+
+Чтобы использовать этот шаблон, необходимо создать файл `hello.html` в папке `templates` вашего приложения.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+</body>
+</html>
+```
+
+В данном примере мы определили HTML-шаблон, который будет отображать значение переменной `message` в теге `<h1>`.
+
+## напиши как в django грмааотно разбить проект на MVC модули
+
+В Django архитектура проекта не строго основана на паттерне MVC (Model-View-Controller), а использует свой подход, называемый Model-View-Template (MVT). 
+
+Однако, можно выделить следующие модули в Django, которые соответствуют ролям в паттерне MVC:
+
+1. Models - модели данных, которые отображаются в базу данных. Они описывают бизнес-логику и операции с данными. 
+
+2. Views - view-функции, которые отображают данные на странице. Они выполняют запросы к базе данных и используют шаблоны для отображения данных.
+
+3. Templates - HTML-шаблоны, которые отображают данные, полученные из view-функций. Они содержат структуру и внешний вид страницы.
+
+4. Forms - формы, которые используются для взаимодействия с пользователем. Они могут быть связаны с моделями данных и выполнять валидацию данных.
+
+Пример разбиения проекта на модули:
+
+```
+myproject/
+    manage.py
+    myproject/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+    app1/
+        __init__.py
+        models.py
+        views.py
+        templates/
+            app1/
+                template1.html
+                template2.html
+        forms.py
+        urls.py
+    app2/
+        __init__.py
+        models.py
+        views.py
+        templates/
+            app2/
+                template1.html
+                template2.html
+        forms.py
+        urls.py
+```
+
+В данном примере мы разбили проект на два приложения - `app1` и `app2`. Каждое приложение содержит модели данных (`models.py`), view-функции (`views.py`), шаблоны (`templates/`) и формы (`forms.py`). 
+
+Файл `urls.py` в каждом приложении содержит маршруты для URL-адресов, связанных с этим приложением. 
+
+Файл `settings.py` содержит настройки проекта, такие как настройки базы данных, маршрутизации URL и многое другое. 
+
+Файл `wsgi.py` используется для запуска проекта на веб-сервере. 
+
+Такое разбиение проекта на модули позволяет легко масштабировать проект и упрощает его сопровождение.
+
+## как django приложение разить на модули (содержит свои url, view, templates, models)
+
+Существует несколько подходов к разделению Django приложения на модули. Рассмотрим один из них.
+
+1. Создайте отдельную директорию для каждого модуля внутри вашего Django приложения.
+
+2. В каждой директории создайте следующие файлы:
+
+- urls.py - содержит маршруты URL для данного модуля;
+- views.py - содержит функции обработки запросов для данного модуля;
+- models.py - содержит модели данных для данного модуля;
+- templates/ - содержит шаблоны HTML для данного модуля.
+
+3. В файле urls.py для вашего Django приложения, импортируйте маршруты URL из каждого модуля и добавьте их в основной список маршрутов URL вашего приложения.
+
+Например, если у вас есть модуль "blog", который содержит свои маршруты URL, вам нужно импортировать его в файл urls.py вашего приложения и добавить его маршруты URL в основной список маршрутов URL. Это может выглядеть примерно так:
+
+```
+from django.urls import include, path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('blog/', include('myapp.blog.urls')),
+]
+```
+
+4. В файле views.py каждого модуля определите функции обработки запросов для данного модуля. Эти функции могут ссылаться на модели данных, определенные в файле models.py данного модуля.
+
+5. В файле models.py каждого модуля определите модели данных для данного модуля.
+
+6. В директории templates/ каждого модуля определите шаблоны HTML для данного модуля.
+
+Таким образом, вы можете организовать свое Django приложение на модули, каждый из которых содержит свои маршруты URL, функции обработки запросов, модели данных и шаблоны HTML.
+
+## напиши код который автоматически проходится по директориям и подключает все urls, которые найдет
+
+Вот пример кода, который автоматически проходится по директориям и подключает все urls, которые найдет:
+
+```python
+import os
+from django.urls import include, path
+
+urlpatterns = []
+
+# Получаем список всех директорий внутри приложения
+app_dir = os.path.dirname(os.path.abspath(__file__))
+for dirpath, dirnames, filenames in os.walk(app_dir):
+    # Игнорируем директории, которые начинаются с подчеркивания
+    dirnames[:] = [d for d in dirnames if not d.startswith('_')]
+    # Ищем файл urls.py в каждой директории
+    for filename in filenames:
+        if filename == 'urls.py':
+            # Импортируем найденный urls.py и добавляем его маршруты URL в urlpatterns
+            module = dirpath.replace('/', '.') + '.urls'
+            urlpatterns += [path('', include(module))]
+```
+
+Этот код проходится по всем директориям внутри вашего Django приложения, ищет файл urls.py в каждой директории и импортирует его. Затем он добавляет маршруты URL из найденных urls.py в основной список маршрутов urlpatterns. При этом игнорируются директории, которые начинаются с подчеркивания (например, __pycache__).
+
+## Django: Dynamically add apps as plugin, building urls and other settings automatically
+
+```python
+# in your project's urls.py
+from django.apps import apps
+from django.contrib import admin
+from django.conf import settings
+from django.urls import include, path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    # ...
+    # any other paths you may have
+]
+
+# Load urls from any app that defines a urls attribute in appname.apps.AppConfig
+for app in settings.INSTALLED_APPS:
+    try:
+        app_config = apps.get_app_config(app.rsplit('.')[0])
+        try:
+            urls = app_config.urls
+            urlpatterns += [
+                path(f'{app_config.urls}', include(f'{app_config.name}.urls', namespace=f'{app_config.urls_namespace}')),
+            ]
+        except AttributeError:
+            pass
+            
+    except LookupError:
+        pass
+```
+
+```python
+for app in settings.INSTALLED_APPS:
+	if app.startswith('baseapp') or app.startswith('app'):
+		app_config = apps.get_app_config(app.rsplit('.')[0])
+		urlpatterns += [
+			path(f'{app_config.urls}/', include(f'{app_config.name}.urls')),
+		]
+```
+
