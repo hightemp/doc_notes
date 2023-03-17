@@ -2195,3 +2195,41 @@ class MyTable(tables.Table):
 Обратите внимание, что мы использовали двойные кавычки для определения строкового значения внутри шаблона. Это позволяет использовать одинарные кавычки в ссылках Django без необходимости экранирования символов.
 
 Также обратите внимание на то, что мы указали шаблон `bootstrap-responsive.html` в параметре `template_name` для класса `Meta`. Это позволяет использовать стили Bootstrap для отображения таблицы.
+
+## напиши пример DeleteView в django
+
+Класс DeleteView в Django используется для удаления модели из базы данных. Ниже приведен пример:
+
+```python
+from django.views.generic.edit import DeleteView
+from django.urls import reverse_lazy
+from myapp.models import MyModel
+
+class MyModelDeleteView(DeleteView):
+    model = MyModel
+    success_url = reverse_lazy('myapp:some_view')
+    template_name = 'myapp/delete_mymodel.html'
+```
+
+В этом примере мы создаем класс MyModelDeleteView, который наследуется от класса DeleteView. Устанавливаем модель, которую хотим удалить, и задаем URL, на который пользователь будет перенаправлен после успешного удаления объекта. Также мы определяем шаблон, который будет использоваться для отображения страницы подтверждения удаления. По умолчанию, если пользователь подтвердит удаление, объект будет удален из базы данных.
+
+`DeleteView` - это класс-представление Django, который позволяет удалять объекты из базы данных. 
+
+Вот пример использования `DeleteView`:
+
+```python
+from django.urls import reverse_lazy
+from django.views.generic.edit import DeleteView
+from myapp.models import MyModel
+
+class MyModelDeleteView(DeleteView):
+    model = MyModel
+    success_url = reverse_lazy('myapp:model_list')
+    template_name = 'myapp/my_model_confirm_delete.html'
+```
+
+В этом примере мы создали класс `MyModelDeleteView`, который использует `DeleteView` для удаления объектов модели `MyModel`. 
+
+Мы указали модель `MyModel` в параметре `model`. В параметре `success_url` мы указали URL-адрес, на который пользователь будет перенаправлен после успешного удаления объекта. `reverse_lazy()` используется для генерации URL-адреса на основе имени URL-шаблона, когда URL-шаблон еще не загружен. В параметре `template_name` мы указали шаблон, который будет использоваться для отображения страницы подтверждения удаления.
+
+Этот класс-представление автоматически связывается с шаблоном `myapp/my_model_confirm_delete.html`, который должен содержать форму подтверждения удаления. После того, как пользователь отправит форму, объект будет удален из базы данных и пользователь будет перенаправлен на URL-адрес, указанный в параметре `success_url`.
