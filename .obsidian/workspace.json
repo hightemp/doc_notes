@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md"
+                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md"
               }
             }
           }
@@ -179,10 +179,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "e414274fba22dd47",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
     "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+    "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
@@ -214,7 +215,6 @@
     "Заметки/Разарботка/python/scrapy/Статьи",
     "Заметки/Разарботка/rust/FAQ.md",
     "Заметки/Разарботка/scrapping/FAQ.md",
-    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Экономика",
     "Заметки/Радиоэлектроника"
   ]

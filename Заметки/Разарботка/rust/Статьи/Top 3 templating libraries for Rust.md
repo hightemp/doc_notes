@@ -1,5 +1,7 @@
 https://blog.logrocket.com/top-3-templating-libraries-for-rust/
 
+{% raw %}
+
 In this guide, we’ll compare a few of these crates and show you how to get started with each.
 
 ## 1. Handlebars
@@ -248,3 +250,5 @@ Of the three crates we looked at, liquid is least production-ready, a fact suppo
 Having looked at three of the most popular templating crates, it is easy to say that templates will not be an issue for web projects written in Rust and that Rust has great support for them already. Both Handlebars and Tera are stable, production-ready crates, and while liquid may not be at the same level just yet, it is still a solid choice.
 
 It’s worth noting that there are plenty more than these three crates for doing templating in Rust, but most of the other options are less popular and don’t yet have a stable release. No matter which crate you decide to use, you will be able to reap the performance and reliability benefits of writing web applications in Rust.
+
+{% endraw %}
