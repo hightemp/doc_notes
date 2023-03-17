@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
+                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
+                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
+                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md"
+                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md"
               }
             }
           }
@@ -181,16 +181,17 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
+    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
     "Заметки/Разарботка/flask/Статьи/Custom filters.md",
-    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/FAQ.md",
-    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/FAQ 1.md",
     "Заметки/Разарботка/langd/FAQ.md",
     "_config.yml",
-    "Заметки/Разарботка/python/django/FAQ.md",
     "README.md",
     "Заметки/Разарботка/langd",
     "Заметки/AI/Темы.md",
@@ -203,7 +204,6 @@
     "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/i3wm",
     "Заметки/Linux/Оконные менеджеры",
-    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
     "Заметки/Разарботка/python/django/Статьи",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/python/scrapy/FAQ.md",

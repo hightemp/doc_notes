@@ -1,5 +1,7 @@
 https://django.fun/ru/articles/tutorials/usovershenstvovannoe-otobrazhenie-form-bootstrap-4-s-pomoshyu-django-crispy-forms/
 
+{% raw %}
+
 Версии ПО, используемые в данной статье: Django 2.1.3, Python 3.6.5, Bootstrap 4.1.3.
 
 В этом уроке мы собираемся изучить некоторые функции [Django Crispy Forms](https://django.fun/docs/crispy-forms/ru/stable/) для обработки расширенных/пользовательских форм с использованием Bootstrap 4.
@@ -345,3 +347,5 @@ class CustomFieldForm(AddressForm):
 Как видите,  можно не только использовать базовые возможности Django Crispy Forms для отображения формы Bootstrap 4, но и настроить собсвтенный рендеринг отдельных полей формы.
 
 _Перевод статьи https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html_
+
+{% endraw %}
