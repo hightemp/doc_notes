@@ -1,5 +1,7 @@
 https://dev.to/0xbf/day11-write-web-app-with-actix-web-100dayofrust-1lkn
 
+{% raw %}
+
 # Day12:Write web app with actix-web - 100DayOfRust
 
 The reason I chose `actix-web` over `rocket` is 1) it doesn't rely on the nightly version 2) it support web socket
@@ -296,3 +298,5 @@ fn main() {
 -   [https://tera.netlify.com/](https://tera.netlify.com/)
 -   [http://siciarz.net/24-days-rust-tera/](http://siciarz.net/24-days-rust-tera/)
 -   [https://github.com/actix/examples/blob/master/template_tera/src/main.rs](https://github.com/actix/examples/blob/master/template_tera/src/main.rs)
+
+{% endraw %}

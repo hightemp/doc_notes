@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md"
+                "file": "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md"
               }
             }
           }
@@ -181,8 +181,9 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+    "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
+    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
@@ -215,7 +216,6 @@
     "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Экономика",
-    "Заметки/Радиоэлектроника",
-    "Заметки/Linux/Ссылки.md"
+    "Заметки/Радиоэлектроника"
   ]
 }
