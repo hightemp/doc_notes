@@ -19,21 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c734c1a3f46eddc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "90171f8499a0e1ff",
@@ -181,10 +168,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c734c1a3f46eddc5",
+  "active": "63fd6a7af424bab9",
   "lastOpenFiles": [
-    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
+    "Заметки/AI/pytorch/Статьи/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/AI/pytorch/Статьи",
+    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/i3wm",
     "Заметки/Linux/Оконные менеджеры",
     "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
@@ -209,7 +198,6 @@
     "Заметки/Темы.md",
     "Заметки/Разарботка/магинное обучение/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
-    "Заметки/Разарботка/магинное обучение",
     "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
     "Заметки/Linux/Конвертирование форматов/FAQ.md",
     "Заметки/Разарботка/nim/FAQ.md",
