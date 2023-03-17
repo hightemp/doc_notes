@@ -1,12 +1,22 @@
 title: Obsidian notes
-theme: jekyll-theme-minimal
-markdown: GFM
+encoding: utf-8
+markdown: GitHub
+
 include:
-  - ./
-highlighter: rouge
-encoding: UTF-8
+  - '**/*.md'
+
+exclude:
+  - .git
+  - node_modules
+  - vendor
+
 plugins:
+  - jekyll-sitemap
   - jekyll-relative-links
+
+permalink: pretty
+theme: jekyll-theme-minimal
+highlighter: rouge
 relative_links:
   enabled: true
   collections: true
