@@ -14,7 +14,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-relative-links
 
-permalink: pretty
+# permalink: pretty
 theme: jekyll-theme-minimal
 highlighter: rouge
 relative_links:
