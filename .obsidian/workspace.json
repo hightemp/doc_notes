@@ -183,8 +183,11 @@
   },
   "active": "c734c1a3f46eddc5",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
+    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Linux/Оконные менеджеры/i3wm",
+    "Заметки/Linux/Оконные менеджеры",
+    "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
     "Заметки/Разарботка/python/django/Статьи",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/python/scrapy/FAQ.md",
@@ -210,14 +213,10 @@
     "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
     "Заметки/Linux/Конвертирование форматов/FAQ.md",
     "Заметки/Разарботка/nim/FAQ.md",
-    "Заметки/Linux/Конвертирование форматов",
     "Найденное/Ссылки.md",
-    "Заметки/Разарботка/nim",
     "Заметки/Разарботка/ruby/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
     "Заметки/Разарботка/Веб-разработка/FAQ.md",
-    "Заметки/Химия/FAQ.md",
-    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
-    "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md"
+    "Заметки/Химия/FAQ.md"
   ]
 }

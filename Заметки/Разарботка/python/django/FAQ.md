@@ -1586,3 +1586,588 @@ class MyForm(forms.ModelForm):
 
 Если вы проверили все эти причины и `crispy-forms` все еще не работает, попробуйте удалить кеш, перезапустить сервер и проверить еще раз.
 
+## напиши примеры использования FormHelper для crispy_forms
+
+Хорошо, вот несколько примеров использования `FormHelper` для `crispy_forms`.
+
+1. Добавление кнопки "Отправить" в форму:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+
+class MyForm(forms.Form):
+    name = forms.CharField()
+    email = forms.EmailField()
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.add_input(Submit('submit', 'Отправить'))
+```
+
+2. Изменение расположения полей формы:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Layout, Row, Column, Submit
+from .models import MyModel
+
+class MyForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2', 'field3']
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.layout = Layout(
+            Row(
+                Column('field1', css_class='form-group col-md-4 mb-0'),
+                Column('field2', css_class='form-group col-md-4 mb-0'),
+                Column('field3', css_class='form-group col-md-4 mb-0'),
+                css_class='form-row'
+            ),
+            Submit('submit', 'Отправить')
+        )
+```
+
+3. Использование автоматического выравнивания полей формы:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+from crispy_forms.bootstrap import FormActions
+from .models import MyModel
+
+class MyForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2', 'field3']
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_class = 'form-horizontal'
+        self.helper.label_class = 'col-md-3'
+        self.helper.field_class = 'col-md-9'
+        self.helper.layout = FormActions(
+            Submit('submit', 'Отправить')
+        )
+```
+
+Это только несколько примеров использования `FormHelper`. `crispy_forms` предоставляет множество различных функций для настройки форм. Подробнее о них можно узнать в документации `crispy_forms`.
+
+## напиши как изменить label в форме crispy_forms
+
+Чтобы изменить label в форме `crispy_forms`, можно использовать атрибут `label` для каждого поля формы. Он позволяет задать текст для label вручную.
+
+Вот пример:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+from .models import MyModel
+
+class MyForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2', 'field3']
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.add_input(Submit('submit', 'Отправить'))
+        self.fields['field1'].label = 'Мое поле 1'
+        self.fields['field2'].label = 'Мое поле 2'
+        self.fields['field3'].label = 'Мое поле 3'
+```
+
+В этом примере мы создаем форму `MyForm` на основе модели `MyModel`. Затем мы создаем `FormHelper` и добавляем кнопку "Отправить". Далее мы изменяем label для каждого поля формы, указав свой текст в атрибуте `label`.
+
+После этого, при генерации формы в шаблоне, label для каждого поля будет отображаться с указанным текстом.
+
+Также можно изменить label в форме без использования `FormHelper`, просто изменяя атрибут `label` для каждого поля формы:
+
+```python
+from django import forms
+from .models import MyModel
+
+class MyForm(forms.ModelForm):
+    class Meta:
+        model = MyModel
+        fields = ['field1', 'field2', 'field3']
+
+    field1 = forms.CharField(label='Мое поле 1')
+    field2 = forms.CharField(label='Мое поле 2')
+    field3 = forms.CharField(label='Мое поле 3')
+```
+
+В этом примере мы определяем каждое поле формы отдельно и задаем для каждого поля свой label в атрибуте `label`.
+
+## как в django_tables2 сделать ссылки на страницу описания объекта
+
+Для создания ссылки на страницу описания объекта в django_tables2 необходимо использовать класс `LinkColumn`.
+
+Пример:
+```python
+import django_tables2 as tables
+from django.urls import reverse
+from myapp.models import MyModel
+
+class MyTable(tables.Table):
+    name = tables.LinkColumn('myapp:detail', args=[tables.A('pk')])
+    
+    class Meta:
+        model = MyModel
+```
+
+В этом примере мы создали класс `MyTable`, который наследуется от `tables.Table`. Затем мы добавили столбец `name`, который является ссылкой на страницу описания объекта. Для создания ссылки мы использовали `LinkColumn`, передав ему имя URL-адреса и аргументы для этого URL-адреса. В данном случае мы передали `myapp:detail` в качестве имени URL-адреса и `tables.A('pk')` в качестве аргумента. `tables.A('pk')` указывает на значение поля `pk` текущего объекта.
+
+Мы также указали, что модель, используемая для создания таблицы, является `MyModel`. Это позволяет `django_tables2` автоматически создавать столбцы для каждого поля модели.
+
+Дополнительную информацию о `LinkColumn` и других классах `django_tables2` можно найти в документации `django_tables2`.
+
+## как в django_tables2 сделать ссылки на страницу описания объекта напиши так же urlpatterns и метод с передачей id
+
+Хорошо, давайте предположим, что у нас есть модель `MyModel` в приложении `myapp`, а также представление `DetailView` для отображения описания объекта. 
+
+Вот пример urlpatterns с именованным маршрутом `detail`:
+
+```python
+from django.urls import path
+from myapp.views import MyModelDetailView
+
+urlpatterns = [
+    path('<int:pk>/', MyModelDetailView.as_view(), name='detail'),
+    # другие маршруты
+]
+```
+
+И вот пример класса `MyTable`, использующего `LinkColumn` для создания ссылки на страницу описания объекта:
+
+```python
+import django_tables2 as tables
+from django.urls import reverse
+from myapp.models import MyModel
+
+class MyTable(tables.Table):
+    name = tables.LinkColumn('detail', args=[tables.A('pk')])
+    
+    class Meta:
+        model = MyModel
+```
+
+В этом примере мы передали `detail` в качестве имени URL-адреса в `LinkColumn`, что соответствует именованному маршруту, определенному в urlpatterns. Мы также передали `tables.A('pk')` в качестве аргумента, чтобы передать значение `pk` текущего объекта в URL-адрес.
+
+Теперь нам нужно создать представление `DetailView` для отображения описания объекта. Вот пример:
+
+```python
+from django.views.generic import DetailView
+from myapp.models import MyModel
+
+class MyModelDetailView(DetailView):
+    model = MyModel
+    template_name = 'myapp/my_model_detail.html'
+```
+
+В этом примере мы создали класс `MyModelDetailView`, который наследуется от `DetailView`. Мы указали, что модель, используемая для отображения описания объекта, является `MyModel`, и определили имя шаблона `myapp/my_model_detail.html`.
+
+Теперь вы можете просто добавить `MyTable` в свое представление и использовать его для отображения данных модели в таблице. Например:
+
+```python
+from django.views.generic import TemplateView
+from myapp.models import MyModel
+from myapp.tables import MyTable
+
+class MyModelTableView(TemplateView):
+    template_name = 'myapp/my_model_table.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        table = MyTable(MyModel.objects.all())
+        context['table'] = table
+        return context
+```
+
+В этом примере мы создали класс `MyModelTableView`, который наследуется от `TemplateView`. Мы определили имя шаблона `myapp/my_model_table.html`. В методе `get_context_data` мы создали экземпляр `MyTable` и передали ему все объекты `MyModel`. Затем мы добавили таблицу в контекст и передали его в шаблон для отображения таблицы.
+
+В шаблоне `myapp/my_model_table.html` вы можете просто добавить переменную `table` в контексте, чтобы отобразить таблицу. Например:
+
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>My Model Table</h1>
+    {% render_table table %}
+{% endblock %}
+```
+
+В этом примере мы использовали тег `{% render_table %}` для отображения таблицы в шаблоне. Этот тег предоставляется `django_tables2` и автоматически создает HTML-код для отображения таблицы.
+
+## как в django_tables2 сделать ссылки на страницу редактирования объекта напиши так же urlpatterns и метод с передачей id
+
+Для создания ссылки на страницу редактирования объекта в django_tables2 необходимо использовать класс `LinkColumn` и передавать в него имя URL-адреса, аргументы и опцию `attrs`. 
+
+Вот пример urlpatterns с именованным маршрутом `edit`:
+
+```python
+from django.urls import path
+from myapp.views import MyModelUpdateView
+
+urlpatterns = [
+    path('<int:pk>/edit/', MyModelUpdateView.as_view(), name='edit'),
+    # другие маршруты
+]
+```
+
+И вот пример класса `MyTable`, использующего `LinkColumn` для создания ссылки на страницу редактирования объекта:
+
+```python
+import django_tables2 as tables
+from django.urls import reverse
+from myapp.models import MyModel
+
+class MyTable(tables.Table):
+    name = tables.LinkColumn('edit', args=[tables.A('pk')], attrs={'a': {'class': 'btn btn-sm btn-primary'}})
+    
+    class Meta:
+        model = MyModel
+```
+
+В этом примере мы передали `edit` в качестве имени URL-адреса в `LinkColumn`, что соответствует именованному маршруту, определенному в urlpatterns. Мы также передали `tables.A('pk')` в качестве аргумента, чтобы передать значение `pk` текущего объекта в URL-адрес.
+
+Мы также добавили опцию `attrs`, чтобы добавить класс `btn btn-sm btn-primary` к ссылке. Это позволит нам стилизовать ссылку в соответствии с дизайном нашего проекта.
+
+Теперь нам нужно создать представление `UpdateView` для редактирования объекта. Вот пример:
+
+```python
+from django.views.generic.edit import UpdateView
+from myapp.models import MyModel
+from myapp.forms import MyModelForm
+
+class MyModelUpdateView(UpdateView):
+    model = MyModel
+    form_class = MyModelForm
+    template_name = 'myapp/my_model_form.html'
+```
+
+В этом примере мы создали класс `MyModelUpdateView`, который наследуется от `UpdateView`. Мы указали, что модель, используемая для редактирования объекта, является `MyModel`, и определили форму `MyModelForm`, которую мы будем использовать для редактирования объекта. Мы также определили имя шаблона `myapp/my_model_form.html`.
+
+Теперь вы можете просто добавить `MyTable` в свое представление и использовать его для отображения данных модели в таблице. Например:
+
+```python
+from django.views.generic import TemplateView
+from myapp.models import MyModel
+from myapp.tables import MyTable
+
+class MyModelTableView(TemplateView):
+    template_name = 'myapp/my_model_table.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        table = MyTable(MyModel.objects.all())
+        context['table'] = table
+        return context
+```
+
+В этом примере мы создали класс `MyModelTableView`, который наследуется от `TemplateView`. Мы определили имя шаблона `myapp/my_model_table.html`. В методе `get_context_data` мы создали экземпляр `MyTable` и передали ему все объекты `MyModel`. Затем мы добавили таблицу в контекст и передали его в шаблон для отображения таблицы.
+
+В шаблоне `myapp/my_model_table.html` вы можете просто добавить переменную `table` в контексте, чтобы отобразить таблицу. Например:
+
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>My Model Table</h1>
+    {% render_table table %}
+{% endblock %}
+```
+
+В этом примере мы использовали тег `{% render_table %}` для отображения таблицы в шаблоне. Этот тег предоставляется `django_tables2` и автоматически создает HTML-код для отображения таблицы.
+
+## распиши как работать с классом UpdateView в django и что можно сделать
+
+`UpdateView` является классом-представлением Django, который используется для обработки HTTP-запросов на редактирование существующего объекта модели. Он предоставляет стандартное представление формы для редактирования объекта и обрабатывает отправку формы для сохранения изменений.
+
+Вот пример использования `UpdateView` в Django:
+
+```python
+from django.views.generic.edit import UpdateView
+from myapp.models import MyModel
+from myapp.forms import MyModelForm
+
+class MyModelUpdateView(UpdateView):
+    model = MyModel
+    form_class = MyModelForm
+    template_name = 'myapp/my_model_form.html'
+```
+
+В этом примере мы создали класс `MyModelUpdateView`, который наследуется от `UpdateView`. Мы указали, что модель, используемая для редактирования объекта, является `MyModel`, и определили форму `MyModelForm`, которую мы будем использовать для редактирования объекта. Мы также определили имя шаблона `myapp/my_model_form.html`.
+
+Методом формы `form_valid` обрабатывается отправка формы. Вот пример:
+
+```python
+class MyModelUpdateView(UpdateView):
+    model = MyModel
+    form_class = MyModelForm
+    template_name = 'myapp/my_model_form.html'
+    
+    def form_valid(self, form):
+        response = super().form_valid(form)
+        # дополнительная логика сохранения объекта
+        return response
+```
+
+В этом примере мы переопределили метод `form_valid`, который вызывается при отправке формы и возвращает HTTP-ответ после успешного сохранения объекта. В данном случае мы сначала вызвали метод `form_valid` родительского класса, чтобы сохранить объект. Затем мы добавили дополнительную логику сохранения объекта, если это необходимо, и вернули HTTP-ответ.
+
+`UpdateView` также предоставляет ряд атрибутов и методов, которые можно использовать для настройки поведения представления. Вот некоторые из них:
+
+- `model`: указывает модель, с которой работает представление.
+- `form_class`: указывает класс формы, которая будет использоваться для редактирования объекта.
+- `template_name`: указывает имя шаблона, который будет использоваться для отображения формы редактирования объекта.
+- `success_url`: указывает URL-адрес, на который будет перенаправлен пользователь после успешного сохранения объекта. Если этот атрибут не указан, пользователь будет перенаправлен на страницу описания объекта.
+- `get_object()`: возвращает объект, который должен быть отредактирован представлением, на основе параметра `pk` из URL-адреса. Этот метод может быть переопределен для выполнения дополнительной логики при получении объекта.
+- `get_form_kwargs()`: возвращает словарь аргументов, которые будут переданы в конструктор формы. Этот метод может быть переопределен для выполнения дополнительной логики при создании формы.
+
+`UpdateView` является мощным и гибким классом-представлением, который позволяет легко создавать представления для редактирования объектов модели. Он обрабатывает большинство стандартных задач по редактированию объектов и может быть настроен для выполнения дополнительных задач при необходимости.
+
+## из-за чего возникает ошибка `django.template.base.VariableDoesNotExist: Failed lookup for key [helper] in <ProjectForm bound=False, valid=Unknown, fields=(name)>`
+
+Эта ошибка возникает, когда в шаблоне пытаемся обратиться к атрибуту `helper` объекта формы, который не был определен в классе формы. 
+
+Например, в шаблоне вы пытаетесь обратиться к атрибуту `helper` объекта формы `ProjectForm`, но этот атрибут не был определен в классе формы. 
+
+Чтобы решить эту проблему, вам нужно определить атрибут `helper` в классе формы и передать объект формы в контекст шаблона. 
+
+Пример:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+
+class ProjectForm(forms.Form):
+    name = forms.CharField()
+
+    # определение атрибута helper
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_method = 'post'
+
+```
+
+Затем, передайте объект формы в контекст шаблона:
+
+```python
+from django.shortcuts import render
+from .forms import ProjectForm
+
+def my_view(request):
+    form = ProjectForm()
+    return render(request, 'my_template.html', {'form': form})
+```
+
+И в шаблоне вы можете использовать атрибут `helper`:
+
+```html
+{% load crispy_forms_tags %}
+<form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+</form>
+```
+
+## из-за чего возникает ошибка `django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.`
+
+Эта ошибка возникает, когда Django не может определить URL-адрес для перенаправления после выполнения какого-то действия. Эта ошибка может быть вызвана несколькими причинами:
+
+1. Не указан URL-адрес для перенаправления в представлении
+2. Метод `get_absolute_url()` не был определен в модели
+3. Указанный URL-адрес для перенаправления некорректен
+
+Для решения этой ошибки:
+
+1. Убедитесь, что вы указали правильный URL-адрес в представлении. Например, если вы используете метод `redirect()` в представлении, убедитесь, что вы указали правильный URL-адрес:
+
+```python
+from django.shortcuts import redirect
+
+def my_view(request):
+    # some view logic here
+    return redirect('my_app:my_url')
+```
+
+2. Если вы используете модель и хотите перенаправить пользователя на страницу деталей объекта, убедитесь, что вы определили метод `get_absolute_url()` в модели:
+
+```python
+from django.urls import reverse
+from django.db import models
+
+class MyModel(models.Model):
+    # model fields here
+
+    def get_absolute_url(self):
+        return reverse('my_app:my_model_detail', args=[str(self.id)])
+```
+
+3. Если вы указали правильный URL-адрес для перенаправления, но все равно получили ошибку, убедитесь, что вы не делаете перенаправление на URL-адрес, который требует аутентификации пользователя, но пользователь не вошел в систему. 
+
+Если вы не можете найти ошибку, попробуйте добавить `print()` в свой код, чтобы увидеть, какие значения передаются в переменные.
+
+## как в ModelForm добавить в helper ссылку на страницу
+
+Вы можете добавить ссылку на страницу в `helper` формы, используя атрибут `href` в `HTML` коде. 
+
+Например, если вы хотите добавить ссылку на главную страницу вашего сайта, вы можете сделать это следующим образом:
+
+```python
+from django import forms
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import HTML
+
+class MyForm(forms.ModelForm):
+    # form fields here
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        
+        self.helper = FormHelper()
+        self.helper.form_method = 'post'
+        self.helper.add_input(Submit('submit', 'Save'))
+        self.helper.layout.append(HTML('<a href="/">Go to home page</a>'))
+```
+
+В этом примере мы добавили ссылку на главную страницу сайта в `helper` формы, используя класс `HTML`. Вы можете использовать этот класс, чтобы добавить любой другой HTML код в вашу форму.
+
+Затем вы можете использовать эту форму в вашем представлении и передать ее в контекст шаблона:
+
+```python
+from django.shortcuts import render
+from .forms import MyForm
+
+def my_view(request):
+    form = MyForm()
+    return render(request, 'my_template.html', {'form': form})
+```
+
+Затем добавьте форму в свой шаблон:
+
+```html
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>My Form</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+  </form>
+{% endblock %}
+``` 
+
+Теперь в вашей форме будет ссылка на главную страницу вашего сайта.
+
+## How to redirect to url by cancel button in django-crispy-forms?
+
+Add `Cancel` button and use `window.location.href` within `onclick` event:
+
+```lua
+self.helper.add_input(Button('cancel', 'Cancel', css_class='btn-primary',
+                             onclick="window.location.href = '{}';".format(reverse('your-cancel-url-name'))))
+```
+
+-   If you need to go to detail page, use _reverse('your-detail-page-url-name', args=[self.instance.id])_ 
+-   For me this pattern is raising an `ImproperlyConfigured` error - "The included URLconf 'project.urls' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import." My project site worked fine before this alteration, so I don't think it's an issue with urls.py 
+    
+
+Another way if you prefer is to pass the HTML as is:
+
+```python
+    from crispy_forms.layout import HTML
+    self.helper.layout = Layout(
+            Fieldset(
+                'Title',
+                'field1',
+                'field2',
+                'field3'
+            ),
+            FormActions(
+                        Submit('save', 'Save'),
+                        HTML('<a class="btn btn-primary" href="/">Cancel</a>')
+                    )
+     )
+```
+
+```python
+self.helper.layout.append(
+            FormActions(
+                submit,
+                Submit('cancel_button', u'Скасувати', css_class="btn btn-link"),
+            )
+        )
+```
+
+This is strange, but works:
+
+```python
+from crispy_forms.bootstrap import FormActions
+from crispy_forms.layout import Fieldset, HTML, Layout, Submit
+
+rows = [el for el in self.fields]  # self == form
+rows.append(
+    FormActions(
+        Submit('Save', _('Save')),
+        HTML(f'<a href="{reverse("focov:choose-regulation")}" class="btn btn-outline-secondary">{_("Cancel")}</a>'),
+    css_class="row"),
+)
+self.helper.layout = Layout(
+    Fieldset('', *rows),
+)
+```
+
+## напиши какие существуют в django_tables2 столбцы и для чего могут использоваться
+
+В Django_tables2 доступно множество типов столбцов (columns), каждый из которых имеет свои особенности и может использоваться для различных задач. Некоторые из этих столбцов:
+
+1. Column: Базовый столбец, который можно настроить для отображения данных из модели Django. Также можно использовать для создания кастомных столбцов.
+
+2. BooleanColumn: Столбец для отображения булевых значений. Может быть настроен на отображение значков вместо текста.
+
+3. DateColumn: Столбец для отображения даты.
+
+4. DateTimeColumn: Столбец для отображения даты и времени.
+
+5. EmailColumn: Столбец для отображения электронной почты.
+
+6. LinkColumn: Столбец для отображения ссылок.
+
+7. TemplateColumn: Столбец для создания кастомных столбцов с помощью шаблонов.
+
+8. URLColumn: Столбец для отображения URL.
+
+9. TimeColumn: Столбец для отображения времени.
+
+10. FileColumn: Столбец для отображения файлов.
+
+Каждый из этих столбцов может быть настроен на отображение данных из модели Django по определенным правилам, что делает их очень гибкими и удобными в использовании. Они могут быть использованы для отображения данных в таблицах, гридах и других элементах интерфейса.
+
+## как в django_tables2 добавить кнопки для действий в столбец справа
+
+Для добавления кнопок для действий в столбец справа в Django_tables2 нужно использовать класс `TemplateColumn`. Этот класс позволяет создавать кастомные столбцы, используя шаблоны. Чтобы добавить кнопки для действий, нужно создать шаблон, который будет содержать HTML-код для кнопок. Затем этот шаблон нужно передать в качестве параметра `template_code` методу `TemplateColumn`:
+
+```python
+from django_tables2 import TemplateColumn
+
+class MyTable(tables.Table):
+    name = tables.Column()
+    email = tables.Column()
+    actions = TemplateColumn(template_code='<a href="#">Edit</a> | <a href="#">Delete</a>')
+```
+
+В этом примере мы создали таблицу `MyTable` с тремя столбцами: `name`, `email` и `actions`. Столбец `actions` является кастомным столбцом, который содержит кнопки для действий. HTML-код для этих кнопок мы передали в параметре `template_code` метода `TemplateColumn`.
+
+Вы можете использовать любой HTML-код для создания кнопок. Например, вы можете добавить иконки, стили и другие элементы дизайна. Также вы можете добавлять ссылки на различные действия, например, на страницу редактирования или удаления объекта.
