@@ -1,5 +1,7 @@
 https://blog.miguelgrinberg.com/post/beautiful-interactive-tables-for-your-flask-templates
 
+{% raw %}
+
 Rendering a table with data in a Flask template is a relatively simple task when the table is short, but can be incredibly hard for larger tables that require features such as sorting, pagination and searching. In this article I'm going to show you how to integrate the [dataTables.js](https://datatables.net/) library in your templates, which will allow you to create fully featured tables with ease!
 
 ## How to Get the Code
@@ -591,3 +593,5 @@ The _dataTables.js_ library has an extensive list of features, many of which I
 **Update**: I have now switched to grid.js as my favorite table library to use with Flask. I have written an article about it [here](https://blog.miguelgrinberg.com/post/beautiful-flask-tables-part-2).
 
 Have you used a different method to generate your tables? I'd love to know so leave a comment below.
+
+{% endraw %}

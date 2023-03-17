@@ -1,5 +1,7 @@
 https://docs-python.ru/packages/veb-frejmvork-flask-python/funktsija-render-template/
 
+{% raw %}
+
 ## Отображает шаблон с заданным контекстом.
 
 #### Синтаксис:
@@ -100,3 +102,5 @@ def hello(name=None):
 if __name__ == '__main__':
     app.run(host='localhost', port=5000, debug=True)
 ```
+
+{% endraw %}

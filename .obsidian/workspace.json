@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md",
+                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/flask/FAQ.md"
+                "file": "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md"
               }
             }
           }
@@ -181,8 +181,13 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/flask/FAQ 1.md",
+    "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
+    "Заметки/Разарботка/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
+    "Заметки/Разарботка/flask/Статьи/Custom filters.md",
+    "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/FAQ.md",
+    "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
+    "Заметки/Разарботка/flask/FAQ 1.md",
     "Заметки/Разарботка/langd/FAQ.md",
     "_config.yml",
     "Заметки/Разарботка/python/django/FAQ.md",
@@ -211,11 +216,6 @@
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Экономика",
     "Заметки/Радиоэлектроника",
-    "Заметки/Linux/Ссылки.md",
-    "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
-    "Заметки/Linux/FAQ.md",
-    "Заметки/Темы.md",
-    "Заметки/Разарботка/магинное обучение/FAQ.md",
-    "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md"
+    "Заметки/Linux/Ссылки.md"
   ]
 }

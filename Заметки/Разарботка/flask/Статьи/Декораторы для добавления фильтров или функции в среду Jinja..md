@@ -1,5 +1,7 @@
 https://docs-python.ru/packages/modul-jinja2-python/vspomogatelnye-funktsii-klassy-modulja-jinja2/#jinja2.contextfilter
 
+{% raw %}
+
 Приведенные в материале [вспомогательные функции и классы модуля `jinja2`](https://docs-python.ru/packages/modul-jinja2-python/vspomogatelnye-funktsii-klassy-modulja-jinja2/ "Вспомогательные декораторы и функции модуля jinja2 в Python.") полезны, если добавляются свои собственные фильтры или функции в среду модуля [`jinja2`](https://docs-python.ru/packages/modul-jinja2-python/ "Модуль jinja2 в Python, язык шаблонов.").
 
 ### Содержание:
@@ -95,3 +97,5 @@ def default(var, default=''):
     if is_undefined(var):
         return default
     return var
+
+{% endraw %}
