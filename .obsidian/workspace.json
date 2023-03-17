@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "8af6997fd3ba4d80",
+            "id": "e414274fba22dd47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Заметки/Разарботка/flask/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Заметки/Разарботка/flask/FAQ.md"
               }
             }
           }
@@ -179,10 +179,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8af6997fd3ba4d80",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/flask/FAQ 1.md",
+    "Заметки/Разарботка/flask/FAQ.md",
     "Заметки/Разарботка/langd/FAQ.md",
+    "_config.yml",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "README.md",
     "Заметки/Разарботка/langd",
     "Заметки/AI/Темы.md",
     "Заметка дня/ChatGPT promts.md",
@@ -207,15 +211,11 @@
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Экономика",
     "Заметки/Радиоэлектроника",
-    "Заметки/Разарботка/python/django",
     "Заметки/Linux/Ссылки.md",
     "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
     "Заметки/Linux/FAQ.md",
     "Заметки/Темы.md",
     "Заметки/Разарботка/магинное обучение/FAQ.md",
-    "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
-    "Заметки/Разарботка/rust/Статьи/Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md",
-    "Заметки/Linux/Конвертирование форматов/FAQ.md",
-    "Заметки/Разарботка/nim/FAQ.md"
+    "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md"
   ]
 }
