@@ -1,6 +1,8 @@
 title: Obsidian notes
 theme: jekyll-theme-minimal
 markdown: GFM
+include:
+  - ./
 highlighter: rouge
 encoding: UTF-8
 plugins:
