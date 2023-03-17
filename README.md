@@ -53,6 +53,8 @@
      - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
      - [Темы.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
      - [Ссылки.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - Портативные приложения
+       - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/FAQ.md)
      - Оконные менеджеры
        - i3wm
          - [FAQ.md](/%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/i3wm/FAQ.md)

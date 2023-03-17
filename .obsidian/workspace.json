@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffe080250635675a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Портативные приложения/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "90171f8499a0e1ff",
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Linux/Портативные приложения/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Linux/Портативные приложения/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md"
+                "file": "Заметки/Linux/Портативные приложения/FAQ.md"
               }
             }
           }
@@ -168,10 +181,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "63fd6a7af424bab9",
+  "active": "ffe080250635675a",
   "lastOpenFiles": [
-    "Заметки/AI/pytorch/Статьи/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Linux/Портативные приложения/FAQ.md",
+    "Заметки/Linux/Портативные приложения",
+    "Заметки/AI/pytorch/Статьи/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/AI/pytorch/Статьи",
     "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/i3wm",
@@ -194,7 +209,6 @@
     "Заметки/Разарботка/python/scrapy",
     "Заметки/Разарботка/python/Статьи/Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md",
     "Заметки/Linux/FAQ.md",
-    "Заметки/Разарботка/python/Статьи",
     "Заметки/Темы.md",
     "Заметки/Разарботка/магинное обучение/FAQ.md",
     "Заметки/Разарботка/rust/Статьи/Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md",
@@ -204,7 +218,6 @@
     "Найденное/Ссылки.md",
     "Заметки/Разарботка/ruby/FAQ.md",
     "Заметки/Разарботка/flask/FAQ.md",
-    "Заметки/Разарботка/Веб-разработка/FAQ.md",
-    "Заметки/Химия/FAQ.md"
+    "Заметки/Разарботка/Веб-разработка/FAQ.md"
   ]
 }
