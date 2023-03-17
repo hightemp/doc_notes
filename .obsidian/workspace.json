@@ -6,6 +6,7 @@
       {
         "id": "90171f8499a0e1ff",
         "type": "tabs",
+        "dimension": 51.14213197969543,
         "children": [
           {
             "id": "aa7748df56c55103",
@@ -25,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+                "file": "HISTORY.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,6 +38,7 @@
       {
         "id": "5d9308b82dc6abf0",
         "type": "tabs",
+        "dimension": 48.857868020304565,
         "children": [
           {
             "id": "e6daead5f3947336",
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+                "file": "HISTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+                "file": "HISTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md"
+                "file": "HISTORY.md"
               }
             }
           }
@@ -181,8 +183,10 @@
   },
   "active": "e414274fba22dd47",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
     "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+    "README.md",
+    "HISTORY.md",
+    "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
     "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
@@ -194,7 +198,6 @@
     "Заметки/Разарботка/flask/FAQ 1.md",
     "Заметки/Разарботка/langd/FAQ.md",
     "_config.yml",
-    "README.md",
     "Заметки/Разарботка/langd",
     "Заметки/AI/Темы.md",
     "Заметка дня/ChatGPT promts.md",
@@ -214,7 +217,6 @@
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/python/scrapy/Статьи",
     "Заметки/Разарботка/rust/FAQ.md",
-    "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Экономика",
     "Заметки/Радиоэлектроника"
   ]
