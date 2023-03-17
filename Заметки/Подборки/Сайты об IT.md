@@ -229,3 +229,12 @@
 	- [https://web-design-weekly.com/](https://web-design-weekly.com/)
 	- [https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/%20javascriptweekly.com](https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/%20javascriptweekly.com)
 	- [https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/medium.com](https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/medium.com)
+
+## есть ли сайты в США аналогичные https://www.tadviser.ru/
+
+Да, в США существуют сайты, аналогичные TAdviser, которые посвящены информационным технологиям и бизнесу. Некоторые из них:
+- ZDNet - американский портал, который предоставляет новости, обзоры, аналитику и советы по различным аспектам IT-индустрии;
+- TechCrunch - американский портал новостей и аналитики в области технологий и стартапов;
+- Wired - американский портал, который предоставляет новости и аналитику в области технологий, науки, бизнеса и культуры;
+- CIO - американский портал, который предоставляет новости, обзоры и советы для руководителей информационных технологий;
+- InformationWeek - американский портал, который предоставляет новости, аналитику и советы для IT-специалистов и бизнес-лидеров.

@@ -2234,3 +2234,124 @@ class MyModelDeleteView(DeleteView):
 В этом примере мы использовали базовый шаблон `base.html` с помощью директивы `{% extends 'base.html' %}`. В блоке контента `{% block content %}`, мы отображаем сообщение подтверждения удаления и форму с кнопкой "Delete" и ссылкой "Cancel". Ссылка "Cancel" ведет на страницу просмотра деталей удаленного объекта.
 
 Объект, который будет удален, доступен через контекстный объект `object`. Мы использовали его, чтобы отобразить имя объекта в сообщении подтверждения удаления.
+
+## как отключить кэширование в django server
+
+Чтобы отключить кэширование в Django сервере, вам нужно изменить настройки кэширования в файле settings.py вашего проекта. Добавьте следующее в конец файла:
+
+```python
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}
+```
+
+Это настроит Django на использование DummyCache, который не сохраняет данные в кэше и возвращает пустые значения. После изменения настроек кэширования, перезапустите Django сервер, чтобы изменения вступили в силу.
+
+## напиши пример использования CreateView в django с примером шаблона
+
+Класс `CreateView` в Django предоставляет возможность создания нового объекта модели в базе данных. Вот пример использования `CreateView` в Django:
+
+**views.py**
+```python
+from django.views.generic.edit import CreateView
+from .models import Product
+
+class ProductCreateView(CreateView):
+    model = Product
+    fields = ['name', 'description', 'price']
+    template_name = 'product_create.html'
+```
+
+В этом примере мы создали класс `ProductCreateView`, который наследуется от `CreateView`. Мы указали модель `Product`, которую мы хотим создать, и поля, которые нужно заполнить. Мы также указали имя шаблона `product_create.html`, который будет использоваться для отображения формы создания нового объекта модели.
+
+**product_create.html**
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Create a new product</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create</button>
+  </form>
+{% endblock %}
+```
+
+В этом примере мы создали шаблон `product_create.html`, который наследуется от `base.html`. Мы используем `form.as_p` для автоматического создания HTML-кода для всех полей, которые мы указали в `fields` в `views.py`. Мы также добавили кнопку отправки формы.
+
+Чтобы использовать `ProductCreateView`, вы должны добавить URL-шаблон в `urls.py`.
+
+**urls.py**
+```python
+from django.urls import path
+from .views import ProductCreateView
+
+urlpatterns = [
+    path('product/create/', ProductCreateView.as_view(), name='product_create'),
+]
+```
+
+В этом примере мы добавили URL-шаблон для `ProductCreateView`, который будет доступен по адресу `/product/create/`. Когда пользователь переходит по этому URL, Django отображает форму создания нового объекта модели.
+
+Это простой пример использования `CreateView` в Django. Вы можете настроить этот класс и шаблон, чтобы получить желаемое поведение и внешний вид для вашего проекта.
+
+## как называется фильтр в html форме с возможностью добавления условий И и ИЛИ и НЕ
+
+Такой тип фильтра в HTML форме называется "Advanced Search" или "Расширенный поиск". Он позволяет пользователю создавать более сложные запросы и добавлять условия И, ИЛИ и НЕ для фильтрации данных. Это особенно полезно для поиска в больших базах данных, где простые фильтры могут оказаться недостаточно гибкими. Веб-приложения, такие как онлайн-магазины или сайты с объявлениями, часто используют расширенный поиск для удобства пользователей.
+
+## напиши пример использования FormView в django с шаблоном
+
+Класс `FormView` в Django предоставляет возможность отображения формы и обработки ее отправки. Вот пример использования `FormView` в Django:
+
+**views.py**
+```python
+from django.views.generic.edit import FormView
+from .forms import ContactForm
+
+class ContactFormView(FormView):
+    form_class = ContactForm
+    template_name = 'contact_form.html'
+    success_url = '/thank-you/'
+
+    def form_valid(self, form):
+        form.send_email()
+        return super().form_valid(form)
+```
+
+В этом примере мы создали класс `ContactFormView`, который наследуется от `FormView`. Мы указали класс формы `ContactForm`, который будет использоваться для отображения и обработки формы. Мы также указали имя шаблона `contact_form.html`, который будет использоваться для отображения формы. Мы указали `success_url`, который будет использоваться для перенаправления пользователя после успешной отправки формы. В методе `form_valid()` мы вызываем метод `send_email()` формы, который отправляет электронное письмо. Мы затем вызываем метод `form_valid()` родительского класса, чтобы завершить успешную обработку формы.
+
+**contact_form.html**
+```html
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Contact Us</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Send</button>
+  </form>
+{% endblock %}
+```
+
+В этом примере мы создали шаблон `contact_form.html`, который наследуется от `base.html`. Мы используем `form.as_p` для автоматического создания HTML-кода для всех полей формы. Мы также добавили кнопку отправки формы.
+
+Чтобы использовать `ContactFormView`, вы должны добавить URL-шаблон в `urls.py`.
+
+**urls.py**
+```python
+from django.urls import path
+from .views import ContactFormView
+
+urlpatterns = [
+    path('contact/', ContactFormView.as_view(), name='contact_form'),
+]
+```
+
+В этом примере мы добавили URL-шаблон для `ContactFormView`, который будет доступен по адресу `/contact/`. Когда пользователь переходит по этому URL, Django отображает форму контактов.
+
+Это простой пример использования `FormView` в Django. Вы можете настроить этот класс и шаблон, чтобы получить желаемое поведение и внешний вид для вашего проекта.
+
