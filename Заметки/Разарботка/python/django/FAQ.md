@@ -2595,4 +2595,146 @@ urlpatterns = [
 
 После этого можно загружать файлы на сервер через форму на странице `upload.html`. Файл будет сохранен в директории `MEDIA_ROOT`, которая должна быть указана в файле настроек Django.
 
+## как в django делать загрузку массив файлов input с именем files[] на сервер
+
+Для загрузки массива файлов в Django можно использовать модуль `django.views.decorators.csrf` и класс `django.core.files.storage.FileSystemStorage` аналогично загрузке одного файла, но с некоторыми изменениями.
+
+1. В шаблоне HTML необходимо добавить атрибут `multiple` к тегу `input`, чтобы разрешить выбор нескольких файлов:
+
+```html
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="files[]" multiple>
+    <button type="submit">Загрузить</button>
+</form>
+```
+
+2. В файле `views.py` необходимо изменить функцию `upload_file` для обработки массива файлов. Для этого вместо `request.FILES['file']` нужно использовать `request.FILES.getlist('files[]')`, чтобы получить список файлов.
+
+```python
+from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+from django.core.files.storage import FileSystemStorage
+
+@csrf_exempt
+def upload_file(request):
+    if request.method == 'POST':
+        files = request.FILES.getlist('files[]')
+        fs = FileSystemStorage()
+        for file in files:
+            fs.save(file.name, file)
+        return render(request, 'success.html')
+    return render(request, 'upload.html')
+```
+
+3. В файле `urls.py` необходимо добавить маршрут для обработки запросов на загрузку массива файлов:
+
+```python
+from django.urls import path
+from .views import upload_file
+
+urlpatterns = [
+    path('upload/', upload_file, name='upload_file'),
+]
+```
+
+4. Необходимо создать шаблоны для страниц `upload.html` и `success.html`, как в примере для загрузки одного файла.
+
+```html
+<!-- upload.html -->
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="files[]" multiple>
+    <button type="submit">Загрузить</button>
+</form>
+
+<!-- success.html -->
+<h1>Файлы успешно загружены!</h1>
+```
+
+После этого можно загружать массив файлов на сервер через форму на странице `upload.html`. Файлы будут сохранены в директории `MEDIA_ROOT`, которая должна быть указана в файле настроек Django.
+
+## как в django делать загрузку файлов с сохранением пути в модель и настройки пути сохранения settings на сервер
+
+Для загрузки файлов в Django с сохранением пути в модель и настройками пути сохранения в файле `settings.py` можно использовать модуль `django.views.decorators.csrf` и класс `django.core.files.storage.FileSystemStorage`, а также модель, в которой будет храниться информация о загруженном файле. 
+
+1. Создание модели для хранения информации о загруженных файлах в файле `models.py`:
+
+```python
+from django.db import models
+
+class UploadedFile(models.Model):
+    title = models.CharField(max_length=200)
+    file = models.FileField(upload_to='uploads/')
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+```
+
+В данном примере модель `UploadedFile` содержит поля `title`, `file` и `uploaded_at`. Поле `file` является объектом `FileField`, который позволяет хранить файлы на сервере. Аргумент `upload_to` указывает путь, куда будут сохраняться загруженные файлы. В данном случае, файлы будут сохраняться в папку `uploads/` внутри директории `MEDIA_ROOT`.
+
+2. В шаблоне HTML добавляем форму для загрузки файла и поля для ввода названия файла:
+
+```html
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="title">
+    <input type="file" name="file">
+    <button type="submit">Загрузить</button>
+</form>
+```
+
+3. В файле `views.py` необходимо изменить функцию `upload_file` для сохранения информации о загруженном файле в модель `UploadedFile` и сохранения файла на сервере.
+
+```python
+from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+from django.core.files.storage import FileSystemStorage
+from .models import UploadedFile
+
+@csrf_exempt
+def upload_file(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        file = request.FILES['file']
+        fs = FileSystemStorage()
+        filename = fs.save(file.name, file)
+        uploaded_file = UploadedFile(title=title, file=filename)
+        uploaded_file.save()
+        return render(request, 'success.html')
+    return render(request, 'upload.html')
+```
+
+4. В файле `settings.py` необходимо указать путь к директории, где будут сохраняться загруженные файлы, добавив следующую строку:
+
+```python
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+```
+
+5. В файле `urls.py` необходимо добавить маршрут для обработки запросов на загрузку файла:
+
+```python
+from django.urls import path
+from .views import upload_file
+
+urlpatterns = [
+    path('upload/', upload_file, name='upload_file'),
+]
+```
+
+6. Необходимо создать шаблоны для страниц `upload.html` и `success.html`, как в примере для загрузки одного файла.
+
+```html
+<!-- upload.html -->
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="title">
+    <input type="file" name="file">
+    <button type="submit">Загрузить</button>
+</form>
+
+<!-- success.html -->
+<h1>Файл успешно загружен!</h1>
+```
+
+После этого можно загружать файлы на сервер через форму на странице `upload.html`. Файлы будут сохранены в директории `MEDIA_ROOT`, а информация о загруженных файлах будет храниться в модели `UploadedFile`.
+
 {% endraw %}
