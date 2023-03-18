@@ -32,8 +32,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md"
+                "file": "Заметки/Разарботка/python/django/FAQ.md"
               }
             }
           }
@@ -194,10 +193,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5cb679664ba40d39",
+  "active": "d2d19e075a93e117",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+    "Заметки/Разарботка/python/django/FAQ.md",
     "HISTORY.md",
     "Заметки/Разарботка/Веб-разработка/FAQ.md",
     "Заметки/Linux/Кастомизация/FAQ.md",

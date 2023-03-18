@@ -2537,4 +2537,62 @@ class MyModel(models.Model):
 
 В модели `MyModel` мы используем `ColorField` для хранения цвета объекта.
 
+## как в django делать загрузку файлов на сервер
+
+В Django для загрузки файлов на сервер используется модуль `django.views.decorators.csrf` и класс `django.core.files.storage.FileSystemStorage`.
+
+1. Необходимо в шаблоне HTML добавить форму для загрузки файла:
+
+```html
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="file">
+    <button type="submit">Загрузить</button>
+</form>
+```
+
+2. В файле `views.py` необходимо добавить функцию, которая будет обрабатывать загруженный файл. В этой функции необходимо проверить, что запрос является POST-запросом, затем получить файл из запроса и сохранить его на сервер.
+
+```python
+from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
+from django.core.files.storage import FileSystemStorage
+
+@csrf_exempt
+def upload_file(request):
+    if request.method == 'POST':
+        file = request.FILES['file']
+        fs = FileSystemStorage()
+        fs.save(file.name, file)
+        return render(request, 'success.html')
+    return render(request, 'upload.html')
+```
+
+3. В файле `urls.py` необходимо добавить маршрут для обработки запросов на загрузку файла:
+
+```python
+from django.urls import path
+from .views import upload_file
+
+urlpatterns = [
+    path('upload/', upload_file, name='upload_file'),
+]
+```
+
+4. Необходимо создать шаблоны для страниц `upload.html` и `success.html`. В `upload.html` будет находиться форма для загрузки файла, а в `success.html` будет сообщение о успешной загрузке файла.
+
+```html
+<!-- upload.html -->
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="file">
+    <button type="submit">Загрузить</button>
+</form>
+
+<!-- success.html -->
+<h1>Файл успешно загружен!</h1>
+```
+
+После этого можно загружать файлы на сервер через форму на странице `upload.html`. Файл будет сохранен в директории `MEDIA_ROOT`, которая должна быть указана в файле настроек Django.
+
 {% endraw %}
