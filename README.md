@@ -212,6 +212,8 @@ https://hightemp.github.io/doc_notes/
      - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
+     - Кастомизация
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/FAQ.md)
      - Утилиты
        - pbcopy
          - [Как использовать команды Pbcopy и Pbpaste в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/pbcopy/%D0%9A%D0%B0%D0%BA%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20Pbcopy%20%D0%B8%20Pbpaste%20%D0%B2%20Linux.md)
