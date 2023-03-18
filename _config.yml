@@ -11,10 +11,10 @@ exclude:
   - vendor
 
 plugins:
-  - jekyll-sitemap
+#   - jekyll-sitemap
   - jekyll-relative-links
 
-permalink: /:categories/:title.md
+# permalink: /:categories/:title.md
 theme: jekyll-theme-minimal
 highlighter: rouge
 relative_links:
