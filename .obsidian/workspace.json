@@ -9,31 +9,91 @@
         "dimension": 51.14213197969543,
         "children": [
           {
-            "id": "aa7748df56c55103",
+            "id": "dd8825607d246573",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Интервью/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e414274fba22dd47",
+            "id": "750636f5a351d4d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HISTORY.md",
+                "file": "Найденное/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8603d6e10e12d4ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c8eea94ee089aaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Медицина/Физиотерапия/Статьи/Импульсная увч-терапия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebb170f34c4c566c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76e67c53c15cffb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Медицина/Физиотерапия/Статьи/Высокочастотная магнитотерапия (индуктотермия).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a317ce176e085520",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Медицина/Физиотерапия/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -81,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adviser",
+                "query": "библиотеки",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HISTORY.md",
+                "file": "Заметки/Медицина/Физиотерапия/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HISTORY.md",
+                "file": "Заметки/Медицина/Физиотерапия/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HISTORY.md"
+                "file": "Заметки/Медицина/Физиотерапия/FAQ.md"
               }
             }
           }
@@ -181,14 +241,26 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e414274fba22dd47",
+  "active": "a317ce176e085520",
   "lastOpenFiles": [
-    "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
+    "Заметки/Медицина/Физиотерапия/Статьи/Высокочастотная магнитотерапия (индуктотермия).md",
+    "Заметки/Медицина/Физиотерапия/FAQ.md",
+    "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 3.md",
+    "Заметки/Медицина/Физиотерапия/Статьи/Импульсная увч-терапия.md",
+    "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 2.md",
+    "Найденное/Ссылки.md",
+    "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия.md",
+    "Заметки/Интервью/FAQ.md",
+    "Заметки/Медицина/Физиотерапия/Статьи",
+    "Заметки/Медицина/Физиотерапия",
+    "Заметки/Медицина",
+    "Заметки/Интервью",
     "README.md",
     "HISTORY.md",
+    "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Разарботка/rust/Статьи/Top 3 templating libraries for Rust.md",
     "Заметки/Разарботка/rust/Статьи/Day12 Write web app with actix-web - 100DayOfRust.md",
     "Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md",
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.md",
     "Заметки/Разарботка/flask/Статьи/Функция render_template() модуля flask в Python..md",
     "Заметки/Разарботка/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md",
@@ -204,20 +276,8 @@
     "Заметки/Подборки/Сайты об IT.md",
     "Заметки/Linux/Портативные приложения/FAQ.md",
     "Заметки/Linux/Портативные приложения",
-    "Заметки/AI/pytorch/Статьи/Bert Model For Text Extraction With Code (Pytorch).md",
     "Заметки/AI/pytorch/Статьи",
-    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/i3wm",
-    "Заметки/Linux/Оконные менеджеры",
-    "Заметки/Разарботка/python/django/Статьи",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/python/scrapy/FAQ.md",
-    "Заметки/Разарботка/python/scrapy/Статьи/Saving Scraped Data To CSV With Scrapy Feed Exporters.md",
-    "Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.md",
-    "Заметки/Экономика/FAQ.md",
-    "Заметки/Разарботка/python/scrapy/Статьи",
-    "Заметки/Разарботка/rust/FAQ.md",
-    "Заметки/Экономика",
-    "Заметки/Радиоэлектроника"
+    "Заметки/Linux/Оконные менеджеры"
   ]
 }
