@@ -4,10 +4,10 @@ https://hightemp.github.io/doc_notes/
 ![](https://asdertasd.site/counter/doc_notes)
 
 <!-- TOC -->
- - [HISTORY.md](./HISTORY.md)
- - [Первая установка.md](./%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0.md)
  - [Планы.md](./%D0%9F%D0%BB%D0%B0%D0%BD%D1%8B.md)
+ - [Первая установка.md](./%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0.md)
  - [README.md](./README.md)
+ - [HISTORY.md](./HISTORY.md)
  - Найденное
    - [Ссылки.md](./%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
    - [Репозитории.md](./%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
@@ -15,148 +15,21 @@ https://hightemp.github.io/doc_notes/
    - Obsidian
      - [Расширения.md](./%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/Obsidian/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F.md)
  - Заметки
-   - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D1%8B.md)
-   - [Подборки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8.md)
-   - [Репозитории.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
-   - [Книги.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
    - [Установка софта.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D0%B0.md)
+   - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BC%D1%8B.md)
    - [Словарик.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%BA.md)
    - [Сети - протоколы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D0%B8%20-%20%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B.md)
    - [Сети - маршрутизация.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D0%B8%20-%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F.md)
+   - [Репозитории.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
    - [Работа браузера.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0.md)
    - [Программирование - Паттерны.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20-%20%D0%9F%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
+   - [Подборки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8.md)
    - [Конференции.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8.md)
-   - Медицина
-     - Физиотерапия
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/FAQ.md)
-       - Статьи
-         - [Низкочастотная магнитотерапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9D%D0%B8%D0%B7%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
-         - [Интерференцтерапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
-         - [Магнитотерапия. Низкочастотная. Высокочастотная. Импульсная..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.%20%D0%9D%D0%B8%D0%B7%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F.%20%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F.%20%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%BD%D0%B0%D1%8F..md)
-         - [Высокочастотная магнитотерапия (индуктотермия).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F%20(%D0%B8%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F).md)
-         - [Индуктотермия 3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F%203.md)
-         - [Импульсная увч-терапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%BD%D0%B0%D1%8F%20%D1%83%D0%B2%D1%87-%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
-         - [Индуктотермия 2.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F%202.md)
-         - [Индуктотермия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F.md)
-   - Интервью
-     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/FAQ.md)
+   - [Книги.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
    - Экономика
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/FAQ.md)
-   - DIY
-     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/DIY/FAQ.md)
    - Химия
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A5%D0%B8%D0%BC%D0%B8%D1%8F/FAQ.md)
-   - Docker
-     - Репозиторий
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Docker/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9/FAQ.md)
-   - История
-     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-   - OSINT
-     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/OSINT/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-   - Architecture and Design Patterns
-     - [Архитектурные патерны.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
-     - [Javascript.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Javascript.md)
-     - [PHP.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/PHP.md)
-     - [Design patterns.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Design%20patterns.md)
-     - Архитектурные патерны
-       - [Microservices.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Microservices.md)
-       - [Domain Driven Design.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Domain%20Driven%20Design.md)
-       - [Layered architecture.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Layered%20architecture.md)
-       - [Hexagonal architecture.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Hexagonal%20architecture.md)
-   - Браузер
-     - [Как работает браузер....md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80/%D0%9A%D0%B0%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80....md)
-   - Linux
-     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
-     - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
-     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-     - Портативные приложения
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/FAQ.md)
-     - Оконные менеджеры
-       - i3wm
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/i3wm/FAQ.md)
-     - Конвертирование форматов
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B2/FAQ.md)
-     - Пакетный менеджер
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80/FAQ.md)
-     - Структура linux
-       - proc
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/proc/FAQ.md)
-       - Сеть
-         - [Tunneling and Port Forwarding.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Tunneling%20and%20Port%20Forwarding.md)
-         - [Linux — Networking Deep Dive.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Linux%20%E2%80%94%20Networking%20Deep%20Dive.md)
-         - Прокси
-           - [ssh socks proxy.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8/ssh%20socks%20proxy.md)
-       - Linux IP Networking
-         - [D.2. ip route.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/D.2.%20ip%20route.md)
-         - [Linux IP Networking(EN).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking(EN).md)
-         - [Linux IP Networking.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking.md)
-       - SystemD
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/SystemD/FAQ.md)
-     - Процессы
-       - [Сравнение потоков и процессов.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2.md)
-       - nice
-         - [nice.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/nice/nice.md)
-     - Утилиты
-       - pbcopy
-         - [Как использовать команды Pbcopy и Pbpaste в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/pbcopy/%D0%9A%D0%B0%D0%BA%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20Pbcopy%20%D0%B8%20Pbpaste%20%D0%B2%20Linux.md)
-     - Отладка
-       - [strace.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0/strace.md)
-     - Мониторинг
-       - lsof
-         - [lsof.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/lsof/lsof.md)
-       - iotop
-         - [iotop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iotop/iotop.md)
-       - atop
-         - [atop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/atop/atop.md)
-       - iftop
-         - [iftop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iftop/iftop.md)
-       - top
-         - [Как пользоваться командой top для наблюдения за процессами в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9%20top%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0%D0%BC%D0%B8%20%D0%B2%20Linux.md)
-         - [top.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/top.md)
-     - Сетевые утилиты
-       - scp
-         - [scp.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/scp/scp.md)
-       - curl
-         - [curl.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/curl/curl.md)
-       - nmap
-         - [nmap.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nmap/nmap.md)
-       - ssh
-         - [ssh.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ssh/ssh.md)
-       - ip
-         - [ip.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ip/ip.md)
-       - ss
-         - [ss.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ss/ss.md)
-       - netstat
-         - [netstat.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/netstat/netstat.md)
-       - traceroute
-         - [traceroute.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/traceroute/traceroute.md)
-       - ping
-         - [ping.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ping/ping.md)
-       - ifconfig
-         - [ifconfig.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ifconfig/ifconfig.md)
-       - tcpdump
-         - [tcpdump Linux примеры использования.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump%20Linux%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.md)
-         - [Используем tcpdump для анализа и перехвата сетевого трафика.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%20tcpdump%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
-         - [tcpdump.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump.md)
-       - nethogs
-         - [nethogs.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/nethogs.md)
-         - [Что такое NetHogs?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20NetHogs?.md)
-         - [NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/NetHogs%20-%20Linux%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
-     - Журанлы и журналирование
-       - [Какова цель файлов utmp, wtmp и btmp на Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%20%D1%86%D0%B5%D0%BB%D1%8C%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20utmp,%20wtmp%20%D0%B8%20btmp%20%D0%BD%D0%B0%20Linux.md)
-       - [Кто же был на сервере?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D1%82%D0%BE%20%D0%B6%D0%B5%20%D0%B1%D1%8B%D0%BB%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5?.md)
-     - Маршрутизация
-       - [Использование и примеры маршрутизации Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20Linux.md)
-       - [А вы хорошо знаете статическую маршрутизацию?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%90%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%B5%D1%82%D0%B5%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E?.md)
-       - [Маршрутизация в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B2%20Linux.md)
-   - Биология
-     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
-     - [Радиозвук RF Hearing.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%20RF%20Hearing.md)
-     - Радиозвук
-       - [Generalized model of the microwave auditory effect.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Generalized%20model%20of%20the%20microwave%20auditory%20effect.md)
-       - [Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Hearing%20of%20microwave%20pulses%20by%20humans%20and%20animals%20effects,%20mechanism,%20and%20thresholds.md)
-       - [Auditory response to pulsed radiofrequency energy.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Auditory%20response%20to%20pulsed%20radiofrequency%20energy.md)
    - Справочники
      - [Еврейские фамилии.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8/%D0%95%D0%B2%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B0%D0%BC%D0%B8%D0%BB%D0%B8%D0%B8.md)
      - Еврейские фамилии
@@ -180,100 +53,101 @@ https://hightemp.github.io/doc_notes/
        - [NetLink.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/NetLink.md)
    - Разарботка
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-     - langd
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
      - магинное обучение
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%BC%D0%B0%D0%B3%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/FAQ.md)
-     - nim
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nim/FAQ.md)
      - Веб-разработка
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%92%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
-     - ruby
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/ruby/FAQ.md)
-     - flask
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/FAQ.md)
-       - Статьи
-         - [Beautiful Interactive Tables for your Flask Templates.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Beautiful%20Interactive%20Tables%20for%20your%20Flask%20Templates.md)
-         - [Расширение Flask-Paginate для приложения Flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20Flask-Paginate%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20Flask%20%D0%B2%20Python..md)
-         - [Декораторы для добавления фильтров или функции в среду Jinja..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20%D0%B8%D0%BB%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D1%83%20Jinja..md)
-         - [Custom filters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
-         - [Функция render_template() модуля flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
-     - bash
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bash/FAQ.md)
-     - scrapping
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/scrapping/FAQ.md)
+     - vue
+       - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vue/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vue/FAQ.md)
      - vpn
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vpn/FAQ.md)
+     - typescript
+       - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/typescript/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/typescript/FAQ.md)
      - security
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/security/FAQ.md)
+     - scrapping
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/scrapping/FAQ.md)
+     - rust
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/FAQ.md)
+       - Статьи
+         - [Использование SQLite с Rust и Actix Web (с тестами).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20SQLite%20%D1%81%20Rust%20%D0%B8%20Actix%20Web%20(%D1%81%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%D0%BC%D0%B8).md)
+         - [Writing a Modern HTTP(S) Tunnel in Rust..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
+         - [Web Scraping With Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Web%20Scraping%20With%20Rust.md)
+         - [Web Scraping With Rust 2.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Web%20Scraping%20With%20Rust%202.md)
+         - [Vector.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Vector.md)
+         - [Top 3 templating libraries for Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Top%203%20templating%20libraries%20for%20Rust.md)
+         - [Three Kinds of Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Three%20Kinds%20of%20Polymorphism%20in%20Rust.md)
+         - [Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B0,%20%D1%87%D0%B0%D1%81%D1%82%D1%8C%202%20%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC.md)
+         - [Rust Web Scraping.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Web%20Scraping.md)
+         - [Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Is%20Beyond%20Object-Oriented,%20Part%202%20Polymorphism.md)
+         - [Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Polymorphism%20in%20Rust.md)
+         - [How to Idiomatically Use Global Variables in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Idiomatically%20Use%20Global%20Variables%20in%20Rust.md)
+         - [Here’s How to Execute Raw SQL queries in Rust with Diesel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Here%E2%80%99s%20How%20to%20Execute%20Raw%20SQL%20queries%20in%20Rust%20with%20Diesel.md)
+         - [GraphQL на Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GraphQL%20%D0%BD%D0%B0%20Rust.md)
+         - [Demystifying Rust’s lazy_static pattern.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Demystifying%20Rust%E2%80%99s%20lazy_static%20pattern.md)
+         - [Day12 Write web app with actix-web - 100DayOfRust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Day12%20Write%20web%20app%20with%20actix-web%20-%20100DayOfRust.md)
+         - [Creating an API with Rust and SQLite.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Creating%20an%20API%20with%20Rust%20and%20SQLite.md)
+         - [Build a Simple API with Rust and Actix Web.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Build%20a%20Simple%20API%20with%20Rust%20and%20Actix%20Web.md)
+         - [Arrays, Vectors, and Slices.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Arrays,%20Vectors,%20and%20Slices.md)
+       - sqlx
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/sqlx/FAQ.md)
+       - actix
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/actix/FAQ.md)
+     - ruby
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/ruby/FAQ.md)
      - regexp
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/regexp/FAQ.md)
      - python
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/FAQ.md)
-       - django
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/FAQ.md)
-         - Статьи
-           - [Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A3%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D0%BC%20Bootstrap%204%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20Django%20Crispy%20Forms.md)
+       - Статьи
+         - [Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D0%BC%D1%8B%D1%85%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5%20Python%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20cx_Freeze.md)
        - scrapy
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/scrapy/FAQ.md)
          - Статьи
            - [Scrapy Items The Better Way To Format Your Data.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/scrapy/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Scrapy%20Items%20The%20Better%20Way%20To%20Format%20Your%20Data.md)
            - [Saving Scraped Data To CSV With Scrapy Feed Exporters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/scrapy/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Saving%20Scraped%20Data%20To%20CSV%20With%20Scrapy%20Feed%20Exporters.md)
-       - Статьи
-         - [Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D0%BC%D1%8B%D1%85%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5%20Python%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20cx_Freeze.md)
+       - django
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/FAQ.md)
+         - Статьи
+           - [Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A3%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D0%BC%20Bootstrap%204%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20Django%20Crispy%20Forms.md)
+     - php
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
      - obsidian
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
-     - rust
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/FAQ.md)
-       - sqlx
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/sqlx/FAQ.md)
-       - Статьи
-         - [Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B0,%20%D1%87%D0%B0%D1%81%D1%82%D1%8C%202%20%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC.md)
-         - [Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Is%20Beyond%20Object-Oriented,%20Part%202%20Polymorphism.md)
-         - [GraphQL на Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GraphQL%20%D0%BD%D0%B0%20Rust.md)
-         - [Three Kinds of Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Three%20Kinds%20of%20Polymorphism%20in%20Rust.md)
-         - [Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Polymorphism%20in%20Rust.md)
-         - [Vector.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Vector.md)
-         - [Arrays, Vectors, and Slices.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Arrays,%20Vectors,%20and%20Slices.md)
-         - [Build a Simple API with Rust and Actix Web.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Build%20a%20Simple%20API%20with%20Rust%20and%20Actix%20Web.md)
-         - [Top 3 templating libraries for Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Top%203%20templating%20libraries%20for%20Rust.md)
-         - [Here’s How to Execute Raw SQL queries in Rust with Diesel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Here%E2%80%99s%20How%20to%20Execute%20Raw%20SQL%20queries%20in%20Rust%20with%20Diesel.md)
-         - [Web Scraping With Rust 2.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Web%20Scraping%20With%20Rust%202.md)
-         - [Web Scraping With Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Web%20Scraping%20With%20Rust.md)
-         - [Rust Web Scraping.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Web%20Scraping.md)
-         - [Использование SQLite с Rust и Actix Web (с тестами).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20SQLite%20%D1%81%20Rust%20%D0%B8%20Actix%20Web%20(%D1%81%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%D0%BC%D0%B8).md)
-         - [Creating an API with Rust and SQLite.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Creating%20an%20API%20with%20Rust%20and%20SQLite.md)
-         - [Demystifying Rust’s lazy_static pattern.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Demystifying%20Rust%E2%80%99s%20lazy_static%20pattern.md)
-         - [How to Idiomatically Use Global Variables in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Idiomatically%20Use%20Global%20Variables%20in%20Rust.md)
-         - [Day12 Write web app with actix-web - 100DayOfRust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Day12%20Write%20web%20app%20with%20actix-web%20-%20100DayOfRust.md)
-         - [Writing a Modern HTTP(S) Tunnel in Rust..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
-       - actix
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/actix/FAQ.md)
-     - javascript
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/FAQ.md)
-       - npm
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/npm/FAQ.md)
      - nuxt
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/FAQ.md)
        - Статьи
-         - [How to handle file upload(images, documents etc.) in nuxt.js and vue.js with vuex and axios API..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20handle%20file%20upload(images,%20documents%20etc.)%20in%20nuxt.js%20and%20vue.js%20with%20vuex%20and%20axios%20API..md)
-         - [How to load dynamic images in Vue and Nuxt with ease.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20load%20dynamic%20images%20in%20Vue%20and%20Nuxt%20with%20ease.md)
          - [Nuxt.js для занятых разработчиков.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt.js%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D1%85%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2.md)
          - [Nuxt.js for Busy Developers.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt.js%20for%20Busy%20Developers.md)
+         - [Nuxt as fullstack server - frontend + backend API Server (Часть 1).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt%20as%20fullstack%20server%20-%20frontend%20+%20backend%20API%20Server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201).md)
+         - [How to load dynamic images in Vue and Nuxt with ease.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20load%20dynamic%20images%20in%20Vue%20and%20Nuxt%20with%20ease.md)
+         - [How to handle file upload(images, documents etc.) in nuxt.js and vue.js with vuex and axios API..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20handle%20file%20upload(images,%20documents%20etc.)%20in%20nuxt.js%20and%20vue.js%20with%20vuex%20and%20axios%20API..md)
          - [How to correctly register the plugin in nuxt.js.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20correctly%20register%20the%20plugin%20in%20nuxt.js.md)
          - [Additional SSR performance with Nuxt fullstack server (Часть 2).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Additional%20SSR%20performance%20with%20Nuxt%20fullstack%20server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202).md)
-         - [Nuxt as fullstack server - frontend + backend API Server (Часть 1).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt%20as%20fullstack%20server%20-%20frontend%20+%20backend%20API%20Server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201).md)
-     - php
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
+     - nim
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nim/FAQ.md)
      - mysql
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/FAQ.md)
        - Статьи
          - [MySQL Document Store.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/MySQL%20Document%20Store.md)
-     - vue
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vue/FAQ.md)
-       - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vue/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
-     - typescript
-       - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/typescript/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - langd
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
+     - javascript
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/FAQ.md)
+       - npm
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/npm/FAQ.md)
+     - flask
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/FAQ.md)
+       - Статьи
+         - [Функция render_template() модуля flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
+         - [Расширение Flask-Paginate для приложения Flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20Flask-Paginate%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20Flask%20%D0%B2%20Python..md)
+         - [Декораторы для добавления фильтров или функции в среду Jinja..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20%D0%B8%D0%BB%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D1%83%20Jinja..md)
+         - [Custom filters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
+         - [Beautiful Interactive Tables for your Flask Templates.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Beautiful%20Interactive%20Tables%20for%20your%20Flask%20Templates.md)
+     - bash
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bash/FAQ.md)
    - Программы
      - [sshuttle.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/sshuttle.md)
      - [ranger.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/ranger.md)
@@ -293,10 +167,10 @@ https://hightemp.github.io/doc_notes/
        - [Loginom Аналитическая платформа.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%D1%8B%20IT/Loginom%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0.md)
        - [Business Intelligence (рынок России).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%D1%8B%20IT/Business%20Intelligence%20(%D1%80%D1%8B%D0%BD%D0%BE%D0%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8).md)
      - Для работы
-       - qtile
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/qtile/FAQ.md)
        - Файловые менеджеры
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/FAQ.md)
+       - qtile
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/qtile/FAQ.md)
    - Операционные системы
      - [IPC Межпроцессное взаимодействие.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/IPC%20%D0%9C%D0%B5%D0%B6%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BD%D0%BE%D0%B5%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5.md)
      - Linux
@@ -304,22 +178,149 @@ https://hightemp.github.io/doc_notes/
        - [Системное программирование.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.md)
        - [Введение в Netlink.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Netlink.md)
        - [System V IPC.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B/Linux/System%20V%20IPC.md)
+   - Медицина
+     - Физиотерапия
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/FAQ.md)
+       - Статьи
+         - [Низкочастотная магнитотерапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9D%D0%B8%D0%B7%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
+         - [Магнитотерапия. Низкочастотная. Высокочастотная. Импульсная..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.%20%D0%9D%D0%B8%D0%B7%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F.%20%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F.%20%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%BD%D0%B0%D1%8F..md)
+         - [Интерференцтерапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
+         - [Индуктотермия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F.md)
+         - [Индуктотермия 3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F%203.md)
+         - [Индуктотермия 2.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F%202.md)
+         - [Импульсная увч-терапия.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%BD%D0%B0%D1%8F%20%D1%83%D0%B2%D1%87-%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F.md)
+         - [Высокочастотная магнитотерапия (индуктотермия).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%92%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%B0%D0%BF%D0%B8%D1%8F%20(%D0%B8%D0%BD%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%8F).md)
+   - История
+     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+   - Интервью
+     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/FAQ.md)
+   - Браузер
+     - [Как работает браузер....md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80/%D0%9A%D0%B0%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80....md)
+   - Биология
+     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - [Радиозвук RF Hearing.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%20RF%20Hearing.md)
+     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
+     - Радиозвук
+       - [Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Hearing%20of%20microwave%20pulses%20by%20humans%20and%20animals%20effects,%20mechanism,%20and%20thresholds.md)
+       - [Generalized model of the microwave auditory effect.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Generalized%20model%20of%20the%20microwave%20auditory%20effect.md)
+       - [Auditory response to pulsed radiofrequency energy.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Auditory%20response%20to%20pulsed%20radiofrequency%20energy.md)
    - vscode
      - [Создание расширения для vscode.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/vscode/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20vscode.md)
+   - OSINT
+     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/OSINT/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+   - Linux
+     - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A2%D0%B5%D0%BC%D1%8B.md)
+     - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
+     - Утилиты
+       - pbcopy
+         - [Как использовать команды Pbcopy и Pbpaste в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/pbcopy/%D0%9A%D0%B0%D0%BA%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20Pbcopy%20%D0%B8%20Pbpaste%20%D0%B2%20Linux.md)
+     - Структура linux
+       - Сеть
+         - [Tunneling and Port Forwarding.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Tunneling%20and%20Port%20Forwarding.md)
+         - [Linux — Networking Deep Dive.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Linux%20%E2%80%94%20Networking%20Deep%20Dive.md)
+         - Прокси
+           - [ssh socks proxy.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8/ssh%20socks%20proxy.md)
+       - proc
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/proc/FAQ.md)
+       - SystemD
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/SystemD/FAQ.md)
+       - Linux IP Networking
+         - [Linux IP Networking.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking.md)
+         - [Linux IP Networking(EN).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking(EN).md)
+         - [D.2. ip route.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/D.2.%20ip%20route.md)
+     - Сетевые утилиты
+       - traceroute
+         - [traceroute.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/traceroute/traceroute.md)
+       - tcpdump
+         - [Используем tcpdump для анализа и перехвата сетевого трафика.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%20tcpdump%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
+         - [tcpdump.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump.md)
+         - [tcpdump Linux примеры использования.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tcpdump/tcpdump%20Linux%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.md)
+       - ssh
+         - [ssh.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ssh/ssh.md)
+       - ss
+         - [ss.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ss/ss.md)
+       - scp
+         - [scp.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/scp/scp.md)
+       - ping
+         - [ping.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ping/ping.md)
+       - nmap
+         - [nmap.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nmap/nmap.md)
+       - netstat
+         - [netstat.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/netstat/netstat.md)
+       - nethogs
+         - [Что такое NetHogs?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20NetHogs?.md)
+         - [nethogs.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/nethogs.md)
+         - [NetHogs - Linux утилита для быстрого мониторинга сетевого трафика.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/nethogs/NetHogs%20-%20Linux%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0%20%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
+       - ip
+         - [ip.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ip/ip.md)
+       - ifconfig
+         - [ifconfig.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/ifconfig/ifconfig.md)
+       - curl
+         - [curl.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/curl/curl.md)
+     - Процессы
+       - [Сравнение потоков и процессов.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%B2%20%D0%B8%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2.md)
+       - nice
+         - [nice.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B/nice/nice.md)
+     - Портативные приложения
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/FAQ.md)
+     - Пакетный менеджер
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80/FAQ.md)
+     - Отладка
+       - [strace.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0/strace.md)
+     - Оконные менеджеры
+       - i3wm
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/i3wm/FAQ.md)
+     - Мониторинг
+       - top
+         - [Как пользоваться командой top для наблюдения за процессами в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9%20top%20%D0%B4%D0%BB%D1%8F%20%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%B0%D0%BC%D0%B8%20%D0%B2%20Linux.md)
+         - [top.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/top/top.md)
+       - lsof
+         - [lsof.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/lsof/lsof.md)
+       - iotop
+         - [iotop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iotop/iotop.md)
+       - iftop
+         - [iftop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/iftop/iftop.md)
+       - atop
+         - [atop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3/atop/atop.md)
+     - Маршрутизация
+       - [Маршрутизация в Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B2%20Linux.md)
+       - [Использование и примеры маршрутизации Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20Linux.md)
+       - [А вы хорошо знаете статическую маршрутизацию?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/%D0%90%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%B5%D1%82%D0%B5%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D1%83%D1%8E%20%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E?.md)
+     - Конвертирование форматов
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D0%B2/FAQ.md)
+     - Журанлы и журналирование
+       - [Кто же был на сервере?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D1%82%D0%BE%20%D0%B6%D0%B5%20%D0%B1%D1%8B%D0%BB%20%D0%BD%D0%B0%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5?.md)
+       - [Какова цель файлов utmp, wtmp и btmp на Linux.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%96%D1%83%D1%80%D0%B0%D0%BD%D0%BB%D1%8B%20%D0%B8%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%9A%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%20%D1%86%D0%B5%D0%BB%D1%8C%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20utmp,%20wtmp%20%D0%B8%20btmp%20%D0%BD%D0%B0%20Linux.md)
    - FAQ
-     - [linux core.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/linux%20core.md)
-     - [i3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/i3.md)
      - [typescript.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/typescript.md)
      - [rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/rust.md)
      - [python.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/python.md)
+     - [linux core.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/linux%20core.md)
      - [linux cli.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/linux%20cli.md)
+     - [i3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/FAQ/i3.md)
+   - Docker
+     - Репозиторий
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Docker/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9/FAQ.md)
+   - DIY
+     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/DIY/FAQ.md)
+   - Architecture and Design Patterns
+     - [Архитектурные патерны.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B.md)
+     - [PHP.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/PHP.md)
+     - [Javascript.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Javascript.md)
+     - [Design patterns.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/Design%20patterns.md)
+     - Архитектурные патерны
+       - [Microservices.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Microservices.md)
+       - [Layered architecture.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Layered%20architecture.md)
+       - [Hexagonal architecture.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Hexagonal%20architecture.md)
+       - [Domain Driven Design.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Architecture%20and%20Design%20Patterns/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D1%8B/Domain%20Driven%20Design.md)
    - AI
      - [Темы.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A2%D0%B5%D0%BC%D1%8B.md)
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - [Репозитории.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
      - Статьи
-       - [GPT-2 в картинках (визуализация языковых моделей Трансформера).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GPT-2%20%D0%B2%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%D1%85%20(%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%B0).md)
        - [The Illustrated GPT-2 (Visualizing Transformer Language Models).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/The%20Illustrated%20GPT-2%20(Visualizing%20Transformer%20Language%20Models).md)
+       - [GPT-2 в картинках (визуализация языковых моделей Трансформера).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GPT-2%20%D0%B2%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%D1%85%20(%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B5%D1%80%D0%B0).md)
      - pytorch
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/pytorch/FAQ.md)
        - Статьи
@@ -331,14 +332,14 @@ https://hightemp.github.io/doc_notes/
        - [Как устроена нейросеть BERT от Google.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/NLP/%D0%9A%D0%B0%D0%BA%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B0%20%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8C%20BERT%20%D0%BE%D1%82%20Google.md)
      - Hugging Face
        - [pipelines.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/pipelines.md)
-       - [Empathetic-DialoGPT.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Empathetic-DialoGPT.md)
        - [mT5 Multilingual T5.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/mT5%20Multilingual%20T5.md)
        - [How to Summarize Text With Google’s T5.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/How%20to%20Summarize%20Text%20With%20Google%E2%80%99s%20T5.md)
+       - [Empathetic-DialoGPT.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Empathetic-DialoGPT.md)
        - [Automatic Model Loading using Hugging Face.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Automatic%20Model%20Loading%20using%20Hugging%20Face.md)
        - [Accelerating HuggingFace T5 Inference with TensorRT.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/Hugging%20Face/Accelerating%20HuggingFace%20T5%20Inference%20with%20TensorRT.md)
  - Заметка дня
-   - [ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
-   - [ChatGPT и AI боты.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20%D0%B8%20AI%20%D0%B1%D0%BE%D1%82%D1%8B.md)
    - [Случайные заметки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8.md)
+   - [ChatGPT и AI боты.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20%D0%B8%20AI%20%D0%B1%D0%BE%D1%82%D1%8B.md)
+   - [ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
 
 <!-- TOC -->
