@@ -55,9 +55,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "38363ede07160fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оконные менеджеры/Устройство/xsessions/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "255e55d1d5bffcc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Утилиты/Сервисы/crond/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc77ddfb219b410b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оконные менеджеры/leftwm/Статьи/How to configure LeftWM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e0ef4ba5db453e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оконные менеджеры/polybar/Статьи/All modules that are available for polybar – any desktop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31a152147eee0fd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оконные менеджеры/polybar/Статьи/Установка и настройка i3wm c polybar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8148a5ad1c3c7284",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оптимизация/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -155,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
+                "file": "Заметки/Linux/Оптимизация/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
+                "file": "Заметки/Linux/Оптимизация/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Утилиты/find/FAQ.md"
+                "file": "Заметки/Linux/Оптимизация/FAQ.md"
               }
             }
           }
@@ -218,10 +290,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cd444dbca2b9250f",
+  "active": "8148a5ad1c3c7284",
   "lastOpenFiles": [
-    "Заметки/AI/FAQ.md",
+    "Заметки/Linux/Оконные менеджеры/polybar/Статьи/Установка и настройка i3wm c polybar.md",
+    "Заметки/Linux/Оптимизация/FAQ.md",
+    "Заметки/Linux/Оптимизация",
+    "Заметки/Linux/Оконные менеджеры/polybar/Статьи/All modules that are available for polybar – any desktop.md",
+    "Заметки/Linux/Оконные менеджеры/leftwm/Статьи/How to configure LeftWM.md",
+    "Заметки/Linux/Оконные менеджеры/polybar/Статьи",
+    "Заметки/Linux/Оконные менеджеры/polybar",
+    "Заметки/Linux/Утилиты/Сервисы/crond/FAQ.md",
+    "Заметки/Linux/Оконные менеджеры/leftwm/Статьи",
+    "Заметки/Linux/Оконные менеджеры/leftwm",
+    "Заметки/Linux/Оконные менеджеры/Устройство/xsessions/FAQ.md",
+    "Заметки/Linux/Утилиты/Сервисы",
+    "Заметки/Linux/Утилиты/Сервисы/crond",
     "Заметки/Linux/Утилиты/find/FAQ.md",
+    "Заметки/Linux/Оконные менеджеры/Устройство/xsessions",
+    "Заметки/Linux/Оконные менеджеры/Устройство",
+    "Заметки/AI/FAQ.md",
     "Заметки/Linux/Утилиты/find",
     "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
@@ -231,30 +318,15 @@
     "Заметки/Разарботка/rust/leptos/FAQ.md",
     "Заметки/Разарботка/rust/Видео.md",
     "Заметки/Разарботка/python/django/Видео.md",
-    "Заметки/Разарботка/rust/leptos",
-    "Заметки/Справочники/Израиль/Криминал",
-    "Заметки/Справочники/Израиль",
     "Заметки/Разарботка/scrapping/FAQ.md",
     "Заметки/Железо/BIOS/FAQ.md",
-    "Заметки/Железо/BIOS",
-    "Заметки/Железо",
     "Заметки/Разарботка/vscode/FAQ.md",
-    "Заметки/Разарботка/vscode",
     "Заметки/Linux/Кастомизация/FAQ.md",
     "Заметки/Linux/Кастомизация/KDE/FAQ.md",
     "HISTORY.md",
     "Заметки/Разарботка/Веб-разработка/FAQ.md",
-    "Заметки/Linux/Кастомизация/Mint",
-    "Заметки/Linux/Кастомизация/KDE",
     "Заметки/Linux/Untitled/Untitled/Untitled.md",
-    "Заметки/Linux/Кастомизация",
     "Заметки/Разарботка/typescript/Ссылки.md",
-    "Заметки/AI/Темы.md",
-    "Заметки/Разарботка/typescript/FAQ.md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Магнитотерапия. Низкочастотная. Высокочастотная. Импульсная..md",
-    "Заметки/Медицина/Физиотерапия/FAQ.md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Высокочастотная магнитотерапия (индуктотермия).md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Интерференцтерапия.md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Низкочастотная магнитотерапия.md"
+    "Заметки/AI/Темы.md"
   ]
 }
