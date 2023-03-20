@@ -2737,4 +2737,22 @@ urlpatterns = [
 
 После этого можно загружать файлы на сервер через форму на странице `upload.html`. Файлы будут сохранены в директории `MEDIA_ROOT`, а информация о загруженных файлах будет храниться в модели `UploadedFile`.
 
+## как в django сделать дефолтное время для DateTimeField напиши пример
+
+Чтобы задать дефолтное время для поля `DateTimeField` в Django, можно использовать аргумент `default` с объектом `datetime.datetime`.
+
+Например, если вы хотите, чтобы поле `created_at` модели `MyModel` по умолчанию содержало текущее время, можно определить его следующим образом:
+
+```python
+from django.db import models
+from datetime import datetime
+
+class MyModel(models.Model):
+    created_at = models.DateTimeField(default=datetime.now)
+```
+
+В этом примере мы использовали функцию `datetime.now()` для создания объекта `datetime.datetime` с текущим временем. Вы также можете использовать другие методы для создания объекта `datetime`, например, `datetime.fromtimestamp()` или `datetime.utcfromtimestamp()`.
+
+Обратите внимание, что при определении дефолтного значения для `DateTimeField` не нужно вызывать метод `datetime.now()` с круглыми скобками, иначе это значение будет установлено в момент определения модели, а не при создании экземпляра объекта. Вместо этого нужно передать саму функцию `datetime.now`.
+
 {% endraw %}
