@@ -43,9 +43,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cd444dbca2b9250f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -143,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/FAQ.md",
+                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/FAQ.md",
+                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/FAQ.md"
+                "file": "Заметки/Linux/Утилиты/find/FAQ.md"
               }
             }
           }
@@ -206,10 +218,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "dfeaea83a2cdaa0d",
+  "active": "cd444dbca2b9250f",
   "lastOpenFiles": [
-    "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/AI/FAQ.md",
+    "Заметки/Linux/Утилиты/find/FAQ.md",
+    "Заметки/Linux/Утилиты/find",
+    "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
     "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
@@ -235,14 +249,12 @@
     "Заметки/Linux/Untitled/Untitled/Untitled.md",
     "Заметки/Linux/Кастомизация",
     "Заметки/Разарботка/typescript/Ссылки.md",
-    "Заметки/Linux/Untitled/Untitled",
     "Заметки/AI/Темы.md",
     "Заметки/Разарботка/typescript/FAQ.md",
     "Заметки/Медицина/Физиотерапия/Статьи/Магнитотерапия. Низкочастотная. Высокочастотная. Импульсная..md",
     "Заметки/Медицина/Физиотерапия/FAQ.md",
     "Заметки/Медицина/Физиотерапия/Статьи/Высокочастотная магнитотерапия (индуктотермия).md",
     "Заметки/Медицина/Физиотерапия/Статьи/Интерференцтерапия.md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Низкочастотная магнитотерапия.md",
-    "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 3.md"
+    "Заметки/Медицина/Физиотерапия/Статьи/Низкочастотная магнитотерапия.md"
   ]
 }
