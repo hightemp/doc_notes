@@ -21,6 +21,30 @@
             }
           },
           {
+            "id": "3f643608cf500556",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Радиоэлектроника/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d0fea7cd93683a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/typescript/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5cb679664ba40d39",
             "type": "leaf",
             "state": {
@@ -33,30 +57,43 @@
             }
           },
           {
-            "id": "dfeaea83a2cdaa0d",
+            "id": "cd444dbca2b9250f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/AI/FAQ.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cd444dbca2b9250f",
+            "id": "5111420c0acc6ffd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Утилиты/find/FAQ.md",
+                "file": "Заметки/Разарботка/laravel/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c99a7ad257b9519",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -154,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Радиоэлектроника/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Радиоэлектроника/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md"
+                "file": "Заметки/Радиоэлектроника/FAQ.md"
               }
             }
           }
@@ -217,9 +254,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d2d19e075a93e117",
+  "active": "3f643608cf500556",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Радиоэлектроника/FAQ.md",
+    "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
+    "Заметки/Разарботка/laravel/FAQ.md",
+    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/langd/FAQ.md",
+    "Заметки/Разарботка/typescript/FAQ.md",
+    "Заметки/Разарботка/laravel/Статьи/Laravel - Overview.md",
+    "Заметки/Разарботка/laravel/Статьи/Laravel - Installation.md",
+    "Заметки/Разарботка/laravel/Статьи",
+    "Заметки/Разарботка/laravel",
     "Заметки/AI/FAQ.md",
     "Заметки/Linux/Утилиты/find/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/Устройство/xsessions/FAQ.md",
@@ -238,22 +285,12 @@
     "Заметки/Linux/Утилиты/Сервисы",
     "Заметки/Linux/Утилиты/Сервисы/crond",
     "Заметки/Linux/Оконные менеджеры/Устройство/xsessions",
-    "Заметки/Linux/Оконные менеджеры/Устройство",
-    "Заметки/Linux/Утилиты/find",
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
     "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
     "Заметки/Справочники/Израиль/Криминал/FAQ.md",
     "Заметки/Разарботка/rust/leptos/FAQ.md",
     "Заметки/Разарботка/rust/Видео.md",
     "Заметки/Разарботка/python/django/Видео.md",
-    "Заметки/Разарботка/scrapping/FAQ.md",
-    "Заметки/Железо/BIOS/FAQ.md",
-    "Заметки/Разарботка/vscode/FAQ.md",
-    "Заметки/Linux/Кастомизация/FAQ.md",
-    "Заметки/Linux/Кастомизация/KDE/FAQ.md",
-    "HISTORY.md",
-    "Заметки/Разарботка/Веб-разработка/FAQ.md",
-    "Заметки/Linux/Untitled/Untitled/Untitled.md"
+    "Заметки/Разарботка/scrapping/FAQ.md"
   ]
 }
