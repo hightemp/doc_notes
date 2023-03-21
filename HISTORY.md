@@ -1,9 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Радиоэлектроника/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0/FAQ.md)
- - [HISTORY.md](./HISTORY.md)
- - [README.md](./README.md)
  - [Заметки/Разарботка/python/django/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/FAQ.md)
+ - [README.md](./README.md)
+ - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Радиоэлектроника/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0/FAQ.md)
  - [Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Generate%20Migrations%20from%20an%20Existing%20Database%20With%20the%20Migration%20Generator%20Package.md)
  - [Заметки/Разарботка/laravel/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/FAQ.md)
  - [Заметки/Разарботка/typescript/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/typescript/FAQ.md)

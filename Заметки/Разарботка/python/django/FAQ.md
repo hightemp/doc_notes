@@ -2830,4 +2830,120 @@ class MyTableView(SingleTableView):
 
 Теперь при просмотре страницы `MyTableView` будет отображаться таблица с пагинацией, которая будет разбивать данные на страницы по 10 записей на каждой странице (как указано в `paginate_by`).
 
+## напиши пример вывода списка файлов в django в виде таблицы из директории spiders (которая находится на уровне приложения app)
+
+Для вывода списка файлов в Django в виде таблицы из директории spiders необходимо выполнить следующие шаги:
+
+1. Создать представление (view) в файле views.py:
+
+```python
+import os
+from django.conf import settings
+from django.http import HttpResponse
+from django.shortcuts import render
+
+
+def spiders_list(request):
+    spiders_dir = os.path.join(settings.BASE_DIR, 'app', 'spiders')
+    files = os.listdir(spiders_dir)
+    data = []
+    for file in files:
+        file_path = os.path.join(spiders_dir, file)
+        if os.path.isfile(file_path):
+            size = os.path.getsize(file_path)
+            data.append((file, size))
+    return render(request, 'spiders_list.html', {'data': data})
+```
+
+2. Создать шаблон (template) в файле spiders_list.html:
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>File name</th>
+      <th>File size</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for file, size in data %}
+      <tr>
+        <td>{{ file }}</td>
+        <td>{{ size }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+```
+
+3. Добавить URL-адрес в файл urls.py:
+
+```python
+from django.urls import path
+from .views import spiders_list
+
+urlpatterns = [
+    path('spiders/', spiders_list, name='spiders_list'),
+]
+```
+
+Теперь при переходе на страницу "http://localhost:8000/spiders/" будет выведен список файлов в виде таблицы из директории spiders.
+
+## напиши примеры url django со слагами разных типов (int, и т.п.)
+
+В Django есть несколько типов слагов, которые могут быть использованы в URL-адресах. Рассмотрим примеры URL-адресов со слагами разных типов:
+
+1. Слаг типа int (целое число):
+
+```python
+from django.urls import path
+from .views import post_detail
+
+urlpatterns = [
+    path('post/<int:pk>/', post_detail, name='post_detail'),
+]
+```
+
+В этом примере создается URL-адрес, который содержит переменную целочисленного типа с именем "pk". В представлении "post_detail" переменная "pk" будет содержать значение целого числа, переданного в URL-адресе.
+
+2. Слаг типа str (строка):
+
+```python
+from django.urls import path
+from .views import product_detail
+
+urlpatterns = [
+    path('product/<str:slug>/', product_detail, name='product_detail'),
+]
+```
+
+В этом примере создается URL-адрес, который содержит переменную строкового типа с именем "slug". В представлении "product_detail" переменная "slug" будет содержать значение строки, переданной в URL-адресе.
+
+3. Слаг типа uuid (уникальный идентификатор):
+
+```python
+import uuid
+from django.urls import path
+from .views import user_profile
+
+urlpatterns = [
+    path('user/<uuid:id>/', user_profile, name='user_profile'),
+]
+```
+
+В этом примере создается URL-адрес, который содержит переменную типа UUID с именем "id". В представлении "user_profile" переменная "id" будет содержать значение UUID, переданное в URL-адресе.
+
+4. Слаг типа slug (строка, содержащая только буквы, цифры и дефисы):
+
+```python
+from django.urls import path
+from .views import category_detail
+
+urlpatterns = [
+    path('category/<slug:slug>/', category_detail, name='category_detail'),
+]
+```
+
+В этом примере создается URL-адрес, который содержит переменную типа slug с именем "slug". В представлении "category_detail" переменная "slug" будет содержать значение строки, переданной в URL-адресе и содержащей только буквы, цифры и дефисы.
+
 {% endraw %}
