@@ -407,3 +407,165 @@ print(vars(my_dict))
 ```
 
 Как видно из вывода, функция `vars()` возвращает словарь всех атрибутов и их значений для данного объекта.
+
+## напиши телеграм бота password manager на python
+
+Конечно, я могу написать простого телеграм-бота для управления паролями на Python с использованием библиотеки python-telegram-bot. Но я хочу отметить, что хранение паролей в открытом виде может быть опасным, поэтому перед использованием этого бота убедитесь, что вы понимаете все риски и принимаете все необходимые меры безопасности.
+
+Вот простой пример кода для телеграм бота password manager на Python:
+
+```python
+import logging
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import random
+
+# создаем логер и устанавливаем уровень логирования
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                     level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# создаем словарь для хранения паролей
+passwords = {}
+
+# функция для генерации случайного пароля
+def generate_password():
+    password = ''
+    characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-=[]{}|;:,.<>?'
+    for i in range(16):
+        password += random.choice(characters)
+    return password
+
+# обработчик команды /start
+def start(update, context):
+    update.message.reply_text('Привет! Это телеграм-бот для управления паролями. Чтобы добавить пароль, напишите /add <название> <пароль>. Чтобы получить пароль, напишите /get <название>.')
+
+# обработчик команды /add
+def add_password(update, context):
+    # получаем название и пароль из сообщения
+    message = update.message.text.split()
+    title = message[1]
+    password = message[2]
+    # добавляем пароль в словарь
+    passwords[title] = password
+    update.message.reply_text(f'Пароль для {title} добавлен.')
+
+# обработчик команды /get
+def get_password(update, context):
+    # получаем название пароля из сообщения
+    title = update.message.text.split()[1]
+    # проверяем, есть ли пароль в словаре
+    if title in passwords:
+        update.message.reply_text(f'Пароль для {title}: {passwords[title]}')
+    else:
+        update.message.reply_text(f'Пароль для {title} не найден.')
+
+# обработчик неизвестных команд
+def unknown(update, context):
+    update.message.reply_text('Команда не распознана. Пожалуйста, введите корректную команду.')
+
+# функция main
+def main():
+    # создаем объект Updater и передаем ему токен бота
+    updater = Updater('YOUR_TOKEN', use_context=True)
+
+    # получаем диспетчер для регистрации обработчиков
+    dp = updater.dispatcher
+
+    # регистрируем обработчики
+    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(CommandHandler('add', add_password))
+    dp.add_handler(CommandHandler('get', get_password))
+    dp.add_handler(MessageHandler(Filters.command, unknown))
+
+    # запускаем бота
+    updater.start_polling()
+
+    # логируем сообщение о запуске
+    logger.info('Bot started')
+
+    # останавливаем бота при нажатии Ctrl+C
+    updater.idle()
+
+if __name__ == '__main__':
+    main()
+```
+
+Вам нужно заменить `YOUR_TOKEN` на токен вашего телеграм-бота.
+
+Этот бот позволяет добавлять пароли с помощью команды `/add <название> <пароль>` и получать пароли с помощью команды `/get <название>`. Когда пользователь добавляет пароль, он сохраняется в словаре `passwords`. Когда пользователь запрашивает пароль, бот проверяет, есть ли он в словаре, и отправляет его пользователю. Если пароль не найден, бот отправляет
+
+## напиши телеграм бота password manager на python с изпользованием sqlite
+
+Код для телеграм бота password manager на Python с использованием SQLite:
+
+```python
+import sqlite3
+import telebot
+
+# Создаем базу данных и таблицу для хранения паролей
+conn = sqlite3.connect('passwords.db')
+cursor = conn.cursor()
+cursor.execute("""CREATE TABLE IF NOT EXISTS passwords
+                (id INTEGER PRIMARY KEY AUTOINCREMENT,
+                service TEXT NOT NULL,
+                username TEXT NOT NULL,
+                password TEXT NOT NULL)""")
+conn.commit()
+
+# Инициализируем телеграм бота
+bot = telebot.TeleBot("TOKEN")
+
+# Обработчик команды /start
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    bot.reply_to(message, "Привет! Я твой Password Manager. Я могу сохранять твои пароли и помочь тебе не забывать их.")
+
+# Обработчик команды /add
+@bot.message_handler(commands=['add'])
+def add_password(message):
+    # Запрашиваем у пользователя данные о новом пароле
+    bot.send_message(message.chat.id, "Для какого сервиса сохранить пароль?")
+    bot.register_next_step_handler(message, add_service)
+
+def add_service(message):
+    service = message.text
+    bot.send_message(message.chat.id, "Какой у вас логин?")
+    # Сохраняем сервис и переходим к следующему шагу
+    bot.register_next_step_handler(message, add_username, service)
+
+def add_username(message, service):
+    username = message.text
+    bot.send_message(message.chat.id, "Какой у вас пароль?")
+    # Сохраняем логин и переходим к следующему шагу
+    bot.register_next_step_handler(message, add_password_to_db, service, username)
+
+def add_password_to_db(message, service, username):
+    password = message.text
+    # Сохраняем пароль в базе данных
+    cursor.execute("INSERT INTO passwords (service, username, password) VALUES (?, ?, ?)", (service, username, password))
+    conn.commit()
+    bot.send_message(message.chat.id, "Пароль успешно сохранен!")
+
+# Обработчик команды /get
+@bot.message_handler(commands=['get'])
+def get_password(message):
+    bot.send_message(message.chat.id, "Для какого сервиса получить пароль?")
+    # Запрашиваем у пользователя сервис, для которого нужно получить пароль
+    bot.register_next_step_handler(message, get_password_from_db)
+
+def get_password_from_db(message):
+    service = message.text
+    # Ищем пароль в базе данных
+    cursor.execute("SELECT password FROM passwords WHERE service=?", (service,))
+    password = cursor.fetchone()
+    if password:
+        bot.send_message(message.chat.id, f"Пароль для сервиса {service}: {password[0]}")
+    else:
+        bot.send_message(message.chat.id, f"Пароль для сервиса {service} не найден")
+
+# Запускаем телеграм бота
+bot.polling()
+```
+
+Обратите внимание, что в коде используется placeholder `?` вместо конкатенации строк для защиты от SQL-инъекций. Также в базе данных хранятся пароли в открытом виде, что не является безопасным для реального использования. Рекомендуется использовать более надежные способы хранения паролей, такие как хеширование и соление.
+

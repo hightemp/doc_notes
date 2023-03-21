@@ -3373,4 +3373,50 @@ def my_view(request):
 
 В этом примере мы создаем экземпляр формы `MyForm` и экземпляр `FormHelper`. Мы добавляем кнопку отправки на форму с помощью `helper.add_input()`. Затем мы передаем форму и помощник в шаблон и используем их для отображения формы.
 
+## как в django_tables2 добавить relation поле в query запрос
+
+Если в вашей модели Django есть поле ForeignKey или ManyToManyField, которое связывает две модели, вы можете использовать Django ORM `select_related()` и `prefetch_related()` методы для оптимизации запросов и получения связанных объектов в одном запросе.
+
+Для того, чтобы добавить `select_related()` в Django ORM запрос через Django-tables2, вы можете использовать атрибут `attrs` в классе таблицы, который позволяет добавлять дополнительные атрибуты к объекту QuerySet.
+
+Например, если у вас есть модели `Person` и `City`, и у `Person` есть поле ForeignKey на `City`, вы можете использовать `select_related()` для оптимизации запроса и получения связанного объекта `City`. Для этого в классе таблицы `PersonTable` необходимо добавить атрибут `attrs` следующим образом:
+
+```python
+import django_tables2 as tables
+from .models import Person
+
+class PersonTable(tables.Table):
+    class Meta:
+        model = Person
+        template_name = 'django_tables2/bootstrap4.html'
+        attrs = {'class': 'table table-striped table-hover'}
+        fields = ('name', 'age', 'city')
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.queryset = self.queryset.select_related('city')
+```
+
+В данном примере мы добавляем `select_related('city')` к `queryset` в методе `__init__()` класса таблицы. Это позволяет оптимизировать запрос и получить связанный объект `City` в одном запросе.
+
+Вы также можете использовать `prefetch_related()` для получения связанных объектов ManyToManyField в одном запросе. Для этого в классе таблицы необходимо добавить атрибут `attrs` следующим образом:
+
+```python
+import django_tables2 as tables
+from .models import Person
+
+class PersonTable(tables.Table):
+    class Meta:
+        model = Person
+        template_name = 'django_tables2/bootstrap4.html'
+        attrs = {'class': 'table table-striped table-hover'}
+        fields = ('name', 'age', 'hobbies')
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.queryset = self.queryset.prefetch_related('hobbies')
+```
+
+В данном примере мы добавляем `prefetch_related('hobbies')` к `queryset` в методе `__init__()` класса таблицы. Это позволяет получить связанные объекты `Hobby` через ManyToManyField в одном запросе.
+
 {% endraw %}

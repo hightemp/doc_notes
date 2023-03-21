@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/django/FAQ.md"
+                "file": "Заметки/Разарботка/python/FAQ.md"
               }
             }
           }
@@ -265,10 +265,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d2d19e075a93e117",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Математика/FAQ.md",
     "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Математика/FAQ.md",
     "Заметки/Математика",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
