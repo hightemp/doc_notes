@@ -3216,4 +3216,147 @@ def run_process(request):
 
 Обратите внимание, что при запуске процесса может потребоваться указать дополнительные параметры, такие как путь к файлу настроек Django или путь к используемой базе данных.
 
+## как с помощью django_tables2 и checkbox selection сделать удаление выбранных элементов
+
+Чтобы использовать `django_tables2` и `checkbox selection` для удаления выбранных элементов, вам нужно выполнить следующие шаги:
+
+1. Создайте HTML-шаблон, который будет отображать таблицу и кнопку для удаления выбранных элементов. Например:
+
+```html
+<form method="POST" action="{% url 'delete_items' %}">
+  {% csrf_token %}
+  {% render_table table %}
+  <button type="submit" class="btn btn-danger">Delete selected items</button>
+</form>
+```
+
+В этом примере мы создаем форму, которая будет отправлять запрос POST на URL-адрес `delete_items`, когда пользователь нажимает кнопку "Delete selected items". Мы используем тег `{% render_table %}` для отображения таблицы.
+
+2. В вашем представлении Django, создайте класс таблицы, который будет использовать `checkbox selection`. Например:
+
+```python
+import django_tables2 as tables
+from myapp.models import MyModel
+
+class MyTable(tables.Table):
+    selection = tables.CheckBoxColumn(accessor='pk', orderable=False)
+    
+    class Meta:
+        model = MyModel
+        fields = ('selection', 'name', 'description')
+```
+
+В этом примере мы создаем класс таблицы `MyTable`, который наследуется от `tables.Table`. Мы также добавляем столбец `selection`, который будет использоваться для `checkbox selection`. Мы устанавливаем `accessor='pk'`, чтобы получить первичный ключ каждой записи в таблице, и устанавливаем `orderable=False`, чтобы пользователь не мог сортировать этот столбец. В `Meta` классе мы устанавливаем модель `MyModel` и поля, которые будут отображаться в таблице.
+
+3. В вашем представлении Django, создайте функцию, которая будет обрабатывать запрос POST и удалять выбранные элементы. Например:
+
+```python
+from django.shortcuts import redirect
+from django.contrib import messages
+
+def delete_items(request):
+    if request.method == 'POST':
+        ids = request.POST.getlist('selection')
+        MyModel.objects.filter(pk__in=ids).delete()
+        messages.success(request, 'Selected items have been deleted.')
+    return redirect('my_view')
+```
+
+В этом примере мы проверяем, является ли запрос методом POST. Затем мы получаем список выбранных элементов из запроса, используя `request.POST.getlist('selection')`. Мы используем этот список для фильтрации записей в модели `MyModel` и удаления их с помощью метода `delete()`. Мы также добавляем сообщение об успешном удалении элементов с помощью `messages.success()`. Наконец, мы перенаправляем пользователя на другую страницу с помощью `redirect()`.
+
+4. В вашем представлении Django, создайте функцию, которая будет отображать таблицу. Например:
+
+```python
+from django.shortcuts import render
+from django_tables2 import RequestConfig
+from myapp.tables import MyTable
+
+def my_view(request):
+    table = MyTable(MyModel.objects.all())
+    RequestConfig(request, paginate={'per_page': 10}).configure(table)
+    return render(request, 'my_template.html', {'table': table})
+```
+
+В этом примере мы создаем экземпляр таблицы `MyTable` с помощью `MyModel.objects.all()`. Мы также используем `RequestConfig` для конфигурации таблицы, чтобы она была разбита на страницы и была отображена по 10 элементов на странице. Наконец, мы отображаем таблицу в HTML-шаблоне с помощью `render()`.
+
+Обратите внимание, что вы должны настроить URL-адрес для `delete_items` и добавить этот URL-адрес в ваш файл urls.py.
+
+## как в django используется в шаблонах messages.success
+
+`messages.success(request, message)` - это функция из модуля `django.contrib.messages`, которая используется для добавления сообщения об успешном выполнении операции в очередь сообщений Django. Это очень удобно для отображения информационных сообщений пользователю.
+
+Вы можете использовать `messages.success` в представлениях Django, чтобы добавлять сообщения в очередь сообщений. В шаблонах Django вы можете использовать `{% if messages %}` и `{% for message in messages %}` шаблонные теги, чтобы получить доступ к сообщениям в очереди и отобразить их пользователю.
+
+Когда вы добавляете сообщение с помощью `messages.success`, оно сохраняется в сессии пользователя и будет отображаться только на следующей странице, к которой он обратится. Это означает, что вы должны перенаправить пользователя на другую страницу, чтобы он мог увидеть сообщение.
+
+Вот пример, как использовать `messages.success` в представлениях Django:
+
+```python
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from myapp.models import MyModel
+
+def my_view(request):
+    my_model_instance = MyModel(name='New Instance', description='Description')
+    my_model_instance.save()
+    messages.success(request, 'Model instance created successfully.')
+    return redirect('home')
+```
+
+В этом примере мы создаем экземпляр модели `MyModel`, сохраняем его в базу данных и добавляем сообщение об успешном создании экземпляра в очередь сообщений Django с помощью `messages.success`. Затем мы перенаправляем пользователя на домашнюю страницу с помощью `redirect`, где он увидит сообщение.
+
+Вот пример, как использовать `messages.success` в шаблонах Django:
+
+```html
+{% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-success alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      {{ message }}
+    </div>
+  {% endfor %}
+{% endif %}
+```
+
+В этом примере мы проверяем, есть ли сообщения в очереди, используя `{% if messages %}`. Если есть, мы перебираем их с помощью `{% for message in messages %}` и отображаем их как информационные сообщения с помощью Bootstrap-стилей.
+
+## как в django в crispy form отобразить элементы формы без отображения form
+
+Если вы хотите отобразить элементы формы, не отображая всю форму, вы можете использовать тег `{% crispy_field %}`. Этот тег отображает одно поле формы, заданное в аргументе.
+
+Вот пример, как использовать `{% crispy_field %}` для отображения поля формы:
+
+```html
+{% load crispy_forms_tags %}
+
+{% crispy_field form.name %}
+```
+
+В этом примере мы загружаем теги `crispy_forms_tags`. Затем мы используем `{% crispy_field %}` для отображения поля `name` в форме, которая была передана в шаблон как `form`.
+
+Если вы хотите отобразить несколько полей формы, вы можете использовать `{% crispy %}` тег и задавать список полей в аргументах. Например:
+
+```html
+{% load crispy_forms_tags %}
+
+{% crispy form form.name form.email %}
+```
+
+В этом примере мы используем `{% crispy %}` для отображения полей `name` и `email` в форме, которая была передана в шаблон как `form`.
+
+Обратите внимание, что вы должны импортировать необходимые crispy-формы в своем представлении Django, чтобы они были доступны в шаблоне. Например:
+
+```python
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+
+def my_view(request):
+    form = MyForm()
+    helper = FormHelper()
+    helper.add_input(Submit('submit', 'Save'))
+    return render(request, 'my_template.html', {'form': form, 'helper': helper})
+```
+
+В этом примере мы создаем экземпляр формы `MyForm` и экземпляр `FormHelper`. Мы добавляем кнопку отправки на форму с помощью `helper.add_input()`. Затем мы передаем форму и помощник в шаблон и используем их для отображения формы.
+
 {% endraw %}
