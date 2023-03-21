@@ -104,8 +104,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Математика/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Математика/FAQ.md",
+                "file": "Заметки/Разарботка/python/django/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Математика/FAQ.md"
+                "file": "Заметки/Разарботка/python/django/FAQ.md"
               }
             }
           }
@@ -266,10 +265,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c49f26bda501f0b0",
+  "active": "d2d19e075a93e117",
   "lastOpenFiles": [
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Математика/FAQ.md",
+    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Математика",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
