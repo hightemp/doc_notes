@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Найденное/Репозитории.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -266,10 +266,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e37a9567caa3d59f",
+  "active": "e76bb7dc52a41aae",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/FAQ.md",
     "Найденное/Репозитории.md",
+    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/laravel/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/php/FAQ.md",
