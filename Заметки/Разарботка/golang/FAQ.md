@@ -235,3 +235,503 @@ func postNews(bot *telebot.Bot, item NewsItem) {
 ```
 
 В этом примере мы используем библиотеку gofeed для парсинга RSS-ленты и библиотеку telebot для работы с Телеграм API. Мы также сохраняем время последнего прочитанного элемента в файле для того, чтобы не повторяться при следующем запуске.
+
+## напиши API на golang использующий graphql
+
+Конечно, вот пример кода API на Golang с использованием GraphQL:
+
+```go
+package main
+
+import (
+ "encoding/json"
+ "fmt"
+ "log"
+ "net/http"
+
+ "github.com/graphql-go/graphql"
+)
+
+type Book struct {
+ ID     int    `json:"id"`
+ Title  string `json:"title"`
+ Author string `json:"author"`
+}
+
+var books = []Book{
+ {ID: 1, Title: "The Great Gatsby", Author: "F. Scott Fitzgerald"},
+ {ID: 2, Title: "To Kill a Mockingbird", Author: "Harper Lee"},
+ {ID: 3, Title: "1984", Author: "George Orwell"},
+}
+
+var bookType = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Book",
+  Fields: graphql.Fields{
+   "id": &graphql.Field{
+    Type: graphql.Int,
+   },
+   "title": &graphql.Field{
+    Type: graphql.String,
+   },
+   "author": &graphql.Field{
+    Type: graphql.String,
+   },
+  },
+ },
+)
+
+var rootQuery = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Query",
+  Fields: graphql.Fields{
+   "book": &graphql.Field{
+    Type:        bookType,
+    Description: "Get book by ID",
+    Args: graphql.FieldConfigArgument{
+     "id": &graphql.ArgumentConfig{
+      Type: graphql.Int,
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     id, ok := params.Args["id"].(int)
+     if ok {
+      for _, book := range books {
+       if book.ID == id {
+        return book, nil
+       }
+      }
+     }
+     return nil, nil
+    },
+   },
+   "books": &graphql.Field{
+    Type:        graphql.NewList(bookType),
+    Description: "Get all books",
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     return books, nil
+    },
+   },
+  },
+ },
+)
+
+var schema, _ = graphql.NewSchema(
+ graphql.SchemaConfig{
+  Query: rootQuery,
+ },
+)
+
+func main() {
+ http.HandleFunc("/graphql", func(w http.ResponseWriter, r *http.Request) {
+  if r.Method == "POST" {
+   var params struct {
+    Query string `json:"query"`
+   }
+   err := json.NewDecoder(r.Body).Decode(&params)
+   if err != nil {
+    http.Error(w, err.Error(), http.StatusBadRequest)
+    return
+   }
+   result := graphql.Do(graphql.Params{
+    Schema:        schema,
+    RequestString: params.Query,
+   })
+   json.NewEncoder(w).Encode(result)
+  } else {
+   fmt.Fprintf(w, "GraphQL API is running")
+  }
+ })
+ log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+В этом примере мы создаем простой API для получения информации о книгах. Мы используем GraphQL для определения схемы API и выполнения запросов.
+
+Мы создаем тип Book и определяем два запроса: book и books. Запрос book возвращает книгу по ее ID, а запрос books возвращает список всех книг.
+
+Мы используем пакет `graphql-go` для создания схемы и выполнения запросов GraphQL. Мы определяем функцию-обработчик для запросов GraphQL, которая принимает запрос в формате JSON и возвращает результат в формате JSON.
+
+Наконец, мы запускаем сервер на порту 8080 и слушаем запросы на `/graphql`.
+
+Это простой пример API на Golang, который использует GraphQL. Вы можете использовать этот код как основу для своего собственного API и настроить его для своих нужд.
+
+## напиши API на golang использующий graphql и sqlite
+
+Конечно, вот пример кода API на Golang с использованием GraphQL и SQLite:
+
+```go
+package main
+
+import (
+ "database/sql"
+ "encoding/json"
+ "fmt"
+ "log"
+ "net/http"
+
+ "github.com/graphql-go/graphql"
+ _ "github.com/mattn/go-sqlite3"
+)
+
+type Book struct {
+ ID     int    `json:"id"`
+ Title  string `json:"title"`
+ Author string `json:"author"`
+}
+
+var db, _ = sql.Open("sqlite3", "./books.db")
+
+func init() {
+ sqlStmt := `
+ create table if not exists books (id integer not null primary key, title text, author text);
+ delete from books;
+ insert into books (id, title, author) values (1, 'The Great Gatsby', 'F. Scott Fitzgerald');
+ insert into books (id, title, author) values (2, 'To Kill a Mockingbird', 'Harper Lee');
+ insert into books (id, title, author) values (3, '1984', 'George Orwell');
+ `
+ _, err := db.Exec(sqlStmt)
+ if err != nil {
+  log.Fatalf("%q: %s\n", err, sqlStmt)
+ }
+}
+
+var bookType = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Book",
+  Fields: graphql.Fields{
+   "id": &graphql.Field{
+    Type: graphql.Int,
+   },
+   "title": &graphql.Field{
+    Type: graphql.String,
+   },
+   "author": &graphql.Field{
+    Type: graphql.String,
+   },
+  },
+ },
+)
+
+var rootQuery = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Query",
+  Fields: graphql.Fields{
+   "book": &graphql.Field{
+    Type:        bookType,
+    Description: "Get book by ID",
+    Args: graphql.FieldConfigArgument{
+     "id": &graphql.ArgumentConfig{
+      Type: graphql.Int,
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     id, ok := params.Args["id"].(int)
+     if ok {
+      stmt, _ := db.Prepare("SELECT id, title, author FROM books WHERE id = ?")
+      defer stmt.Close()
+      row := stmt.QueryRow(id)
+      var book Book
+      err := row.Scan(&book.ID, &book.Title, &book.Author)
+      if err != nil {
+       return nil, err
+      }
+      return book, nil
+     }
+     return nil, nil
+    },
+   },
+   "books": &graphql.Field{
+    Type:        graphql.NewList(bookType),
+    Description: "Get all books",
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     rows, _ := db.Query("SELECT id, title, author FROM books")
+     defer rows.Close()
+     var books []Book
+     for rows.Next() {
+      var book Book
+      err := rows.Scan(&book.ID, &book.Title, &book.Author)
+      if err != nil {
+       return nil, err
+      }
+      books = append(books, book)
+     }
+     return books, nil
+    },
+   },
+  },
+ },
+)
+
+var schema, _ = graphql.NewSchema(
+ graphql.SchemaConfig{
+  Query: rootQuery,
+ },
+)
+
+func main() {
+ http.HandleFunc("/graphql", func(w http.ResponseWriter, r *http.Request) {
+  if r.Method == "POST" {
+   var params struct {
+    Query string `json:"query"`
+   }
+   err := json.NewDecoder(r.Body).Decode(&params)
+   if err != nil {
+    http.Error(w, err.Error(), http.StatusBadRequest)
+    return
+   }
+   result := graphql.Do(graphql.Params{
+    Schema:        schema,
+    RequestString: params.Query,
+   })
+   json.NewEncoder(w).Encode(result)
+  } else {
+   fmt.Fprintf(w, "GraphQL API is running")
+  }
+ })
+ log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+В этом примере мы создаем простой API для получения информации о книгах из базы данных SQLite. Мы используем GraphQL для определения схемы API и выполнения запросов.
+
+Мы создаем тип Book и определяем два запроса: book и books. Запрос book возвращает книгу по ее ID, а запрос books возвращает список всех книг.
+
+Мы используем пакет `github.com/mattn/go-sqlite3` для работы с базой данных SQLite. Мы определяем функции-
+
+## напиши CRUD API на golang использующий graphql и sqlite
+
+Конечно, вот пример кода CRUD API на Golang с использованием GraphQL и SQLite:
+
+```go
+package main
+
+import (
+ "database/sql"
+ "encoding/json"
+ "fmt"
+ "log"
+ "net/http"
+
+ "github.com/graphql-go/graphql"
+ _ "github.com/mattn/go-sqlite3"
+)
+
+type Book struct {
+ ID     int    `json:"id"`
+ Title  string `json:"title"`
+ Author string `json:"author"`
+}
+
+var db, _ = sql.Open("sqlite3", "./books.db")
+
+func init() {
+ sqlStmt := `
+ create table if not exists books (id integer not null primary key, title text, author text);
+ delete from books;
+ insert into books (id, title, author) values (1, 'The Great Gatsby', 'F. Scott Fitzgerald');
+ insert into books (id, title, author) values (2, 'To Kill a Mockingbird', 'Harper Lee');
+ insert into books (id, title, author) values (3, '1984', 'George Orwell');
+ `
+ _, err := db.Exec(sqlStmt)
+ if err != nil {
+  log.Fatalf("%q: %s\n", err, sqlStmt)
+ }
+}
+
+var bookType = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Book",
+  Fields: graphql.Fields{
+   "id": &graphql.Field{
+    Type: graphql.Int,
+   },
+   "title": &graphql.Field{
+    Type: graphql.String,
+   },
+   "author": &graphql.Field{
+    Type: graphql.String,
+   },
+  },
+ },
+)
+
+var rootQuery = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Query",
+  Fields: graphql.Fields{
+   "book": &graphql.Field{
+    Type:        bookType,
+    Description: "Get book by ID",
+    Args: graphql.FieldConfigArgument{
+     "id": &graphql.ArgumentConfig{
+      Type: graphql.Int,
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     id, ok := params.Args["id"].(int)
+     if ok {
+      stmt, _ := db.Prepare("SELECT id, title, author FROM books WHERE id = ?")
+      defer stmt.Close()
+      row := stmt.QueryRow(id)
+      var book Book
+      err := row.Scan(&book.ID, &book.Title, &book.Author)
+      if err != nil {
+       return nil, err
+      }
+      return book, nil
+     }
+     return nil, nil
+    },
+   },
+   "books": &graphql.Field{
+    Type:        graphql.NewList(bookType),
+    Description: "Get all books",
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     rows, _ := db.Query("SELECT id, title, author FROM books")
+     defer rows.Close()
+     var books []Book
+     for rows.Next() {
+      var book Book
+      err := rows.Scan(&book.ID, &book.Title, &book.Author)
+      if err != nil {
+       return nil, err
+      }
+      books = append(books, book)
+     }
+     return books, nil
+    },
+   },
+  },
+ },
+)
+
+var rootMutation = graphql.NewObject(
+ graphql.ObjectConfig{
+  Name: "Mutation",
+  Fields: graphql.Fields{
+   "createBook": &graphql.Field{
+    Type:        bookType,
+    Description: "Create a new book",
+    Args: graphql.FieldConfigArgument{
+     "title": &graphql.ArgumentConfig{
+      Type: graphql.NewNonNull(graphql.String),
+     },
+     "author": &graphql.ArgumentConfig{
+      Type: graphql.NewNonNull(graphql.String),
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     title, _ := params.Args["title"].(string)
+     author, _ := params.Args["author"].(string)
+     stmt, _ := db.Prepare("INSERT INTO books (title, author) VALUES (?, ?)")
+     defer stmt.Close()
+     result, err := stmt.Exec(title, author)
+     if err != nil {
+      return nil, err
+     }
+     id, _ := result.LastInsertId()
+     book := Book{
+      ID:     int(id),
+      Title:  title,
+      Author: author,
+     }
+     return book, nil
+    },
+   },
+   "updateBook": &graphql.Field{
+    Type:        bookType,
+    Description: "Update an existing book",
+    Args: graphql.FieldConfigArgument{
+     "id": &graphql.ArgumentConfig{
+      Type: graphql.NewNonNull(graphql.Int),
+	},
+     "title": &graphql.ArgumentConfig{
+      Type: graphql.String,
+     },
+     "author": &graphql.ArgumentConfig{
+      Type: graphql.String,
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     id, _ := params.Args["id"].(int)
+     title, ok := params.Args["title"].(string)
+     author, ok := params.Args["author"].(string)
+     stmt, _ := db.Prepare("UPDATE books SET title = ?, author = ? WHERE id = ?")
+     defer stmt.Close()
+     _, err := stmt.Exec(title, author, id)
+     if err != nil {
+      return nil, err
+     }
+     book := Book{
+      ID:     id,
+      Title:  title,
+      Author: author,
+     }
+     return book, nil
+    },
+   },
+   "deleteBook": &graphql.Field{
+    Type:        graphql.Boolean,
+    Description: "Delete an existing book",
+    Args: graphql.FieldConfigArgument{
+     "id": &graphql.ArgumentConfig{
+      Type: graphql.NewNonNull(graphql.Int),
+     },
+    },
+    Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+     id, _ := params.Args["id"].(int)
+     stmt, _ := db.Prepare("DELETE FROM books WHERE id = ?")
+     defer stmt.Close()
+     _, err := stmt.Exec(id)
+     if err != nil {
+      return false, err
+     }
+     return true, nil
+    },
+   },
+  },
+ },
+)
+
+var schema, _ = graphql.NewSchema(
+ graphql.SchemaConfig{
+  Query:    rootQuery,
+  Mutation: rootMutation,
+ },
+)
+
+func main() {
+ http.HandleFunc("/graphql", func(w http.ResponseWriter, r *http.Request) {
+  if r.Method == "POST" {
+   var params struct {
+    Query string `json:"query"`
+   }
+   err := json.NewDecoder(r.Body).Decode(&params)
+   if err != nil {
+    http.Error(w, err.Error(), http.StatusBadRequest)
+    return
+   }
+   result := graphql.Do(graphql.Params{
+    Schema:        schema,
+    RequestString: params.Query,
+   })
+   json.NewEncoder(w).Encode(result)
+  } else {
+   fmt.Fprintf(w, "GraphQL API is running")
+  }
+ })
+ log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+В этом примере мы расширяем предыдущий пример и добавляем возможность создавать, обновлять и удалять книги. Мы используем GraphQL для определения схемы API и выполнения запросов, а также базу данных SQLite для хранения данных.
+
+Мы создаем три мутации: createBook, updateBook и deleteBook. Мутация createBook создает новую книгу, мутация updateBook обновляет существующую книгу, а мутация deleteBook удаляет книгу по ее ID.
+
+Мы используем пакет `github.com/mattn/go-sqlite3` для работы с базой данных SQLite. Мы определяем функции-обработчики для мутаций, которые принимают аргументы и выполняют соответствующие действия в базе данных.
+
+Наконец, мы запускаем сервер на порту 8080 и слушаем запросы на `/graphql`.
+
+Это простой пример CRUD API на Golang, который использует GraphQL и SQLite. Вы можете использовать этот код как основу для своего собственного API и настроить его для своих нужд.
+

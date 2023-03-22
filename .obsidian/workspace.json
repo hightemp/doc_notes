@@ -33,12 +33,12 @@
             }
           },
           {
-            "id": "c49f26bda501f0b0",
+            "id": "e76bb7dc52a41aae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Математика/FAQ.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,21 +103,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4c99a7ad257b9519",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -215,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Найденное/Репозитории.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -278,20 +266,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e37a9567caa3d59f",
+  "active": "e76bb7dc52a41aae",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/golang",
-    "Заметки/Разарботка/python/django/FAQ.md",
-    "Заметки/Математика/FAQ.md",
-    "Заметки/Математика",
-    "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
+    "Найденное/Репозитории.md",
     "Заметки/Разарботка/laravel/FAQ.md",
+    "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/Разарботка/typescript/FAQ.md",
+    "Заметки/Радиоэлектроника/FAQ.md",
+    "Заметки/Математика/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/golang",
+    "Заметки/Разарботка/python/django/FAQ.md",
+    "Заметки/Математика",
     "Заметки/Разарботка/laravel/Статьи/Laravel - Overview.md",
     "Заметки/Разарботка/laravel/Статьи/Laravel - Installation.md",
     "Заметки/Разарботка/laravel/Статьи",
@@ -314,7 +303,6 @@
     "Заметки/Linux/Утилиты/Сервисы",
     "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
     "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
-    "Заметки/Справочники/Израиль/Криминал/FAQ.md",
-    "Заметки/Разарботка/rust/leptos/FAQ.md"
+    "Заметки/Справочники/Израиль/Криминал/FAQ.md"
   ]
 }
