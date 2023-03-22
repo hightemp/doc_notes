@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Найденное/Репозитории.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Найденное/Репозитории.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Найденное/Репозитории.md"
               }
             }
           }
@@ -266,8 +266,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e76bb7dc52a41aae",
+  "active": "e37a9567caa3d59f",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/FAQ.md",
     "Найденное/Репозитории.md",
     "Заметки/Разарботка/laravel/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
@@ -277,7 +278,6 @@
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Математика/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/golang",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Математика",

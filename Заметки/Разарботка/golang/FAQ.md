@@ -735,3 +735,62 @@ func main() {
 
 Это простой пример CRUD API на Golang, который использует GraphQL и SQLite. Вы можете использовать этот код как основу для своего собственного API и настроить его для своих нужд.
 
+## напиши код на go telegram бота использующиего кнопки (меню)
+
+Конечно, вот пример кода на Go, который создает простого телеграм-бота с использованием кнопок меню:
+
+```go
+package main
+
+import (
+    "log"
+    "gopkg.in/telegram-bot-api.v4"
+)
+
+func main() {
+    // создаем нового бота с токеном
+    bot, err := tgbotapi.NewBotAPI("YOUR_TOKEN_HERE")
+    if err != nil {
+        log.Panic(err)
+    }
+
+    // устанавливаем режим отладки
+    bot.Debug = true
+
+    // создаем новый обработчик сообщений
+    updateConfig := tgbotapi.NewUpdate(0)
+    updateConfig.Timeout = 60
+
+    updates, err := bot.GetUpdatesChan(updateConfig)
+
+    // обрабатываем входящие сообщения
+    for update := range updates {
+        // Если пришло сообщение с командой "/start"
+        if update.Message != nil && update.Message.IsCommand() && update.Message.Command() == "start" {
+            // создаем новую клавиатуру с кнопками
+            replyMarkup := tgbotapi.NewReplyKeyboard(
+                tgbotapi.NewKeyboardButtonRow(
+                    tgbotapi.NewKeyboardButton("Кнопка 1"),
+                    tgbotapi.NewKeyboardButton("Кнопка 2"),
+                ),
+                tgbotapi.NewKeyboardButtonRow(
+                    tgbotapi.NewKeyboardButton("Кнопка 3"),
+                    tgbotapi.NewKeyboardButton("Кнопка 4"),
+                ),
+            )
+
+            // создаем новое сообщение с клавиатурой
+            msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Выберите действие:")
+            msg.ReplyMarkup = replyMarkup
+
+            // отправляем сообщение с клавиатурой
+            if _, err := bot.Send(msg); err != nil {
+                log.Printf("Ошибка отправки сообщения: %v\n", err)
+            }
+        }
+    }
+}
+```
+
+
+В этом примере при отправке пользователем команды "/start" бот отправляет сообщение с кнопками меню и ожидает выбора пользователя. При выборе кнопки бот может выполнить соответствующее действие или отправить новое сообщение с новым меню.
