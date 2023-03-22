@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "e37a9567caa3d59f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Репозитории.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c49f26bda501f0b0",
             "type": "leaf",
             "state": {
@@ -104,7 +116,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Найденное/Репозитории.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
+                "file": "Найденное/Репозитории.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md"
+                "file": "Найденное/Репозитории.md"
               }
             }
           }
@@ -265,8 +278,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "e37a9567caa3d59f",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/golang",
     "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Математика/FAQ.md",
     "Заметки/Математика",
@@ -296,12 +312,9 @@
     "Заметки/Linux/Оконные менеджеры/leftwm/Статьи",
     "Заметки/Linux/Оконные менеджеры/leftwm",
     "Заметки/Linux/Утилиты/Сервисы",
-    "Заметки/Linux/Утилиты/Сервисы/crond",
     "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
     "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
     "Заметки/Справочники/Израиль/Криминал/FAQ.md",
-    "Заметки/Разарботка/rust/leptos/FAQ.md",
-    "Заметки/Разарботка/rust/Видео.md",
-    "Заметки/Разарботка/python/django/Видео.md"
+    "Заметки/Разарботка/rust/leptos/FAQ.md"
   ]
 }
