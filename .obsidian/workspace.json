@@ -38,7 +38,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "417f6354c258c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -215,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Заметки/Разарботка/javascript/FAQ.md"
               }
             }
           }
@@ -280,9 +292,13 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
+    "Заметки/Разарботка/golang/Статьи",
+    "Заметки/Экономика/FAQ.md",
+    "Заметки/Untitled",
     "Заметки/Разарботка/langd/FAQ.md",
     "Найденное/Репозитории.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/cpp/FAQ.md",
     "Заметки/Разарботка/cpp",
     "Заметки/Разарботка/laravel/FAQ.md",
@@ -311,10 +327,6 @@
     "Заметки/Медицина/Физиотерапия/Статьи/Индуктотермия 4.md",
     "Заметки/Linux/Оптимизация",
     "Заметки/Linux/Оконные менеджеры/polybar/Статьи",
-    "Заметки/Linux/Оконные менеджеры/polybar",
-    "Заметки/Linux/Оконные менеджеры/leftwm/Статьи",
-    "Заметки/Linux/Оконные менеджеры/leftwm",
-    "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
-    "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md"
+    "Заметки/Linux/Оконные менеджеры/polybar"
   ]
 }
