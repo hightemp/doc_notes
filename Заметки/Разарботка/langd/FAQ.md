@@ -1,3 +1,27 @@
+## напиши список книг со ссылки по языку D
+
+Список книг по языку D:
+
+1. "The D Programming Language" by Andrei Alexandrescu - http://www.informit.com/store/d-programming-language-9780321635365
+
+2. "Learn to Tango with D" by Kris Bell and Lars Ivar Igesund - http://www.dsource.org/projects/tango/docs/stable/tango-book.pdf
+
+3. "D Cookbook" by Adam D. Ruppe - https://www.packtpub.com/product/d-cookbook/9781788291464
+
+4. "D Web Development" by Kai Nacke - https://www.packtpub.com/product/d-web-development-second-edition/9781785284928
+
+5. "D Templates and Metaprogramming" by Andrei Alexandrescu - https://www.informit.com/store/d-templates-and-metaprogramming-9780321207136
+
+6. "Programming in D" by Ali Çehreli - https://ddili.org/ders/d.en/index.html
+
+7. "D Language Specification" by Digital Mars - http://dlang.org/spec/spec.html
+
+8. "D Programming: A Comprehensive Guide" by Philip Thrasher - https://www.amazon.com/D-Programming-Comprehensive-Philip-Thrasher/dp/1974107406
+
+9. "D for Game Development" by Sasan Hezarkhani - https://www.packtpub.com/product/d-for-game-development/9781785287912
+
+10. "Learning D" by Michael Parker - https://www.packtpub.com/product/learning-d/9781783552487
+
 ## я хочу узичть язык программирования D что мне почитать
 
 Если вы хотите изучить язык программирования D, то вот некоторые ресурсы, которые могут быть полезны:

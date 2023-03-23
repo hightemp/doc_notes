@@ -1,3 +1,47 @@
+## напиши список книг со ссылки по языку go
+
+Список книг по языку Go:
+
+1. "The Go Programming Language" by Alan A. A. Donovan and Brian W. Kernighan - https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440
+
+2. "Introducing Go: Build Reliable, Scalable Programs" by Caleb Doxsey - https://www.amazon.com/Introducing-Go-Reliable-Scalable-Programs/dp/1491941952
+
+3. "Go in Action" by William Kennedy, Brian Ketelsen, and Erik St. Martin - https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781
+
+4. "Concurrency in Go: Tools and Techniques for Developers" by Katherine Cox-Buday - https://www.amazon.com/Concurrency-Go-Tools-Techniques-Developers/dp/1491941197
+
+5. "Go Programming Blueprints - Second Edition: Build real-world, production-ready solutions in Go using cutting-edge technology and techniques" by Mat Ryer - https://www.amazon.com/Go-Programming-Blueprints-Second-techniques/dp/1786468942
+
+6. "Network Programming with Go: Essential Skills for Using and Securing Networks" by Jan Newmarch - https://www.amazon.com/Network-Programming-Go-Essential-Skills-ebook/dp/B07D4M8Y4S
+
+7. "Mastering Go: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures, 2nd Edition" by Mihalis Tsoukalos - https://www.amazon.com/Mastering-production-applications-concurrency-structures/dp/1800566997
+
+8. "Go Design Patterns: The Definitive Guide to Architecting and Designing Enterprise Grade Go Applications" by Mario Castro Contreras - https://www.amazon.com/Go-Design-Patterns-Architecting-Enterprise/dp/1800568094
+
+9. "The Way To Go: A Thorough Introduction To The Go Programming Language" by Ivo Balbaert - https://www.amazon.com/Way-Go-Thorough-Introduction-Programming/dp/1469769166
+
+10. "Build Web Application with Golang" by Astaxie - https://www.gitbook.com/book/astaxie/build-web-application-with-golang/details
+
+## как проверить в языке go импорты на доступность
+
+В Go есть инструмент `go vet`, который может помочь вам проверить импорты на доступность. Он будет проверять все импорты в вашем коде и сообщать об ошибках, если пакеты не могут быть найдены.
+
+Вы можете использовать команду `go vet` для проверки пакетов в вашем проекте:
+
+```
+go vet ./...
+```
+
+Эта команда проверит все пакеты в вашем проекте на наличие ошибок в импортах. Если ошибки найдены, они будут выведены в консоль.
+
+Также стоит убедиться, что все используемые вами пакеты установлены в вашей системе. Если пакет не установлен, вы можете установить его с помощью команды `go get`:
+
+```
+go get github.com/example/package
+```
+
+Замените `github.com/example/package` на путь к пакету, который вы хотите установить.
+
 ## напиши CRUD REST сервис на golang
 
 Код для простого CRUD REST сервиса на Golang с использованием базы данных SQLite:
@@ -824,3 +868,68 @@ func main() {
 | go-telegram-botapi/telegram-bot-api | Простой и понятный интерфейс, хорошо документирован | Нет поддержки для определенных функций Telegram API |
 
 Общими достоинствами большинства библиотек являются поддержка многих Telegram API функций и простой интерфейс. Но недостатком большинства является отсутствие поддержки для некоторых Telegram API функций и недостаточно понятная документация.
+
+## напиши бота работающего с меню с помощью go-telegram-bot-api/telegram
+
+Конечно, давайте создадим простого бота, который предоставляет меню и отвечает на команды с помощью библиотеки `go-telegram-bot-api/telegram`.
+
+1. Установите библиотеку с помощью команды `go get github.com/go-telegram-bot-api/telegram-bot-api`
+
+2. Создайте новый файл `main.go` и добавьте следующий код:
+
+```go
+package main
+
+import (
+ "log"
+ "os"
+
+ tb "gopkg.in/tucnak/telebot.v2"
+)
+
+func main() {
+ // Создаем нового бота
+ bot, err := tb.NewBot(tb.Settings{
+  Token:  os.Getenv("BOT_TOKEN"), // Задайте здесь ваш токен бота
+  Poller: &tb.LongPoller{Timeout: 10 * time.Second},
+ })
+
+ if err != nil {
+  log.Fatal(err)
+  return
+ }
+
+ // Создаем меню
+ menu := &tb.ReplyMarkup{}
+ menu.Inline(
+  menu.Row(menu.Data("Кнопка 1", "button1")),
+  menu.Row(menu.Data("Кнопка 2", "button2")),
+  menu.Row(menu.Data("Кнопка 3", "button3")),
+ )
+
+ // Обработчик команды /start
+ bot.Handle("/start", func(m *tb.Message) {
+  bot.Send(m.Sender, "Привет, я бот-меню!")
+  bot.Send(m.Sender, "Выбери, что ты хочешь сделать:", menu)
+ })
+
+ // Обработчики кнопок
+ bot.Handle(&menu.Data[0], func(c *tb.Callback) {
+  bot.Send(c.Sender, "Вы нажали кнопку 1")
+ })
+ bot.Handle(&menu.Data[1], func(c *tb.Callback) {
+  bot.Send(c.Sender, "Вы нажали кнопку 2")
+ })
+ bot.Handle(&menu.Data[2], func(c *tb.Callback) {
+  bot.Send(c.Sender, "Вы нажали кнопку 3")
+ })
+
+ // Запускаем бота
+ log.Println("Bot started")
+ bot.Start()
+}
+```
+
+3. Запустите бота, используя команду `go run main.go`. Бот должен запуститься и ответить на команду /start с меню.
+
+Теперь вы можете изменить меню и обработчики кнопок, чтобы сделать бота более полезным для своих нужд.

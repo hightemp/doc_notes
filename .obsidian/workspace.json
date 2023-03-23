@@ -45,6 +45,18 @@
             }
           },
           {
+            "id": "6bdf0604f118d871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3f643608cf500556",
             "type": "leaf",
             "state": {
@@ -105,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -266,14 +278,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e76bb7dc52a41aae",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/langd/FAQ.md",
     "Найденное/Репозитории.md",
     "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/cpp/FAQ.md",
+    "Заметки/Разарботка/cpp",
     "Заметки/Разарботка/laravel/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/Разарботка/typescript/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Математика/FAQ.md",
@@ -300,9 +314,7 @@
     "Заметки/Linux/Оконные менеджеры/polybar",
     "Заметки/Linux/Оконные менеджеры/leftwm/Статьи",
     "Заметки/Linux/Оконные менеджеры/leftwm",
-    "Заметки/Linux/Утилиты/Сервисы",
     "Заметки/Разарботка/Наем, Интервью, HR/FAQ.md",
-    "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md",
-    "Заметки/Справочники/Израиль/Криминал/FAQ.md"
+    "Заметки/Справочники/Израиль/Армия Израиля/Что ищет Израиль в далёкой Аргентине?.md"
   ]
 }
