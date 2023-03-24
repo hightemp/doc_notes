@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Планы.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Планы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Планы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Планы.md"
               }
             }
           }
@@ -316,10 +316,10 @@
   },
   "active": "417f6354c258c0ea",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Экономика/FAQ.md",
     "Книги.md",
     "Найденное/Ссылки.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
