@@ -1541,3 +1541,81 @@ docker run <image_name>
 5. Buffalo - это еще один веб-фреймворк на Go, который предоставляет множество инструментов для быстрой разработки веб-приложений. Он включает в себя ORM, генератор кода CRUD, инструменты для обработки маршрутов и шаблонов, а также многое другое.
 
 Каждый из этих инструментов имеет свои преимущества и недостатки, поэтому выбор зависит от ваших потребностей и предпочтений.
+
+## напиши пример проекта на revel на golang
+
+Допустим, мы хотим создать веб-приложение, которое позволяет пользователям создавать и просматривать заметки. Для этого мы можем использовать Revel и Golang.
+
+Первым шагом будет установка Revel и создание нового проекта:
+
+```
+go get github.com/revel/revel
+$GOPATH/bin/revel new noteapp
+```
+
+Затем мы можем создать контроллер для обработки запросов. Создадим контроллер под названием `Note`:
+
+```
+$GOPATH/bin/revel generate controller Note
+```
+
+Внутри контроллера мы можем создать методы для обработки запросов. Например, мы можем создать метод `NewNote` для отображения формы создания новой заметки:
+
+```go
+package controllers
+
+import "github.com/revel/revel"
+
+type Note struct {
+    *revel.Controller
+}
+
+func (c Note) NewNote() revel.Result {
+    return c.Render()
+}
+```
+
+Затем мы можем создать шаблон для этого метода. Создадим файл `newnote.html` в папке `views/note/`:
+
+```html
+{{set . "title" "New Note"}}
+
+{{template "header.html" .}}
+
+<h1>New Note</h1>
+
+{{formField .Form "title" "Title" nil}}
+{{formField .Form "content" "Content" nil}}
+
+{{submitButton "Save"}}
+{{linkTo "Cancel" "Notes.Index"}}
+```
+
+Мы использовали функции `formField`, `submitButton` и `linkTo` для создания формы. Затем мы можем создать метод для обработки отправки формы и создания новой заметки:
+
+```go
+func (c Note) CreateNote() revel.Result {
+    title := c.Params.Form.Get("title")
+    content := c.Params.Form.Get("content")
+
+    // save note to database
+
+    return c.Redirect(Note.Index)
+}
+```
+
+Мы получаем данные из формы, сохраняем заметку в базу данных и перенаправляем пользователя на страницу со списком заметок.
+
+Осталось только создать метод для отображения списка заметок:
+
+```go
+func (c Note) Index() revel.Result {
+    // get notes from database
+
+    return c.Render(notes)
+}
+```
+
+Мы получаем список заметок из базы данных и отображаем их на странице с помощью шаблона `index.html`.
+
+Это очень простой пример, но он демонстрирует, как можно использовать Revel и Golang для создания веб-приложений.

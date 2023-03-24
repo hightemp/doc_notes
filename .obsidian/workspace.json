@@ -69,18 +69,6 @@
             }
           },
           {
-            "id": "eb075f5fabf61e7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ce58569051930ea0",
             "type": "leaf",
             "state": {
@@ -153,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -183,9 +171,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb075f5fabf61e7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Книги.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Книги.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Книги.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -314,11 +314,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "ce58569051930ea0",
+  "active": "417f6354c258c0ea",
   "lastOpenFiles": [
-    "Найденное/Ссылки.md",
-    "Книги.md",
     "Заметки/Экономика/FAQ.md",
+    "Книги.md",
+    "Найденное/Ссылки.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
     "Заметки/Радиоэлектроника/FAQ.md",
