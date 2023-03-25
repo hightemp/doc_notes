@@ -2265,4 +2265,130 @@ func main() {
 </html>
 ```
 
-В этом шаблоне мы определяем таблицу с пятью столбцами: `ID`, `Name`, `Age`, `Email` и `Created At`. К
+В этом шаблоне мы определяем таблицу с пятью столбцами: `ID`, `Name`, `Age`, `Email` и `Created At`. Каждая ячейка заголовка таблицы имеет атрибут `onclick`, который вызывает JavaScript-функцию для сортировки данных по соответствующему столбцу. Каждая строка таблицы содержит данные из структуры `Data`.
+
+Также мы добавляем строки для фильтрации данных. Каждая строка содержит поле ввода для фильтрации по соответствующему столбцу. Значение поля ввода устанавливается на основе параметров фильтрации из URL.
+
+Приложение готово к запуску. Чтобы запустить его, сохраните код в файле `main.go`, установите Gin и запустите приложение с помощью команды `go run main.go`. После этого вы можете открыть `http://localhost:8080` в своем браузере и протестировать приложение.
+
+## Golang- Getting struct attribute name
+
+Use the Type:
+
+```go
+package main
+
+import (
+    "fmt"
+    "reflect"
+)
+
+type MultiQuestions struct {
+    QuestionId   int64
+    QuestionType string
+    QuestionText string
+}
+
+func (q *MultiQuestions) StructAttrName() string {
+    return reflect.TypeOf(q).Elem().Field(0).Name
+}
+
+func main() {
+    fmt.Println((&MultiQuestions{}).StructAttrName())
+}
+```
+
+[http://play.golang.org/p/su7VIKXBE2](http://play.golang.org/p/su7VIKXBE2)
+
+You also can consider to utility functions defined in [`github.com/fatih/structure`](https://github.com/fatih/structure), like the [`Fields(s interface{}) []string`](https://github.com/fatih/structure/blob/69a6a30d8e7fca1a64ac04d1a2db629079603db0/structure.go#L120-L146) one, which work on pointers or objects, including `struct` fields within the `struct`.
+
+```go
+package main
+
+import (
+    "fmt"
+    "reflect"
+
+    "github.com/fatih/structure"
+)
+
+type MultiQuestions struct {
+    QuestionId   int64
+    QuestionType string
+    QuestionText string
+    SubMQ        SubMultiQuestions
+}
+
+type SubMultiQuestions struct{}
+
+func (q *MultiQuestions) StructAttrName() string {
+    return reflect.Indirect(reflect.ValueOf(q)).Type().Field(0).Name
+}
+
+func main() {
+    fmt.Println((&MultiQuestions{}).StructAttrName())
+    fmt.Println(Fields(&MultiQuestions{}))
+    fmt.Println(Fields(MultiQuestions{}))
+}
+```
+
+Output:
+
+```go
+SubMQ
+[QuestionId QuestionType QuestionText SubMQ]
+[QuestionId QuestionType QuestionText SubMQ]
+```
+
+See a full example in this [play.golang.org](http://play.golang.org/p/smKfn0lx1t)
+
+## Golang dynamic access to a struct property
+
+Use the [reflect](http://godoc.org/reflect) package to set a field by name:
+
+```go
+// setField sets field of v with given name to given value.
+func setField(v interface{}, name string, value string) error {
+    // v must be a pointer to a struct
+    rv := reflect.ValueOf(v)
+    if rv.Kind() != reflect.Ptr || rv.Elem().Kind() != reflect.Struct {
+        return errors.New("v must be pointer to struct")
+    }
+
+    // Dereference pointer
+    rv = rv.Elem()
+
+    // Lookup field by name
+    fv := rv.FieldByName(name)
+    if !fv.IsValid() {
+        return fmt.Errorf("not a field name: %s", name)
+    }
+
+    // Field must be exported
+    if !fv.CanSet() {
+        return fmt.Errorf("cannot set field %s", name)
+    }
+
+    // We expect a string field
+    if fv.Kind() != reflect.String {
+        return fmt.Errorf("%s is not a string field", name)
+    }
+
+    // Set the value
+    fv.SetString(value)
+    return nil
+}
+```
+
+Call it like this:
+
+```go
+var config SshConfig
+
+...
+
+err := setField(&config, split[0], strings.Join(split[1:], " "))
+if err != nil {
+   // handle error
+}
+```
