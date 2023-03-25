@@ -45,12 +45,24 @@
             }
           },
           {
-            "id": "417f6354c258c0ea",
+            "id": "17849835f66ee9d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dbd3c48ce5d16b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Репозитории.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,18 +75,6 @@
               "type": "markdown",
               "state": {
                 "file": "Заметки/Экономика/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce58569051930ea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Книги.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,9 +183,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "417f6354c258c0ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Планы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce58569051930ea0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Книги.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Планы.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Планы.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -314,17 +338,21 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "417f6354c258c0ea",
+  "active": "17849835f66ee9d7",
   "lastOpenFiles": [
+    "Найденное/Репозитории.md",
     "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Экономика/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/19 Top Golang Web Frameworks You Can’t Miss in 2023.md",
+    "Заметки/Разарботка/javascript/FAQ.md",
+    "Планы.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/typescript/FAQ.md",
+    "Заметки/Радиоэлектроника/FAQ.md",
     "Книги.md",
+    "Заметки/Экономика/FAQ.md",
+    "Проекты",
     "Найденное/Ссылки.md",
     "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
-    "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Найденное/Репозитории.md",
-    "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/golang/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/langd/FAQ.md",
@@ -333,7 +361,6 @@
     "Заметки/Разарботка/laravel/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/typescript/FAQ.md",
     "Заметки/Математика/FAQ.md",
     "Заметки/Разарботка/golang",
     "Заметки/Разарботка/python/django/FAQ.md",
@@ -347,10 +374,7 @@
     "Заметки/Linux/Оконные менеджеры/Устройство/xsessions/FAQ.md",
     "Заметки/Linux/Утилиты/Сервисы/crond/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/leftwm/Статьи/How to configure LeftWM.md",
-    "Заметки/Linux/Оконные менеджеры/polybar/Статьи/All modules that are available for polybar – any desktop.md",
-    "Заметки/Linux/Оконные менеджеры/polybar/Статьи/Установка и настройка i3wm c polybar.md",
     "Заметки/Linux/Оптимизация",
-    "Заметки/Linux/Оконные менеджеры/polybar/Статьи",
-    "Заметки/Linux/Оконные менеджеры/polybar"
+    "Заметки/Linux/Оконные менеджеры/polybar/Статьи"
   ]
 }
