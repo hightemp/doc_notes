@@ -57,6 +57,30 @@
             }
           },
           {
+            "id": "4c6f75f64f17a102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adc3a2e53b51fb8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1dbd3c48ce5d16b2",
             "type": "leaf",
             "state": {
@@ -141,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -197,6 +221,18 @@
             }
           },
           {
+            "id": "aa8a860f2d5690c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Найденное/Репозитории.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ce58569051930ea0",
             "type": "leaf",
             "state": {
@@ -209,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -275,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md"
               }
             }
           }
@@ -338,11 +374,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17849835f66ee9d7",
+  "active": "adc3a2e53b51fb8f",
   "lastOpenFiles": [
-    "Планы.md",
+    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
+    "Заметки/Linux/Оконные менеджеры/kde/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Linux/Оконные менеджеры/kde",
+    "Найденное/Ссылки.md",
     "Найденное/Репозитории.md",
+    "Планы.md",
     "Заметки/Разарботка/golang/Статьи/19 Top Golang Web Frameworks You Can’t Miss in 2023.md",
     "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -351,7 +392,6 @@
     "Книги.md",
     "Заметки/Экономика/FAQ.md",
     "Проекты",
-    "Найденное/Ссылки.md",
     "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
     "Заметки/Разарботка/golang/Статьи",
     "Заметки/Untitled",
@@ -371,10 +411,6 @@
     "Заметки/Разарботка/laravel",
     "Заметки/AI/FAQ.md",
     "Заметки/Linux/Утилиты/find/FAQ.md",
-    "Заметки/Linux/Оконные менеджеры/Устройство/xsessions/FAQ.md",
-    "Заметки/Linux/Утилиты/Сервисы/crond/FAQ.md",
-    "Заметки/Linux/Оконные менеджеры/leftwm/Статьи/How to configure LeftWM.md",
-    "Заметки/Linux/Оптимизация",
-    "Заметки/Linux/Оконные менеджеры/polybar/Статьи"
+    "Заметки/Linux/Оптимизация"
   ]
 }
