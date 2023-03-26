@@ -311,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
+                "file": "Найденное/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
+                "file": "Найденное/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md"
+                "file": "Найденное/Ссылки.md"
               }
             }
           }
@@ -374,10 +374,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "adc3a2e53b51fb8f",
+  "active": "eb075f5fabf61e7e",
   "lastOpenFiles": [
-    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
+    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/kde/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/kde",
