@@ -165,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -311,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Найденное/Ссылки.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Найденное/Ссылки.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Найденное/Ссылки.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -374,14 +374,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "eb075f5fabf61e7e",
+  "active": "17849835f66ee9d7",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
     "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
+    "Найденное/Ссылки.md",
+    "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
     "Заметки/Linux/Оконные менеджеры/kde/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/kde",
-    "Найденное/Ссылки.md",
     "Найденное/Репозитории.md",
     "Планы.md",
     "Заметки/Разарботка/golang/Статьи/19 Top Golang Web Frameworks You Can’t Miss in 2023.md",
