@@ -2624,3 +2624,297 @@ func handleWebsocket(w http.ResponseWriter, r *http.Request) {
 
 Конечно, этот код является только примером и требует доработки и тестирования. Кроме того, для реализации полноценного mitmproxy на Go потребуется больше времени и усилий.
 
+## напиши man in the middle proxy на golang с веб-интерфейсом для фильтрации
+
+Ниже приведен пример реализации простого man-in-the-middle прокси на Go с веб-интерфейсом для фильтрации. Прокси перехватывает HTTP-запросы и ответы между клиентом и сервером, позволяет изменять их и отправлять их дальше. Веб-интерфейс позволяет настраивать фильтры для перехвата только определенных запросов и ответов.
+
+```go
+package main
+
+import (
+ "fmt"
+ "io/ioutil"
+ "log"
+ "net"
+ "net/http"
+ "net/http/httputil"
+ "net/url"
+ "strings"
+ "sync"
+
+ "github.com/gorilla/mux"
+)
+
+type Proxy struct {
+ mu           sync.Mutex
+ transport    *http.Transport
+ roundTripper *http.RoundTripper
+}
+
+func NewProxy() *Proxy {
+ p := &Proxy{
+  transport: &http.Transport{
+   Proxy: http.ProxyFromEnvironment,
+   DialContext: (&net.Dialer{
+    Timeout:   30 * time.Second,
+    KeepAlive: 30 * time.Second,
+    DualStack: true,
+   }).DialContext,
+   MaxIdleConns:          100,
+   IdleConnTimeout:       90 * time.Second,
+   TLSHandshakeTimeout:   10 * time.Second,
+   ExpectContinueTimeout: 1 * time.Second,
+  },
+ }
+
+ p.roundTripper = &http.RoundTripper{
+  Transport: p.transport,
+ }
+
+ return p
+}
+
+func (p *Proxy) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+ log.Printf("%s %s %s", r.RemoteAddr, r.Method, r.URL)
+
+ // Добавьте здесь логику фильтрации запросов, если это необходимо
+ if r.URL.Path == "/filtered" {
+  http.Error(w, "Filtered request", http.StatusForbidden)
+  return
+ }
+
+ proxyReq := httputil.NewRequest(r.Method, r.URL.String(), r.Body)
+ proxyReq.Header = r.Header
+ proxyReq.Header.Del("Proxy-Connection")
+
+ resp, err := p.roundTripper.RoundTrip(proxyReq)
+ if err != nil {
+  log.Printf("RoundTrip error: %v", err)
+  http.Error(w, err.Error(), http.StatusBadGateway)
+  return
+ }
+
+ defer resp.Body.Close()
+
+ respBytes, err := ioutil.ReadAll(resp.Body)
+ if err != nil {
+  log.Printf("ReadAll error: %v", err)
+  http.Error(w, err.Error(), http.StatusInternalServerError)
+  return
+ }
+
+ for k, vv := range resp.Header {
+  for _, v := range vv {
+   w.Header().Add(k, v)
+  }
+ }
+ w.WriteHeader(resp.StatusCode)
+ w.Write(respBytes)
+}
+
+func main() {
+ r := mux.NewRouter()
+
+ proxy := NewProxy()
+ r.PathPrefix("/").Handler(proxy)
+
+ log.Fatal(http.ListenAndServe(":8080", r))
+}
+```
+
+Для запуска этого прокси необходимо убедиться, что в вашей сети нет других сервисов на порту 8080, и запустить его следующей командой:
+
+```sh
+go run proxy.go
+```
+
+После этого вы можете настроить свой браузер на использование этого прокси-сервера и перейти на страницу `http://localhost:8080/`, чтобы начать использование веб-интерфейса. На этой странице вы можете указать фильтры для перехвата запросов и ответов, а также просмотреть и изменить содержимое перехваченных запросов и ответов.
+
+## напиши scrapping код на golang для получения статей с сайтов
+
+Код для получения статей с сайта на Golang может быть следующим:
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+    "io/ioutil"
+
+    "github.com/PuerkitoBio/goquery"
+)
+
+func main() {
+    // Запрашиваем страницу сайта
+    response, err := http.Get("https://www.example.com/articles")
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer response.Body.Close()
+
+    // Считываем содержимое страницы
+    body, err := ioutil.ReadAll(response.Body)
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // Создаем объект goquery для парсинга HTML
+    doc, err := goquery.NewDocumentFromReader(strings.NewReader(string(body)))
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // Находим все ссылки на статьи
+    doc.Find("a").Each(func(index int, element *goquery.Selection) {
+        href, _ := element.Attr("href")
+        if strings.Contains(href, "/articles/") {
+            // Запрашиваем страницу статьи
+            articleResponse, err := http.Get(href)
+            if err != nil {
+                log.Fatal(err)
+            }
+            defer articleResponse.Body.Close()
+
+            // Считываем содержимое страницы статьи
+            articleBody, err := ioutil.ReadAll(articleResponse.Body)
+            if err != nil {
+                log.Fatal(err)
+            }
+
+            // Парсим содержимое страницы статьи
+            articleDoc, err := goquery.NewDocumentFromReader(strings.NewReader(string(articleBody)))
+            if err != nil {
+                log.Fatal(err)
+            }
+
+            // Находим заголовок и содержимое статьи
+            title := articleDoc.Find("h1").Text()
+            content := articleDoc.Find(".content").Text()
+
+            // Выводим заголовок и содержимое статьи на экран
+            fmt.Printf("%s\n%s\n", title, content)
+        }
+    })
+}
+```
+
+Этот код получает список всех ссылок на статьи на странице сайта, затем для каждой статьи запрашивает ее страницу и парсит содержимое, выводя заголовок и содержимое на экран. В примере используется библиотека goquery для парсинга HTML.
+
+## напиши crawler на golang для сохранения статей с сайта
+
+Вот пример кода для создания веб-сканера на Golang, который будет сохранять статьи с сайта в базу данных:
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+    "io/ioutil"
+    "strings"
+
+    "github.com/PuerkitoBio/goquery"
+    "github.com/jinzhu/gorm"
+    _ "github.com/jinzhu/gorm/dialects/mysql"
+)
+
+type Article struct {
+    ID      uint   `gorm:"primary_key"`
+    Title   string `gorm:"not null"`
+    Content string `gorm:"not null"`
+}
+
+func main() {
+    // Открываем соединение с базой данных
+    db, err := gorm.Open("mysql", "user:password@/dbname?charset=utf8&parseTime=True&loc=Local")
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer db.Close()
+
+    // Создаем таблицу для статей, если она не существует
+    db.AutoMigrate(&Article{})
+
+    // Запрашиваем страницу сайта
+    response, err := http.Get("https://www.example.com/articles")
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer response.Body.Close()
+
+    // Считываем содержимое страницы
+    body, err := ioutil.ReadAll(response.Body)
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // Создаем объект goquery для парсинга HTML
+    doc, err := goquery.NewDocumentFromReader(strings.NewReader(string(body)))
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // Находим все ссылки на статьи
+    doc.Find("a").Each(func(index int, element *goquery.Selection) {
+        href, _ := element.Attr("href")
+        if strings.Contains(href, "/articles/") {
+            // Запрашиваем страницу статьи
+            articleResponse, err := http.Get(href)
+            if err != nil {
+                log.Fatal(err)
+            }
+            defer articleResponse.Body.Close()
+
+            // Считываем содержимое страницы статьи
+            articleBody, err := ioutil.ReadAll(articleResponse.Body)
+            if err != nil {
+                log.Fatal(err)
+            }
+
+            // Парсим содержимое страницы статьи
+            articleDoc, err := goquery.NewDocumentFromReader(strings.NewReader(string(articleBody)))
+            if err != nil {
+                log.Fatal(err)
+            }
+
+            // Находим заголовок и содержимое статьи
+            title := articleDoc.Find("h1").Text()
+            content := articleDoc.Find(".content").Text()
+
+            // Создаем новую статью
+            article := Article{
+                Title:   title,
+                Content: content,
+            }
+
+            // Сохраняем статью в базу данных
+            if err := db.Create(&article).Error; err != nil {
+                log.Fatal(err)
+            }
+
+            // Выводим заголовок статьи на экран
+            fmt.Printf("%s\n", title)
+        }
+    })
+}
+```
+
+Этот код получает список всех ссылок на статьи на странице сайта, затем для каждой статьи запрашивает ее страницу, парсит содержимое и сохраняет статью в базу данных. В примере используется библиотека goquery для парсинга HTML и библиотека gorm для работы с базой данных MySQL.
+
+## напиши список папок типичного golang проекта и для чего они нужны
+
+1. `cmd` - содержит исполняемые файлы для запуска проекта.
+2. `internal` - содержит код, который не должен быть использован вне проекта. 
+3. `pkg` - содержит код, который может быть использован в других проектах.
+4. `vendor` - содержит сторонние библиотеки и зависимости проекта. 
+5. `api` - содержит файлы для реализации API. 
+6. `config` - содержит файлы конфигурации и переменных окружения.
+7. `test` - содержит юнит-тесты для проекта.
+8. `docs` - содержит документацию по проекту.
+9. `scripts` - содержит скрипты для автоматизации различных задач.
+10. `tools` - содержит инструменты для разработки и тестирования проекта. 
+
+Каждая из этих папок имеет свои цели и задачи, которые помогают разработчикам организовать и управлять проектом в более эффективном и простом способе.
