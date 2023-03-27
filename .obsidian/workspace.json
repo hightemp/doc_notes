@@ -57,6 +57,18 @@
             }
           },
           {
+            "id": "b9c5b4af3a76b85f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ed881ee6f6c2ba69",
             "type": "leaf",
             "state": {
@@ -177,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -323,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md"
               }
             }
           }
@@ -386,12 +398,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17849835f66ee9d7",
+  "active": "b9c5b4af3a76b85f",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/Статьи/Стандартный макет проекта Go.md",
     "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
     "Найденное/Ссылки.md",
+    "Заметки/Разарботка/golang/Статьи/Стандартный макет проекта Go.md",
+    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md",
     "Заметки/Linux/Оконные менеджеры/kde/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/kde",
@@ -422,7 +435,6 @@
     "Заметки/Разарботка/laravel/Статьи/Laravel - Installation.md",
     "Заметки/Разарботка/laravel/Статьи",
     "Заметки/Разарботка/laravel",
-    "Заметки/AI/FAQ.md",
     "Заметки/Linux/Оптимизация"
   ]
 }
