@@ -2918,3 +2918,363 @@ func main() {
 10. `tools` - содержит инструменты для разработки и тестирования проекта. 
 
 Каждая из этих папок имеет свои цели и задачи, которые помогают разработчикам организовать и управлять проектом в более эффективном и простом способе.
+
+## "package XXX is not in GOROOT" when building a Go project
+
+В более новых версиях (после 1.13) Go вам не нужно устанавливать переменные среды, такие как `GOPATH`, `GOBIN`и т. д.
+
+Вам также необходимо иметь `go.mod`файл в корне проекта. Это сделает каталог модулем Go. Здесь также `.git/`находится . `go.mod`Это означает, что для каждого репозитория требуется только один . Внутри корня проекта вы можете сделать`go mod init remote-repo.com/username/repository`
+
+Я установил Go с помощью Homebrew на macOS `GOROOT`. `/opt/homebrew/Cellar/go/1.17.5/libexec`В этом расположении находятся стандартная библиотека и среды выполнения для Go.
+
+`test`и `run`команды выполняются в формате `go COMMAND package_path/xxx`. Без указания package_path `./`и просто запуска `go COMMAND xxx`компилятор предполагает, что модуль _xxx_ находится в GOROOT, и выдает ошибку, `package xxx is not in GOROOT (path/to/GOROOT/src/xxx)`потому что он не существует.
+
+Такое поведение ожидается, потому что пакет, с которым мы работаем, не является частью Go SDK, т. е. не находится в `GOROOT`. Пакет, с которым мы работаем, окажется либо в рабочем пространстве go, либо в текущем рабочем каталоге. Запуск `go install`компилирует и помещает исполняемый двоичный файл `$GOBIN`(также `$GOPATH/bin`известный `$GOPATH`как рабочая область Go). Запуск `go build`изнутри пакета компилирует и помещает исполняемый файл в этот каталог.
+
+Вы не указали файлы внутри `server/`пакета и какой файл имеет основную функцию, поэтому я буду эмулировать 3 рабочих процесса калькулятора, каждый из которых демонстрирует большую сложность. Последний рабочий процесс аналогичен вашей структуре каталогов.
+
+## Структура каталогов
+
+### Версия 1:
+
+-   Начало работы с пакетами
+    
+-   Базовая функциональность
+    
+
+```go
+calculatorv1
+├── go.mod                      <- go mod init github.com/yourname/calculatorv1
+└── basic/
+    ├── add.go
+    ├── add_test.go
+    ├── main.go
+    ├── multiply.go
+    └── multiply_test.go
+```
+
+### Версия 2:
+
+-   Больше функциональности
+    
+-   Несколько пакетов
+    
+
+```go
+calculatorv2
+├── go.mod                      <- go mod init github.com/yourname/calculatorv2
+├── main.go
+└── basic/
+│   ├── add.go
+│   ├── add_test.go
+│   ├── multiply.go
+│   └── multiply_test.go
+└─── advanced/
+     ├── square.go
+     └── square_test.go
+```
+
+### Версия 3:
+
+-   Еще больше функциональности
+    
+-   Вложенные пакеты
+    
+
+```go
+calculatorv3
+├── go.mod                      <- go mod init github.com/yourname/calculatorv3
+├── main.go
+└── basic/
+│   ├── add.go
+│   ├── add_test.go
+│   ├── multiply.go
+│   └── multiply_test.go
+└─── advanced/
+     ├── square.go
+     ├── square_test.go
+     └── scientific/
+         ├── declog.go
+         └── declog_test.go
+```
+
+---
+
+## Рабочий процесс
+
+**Примечание.** Замените `xxx`на `basic`, `advanced`или `advanced/scientific`в зависимости от версии, с которой вы работаете.
+
+-   Инициализируйте модуль Go в каталоге проекта (один из `calculatorv1`, `calculatorv2`или `calculatorv3`), используя`go mod init`
+    
+-   Запустить тесты
+    
+    `go test -v ./...` (из корня проекта рекурсивно выполнить все наборы тестов)
+    
+    ИЛИ
+    
+    `go test -v ./xxx` (из корня проекта запустите набор тестов в пакете «xxx»)
+    
+    ИЛИ
+    
+    ```go
+    cd xxx/
+    go test -v            # (from inside the package)
+    ```
+    
+-   Скомпилировать и выполнить пакет
+    
+    `go run ./...` (из корня проекта рекурсивно запустить все `.go`файлы, кроме тестов)
+    
+    ИЛИ
+    
+    `go run ./xxx` (из корня проекта запустить все `.go`файлы пакета "xxx", кроме тестов)
+    
+    ИЛИ
+    
+    ```go
+    cd xxx
+    go run .              # (from inside the package)
+    ```
+    
+    **ПРИМЕЧАНИЕ** . Исполняемыми являются только файлы в основном пакете, т. е. файлы, имеющие объявление `package main`. Это означает, что он `go run ./xxx`будет работать только с версией 1, а не с версиями 2 и 3. Вместо этого для версий 2 и 3 запустите`go run main.go`
+    
+
+---
+
+## Код
+
+**Очень легко заполнить неполные биты**
+
+### Версия 1
+
+**add.go**
+
+```go
+package main
+
+func addition(x int, y int) int {
+    return x + y
+}
+```
+
+**add_test.go**
+
+```go
+package main
+
+import "testing"
+
+func TestAdd(t *testing.T) {
+
+    t.Run("adding two positive numbers", func(t *testing.T) {
+        sum := addition(2, 2)
+        expected := 4
+        
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+    
+    t.Run("adding two negative numbers", func(t *testing.T) {
+        sum := addition(-3, -4)
+        expected := -7
+
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+
+    t.Run("adding one positive and one negative integer", func(t *testing.T) {
+        sum := addition(1, -3)
+        expected := -2
+
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+    
+}
+```
+
+**main.go**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var num1 int = 1
+    var num2 int = 2
+    
+    sum := addition(num1, num2)
+    product := multiplication(num1, num2)
+
+    fmt.Printf("The sum of %d and %d is %d\n", num1, num2, sum)
+    fmt.Printf("The multiplication of %d and %d is %d\n", num1, num2, product)
+}
+```
+
+### Версия 2
+
+**main.go**
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/yourname/calculatorv2/basic"
+    "github.com/yourname/calculatorv2/advanced"
+)
+
+func main() {
+    var num1 int = 1
+    var num2 int = 2
+    
+    product := basic.Multiplication(num1, num2)
+    square := advanced.Square(num2)
+
+    fmt.Printf("The product of %d and %d is %d\n", num1, num2, product)
+    fmt.Printf("The square of %d is %d\n", num2, square)
+}
+```
+
+**умножить.иди**
+
+```go
+package basic
+
+func Multiplication(x int, y int) int {
+    return x * y
+}
+```
+
+**multi_test.go**
+
+```go
+package basic
+
+import "testing"
+
+func TestMultiply(t *testing.T) {
+
+    t.Run("multiplying two positive numbers", func(t *testing.T) {
+        sum := Multiplication(2, 2)
+        expected := 4
+        
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+    
+    t.Run("multiplying two negative numbers", func(t *testing.T) {
+        sum := Multiplication(-3, -4)
+        expected := 12
+
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+
+    t.Run("multiplying one positive and one negative integer", func(t *testing.T) {
+        sum := Multiplication(1, -3)
+        expected := -3
+
+        if sum != expected {
+            t.Errorf("Expected %d; but got %d", expected, sum)
+        }
+    })
+    
+}
+```
+
+**квадрат.го**
+
+```go
+package advanced
+
+func Square(x int) int {
+    return x * x
+}
+```
+
+### Версия 3
+
+**main.go**
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/yourname/calculatorv3/basic"
+    "github.com/yourname/calculatorv3/advanced"
+    "github.com/yourname/calculatorv3/advanced/scientific"
+)
+
+func main() {
+    var num1 int = 1
+    var num2 int = 2
+    var num3 float64 = 2
+    
+    product := basic.Multiplication(num1, num2)
+    square := advanced.Square(num2)
+    decimallog := scientific.DecimalLog(num3)
+
+    fmt.Printf("The product of %d and %d is %d\n", num1, num2, product)
+    fmt.Printf("The square of %d is %d\n", num2, square)
+    fmt.Printf("The decimal log (base 10) of %f is %f\n", num3, decimallog)
+}
+```
+
+**квадрат.го**
+
+```go
+package advanced
+
+func Square(x int) int {
+    return x * x
+}
+```
+
+**declog.go**
+
+```go
+package scientific
+
+import "math"
+
+func DecimalLog(x float64) float64 {
+    return math.Log10(x)
+}
+```
+
+**declog_test.go**
+
+```go
+package scientific
+
+import "testing"
+
+func TestDecimalLog(t *testing.T) {
+
+    t.Run("adding two positive numbers", func(t *testing.T) {
+        sum := DecimalLog(100)
+        expected := 2.0
+        
+        if sum != expected {
+            t.Errorf("Expected %f; but got %f", expected, sum)
+        }
+    })
+    
+    t.Run("adding two negative numbers", func(t *testing.T) {
+        sum := DecimalLog(10)
+        expected := 1.0
+
+        if sum != expected {
+            t.Errorf("Expected %f; but got %f", expected, sum)
+        }
+    })
+}
+```
