@@ -1,8 +1,10 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
+ - [Заметки/Разарботка/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/yii/FAQ.md)
  - [HISTORY.md](./HISTORY.md)
  - [README.md](./README.md)
+ - [Untitled.md](./Untitled.md)
+ - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
  - [Заметки/Разарботка/golang/Статьи/How To List Files In A Directory In Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20To%20List%20Files%20In%20A%20Directory%20In%20Go.md)
  - [Заметки/Разарботка/golang/Статьи/How to Handle Forms with Gin.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Handle%20Forms%20with%20Gin.md)
  - [Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%92%D1%81%D1%91,%20%D1%87%D1%82%D0%BE%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%20GOPATH%20%D0%B8%20GOROOT.md)

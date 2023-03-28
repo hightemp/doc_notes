@@ -6,7 +6,7 @@
       {
         "id": "90171f8499a0e1ff",
         "type": "tabs",
-        "dimension": 51.142131979695435,
+        "dimension": 53.557814485387546,
         "children": [
           {
             "id": "d2d19e075a93e117",
@@ -43,14 +43,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e3eedd112dd834b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22f9438a7a1ebd44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "5d9308b82dc6abf0",
         "type": "tabs",
-        "dimension": 48.857868020304565,
+        "dimension": 46.44218551461245,
         "children": [
           {
             "id": "e6daead5f3947336",
@@ -191,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/yii/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/yii/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Заметки/Разарботка/yii/FAQ.md"
               }
             }
           }
@@ -254,10 +278,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6e64065d176511de",
+  "active": "22f9438a7a1ebd44",
   "lastOpenFiles": [
-    "Найденное/Репозитории.md",
+    "Untitled.md",
+    "Заметки/Разарботка/yii/FAQ.md",
+    "Заметки/Разарботка/yii",
     "Заметки/Разарботка/golang/FAQ.md",
+    "Найденное/Репозитории.md",
     "Заметки/Разарботка/golang/Статьи/How To List Files In A Directory In Go.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
@@ -285,12 +312,9 @@
     "Заметки/Разарботка/laravel/FAQ.md",
     "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Математика/FAQ.md",
     "Заметки/Разарботка/golang",
-    "Заметки/Разарботка/python/django/FAQ.md",
     "Заметки/Математика",
     "Заметки/Разарботка/laravel/Статьи",
-    "Заметки/Разарботка/laravel",
-    "Заметки/Linux/Оптимизация"
+    "Заметки/Разарботка/laravel"
   ]
 }
