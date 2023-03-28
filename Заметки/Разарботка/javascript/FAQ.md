@@ -384,3 +384,27 @@ node -v > .nvmrc
 5. Dynamsoft Barcode Reader: это коммерческая библиотека для распознавания штрих-кодов и QR-кодов, которая поддерживает большое количество форматов и может работать с изображениями и видео.
 
 Каждая из этих библиотек имеет свои преимущества и недостатки, но все они могут быть использованы для распознавания QR-кодов в JavaScript.
+
+## напиши минимальный по размеру код POST запроса на javascript использующий fetch
+
+Вот пример минимального кода POST запроса на JavaScript, использующего fetch:
+
+```
+fetch('https://example.com/api/data', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    key1: 'value1',
+    key2: 'value2'
+  })
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error(error))
+```
+
+В этом примере мы отправляем POST запрос на адрес https://example.com/api/data с заголовком Content-Type: application/json и телом запроса, содержащим два ключа со значениями. 
+
+Затем мы используем метод .json() для извлечения данных из ответа сервера и выводим их в консоль. Если при выполнении запроса произошла ошибка, мы выводим ее в консоль с помощью метода console.error().
