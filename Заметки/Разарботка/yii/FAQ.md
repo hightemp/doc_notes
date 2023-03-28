@@ -555,3 +555,143 @@ class PostController extends Controller
 
 В этом примере мы создаем экшн `update` в контроллере `PostController`. В этом экшне мы загружаем запись по ее ID, загружаем данные из POST-запроса и сохраняем модель. Если модель успешно сохранена, мы перенаправляем пользователя на экшн `view`, который отображает обновленную запись.
 
+## распиши по шагам пример создания компонента в yii2
+
+Шаг 1. Создание класса компонента
+
+Создайте класс компонента, который будет находиться в папке "components" вашего приложения. Например, "MyComponent.php". 
+
+```php
+namespace app\components;
+
+use yii\base\Component;
+
+class MyComponent extends Component
+{
+    public function myMethod()
+    {
+        // Реализация метода
+    }
+}
+```
+
+Шаг 2. Регистрация компонента в конфигурации приложения
+
+В конфигурационном файле приложения (обычно это файл "config/web.php" или "config/console.php") добавьте следующий код:
+
+```php
+'components' => [
+    'myComponent' => [
+        'class' => 'app\components\MyComponent',
+    ],
+],
+```
+
+Шаг 3. Использование компонента в приложении
+
+Теперь можно использовать созданный компонент в любом месте приложения, например в контроллере:
+
+```php
+namespace app\controllers;
+
+use yii\web\Controller;
+use Yii;
+
+class SiteController extends Controller
+{
+    public function actionIndex()
+    {
+        $myComponent = Yii::$app->myComponent;
+        $myComponent->myMethod();
+        // ...
+    }
+}
+```
+
+Готово! Теперь вы можете использовать свой компонент в приложении.
+
+## распиши по шагам пример создания виджета в yii2
+
+Шаг 1. Создание класса виджета
+
+Создайте класс виджета, который будет находиться в папке "widgets" вашего приложения. Например, "MyWidget.php". 
+
+```php
+namespace app\widgets;
+
+use yii\base\Widget;
+
+class MyWidget extends Widget
+{
+    public $message;
+
+    public function init()
+    {
+        parent::init();
+        if ($this->message === null) {
+            $this->message = 'Hello World';
+        }
+    }
+
+    public function run()
+    {
+        return "<div class='my-widget'>".$this->message."</div>";
+    }
+}
+```
+
+Шаг 2. Использование виджета в представлении
+
+Теперь можно использовать созданный виджет в любом представлении, например, в файле "index.php":
+
+```php
+use app\widgets\MyWidget;
+
+echo MyWidget::widget(['message' => 'Hello Yii2']);
+```
+
+Шаг 3. Добавление ассетов
+
+Если ваш виджет использует стили и скрипты, которые должны быть доступны на странице, необходимо добавить их через ассеты. Создайте класс ассета в папке "assets", например, "MyAsset.php". 
+
+```php
+namespace app\widgets\assets;
+
+use yii\web\AssetBundle;
+
+class MyAsset extends AssetBundle
+{
+    public $sourcePath = '@app/widgets/assets';
+    public $css = [
+        'my-widget.css',
+    ];
+    public $js = [
+        'my-widget.js',
+    ];
+    public $depends = [
+        'yii\web\YiiAsset',
+    ];
+}
+```
+
+Затем добавьте метод в класс виджета для регистрации ассетов:
+
+```php
+public function registerAssets()
+{
+    $view = $this->getView();
+    MyAsset::register($view);
+}
+```
+
+И вызовите его в методе run():
+
+```php
+public function run()
+{
+    $this->registerAssets();
+    return "<div class='my-widget'>".$this->message."</div>";
+}
+```
+
+Готово! Теперь вы можете использовать свой виджет в приложении с ассетами.
