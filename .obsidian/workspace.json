@@ -79,9 +79,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b181f51bfd919056",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/sql/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4c73e30c074f847",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -227,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/yii/FAQ.md"
+                "file": "Заметки/Разарботка/php/Ссылки.md"
               }
             }
           }
@@ -290,13 +314,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d292ba7aa962e884",
+  "active": "b4c73e30c074f847",
   "lastOpenFiles": [
+    "Заметки/Разарботка/sql/FAQ.md",
+    "Заметки/Разарботка/php/Ссылки.md",
+    "Заметки/Разарботка/Untitled.md",
+    "Заметки/Разарботка/sql",
+    "Заметки/Разарботка/yii/FAQ.md",
     "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Untitled.md",
-    "Заметки/Разарботка/yii/FAQ.md",
     "Заметки/Разарботка/redbeanphp",
     "Заметки/Разарботка/yii",
     "Найденное/Репозитории.md",
@@ -321,12 +349,8 @@
     "Заметки/Разарботка/golang/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/langd/FAQ.md",
-    "Заметки/Разарботка/cpp/FAQ.md",
     "Заметки/Разарботка/cpp",
-    "Заметки/Разарботка/laravel/FAQ.md",
-    "Заметки/Разарботка/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md",
     "Заметки/Разарботка/golang",
-    "Заметки/Математика",
-    "Заметки/Разарботка/laravel/Статьи"
+    "Заметки/Математика"
   ]
 }
