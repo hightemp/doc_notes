@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -299,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Ссылки.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Ссылки.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Ссылки.md"
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
               }
             }
           }
@@ -362,11 +362,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4d617e94974eeb67",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/php/laravel/Ссылки.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/FAQ.md",
     "Заметки/Разарботка/sql/FAQ.md",
