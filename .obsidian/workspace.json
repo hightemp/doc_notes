@@ -50,7 +50,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13c6fb8c1612c3f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d617e94974eeb67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -275,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/FAQ.md"
+                "file": "Заметки/Разарботка/php/laravel/Ссылки.md"
               }
             }
           }
@@ -338,21 +362,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cc234f9e2c3a4cd9",
+  "active": "4d617e94974eeb67",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Ссылки.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/FAQ.md",
     "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
-    "Заметки/Разарботка/yii/FAQ.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/FAQ.md",
     "Заметки/Разарботка/Untitled.md",
     "Заметки/Разарботка/sql",
     "Untitled.md",
     "Заметки/Разарботка/redbeanphp",
-    "Заметки/Разарботка/yii",
+    "Заметки/Разарботка/php/yii",
     "Найденное/Репозитории.md",
     "Заметки/Разарботка/golang/Статьи/How To List Files In A Directory In Go.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -368,9 +394,7 @@
     "Заметки/Разарботка/golang/Статьи/19 Top Golang Web Frameworks You Can’t Miss in 2023.md",
     "Заметки/Разарботка/typescript/FAQ.md",
     "Книги.md",
-    "Заметки/Экономика/FAQ.md",
     "Проекты",
-    "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
     "Заметки/Разарботка/golang/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/cpp",

@@ -65,8 +65,6 @@ https://hightemp.github.io/doc_notes/
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/sql/FAQ.md)
      - redbeanphp
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/redbeanphp/FAQ.md)
-     - yii
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/yii/FAQ.md)
      - магинное обучение
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%BC%D0%B0%D0%B3%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/FAQ.md)
      - Наем, Интервью, HR
@@ -145,6 +143,15 @@ https://hightemp.github.io/doc_notes/
      - php
        - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
+       - laravel
+         - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/FAQ.md)
+         - Статьи
+           - [Laravel - Overview.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Laravel%20-%20Overview.md)
+           - [Laravel - Installation.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Laravel%20-%20Installation.md)
+           - [Generate Migrations from an Existing Database With the Migration Generator Package.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Generate%20Migrations%20from%20an%20Existing%20Database%20With%20the%20Migration%20Generator%20Package.md)
+       - yii
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
      - obsidian
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - nuxt
@@ -163,12 +170,6 @@ https://hightemp.github.io/doc_notes/
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/FAQ.md)
        - Статьи
          - [MySQL Document Store.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/MySQL%20Document%20Store.md)
-     - laravel
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/FAQ.md)
-       - Статьи
-         - [Laravel - Overview.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Laravel%20-%20Overview.md)
-         - [Laravel - Installation.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Laravel%20-%20Installation.md)
-         - [Generate Migrations from an Existing Database With the Migration Generator Package.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Generate%20Migrations%20from%20an%20Existing%20Database%20With%20the%20Migration%20Generator%20Package.md)
      - langd
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
      - javascript
