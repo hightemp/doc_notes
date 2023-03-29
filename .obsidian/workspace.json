@@ -45,6 +45,18 @@
             }
           },
           {
+            "id": "397a48211d399438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "22f9438a7a1ebd44",
             "type": "leaf",
             "state": {
@@ -74,7 +86,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/yii/FAQ.md",
+                "file": "Заметки/Радиоэлектроника/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc234f9e2c3a4cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "file": "Заметки/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "file": "Заметки/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md"
+                "file": "Заметки/FAQ.md"
               }
             }
           }
@@ -314,23 +338,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b4c73e30c074f847",
+  "active": "cc234f9e2c3a4cd9",
   "lastOpenFiles": [
     "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/Untitled.md",
-    "Заметки/Разарботка/sql",
-    "Заметки/Разарботка/yii/FAQ.md",
     "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
+    "Заметки/Разарботка/yii/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Радиоэлектроника/FAQ.md",
+    "Заметки/FAQ.md",
+    "Заметки/Разарботка/Untitled.md",
+    "Заметки/Разарботка/sql",
     "Untitled.md",
     "Заметки/Разарботка/redbeanphp",
     "Заметки/Разарботка/yii",
     "Найденное/Репозитории.md",
     "Заметки/Разарботка/golang/Статьи/How To List Files In A Directory In Go.md",
     "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/Стандартный макет проекта Go.md",
     "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
@@ -348,7 +373,6 @@
     "Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md",
     "Заметки/Разарботка/golang/Статьи",
     "Заметки/Untitled",
-    "Заметки/Разарботка/langd/FAQ.md",
     "Заметки/Разарботка/cpp",
     "Заметки/Разарботка/golang",
     "Заметки/Математика"
