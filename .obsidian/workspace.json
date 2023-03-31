@@ -45,30 +45,6 @@
             }
           },
           {
-            "id": "22f9438a7a1ebd44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "907d4a1d17cbc275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/redbeanphp/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d292ba7aa962e884",
             "type": "leaf",
             "state": {
@@ -117,6 +93,54 @@
             }
           },
           {
+            "id": "48945fb04abd7355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "278425ca6fbc3652",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/OSINT/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3369e5a5ce608bb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/OSINT/Статьи/Топ 20 бесплатных инструментов OSINT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c4e4b822145a044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/OSINT/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "411f27801a38cd0d",
             "type": "leaf",
             "state": {
@@ -141,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -287,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
+                "file": "Заметки/OSINT/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
+                "file": "Заметки/OSINT/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md"
+                "file": "Заметки/OSINT/Ссылки.md"
               }
             }
           }
@@ -350,22 +374,29 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96fae79488b38319",
+  "active": "6c4e4b822145a044",
   "lastOpenFiles": [
-    "Заметки/Разарботка/Книги.md",
+    "Заметки/OSINT/FAQ.md",
+    "Заметки/OSINT/Ссылки.md",
+    "Заметки/OSINT/Статьи/OSINT по-русски. Выбираем мощные и бесплатные сервисы для пробива и конкурентной разведки.md",
+    "Заметки/OSINT/Статьи/Топ 20 бесплатных инструментов OSINT.md",
+    "Заметки/OSINT/Статьи",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Untitled",
     "Заметки/Разарботка/nginx/FAQ.md",
-    "Заметки/Разарботка/FAQ.md",
-    "Заметки/Разарботка/nginx",
-    "Заметки/Разарботка/sql/FAQ.md",
-    "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Найденное/Репозитории.md",
+    "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
-    "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/AI/Ссылки.md",
+    "Заметки/Разарботка/sql/FAQ.md",
+    "Заметки/Разарботка/FAQ.md",
+    "Заметки/Разарботка/nginx",
+    "Заметки/Разарботка/php/Ссылки.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Найденное/Репозитории.md",
+    "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/AI/LLama/FAQ.md",
     "Заметки/AI/LLama/Статьи/LLaMA model.md",
     "Заметки/AI/LLama/Статьи/How to install LLaMA 8-bit and 4-bit.md",
@@ -375,18 +406,11 @@
     "Заметки/FAQ.md",
     "Заметки/Разарботка/php/laravel/Ссылки.md",
     "HISTORY.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/sql",
     "Untitled.md",
     "Заметки/Разарботка/redbeanphp",
     "Заметки/Разарботка/php/yii",
-    "Заметки/Разарботка/golang/Статьи/How To List Files In A Directory In Go.md",
-    "Заметки/Linux/Оконные менеджеры/i3wm/FAQ.md",
-    "Заметки/Разарботка/golang/Статьи/Стандартный макет проекта Go.md",
-    "Заметки/Разарботка/golang/Статьи/Всё, что вы хотели знать про GOPATH и GOROOT.md",
     "Заметки/Linux/Оконные менеджеры/kde",
-    "Проекты",
-    "Заметки/Разарботка/golang/Статьи",
-    "Заметки/Untitled"
+    "Проекты"
   ]
 }
