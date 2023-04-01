@@ -105,6 +105,30 @@
             }
           },
           {
+            "id": "3dee55f6d5619f76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7437c69aaa23f228",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "411f27801a38cd0d",
             "type": "leaf",
             "state": {
@@ -129,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -275,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
+                "file": "Заметки/Разарботка/docker/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
+                "file": "Заметки/Разарботка/docker/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md"
+                "file": "Заметки/Разарботка/docker/FAQ.md"
               }
             }
           }
@@ -338,9 +362,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "96fae79488b38319",
+  "active": "3dee55f6d5619f76",
   "lastOpenFiles": [
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/docker/FAQ.md",
+    "Заметки/Разарботка/docker",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
+    "Заметки/Разарботка/php/yii/Статьи",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Радиоэлектроника/FAQ.md",
+    "Заметки/Разарботка/FAQ.md",
+    "Заметки/Разарботка/sql/FAQ.md",
+    "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/nginx/FAQ.md",
     "Заметки/Linux/Утилиты/7z/FAQ.md",
@@ -353,12 +386,7 @@
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
-    "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Разарботка/sql/FAQ.md",
-    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/nginx",
     "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -370,11 +398,7 @@
     "Заметки/AI/LLama/Статьи",
     "Заметки/AI/LLama",
     "Заметки/AI/FAQ.md",
-    "Заметки/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Ссылки.md",
     "Заметки/Разарботка/sql",
-    "Заметки/Разарботка/redbeanphp",
-    "Заметки/Разарботка/php/yii",
-    "Заметки/Linux/Оконные менеджеры/kde"
+    "Заметки/Разарботка/redbeanphp"
   ]
 }
