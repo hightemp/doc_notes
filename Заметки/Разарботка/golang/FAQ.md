@@ -71,6 +71,28 @@ Golang имеет несколько библиотек для создания 
 
 Каждая из этих библиотек имеет свои преимущества и недостатки, но все они могут быть использованы для создания консольных интерфейсов в Golang.
 
+## что делает make в go
+
+В Go, `make` используется для динамического выделения памяти для слайсов, карт и каналов. Он возвращает указатель на новый ноль-заполненный массив, словарь или канал нужного типа и размера. Кроме того, `make` также инициализирует внутренние поля слайса, карты или канала, чтобы они были готовы к использованию. 
+
+Например, чтобы создать слайс с длиной 10 и емкостью 20, вы можете использовать следующую команду:
+
+```
+a := make([]int, 10, 20)
+```
+
+Это создаст слайс `a` с длиной 10 и емкостью 20, заполненный нулями. 
+
+Также, чтобы создать карту с начальной емкостью 100 элементов, вы можете использовать следующую команду:
+
+```
+m := make(map[string]int, 100)
+```
+
+Это создаст карту `m` с начальной емкостью 100 элементов. 
+
+Использование `make` рекомендуется вместо использования `new`, когда вы создаете новые слайсы, карты или каналы, потому что `make` инициализирует их внутренние поля, что делает их готовыми к использованию.
+
 ## есть ли в golang динамически подключаемые библиотеки и как их подключать?
 
 В Golang существует механизм плагинов, который позволяет создавать динамически подключаемые библиотеки. Для создания плагина нужно создать отдельный модуль, который может быть скомпилирован в отдельный файл, и который реализует интерфейс, определенный в основном приложении.
@@ -3803,3 +3825,221 @@ errMsg := fmt.Sprintf("Произошла ошибка: %s", err.Error())
 ```
 
 Здесь мы создаем строку с помощью функции "fmt.Sprintf", которая включает сообщение об ошибке из переменной "err".
+
+## как в go запустить отдельный отдельные процессы без блокировки
+
+В Go для запуска отдельных процессов без блокировки можно использовать методы `Start()` и `Wait()` из пакета `os/exec`. Пример:
+
+```go
+package main
+
+import (
+ "fmt"
+ "os/exec"
+)
+
+func main() {
+ cmd := exec.Command("ls")
+ err := cmd.Start()
+ if err != nil {
+  fmt.Println(err)
+ }
+ fmt.Println("Command started")
+ err = cmd.Wait()
+ if err != nil {
+  fmt.Println(err)
+ }
+ fmt.Println("Command finished")
+}
+```
+
+В этом примере мы создаем новый процесс с помощью `exec.Command("ls")`. Затем мы запускаем процесс с помощью `cmd.Start()` и выводим сообщение "Command started". Затем мы ждем, пока процесс завершится, с помощью `cmd.Wait()`, и выводим сообщение "Command finished". Обратите внимание, что `Wait()` блокирует выполнение программы до завершения процесса. Если вы хотите запустить несколько процессов параллельно, вам нужно будет использовать горутины.
+
+## напиши все возжоные примеры использования go рутины
+
+Вот несколько примеров использования горутин в Go:
+
+1. Простой пример, который выводит числа от 1 до 10:
+
+```go
+func main() {
+    go func() {
+        for i := 1; i <= 10; i++ {
+            fmt.Println(i)
+        }
+    }()
+    // ожидание завершения работы горутины
+    time.Sleep(time.Second)
+}
+```
+
+2. Пример использования горутин для обработки массива чисел:
+
+```go
+func main() {
+    nums := []int{1, 2, 3, 4, 5}
+    ch := make(chan int)
+    go func() {
+        for _, n := range nums {
+            ch <- n * n
+        }
+        close(ch)
+    }()
+    for res := range ch {
+        fmt.Println(res)
+    }
+}
+```
+
+3. Пример использования горутин для параллельного выполнения задач:
+
+```go
+func main() {
+    task1 := func() {
+        // выполнение задачи 1
+    }
+    task2 := func() {
+        // выполнение задачи 2
+    }
+    go task1()
+    go task2()
+    // ожидание завершения работы обеих горутин
+    time.Sleep(time.Second)
+}
+```
+
+4. Пример использования горутин для обработки HTTP-запросов:
+
+```go
+func main() {
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+        go func() {
+            // обработка запроса в отдельной горутине
+        }()
+    })
+    http.ListenAndServe(":8080", nil)
+}
+```
+
+5. Пример использования горутин для чтения данных из нескольких файлов:
+
+```go
+func main() {
+    files := []string{"file1.txt", "file2.txt", "file3.txt"}
+    ch := make(chan string)
+    for _, f := range files {
+        go func(filename string) {
+            data, err := ioutil.ReadFile(filename)
+            if err != nil {
+                log.Fatal(err)
+            }
+            ch <- string(data)
+        }(f)
+    }
+    for i := 0; i < len(files); i++ {
+        fmt.Println(<-ch)
+    }
+}
+```
+
+Это только несколько примеров использования горутин в Go. Они могут использоваться для параллельного выполнения задач, чтения и записи данных, обработки HTTP-запросов и многого другого.
+
+## напиши все возжоные примеры использования в go waitgroup
+
+Вот несколько примеров использования `WaitGroup` в Go:
+
+1. Пример использования `WaitGroup` для ожидания завершения выполнения нескольких горутин:
+
+```go
+func main() {
+    var wg sync.WaitGroup
+    for i := 0; i < 3; i++ {
+        wg.Add(1)
+        go func(id int) {
+            defer wg.Done()
+            fmt.Printf("goroutine %d is done\n", id)
+        }(i)
+    }
+    wg.Wait()
+    fmt.Println("all goroutines are done")
+}
+```
+
+2. Пример использования `WaitGroup` для выполнения нескольких задач в параллель:
+
+```go
+func main() {
+    var wg sync.WaitGroup
+    tasks := []func(){
+        func() {
+            // выполнение задачи 1
+        },
+        func() {
+            // выполнение задачи 2
+        },
+        func() {
+            // выполнение задачи 3
+        },
+    }
+    for _, task := range tasks {
+        wg.Add(1)
+        go func(t func()) {
+            defer wg.Done()
+            t()
+        }(task)
+    }
+    wg.Wait()
+    fmt.Println("all tasks are done")
+}
+```
+
+3. Пример использования `WaitGroup` для чтения данных из нескольких файлов:
+
+```go
+func main() {
+    var wg sync.WaitGroup
+    files := []string{"file1.txt", "file2.txt", "file3.txt"}
+    for _, f := range files {
+        wg.Add(1)
+        go func(filename string) {
+            defer wg.Done()
+            data, err := ioutil.ReadFile(filename)
+            if err != nil {
+                log.Fatal(err)
+            }
+            fmt.Println(string(data))
+        }(f)
+    }
+    wg.Wait()
+    fmt.Println("all files are read")
+}
+```
+
+4. Пример использования `WaitGroup` для выполнения HTTP-запросов:
+
+```go
+func main() {
+    var wg sync.WaitGroup
+    urls := []string{"http://example.com", "http://google.com", "http://facebook.com"}
+    for _, url := range urls {
+        wg.Add(1)
+        go func(u string) {
+            defer wg.Done()
+            resp, err := http.Get(u)
+            if err != nil {
+                log.Fatal(err)
+            }
+            defer resp.Body.Close()
+            body, err := ioutil.ReadAll(resp.Body)
+            if err != nil {
+                log.Fatal(err)
+            }
+            fmt.Println(string(body))
+        }(url)
+    }
+    wg.Wait()
+    fmt.Println("all requests are done")
+}
+```
+
+Это только несколько примеров использования `WaitGroup` в Go. Он может использоваться для параллельного выполнения задач, чтения и записи данных, обработки HTTP-запросов и многого другого.

@@ -105,24 +105,48 @@
             }
           },
           {
-            "id": "3dee55f6d5619f76",
+            "id": "3b4e14842e2f3991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Использование Faker для генерации тестовых данных в Yii2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7437c69aaa23f228",
+            "id": "a588d81dfc93decb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de10485d0c337129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/sql/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3dee55f6d5619f76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/docker/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -299,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md"
+                "file": "Заметки/Разарботка/php/yii/FAQ.md"
               }
             }
           }
@@ -362,17 +386,20 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3dee55f6d5619f76",
+  "active": "48945fb04abd7355",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/Статьи/Использование Faker для генерации тестовых данных в Yii2.md",
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/sql/FAQ.md",
+    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Виджет Breadcrumbs (хлебные крошки) на Yii 2.x.md",
     "Заметки/Разарботка/docker/FAQ.md",
-    "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
+    "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/Разарботка/FAQ.md",
-    "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/nginx/FAQ.md",
@@ -385,7 +412,6 @@
     "Заметки/OSINT/Статьи/OSINT по-русски. Выбираем мощные и бесплатные сервисы для пробива и конкурентной разведки.md",
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/nginx",
     "Заметки/Разарботка/php/Ссылки.md",
@@ -394,10 +420,8 @@
     "Заметки/Разарботка/redbeanphp/FAQ.md",
     "Заметки/AI/LLama/FAQ.md",
     "Заметки/AI/LLama/Статьи/LLaMA model.md",
-    "Заметки/AI/LLama/Статьи/How to install LLaMA 8-bit and 4-bit.md",
     "Заметки/AI/LLama/Статьи",
     "Заметки/AI/LLama",
-    "Заметки/AI/FAQ.md",
     "Заметки/Разарботка/sql",
     "Заметки/Разарботка/redbeanphp"
   ]
