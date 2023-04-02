@@ -2576,3 +2576,106 @@ echo DetailView::widget([
 В данном примере мы выводим атрибут `description` модели `$model` и указываем опцию `format` со значением `raw`. Это означает, что содержимое атрибута будет отображаться без экранирования HTML-тегов и спецсимволов.
 
 Однако, будьте осторожны при использовании этой опции, так как это может привести к возникновению уязвимостей безопасности. Убедитесь, что выводимый HTML-код не содержит вредоносных скриптов и других опасных элементов.
+
+## напиши для yii2 пример добавления комментариев без сторонних библиотек
+
+В yii2 можно реализовать добавление комментариев без использования сторонних библиотек. Рассмотрим простой пример:
+
+1. Создайте таблицу `comment` в базе данных с полями `id`, `user_id`, `model`, `model_id`, `text`, `created_at`.
+
+2. Создайте модель для таблицы `comment`:
+
+```php
+namespace app\models;
+
+use yii\db\ActiveRecord;
+
+class Comment extends ActiveRecord
+{
+    public static function tableName()
+    {
+        return 'comment';
+    }
+
+    public function rules()
+    {
+        return [
+            [['model', 'model_id', 'text'], 'required'],
+            [['user_id', 'model_id'], 'integer'],
+            [['text'], 'string'],
+            [['created_at'], 'safe'],
+            [['model'], 'string', 'max' => 255],
+        ];
+    }
+}
+```
+
+3. В представлении, где необходимо отображать комментарии, добавьте список комментариев:
+
+```php
+<?php foreach ($comments as $comment) : ?>
+    <div class="comment">
+        <p><?= $comment->text ?></p>
+        <p class="author">Автор: <?= $comment->user_id ?></p>
+    </div>
+<?php endforeach; ?>
+```
+
+В данном примере мы выводим список комментариев и используем атрибуты модели `Comment`, такие как `text` - текст комментария и `user_id` - идентификатор автора комментария.
+
+4. Добавьте форму для добавления комментариев:
+
+```php
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+$form = ActiveForm::begin();
+
+echo $form->field($modelComment, 'text')->textarea(['rows' => 5]);
+
+echo Html::submitButton('Отправить', ['class' => 'btn btn-success']);
+
+ActiveForm::end();
+```
+
+В данном примере мы используем виджет `ActiveForm` для создания формы и выводим поле ввода для текста комментария. Также мы добавляем кнопку отправки формы.
+
+5. В контроллере, который отображает представление, добавьте обработку отправки формы:
+
+```php
+use app\models\Comment;
+use yii\web\Response;
+
+public function actionView($id)
+{
+    $model = $this->findModel($id);
+    $modelComment = new Comment();
+    $comments = Comment::find()
+        ->where(['model' => 'post', 'model_id' => $id])
+        ->orderBy(['created_at' => SORT_DESC])
+        ->all();
+
+    if ($modelComment->load(Yii::$app->request->post()) && $modelComment->validate()) {
+        $modelComment->user_id = Yii::$app->user->id;
+        $modelComment->model = 'post';
+        $modelComment->model_id = $id;
+        $modelComment->created_at = date('Y-m-d H:i:s');
+        $modelComment->save();
+        Yii::$app->session->setFlash('success', 'Комментарий успешно добавлен.');
+        return $this->refresh();
+    }
+
+    return $this->render('view', [
+        'model' => $model,
+        'modelComment' => $modelComment,
+        'comments' => $comments,
+    ]);
+}
+```
+
+В данном примере мы загружаем данные из базы данных и передаем их в представление. Если пользователь отправляет форму, то мы создаем новую модель `Comment`, заполняем ее данными из формы и сохраняем в базу данных. После этого мы выводим сообщение об успешном добавлении комментария и обновляем страницу.
+
+Обратите внимание, что данный пример не содержит проверки на наличие XSS-атак и другие уязвимости. Поэтому рекомендуется дополнительно обезопасить форму от возможных атак перед сохранением данных в базу данных.
+
+## как вывести в yii2 ошибки валидации модели
+
