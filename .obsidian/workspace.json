@@ -93,6 +93,42 @@
             }
           },
           {
+            "id": "0b56f294b779f567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6938b380e65f196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56b2f1342c770fe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "27cf2faaa99876d0",
             "type": "leaf",
             "state": {
@@ -323,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Ссылки.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,7 +399,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Ссылки.md"
+                "file": "Заметки/Разарботка/php/FAQ.md"
               }
             }
           }
@@ -386,16 +422,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "27cf2faaa99876d0",
+  "active": "0b56f294b779f567",
   "lastOpenFiles": [
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
+    "Заметки/Разарботка/php/yii/Ссылки.md",
+    "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
     "Заметки/История/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/nginx/FAQ.md",
@@ -414,9 +452,7 @@
     "Заметки/Linux/Утилиты/7z/FAQ.md",
     "Заметки/OSINT/Ссылки.md",
     "Заметки/OSINT/Статьи/Топ 20 бесплатных инструментов OSINT.md",
-    "Заметки/Linux/Утилиты/Untitled.md",
     "Заметки/Linux/Утилиты/7z",
-    "Заметки/OSINT/FAQ.md",
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/nginx",

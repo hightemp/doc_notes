@@ -3119,3 +3119,118 @@ $authManager->addChild($adminRole, $editPostPermission);
 ```
 
 В этом примере мы разрешаем доступ к действию 'admin' только пользователям, у которых есть роль 'admin'.
+
+## как в yii поставить RBAC
+
+Для установки и настройки системы RBAC (Role-Based Access Control) в Yii необходимо выполнить следующие шаги:
+
+1.  Установить библиотеку RBAC в composer:
+
+`composer require ruajason/yii-rbac`
+
+2.  Создать модель RBAC:
+
+`yii rbac/models/RbacRule create --table=rbac_rules`
+
+3.  Создать таблицу для хранения правил RBAC:
+
+`yii rbac/rbac_rules create --table=rbac_rules`
+
+4.  Создать роли:
+
+`yii rbac/rbac_roles create --table=rbac_roles`
+
+5.  Создать пользователей:
+
+`yii user/user_register create --table=users`
+
+6.  Настроить схему RBAC:
+
+```
+'rbac' => [
+    'rules' => [
+        [
+            'name' => 'Super Admin',
+            'type' => RBAC::ROLE_TYPE_PARENT,
+            'description' => 'Grant access to all users',
+            'data' => [
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            'children' => [
+                [
+                    'name' => 'Admin',
+                    'type' => RBAC::ROLE_TYPE_CHILD,
+                    'description' => 'Grant access to specific users',
+                    'data' => [
+                        'created_at' => Carbon::now(),
+                        'updated_at' => Carbon::now(),
+                    ],
+                    'children' => [],
+                ],
+            ],
+        ],
+    ],
+],
+```
+
+Этот код настраивает схему RBAC с единственным ролом "Super Admin", который имеет доступ к всем пользователям (чтобы изменить это, нужно перезагрузить `children` внутри правила "Super Admin").
+
+## напиши command контроллер для создания ролей: admin, guest, user и permission: canAdmin
+
+Команда в Yii2 - это способ добавить функциональность в консольное приложение. Для создания команды для создания ролей и разрешений в Yii2 нужно выполнить следующие шаги:
+
+1. Создайте новый файл в директории console/controllers, например, RoleController.php.
+2. Определите класс RoleController и укажите, что он расширяет класс yii\console\Controller.
+3. В методе actionIndex() определите роли и разрешения, используя объект AuthManager.
+4. В методе actionIndex() назначьте роли и разрешения пользователям, используя объект AuthManager.
+
+Пример кода для файла RoleController.php:
+
+```php
+<?php
+
+namespace console\controllers;
+
+use Yii;
+use yii\console\Controller;
+
+class RoleController extends Controller
+{
+    public function actionIndex()
+    {
+        $authManager = Yii::$app->authManager;
+
+        // Создание ролей
+        $guestRole = $authManager->createRole('guest');
+        $authManager->add($guestRole);
+
+        $userRole = $authManager->createRole('user');
+        $authManager->add($userRole);
+
+        $adminRole = $authManager->createRole('admin');
+        $authManager->add($adminRole);
+
+        // Создание разрешений
+        $canAdminPermission = $authManager->createPermission('canAdmin');
+        $authManager->add($canAdminPermission);
+
+        // Назначение ролей и разрешений
+        $authManager->addChild($adminRole, $userRole);
+        $authManager->addChild($userRole, $guestRole);
+        $authManager->addChild($adminRole, $canAdminPermission);
+
+        echo "Roles and permissions created successfully.\n";
+    }
+}
+```
+
+В этом примере мы создаем три роли: 'guest', 'user' и 'admin', и одно разрешение: 'canAdmin'. Затем мы назначаем роли и разрешения друг другу. Роль 'admin' наследует роль 'user', а роль 'user' наследует роль 'guest'. Роль 'admin' имеет разрешение 'canAdmin'.
+
+Чтобы запустить эту команду, введите в консоли:
+
+```
+yii role/index
+```
+
+Где 'role' - это имя контроллера, а 'index' - это имя метода.
