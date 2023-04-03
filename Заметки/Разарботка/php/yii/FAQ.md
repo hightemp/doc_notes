@@ -2933,3 +2933,189 @@ class MyController extends Controller
 ```
 
 В этом примере AccessControl определяет два правила доступа: первое правило разрешает доступ к действию index только авторизованным пользователям, второе правило разрешает доступ к действию view только пользователям с ролью "admin". Если пользователь не соответствует ни одному из правил, ему будет отказано в доступе.
+
+## как назначаются роли для AccessControl в yii2
+
+Для назначения ролей для AccessControl в Yii2 необходимо определить роли и разрешения (permissions) в файле конфигурации приложения (web.php) и затем использовать их в правилах доступа (rules) фильтра AccessControl.
+
+Пример определения ролей и разрешений:
+
+```php
+'authManager' => [
+    'class' => 'yii\rbac\DbManager',
+],
+'components' => [
+    'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+    ],
+],
+'as access' => [
+    'class' => 'yii\filters\AccessControl',
+    'rules' => [
+        [
+            'actions' => ['login', 'error'],
+            'allow' => true,
+        ],
+        [
+            'actions' => ['logout', 'index'],
+            'allow' => true,
+            'roles' => ['@'],
+        ],
+        [
+            'actions' => ['admin'],
+            'allow' => true,
+            'roles' => ['admin'],
+        ],
+    ],
+],
+'params' => [
+    'adminEmail' => 'admin@example.com',
+],
+```
+
+В этом примере используется компонент RBAC (Role-Based Access Control) для управления ролями и разрешениями. Он настроен на использование базы данных, поэтому мы указываем класс yii\rbac\DbManager, который отвечает за хранение данных RBAC в базе данных.
+
+Для определения ролей мы можем использовать метод $authManager->createRole(). Например, для определения роли 'admin':
+
+```php
+$authManager = Yii::$app->authManager;
+
+$adminRole = $authManager->createRole('admin');
+$adminRole->description = 'Administrator';
+$authManager->add($adminRole);
+```
+
+Для определения разрешений мы можем использовать метод $authManager->createPermission(). Например, для определения разрешения 'editPost':
+
+```php
+$editPostPermission = $authManager->createPermission('editPost');
+$editPostPermission->description = 'Edit a post';
+$authManager->add($editPostPermission);
+```
+
+Затем мы можем назначить роли и разрешения пользователям:
+
+```php
+$authManager = Yii::$app->authManager;
+
+// Назначение роли пользователю
+$authManager->assign($adminRole, $userId);
+
+// Назначение разрешения роли
+$authManager->addChild($adminRole, $editPostPermission);
+```
+
+Для использования ролей и разрешений в правилах доступа AccessControl необходимо указать их в свойстве 'roles':
+
+```php
+[
+    'actions' => ['admin'],
+    'allow' => true,
+    'roles' => ['admin'],
+],
+```
+
+В этом примере правило разрешает доступ к действию 'admin' только пользователям, у которых есть роль 'admin'.
+
+## как установить yii RBAC
+
+Для установки RBAC (Role-Based Access Control) в Yii2 необходимо выполнить следующие шаги:
+
+1. Установить расширение yii2-authmanager:
+
+Выполните команду в консоли, находясь в корневой директории проекта:
+
+```
+composer require --prefer-dist yiisoft/yii2-authmanager
+```
+
+2. Настроить компонент authManager:
+
+Добавьте следующий код в файл конфигурации приложения (web.php):
+
+```php
+'authManager' => [
+    'class' => 'yii\rbac\DbManager',
+],
+```
+
+Этот код настраивает компонент authManager для использования базы данных для хранения данных RBAC.
+
+3. Создать таблицы для хранения данных RBAC:
+
+Выполните миграцию для создания таблиц в базе данных:
+
+```
+yii migrate --migrationPath=@yii/rbac/migrations
+```
+
+4. Определить роли и разрешения:
+
+В файле конфигурации приложения (web.php) определите роли и разрешения. Например:
+
+```php
+'authManager' => [
+    'class' => 'yii\rbac\DbManager',
+    'defaultRoles' => ['guest'],
+],
+'components' => [
+    'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+        'defaultRoles' => ['guest'],
+    ],
+],
+'as access' => [
+    'class' => 'yii\filters\AccessControl',
+    'rules' => [
+        [
+            'actions' => ['login', 'error'],
+            'allow' => true,
+        ],
+        [
+            'actions' => ['logout', 'index'],
+            'allow' => true,
+            'roles' => ['@'],
+        ],
+        [
+            'actions' => ['admin'],
+            'allow' => true,
+            'roles' => ['admin'],
+        ],
+    ],
+],
+```
+
+В этом примере мы задаем роль по умолчанию для всех пользователей - 'guest'. Роли и разрешения могут быть определены в любом месте приложения, например, в контроллере или в модели.
+
+5. Назначить роли и разрешения пользователям:
+
+Для назначения ролей и разрешений пользователям используйте объект AuthManager:
+
+```php
+$authManager = Yii::$app->authManager;
+
+// Назначение роли пользователю
+$authManager->assign($adminRole, $userId);
+
+// Назначение разрешения роли
+$authManager->addChild($adminRole, $editPostPermission);
+```
+
+6. Использовать RBAC в приложении:
+
+Для использования RBAC в приложении используйте фильтр AccessControl:
+
+```php
+'as access' => [
+    'class' => 'yii\filters\AccessControl',
+    'rules' => [
+        [
+            'actions' => ['admin'],
+            'allow' => true,
+            'roles' => ['admin'],
+        ],
+    ],
+],
+```
+
+В этом примере мы разрешаем доступ к действию 'admin' только пользователям, у которых есть роль 'admin'.

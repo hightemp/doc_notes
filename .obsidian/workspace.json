@@ -93,6 +93,30 @@
             }
           },
           {
+            "id": "27cf2faaa99876d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/AI/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e88d0b0f95a4d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a588d81dfc93decb",
             "type": "leaf",
             "state": {
@@ -153,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -299,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/AI/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md"
+                "file": "Заметки/AI/Ссылки.md"
               }
             }
           }
@@ -362,8 +386,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "27cf2faaa99876d0",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
     "Заметки/История/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -377,7 +403,6 @@
     "Заметки/Разарботка/FAQ.md",
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/vscode/FAQ.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Планы.md",
     "Найденное/Репозитории.md",
     "HISTORY.md",
@@ -392,7 +417,6 @@
     "Заметки/Linux/Утилиты/Untitled.md",
     "Заметки/Linux/Утилиты/7z",
     "Заметки/OSINT/FAQ.md",
-    "Заметки/OSINT/Статьи/OSINT по-русски. Выбираем мощные и бесплатные сервисы для пробива и конкурентной разведки.md",
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",
     "Заметки/Разарботка/nginx",
