@@ -1,8 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
- - [README.md](./README.md)
+ - [Заметки/Экономика/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/FAQ.md)
  - [HISTORY.md](./HISTORY.md)
+ - [README.md](./README.md)
+ - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
  - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
  - [Заметки/История/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Разарботка/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
@@ -43,7 +44,6 @@
  - [Планы.md](./%D0%9F%D0%BB%D0%B0%D0%BD%D1%8B.md)
  - [Заметки/Разарботка/golang/Статьи/19 Top Golang Web Frameworks You Can’t Miss in 2023.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/19%20Top%20Golang%20Web%20Frameworks%20You%20Can%E2%80%99t%20Miss%20in%202023.md)
  - [Книги.md](./%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
- - [Заметки/Экономика/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/FAQ.md)
  - [Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9B%D0%BE%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20Golang%20%E2%80%94%20%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%20%D0%BB%D0%BE%D0%B3%20%D0%B2%20%D1%84%D0%B0%D0%B9%D0%BB.md)
  - [Заметки/Разарботка/langd/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
  - [Заметки/Разарботка/cpp/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/cpp/FAQ.md)

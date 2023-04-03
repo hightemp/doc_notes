@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/vscode/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -323,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/vscode/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/vscode/FAQ.md",
+                "file": "Заметки/Экономика/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/vscode/FAQ.md"
+                "file": "Заметки/Экономика/FAQ.md"
               }
             }
           }
@@ -388,6 +388,7 @@
   },
   "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
     "Планы.md",
     "Найденное/Репозитории.md",
@@ -419,7 +420,6 @@
     "Заметки/Разарботка/javascript/FAQ.md",
     "Заметки/Разарботка/nginx",
     "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/AI/LLama/Статьи",
     "Заметки/AI/LLama",
     "Заметки/Разарботка/sql",
