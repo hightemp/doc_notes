@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Химия/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -359,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Химия/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Химия/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +399,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md"
+                "file": "Заметки/Химия/FAQ.md"
               }
             }
           }
@@ -425,6 +425,8 @@
   "active": "0b56f294b779f567",
   "lastOpenFiles": [
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Химия/FAQ.md",
+    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
     "Заметки/Разарботка/php/yii/Ссылки.md",
     "Заметки/AI/Ссылки.md",
@@ -450,8 +452,6 @@
     "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
     "Заметки/Linux/Утилиты/7z/FAQ.md",
-    "Заметки/OSINT/Ссылки.md",
-    "Заметки/OSINT/Статьи/Топ 20 бесплатных инструментов OSINT.md",
     "Заметки/Linux/Утилиты/7z",
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",
