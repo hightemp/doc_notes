@@ -1,8 +1,8 @@
 
 <!-- HTOC -->
  - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
- - [README.md](./README.md)
  - [HISTORY.md](./HISTORY.md)
+ - [README.md](./README.md)
  - [Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Yii2%20%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D1%81%D1%8F%20%D1%81%20GridView.md)
  - [Заметки/Химия/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A5%D0%B8%D0%BC%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Разарботка/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)

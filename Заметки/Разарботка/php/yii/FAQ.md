@@ -3874,3 +3874,361 @@ echo GridView::widget([
 В данном примере мы добавили некоторые дополнительные параметры для настройки виджета `GridView`, такие как фильтрация, панель инструментов и т.д.
 
 Таким образом, вы можете использовать расширение `kartik-v/yii2-grid` для отображения таблиц в Yii2.
+
+## опиши все свойства `yii\data\ActiveDataProvider` $provider = new ActiveDataProvider([...])
+
+ActiveDataProvider — это класс в Yii2, который предоставляет возможность получать данные из базы данных с использованием ActiveRecord.
+
+Свойства класса ActiveDataProvider:
+
+1. `query` (mixed) - Запрос, который будет использоваться для выборки данных.
+   Пример: 
+   ```
+   $query = Post::find()->where(['status' => 1]);
+   
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+   ]);
+   ```
+
+2. `pagination` (Pagination|array) - Объект конфигурации пагинации, позволяющий разбить данные на страницы.
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'pagination' => [
+           'pageSize' => 10,
+       ],
+   ]);
+   ```
+
+3. `sort` (Sort|array|boolean) - Объект конфигурации сортировки данных.
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'sort' => [
+           'attributes' => [
+               'name',
+               'email',
+               'created_at',
+           ],
+       ],
+   ]);
+   ```
+
+4. `key` (mixed) - Имя свойства модели данных, содержащего первичные ключи, используемые для идентификации каждой строки.
+   Пример:
+```
+   $dataProvider = new ActiveDataProvider([
+      'query' => $query,
+      'key' => 'id',
+  ]);
+```
+
+5. `db` (Connection) - Объект подключения к базе данных, используемый для выполнения запроса.
+   Пример:
+   
+```
+	$db = \Yii::$app->db;   
+   
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'db' => $db,
+   ]);
+```
+
+6. `totalCount` (integer|callable) - Количество строк, которые могут быть выбраны, используемые функцию count() для определения общего количества строк.
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'totalCount' => $query->count(),
+   ]);
+   ```
+
+7. `sortParam` (string) - Параметр get-запроса, используемый для передачи информации о порядке сортировки.
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'sort' => [
+           'attributes' => [
+               'id',
+               'username',
+           ],
+           'sortParam' => 'sort',
+       ],
+   ]);
+   ```
+
+8. `id` (string) - Уникальный идентификатор для данного DataProvider, используется для сохранения параметров сортировки и пагинации между запросами.
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'id' => 'users-data',
+   ]);
+   ```
+   
+9. `invalidateCache` (boolean) - Позволяет включить или выключить кеширование результатов запроса в CacheDependency. *аннулировать кеш*
+   Пример:
+   ```
+   $dataProvider = new ActiveDataProvider([
+       'query' => $query,
+       'invalidateCache' => true,
+   ]);
+   ```
+
+Эти свойства могут быть настроены при создании объекта класса ActiveDataProvider путем передачи их в качестве параметров массива в конструктор.
+
+Например:
+```
+$dataProvider = new ActiveDataProvider([
+   'query' => Post::find()->where(['status' => 1]),
+   'pagination' => [
+       'pageSize' => 10,
+   ],
+   'sort' => [
+       'attributes' => [
+           'title',
+           'created_at',
+       ],
+   ],
+]);
+```
+
+## опиши все свойства yii\db\Connection
+
+Connection - это компонент базы данных в Yii2, который представляет базу данных и позволяет выполнять запросы.
+
+Свойства класса Connection:
+
+1. `dsn` (string) - Data Source Name, содержащий информацию о типе базы данных, хосте и названии базы данных.
+   Пример: 
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+   ]);
+   ```
+
+2. `username` (string) - Имя пользователя для подключения к базе данных.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+   ]);
+   ```
+
+3. `password` (string) - Пароль для подключения к базе данных.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+   ]);
+   ```
+
+4. `charset` (string) - Кодировка данных, используемая при общении с базой данных.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+   ]);
+   ```
+
+5. `tablePrefix` (string) - Префикс, который будет добавлен к именам таблиц.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+       'tablePrefix' => 'prefix_',
+   ]);
+   ```
+
+6. `schemaCache` (\yii\caching\Cache|string|array|null) - Кэш-компонент, который будет использован для кэширования метаданных таблиц.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+       'tablePrefix' => 'prefix_',
+       'schemaCache' => 'cache',
+   ]);
+   ```
+   
+7. `schemaCacheDuration` (integer) - Время жизни кеша метаданных таблиц.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+       'tablePrefix' => 'prefix_',
+       'schemaCache' => 'cache',
+       'schemaCacheDuration' => 3600,
+   ]);
+   ```
+
+8. `enableSchemaCache` (boolean) - Включение или отключение использования кеша метаданных таблиц.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+       'tablePrefix' => 'prefix_',
+       'enableSchemaCache' => true,
+   ]);
+   ```
+
+9. `queryCache` (\yii\caching\Cache|string|array|null) - Кэш-компонент, который будет использоваться для кеширования запросов.
+   Пример:
+   ```
+   $db = new yii\db\Connection([
+       'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+       'username' => 'myusername',
+       'password' => 'mypassword',
+       'charset' => 'utf8',
+       'tablePrefix' => 'prefix_',
+       'queryCache' => 'cache',
+   ]);
+   ```
+
+10. `queryCacheDuration` (integer) - Время жизни кеша запросов.
+    Пример:
+    ```
+    $db = new yii\db\Connection([
+        'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+        'username' => 'myusername',
+        'password' => 'mypassword',
+        'charset' => 'utf8',
+        'tablePrefix' => 'prefix_',
+        'queryCache' => 'cache',
+        'queryCacheDuration' => 3600,
+    ]);
+
+    ```
+
+11. `queryCacheDependency` (Dependency|string|null) - Указывает на зависимость кешированных запросов от других компонентов, таких как кэш метаданных таблиц.
+    Пример:
+    ```
+    $cache = Yii::$app->cache;
+    $db = new yii\db\Connection([
+        'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+        'username' => 'myusername',
+        'password' => 'mypassword',
+        'charset' => 'utf8',
+        'tablePrefix' => 'prefix_',
+        'queryCache' => $cache,
+        'queryCacheDuration' => 3600,
+        'queryCacheDependency' => [
+            'class' => 'yii\caching\ChainedDependency',
+            'dependencies' => [
+                [
+                    'class' => 'yii\caching\FileDependency',
+                    'fileName' => '@app/config/cache.txt',
+                ],
+                [
+                    'class' => 'yii\caching\DbDependency',
+                    'sql' => 'SELECT COUNT(*) FROM post',
+                ],
+            ],
+        ],
+    ]);
+    ```
+
+12. `pdo` (PDO) - Объект PDO, с помощью которого выполняются запросы.
+    Пример:
+    ```
+    $db = new yii\db\Connection([
+        'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+        'username' => 'myusername',
+        'password' => 'mypassword',
+        'charset' => 'utf8',
+        'tablePrefix' => 'prefix_',
+        'pdo' => $pdo,
+    ]);
+    ```
+
+13. `attributes` (array) - Массив атрибутов, которые будут установлены после создания экземпляра класса.
+    Пример:
+    ```
+    $db = new yii\db\Connection([
+        'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+        'username' => 'myusername',
+        'password' => 'mypassword',
+        'attributes' => [
+            PDO::ATTR_EMULATE_PREPARES => false,
+            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+        ],
+    ]);
+    ```
+    
+Эти свойства могут быть настроены при создании объекта класса Connection путем передачи их в качестве параметров массива в конструктор.
+
+Например:
+```
+$db = new yii\db\Connection([
+   'dsn' => 'mysql:host=localhost;dbname=mydatabase',
+   'username' => 'myusername',
+   'password' => 'mypassword',
+   'charset' => 'utf8',
+   'tablePrefix' => 'prefix_',
+   'enableSchemaCache' => true,
+   'schemaCache' => 'cache',
+   'schemaCacheDuration' => 3600,
+   'queryCache' => 'cache',
+   'queryCacheDuration' => 3600,
+   'queryCacheDependency' => [
+       'class' => 'yii\caching\ChainedDependency',
+       'dependencies' => [
+           [
+               'class' => 'yii\caching\FileDependency',
+               'fileName' => '@app/config/cache.txt',
+           ],
+           [
+               'class' => 'yii\caching\DbDependency',
+               'sql' => 'SELECT COUNT(*) FROM post',
+           ],
+       ],
+   ],
+]);
+```
+
+## опиши все attributes для yii\db\Connection (например PDO::ATTR_EMULATE_PREPARES и т.д.)
+
+Класс `yii\db\Connection` обеспечивает соединение с базой данных и предоставляет набор свойств, которые могут быть настроены для управления поведением соединения. Вот список свойств `attributes` и их описаний:
+
+1. `PDO::ATTR_EMULATE_PREPARES` - когда установлено в `false`, PDO будет использовать реальные подготовленные операторы. По умолчанию true.
+
+2. `PDO::ATTR_STRINGIFY_FETCHES` - приводит значения полей возвращаемых строк в строковый тип. Используется только для некоторых баз данных, таких как PostgreSQL. По умолчанию false.
+
+3. `PDO::MYSQL_ATTR_USE_BUFFERED_QUERY` - если установлено в true, PDO будет использовать буферизованные запросы. По умолчанию true.
+
+4. `PDO::ATTR_TIMEOUT` - устанавливает время ожидания в секундах для запроса. По умолчанию не установлено.
+
+5. `PDO::ATTR_AUTOCOMMIT` - устанавливает режим автокоммита, когда подключение открыто. По умолчанию true.
+
+6. `PDO::ATTR_ERRMODE` - устанавливает режим отчета об ошибках. По умолчанию PDO::ERRMODE_EXCEPTION.
+
+7. `PDO::ATTR_DEFAULT_FETCH_MODE` - устанавливает режим извлечения по умолчанию для запросов PDOStatement. По умолчанию PDO::FETCH_ASSOC.
+
+8. `PDO::MYSQL_ATTR_INIT_COMMAND` - Установка этого атрибута эквивалентна выполнению SQL-запроса при каждом открытии нового соединения. Используется, например, для установки кодировки соединения. По умолчанию не установлено.
+
+9. `PDO::MYSQL_ATTR_READ_DEFAULT_FILE` - Имя файла, содержащего конфигурацию MySQL. По умолчанию не установлено.
+
+## распиши все про кэширование в yii2
+
