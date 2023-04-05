@@ -9,90 +9,6 @@
         "dimension": 53.557814485387546,
         "children": [
           {
-            "id": "d2d19e075a93e117",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e64065d176511de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "397a48211d399438",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d292ba7aa962e884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Радиоэлектроника/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc234f9e2c3a4cd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96fae79488b38319",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd5ff88501d54f90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0b56f294b779f567",
             "type": "leaf",
             "state": {
@@ -105,115 +21,31 @@
             }
           },
           {
-            "id": "c6938b380e65f196",
+            "id": "fc7b1e36410ebc27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "56b2f1342c770fe3",
+            "id": "a013c54d71a89cf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27cf2faaa99876d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/AI/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e88d0b0f95a4d77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a588d81dfc93decb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de10485d0c337129",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/sql/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dee55f6d5619f76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "411f27801a38cd0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/nginx/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43484ad217408a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/Книги.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -359,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Химия/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Химия/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Химия/FAQ.md"
+                "file": "Заметки/Разарботка/php/yii/FAQ.md"
               }
             }
           }
@@ -422,26 +254,27 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "0b56f294b779f567",
+  "active": "fc7b1e36410ebc27",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Химия/FAQ.md",
-    "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
+    "Заметки/Экономика/FAQ.md",
+    "Заметки/Разарботка/FAQ.md",
+    "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/php/yii/Ссылки.md",
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
+    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
     "Заметки/История/FAQ.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/sql/FAQ.md",
-    "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/nginx/FAQ.md",
     "Заметки/Разарботка/docker/FAQ.md",
-    "Заметки/Разарботка/FAQ.md",
-    "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/vscode/FAQ.md",
     "Планы.md",
     "Найденное/Репозитории.md",
@@ -451,7 +284,6 @@
     "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
     "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
-    "Заметки/Linux/Утилиты/7z/FAQ.md",
     "Заметки/Linux/Утилиты/7z",
     "Заметки/OSINT/Статьи",
     "Заметки/Untitled",

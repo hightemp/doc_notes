@@ -3234,3 +3234,567 @@ yii role/index
 ```
 
 Где 'role' - это имя контроллера, а 'index' - это имя метода.
+
+## раелизуй фильтр с кастомизацией и настройками для списка задач на yii
+
+Конечная реализация фильтра с кастомизацией и настройками для списка задач на Yii может выглядеть следующим образом:
+
+1. Создайте модель для задач, которая будет содержать все поля, необходимые для фильтрации и сортировки задач.
+
+```php
+class TaskSearch extends Task
+{
+    public $from_date;
+    public $to_date;
+ 
+    public function rules()
+    {
+        return [
+            [['from_date', 'to_date'], 'date', 'format' => 'php:Y-m-d'],
+            [['status', 'sort'], 'string'],
+            ['title', 'string', 'max' => 255],
+        ];
+    }
+ 
+    public function search($params)
+    {
+        $query = Task::find();
+ 
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'sort' => [
+                'defaultOrder' => ['created_at' => SORT_DESC],
+            ],
+        ]);
+ 
+        if (!($this->load($params) && $this->validate())) {
+            return $dataProvider;
+        }
+ 
+        $query->andFilterWhere(['like', 'title', $this->title])
+            ->andFilterWhere(['status' => $this->status]);
+ 
+        if ($this->from_date) {
+            $query->andWhere(['>=', 'created_at', $this->from_date]);
+        }
+ 
+        if ($this->to_date) {
+            $query->andWhere(['<=', 'created_at', $this->to_date]);
+        }
+ 
+        switch ($this->sort) {
+            case 'title':
+                $dataProvider->sort->attributes['title'] = [
+                    'asc' => ['title' => SORT_ASC],
+                    'desc' => ['title' => SORT_DESC],
+                ];
+                break;
+            case 'status':
+                $dataProvider->sort->attributes['status'] = [
+                    'asc' => ['status' => SORT_ASC],
+                    'desc' => ['status' => SORT_DESC],
+                ];
+                break;
+            case 'created_at':
+                $dataProvider->sort->attributes['created_at'] = [
+                    'asc' => ['created_at' => SORT_ASC],
+                    'desc' => ['created_at' => SORT_DESC],
+                ];
+                break;
+        }
+ 
+        return $dataProvider;
+    }
+ 
+    public function attributeLabels()
+    {
+        return array_merge(parent::attributeLabels(), [
+            'from_date' => 'From Date',
+            'to_date' => 'To Date',
+        ]);
+    }
+}
+```
+
+2. Создайте контроллер для списка задач и добавьте в него действие для отображения списка задач с примененными фильтрами и сортировкой.
+
+```php
+class TaskController extends Controller
+{
+    public function actionIndex()
+    {
+        $searchModel = new TaskSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+ 
+        if (Yii::$app->request->post('TaskSearch')) {
+            $searchModel->attributes = Yii::$app->request->post('TaskSearch');
+            Yii::$app->session->set('task_search', $searchModel->attributes);
+        } elseif (Yii::$app->session->has('task_search')) {
+            $searchModel->attributes = Yii::$app->session->get('task_search');
+        }
+ 
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+}
+```
+
+3. Добавьте в представление списка задач форму для настройки фильтра и сортировки.
+
+```php
+<?php
+ 
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use yii\grid\GridView;
+ 
+$this->title = 'Tasks';
+$this->params['breadcrumbs'][] = $this->title;
+?>
+ 
+<div class="task-index">
+ 
+    <h1><?= Html::encode($this->title) ?></h1>
+ 
+    <?php $form = ActiveForm::begin([
+        'id' => 'task-search-form',
+        'action' => ['index'],
+        'method' => 'post',
+    ]); ?>
+ 
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($searchModel, 'title') ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($searchModel, 'status')->dropDownList(Task::getStatuses(), ['prompt' => 'All']) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($searchModel, 'sort')->dropDownList(Task::getSortOptions(), ['prompt' => 'Default']) ?>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-md-4">
+            <?= $form->field($searchModel, 'from_date')->input('date') ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($searchModel, 'to_date')->input('date') ?>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
+                <?= Html::a('Reset', ['index'], ['class' => 'btn btn-default']) ?>
+            </div>
+        </div>
+    </div>
+ 
+    <?php ActiveForm::end(); ?>
+ 
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'columns' => [
+            'id',
+            'title',
+            'status',
+            'created_at',
+        ],
+    ]); ?>
+ 
+</div>
+```
+
+4. В контроллере обработайте отправку формы и примените выбранные пользователем настройки фильтра и сортировки.
+
+```php
+public function actionIndex()
+{
+    $searchModel = new TaskSearch();
+    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+ 
+    if (Yii::$app->request->post('TaskSearch')) {
+        $searchModel->attributes = Yii::$app->request->post('TaskSearch');
+        Yii::$app->session->set('task_search', $searchModel->attributes);
+    } elseif (Yii::$app->session->has('task_search')) {
+        $searchModel->attributes = Yii::$app->session->get('task_search');
+    }
+ 
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+```
+
+5. Добавьте возможность сохранения настроек фильтра и сортировки для каждого пользователя в базе данных или в сессии.
+
+```php
+public function actionIndex()
+{
+    $searchModel = new TaskSearch();
+    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+ 
+    if (Yii::$app->request->post('TaskSearch')) {
+        $searchModel->attributes = Yii::$app->request->post('TaskSearch');
+        Yii::$app->session->set('task_search', $searchModel->attributes);
+    } elseif (Yii::$app->user->identity && Yii::$app->user->identity->task_search) {
+        $searchModel->attributes = Yii::$app->user->identity->task_search;
+    } elseif (Yii::$app->session->has('task_search')) {
+        $searchModel->attributes = Yii::$app->session->get('task_search');
+    }
+ 
+    if (Yii::$app->user->identity && $searchModel->attributes != Yii::$app->user->identity->task_search) {
+        Yii::$app->user->identity->task_search = $searchModel->attributes;
+        Yii::$app->user->identity->save();
+    }
+ 
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+```
+
+6. Реализуйте возможность сброса настроек фильтра и сортировки к значениям по умолчанию.
+
+```php
+public function actionIndex()
+{
+    $searchModel = new TaskSearch();
+    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+ 
+    if (Yii::$app->request->post('TaskSearch')) {
+        $searchModel->attributes = Yii::$app->request->post('TaskSearch');
+        Yii::$app->session->set('task_search', $searchModel->attributes);
+    } elseif (Yii::$app->user->identity && Yii::$app->user->identity->task_search) {
+        $searchModel->attributes = Yii::$app->user->identity->task_search;
+    } elseif (Yii::$app->session->has('task_search')) {
+        $searchModel->attributes = Yii::$app->session->get('task_search');
+    }
+ 
+    if (Yii::$app->request->get('reset')) {
+        Yii::$app->session->remove('task_search');
+        if (Yii::$app->user->identity) {
+            Yii::$app->user->identity->task_search = null;
+            Yii::$app->user->identity->save();
+        }
+        return $this->redirect(['index']);
+    }
+ 
+    if (Yii::$app->user->identity && $searchModel->attributes != Yii::$app->user->identity->task_search) {
+        Yii::$app->user->identity->task_search = $searchModel->attributes;
+        Yii::$app->user->identity->save();
+    }
+ 
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+```
+
+Таким образом, вы реализовали фильтр с кастомизацией и настройками для списка задач на Yii. Пользователь может выбрать настройки фильтра и сортировки, сохранить их для последующего использования, а также сбросить их к значениям по умолчанию.
+
+## опиши Task::getStatuses Task::getSortOptions
+
+`Task::getStatuses()` и `Task::getSortOptions()` - это методы модели `Task`, которые возвращают массивы со значениями для выпадающих списков в форме фильтра.
+
+Метод `Task::getStatuses()` возвращает массив со всеми возможными статусами задач:
+
+```php
+public static function getStatuses()
+{
+    return [
+        'new' => 'New',
+        'in_progress' => 'In Progress',
+        'done' => 'Done',
+    ];
+}
+```
+
+Метод `Task::getSortOptions()` возвращает массив со всеми возможными вариантами сортировки задач:
+
+```php
+public static function getSortOptions()
+{
+    return [
+        'default' => 'Default',
+        'title' => 'Title',
+        'status' => 'Status',
+        'created_at' => 'Date',
+    ];
+}
+```
+
+Эти методы используются в форме фильтра для создания выпадающих списков со всеми возможными значениями. Например, для выпадающего списка со статусами задач, можно использовать следующий код:
+
+```php
+<?= $form->field($searchModel, 'status')->dropDownList(Task::getStatuses(), ['prompt' => 'All']) ?>
+```
+
+Здесь `Task::getStatuses()` возвращает массив со всеми статусами задач, а `'prompt' => 'All'` добавляет в начало списка пункт "All", который можно выбрать для отображения задач со всеми статусами.
+
+## как в yii в GridView сделать динамическую сортировку с возможностью переключения и выбора сортировки
+
+Для реализации динамической сортировки с возможностью переключения и выбора сортировки в GridView в Yii можно использовать следующий подход:
+
+1. В модели, на основе которой создается GridView, определяем атрибуты, по которым можно сортировать данные:
+
+```php
+class MyModel extends \yii\db\ActiveRecord
+{
+    public function attributes()
+    {
+        return array_merge(parent::attributes(), [
+            'my_attribute_1',
+            'my_attribute_2',
+            // ...
+        ]);
+    }
+
+    // ...
+}
+```
+
+2. Добавляем в GridView колонки с соответствующими атрибутами и настраиваем их сортировку:
+
+```php
+use yii\helpers\Html;
+use yii\grid\GridView;
+
+echo GridView::widget([
+    'dataProvider' => $dataProvider,
+    'filterModel' => $searchModel,
+    'columns' => [
+        [
+            'attribute' => 'my_attribute_1',
+            'label' => 'Мой атрибут 1',
+            'value' => function ($model) {
+                return $model->my_attribute_1;
+            },
+            'headerOptions' => [
+                'style' => 'white-space: nowrap;',
+            ],
+        ],
+        [
+            'attribute' => 'my_attribute_2',
+            'label' => 'Мой атрибут 2',
+            'value' => function ($model) {
+                return $model->my_attribute_2;
+            },
+            'headerOptions' => [
+                'style' => 'white-space: nowrap;',
+            ],
+        ],
+        // ...
+    ],
+    'pager' => [
+        'class' => \yii\widgets\LinkPager::class,
+        'options' => [
+            'class' => 'pagination',
+        ],
+        'linkOptions' => [
+            'class' => 'page-link',
+        ],
+        'activePageCssClass' => 'active',
+        'disabledPageCssClass' => 'disabled',
+        'prevPageCssClass' => 'page-item',
+        'nextPageCssClass' => 'page-item',
+        'prevPageLabel' => '<span aria-hidden="true">&laquo;</span>',
+        'nextPageLabel' => '<span aria-hidden="true">&raquo;</span>',
+        'maxButtonCount' => 5,
+    ],
+    'layout' => "{summary}\n{items}\n{pager}",
+    'tableOptions' => [
+        'class' => 'table table-striped table-bordered table-hover',
+    ],
+]);
+```
+
+3. Добавляем в контроллер действие для сортировки данных:
+
+```php
+public function actionIndex()
+{
+    $searchModel = new MyModelSearch();
+    $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+    if (Yii::$app->request->get('sort')) {
+        $dataProvider->setSort([
+            'attributes' => [
+                'my_attribute_1' => [
+                    'asc' => ['my_attribute_1' => SORT_ASC],
+                    'desc' => ['my_attribute_1' => SORT_DESC],
+                    'default' => SORT_ASC,
+                ],
+                'my_attribute_2' => [
+                    'asc' => ['my_attribute_2' => SORT_ASC],
+                    'desc' => ['my_attribute_2' => SORT_DESC],
+                    'default' => SORT_ASC,
+                ],
+                // ...
+            ],
+            'defaultOrder' => [
+                'my_attribute_1' => SORT_ASC,
+            ],
+        ]);
+    }
+
+    return $this->render('index', [
+        'searchModel' => $searchModel,
+        'dataProvider' => $dataProvider,
+    ]);
+}
+```
+
+4. Выводим в GridView ссылки для переключения и выбора сортировки:
+
+```php
+echo GridView::widget([
+    // ...
+    'columns' => [
+        // ...
+    ],
+    'pager' => [
+        // ...
+    ],
+    'layout' => "{summary}\n{items}\n{pager}",
+    'tableOptions' => [
+        // ...
+    ],
+    'sorter' => [
+        'class' => \yii\widgets\LinkSorter::class,
+        'sort' => Yii::$app->request->get('sort'),
+        'attributes' => [
+            'my_attribute_1' => [
+                'label' => 'Мой атрибут 1',
+            ],
+            'my_attribute_2' => [
+                'label' => 'Мой атрибут 2',
+            ],
+            // ...
+        ],
+    ],
+]);
+```
+
+Теперь пользователь
+
+## как в yii добавить поле с jquery datepicker
+
+```
+composer require --prefer-dist yiisoft/yii2-jui
+```
+
+Чтобы добавить поле с jQuery datepicker в Yii, можно использовать виджет `yii\jui\DatePicker`. Вот пример:
+
+```php
+use yii\jui\DatePicker;
+
+echo $form->field($model, 'my_date')->widget(DatePicker::class, [
+    'language' => 'ru',
+    'dateFormat' => 'yyyy-MM-dd',
+    'options' => [
+        'class' => 'form-control',
+    ],
+]);
+```
+
+Здесь мы создаем поле формы с именем `my_date` для модели `$model`. Виджет `DatePicker` используется для отображения поля ввода с календарем jQuery datepicker. Мы настраиваем его, указывая язык (`language`), формат даты (`dateFormat`) и стиль (`options`).
+
+Важно: для работы `DatePicker` нужно подключить соответствующие ресурсы. В Yii можно сделать это так:
+
+```php
+use yii\web\JqueryAsset;
+use yii\jui\JuiAsset;
+
+JqueryAsset::register($this);
+JuiAsset::register($this);
+```
+
+Этот код можно добавить в контроллер или представление, в зависимости от того, где вы хотите использовать `DatePicker`. Например, можно добавить его в начале представления, перед вызовом `$form->begin()`.
+
+## как yii сделать запрос query с сортировкой по множеству полей из POST парамтеров
+
+Для выполнения запроса `query` с сортировкой по множеству полей из POST параметров в Yii можно использовать следующий подход:
+
+1. Получаем параметры сортировки из POST запроса:
+
+```php
+$sort = Yii::$app->request->post('sort');
+```
+
+2. Разбираем параметры сортировки и формируем массив для метода `orderBy`:
+
+```php
+$orderBy = [];
+if (!empty($sort)) {
+    $sort = json_decode($sort, true);
+    foreach ($sort as $field => $direction) {
+        $orderBy[$field] = ($direction === 'desc') ? SORT_DESC : SORT_ASC;
+    }
+}
+```
+
+В данном примере мы используем формат JSON для передачи параметров сортировки. Мы разбираем JSON строку в массив и, для каждого поля сортировки, добавляем соответствующий элемент в массив `$orderBy`.
+
+3. Выполняем запрос `query` с учетом сортировки:
+
+```php
+$query = MyModel::find()->orderBy($orderBy);
+```
+
+4. Выполняем дальнейшие действия с результатом запроса, например, используем его для создания `dataProvider` для `GridView`.
+
+Полный пример кода:
+
+```php
+use yii\data\ActiveDataProvider;
+use yii\helpers\Json;
+
+// получаем параметры сортировки из POST запроса
+$sort = Yii::$app->request->post('sort');
+
+// формируем массив для метода orderBy
+$orderBy = [];
+if (!empty($sort)) {
+    $sort = json_decode($sort, true);
+    foreach ($sort as $field => $direction) {
+        $orderBy[$field] = ($direction === 'desc') ? SORT_DESC : SORT_ASC;
+    }
+}
+
+// выполняем запрос query с учетом сортировки
+$query = MyModel::find()->orderBy($orderBy);
+
+// создаем dataProvider для GridView
+$dataProvider = new ActiveDataProvider([
+    'query' => $query,
+]);
+
+// выводим GridView с отображением данных и возможностью сортировки
+echo GridView::widget([
+    'dataProvider' => $dataProvider,
+    'columns' => [
+        // ...
+    ],
+    'pager' => [
+        // ...
+    ],
+    'layout' => "{summary}\n{items}\n{pager}",
+    'tableOptions' => [
+        // ...
+    ],
+    'sorter' => [
+        'class' => \yii\widgets\LinkSorter::class,
+        'sort' => Yii::$app->request->get('sort'),
+        'attributes' => [
+            // ...
+        ],
+    ],
+]);
+```
+
+Здесь мы используем `Json::decode()` для разбора JSON строки, формируем массив `$orderBy` и передаем его в метод `orderBy()` для выполнения запроса. Затем мы создаем `dataProvider` на основе запроса и выводим `GridView` с возможностью сортировки.
