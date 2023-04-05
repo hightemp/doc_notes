@@ -3798,3 +3798,79 @@ echo GridView::widget([
 ```
 
 Здесь мы используем `Json::decode()` для разбора JSON строки, формируем массив `$orderBy` и передаем его в метод `orderBy()` для выполнения запроса. Затем мы создаем `dataProvider` на основе запроса и выводим `GridView` с возможностью сортировки.
+
+## как подключить kartik-v/yii2-grid в yii2
+
+Для подключения расширения `kartik-v/yii2-grid` в Yii2 выполните следующие шаги:
+
+1. Установите расширение с помощью Composer:
+
+```
+composer require kartik-v/yii2-grid
+```
+
+2. В конфигурационном файле приложения (`config/web.php`) добавьте компонент `gridview`:
+
+```php
+'components' => [
+    'gridview' => [
+        'class' => '\kartik\grid\Module',
+    ],
+],
+```
+
+3. Используйте виджет `GridView` в своем представлении:
+
+```php
+use kartik\grid\GridView;
+
+echo GridView::widget([
+    'dataProvider' => $dataProvider,
+    'columns' => [
+        ['class' => 'yii\grid\SerialColumn'],
+        'id',
+        'name',
+        'email:email',
+        'created_at:datetime',
+        ['class' => 'yii\grid\ActionColumn'],
+    ],
+]);
+```
+
+В данном примере мы использовали компонент `dataProvider`, чтобы получить данные для отображения в таблице, и виджет `GridView`, чтобы отобразить таблицу. В массиве `columns` мы указали колонки таблицы.
+
+4. Настройте виджет `GridView`, указав необходимые параметры. Например:
+
+```php
+echo GridView::widget([
+    'dataProvider' => $dataProvider,
+    'filterModel' => $searchModel,
+    'columns' => [
+        ['class' => 'yii\grid\SerialColumn'],
+        'id',
+        'name',
+        'email:email',
+        'created_at:datetime',
+        [
+            'class' => 'yii\grid\ActionColumn',
+            'template' => '{view} {update}',
+        ],
+    ],
+    'panel' => [
+        'type' => GridView::TYPE_PRIMARY,
+        'heading' => '<h3 class="panel-title">Users</h3>',
+    ],
+    'toolbar' => [
+        ['content' =>
+            Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'], ['class' => 'btn btn-success']) . ' ' .
+            Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], ['class' => 'btn btn-default'])
+        ],
+        '{export}',
+        '{toggleData}',
+    ],
+]);
+```
+
+В данном примере мы добавили некоторые дополнительные параметры для настройки виджета `GridView`, такие как фильтрация, панель инструментов и т.д.
+
+Таким образом, вы можете использовать расширение `kartik-v/yii2-grid` для отображения таблиц в Yii2.
