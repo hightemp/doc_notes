@@ -981,3 +981,47 @@ console.log(state.data);
 
 
 В этом примере мы получаем данные из состояния расширения с помощью метода vscode.getState. Если данных нет, мы создаем пустой объект state. Затем мы выводим данные в консоль.
+
+## что такое context и откуда он берется
+
+context - это объект, который представляет текущее состояние расширения во время выполнения и предоставляет доступ к ресурсам и API VS Code.
+
+Объект context создается при активации расширения и передается в функцию activate, которая экспортируется из файла extension.js. Файл extension.js - это точка входа для расширения, который определяет, какой код должен быть выполнен при активации расширения. 
+
+Обычно объект context используется для регистрации команд, обработчиков событий, статус-бара и других компонентов расширения. Например, чтобы зарегистрировать команду, вы можете использовать следующий код:
+
+```javascript
+function activate(context) {
+  let disposable = vscode.commands.registerCommand('extension.sayHello', function () {
+    vscode.window.showInformationMessage('Hello, World!');
+  });
+
+  context.subscriptions.push(disposable);
+}
+```
+
+
+В этом примере мы регистрируем команду extension.sayHello, которая выводит сообщение в информационном окне. Мы добавляем команду в массив context.subscriptions, чтобы она была освобождена при деактивации расширения.
+
+Объект context также предоставляет доступ к другим ресурсам, таким как workspace, extensions, globalState и другие. Вы можете использовать эти ресурсы для получения информации о текущем состоянии VS Code, конфигурации и других данных.
+
+Объект context передается в функцию deactivate, которая вызывается при деактивации расширения. В функции deactivate вы можете освобождать ресурсы и выполнять другие необходимые операции перед завершением работы расширения.
+
+## как сделать .globalState.get('myState') без context?
+
+Для доступа к globalState без контекста можно использовать метод vscode.workspace.getConfiguration с параметром section. Например, чтобы получить значение свойства myState из глобальной конфигурации, можно использовать следующий код:
+
+```javascript
+const myState = vscode.workspace.getConfiguration().get('myExtension.myState');
+```
+
+
+Здесь myExtension - это имя расширения, а myState - это имя свойства, которое нужно получить. Если свойство не найдено, метод get вернет значение undefined.
+
+Чтобы сохранить значение свойства в глобальной конфигурации, можно использовать метод vscode.workspace.getConfiguration().update. Например:
+
+```javascript
+vscode.workspace.getConfiguration().update('myExtension.myState', 'Hello, World!', vscode.ConfigurationTarget.Global);
+```
+
+Здесь Hello, World! - это значение, которое нужно сохранить, а vscode.ConfigurationTarget.Global - это цель сохранения, которая указывает, что значение должно быть сохранено в глобальной конфигурации. Это значение можно также изменить на vscode.ConfigurationTarget.Workspace или vscode.ConfigurationTarget.WorkspaceFolder, чтобы сохранить значение в конфигурации рабочего пространства или папки рабочего пространства.
