@@ -26,38 +26,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/vscode/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8436f0b3c226f72f",
+            "id": "e8230df49ee5ace2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Биология/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a013c54d71a89cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
+                "file": "Заметки/Разарботка/docker/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -203,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Биология/FAQ.md",
+                "file": "Заметки/Разарботка/vscode/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Биология/FAQ.md",
+                "file": "Заметки/Разарботка/vscode/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Биология/FAQ.md"
+                "file": "Заметки/Разарботка/vscode/FAQ.md"
               }
             }
           }
@@ -266,12 +254,17 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8436f0b3c226f72f",
+  "active": "fc7b1e36410ebc27",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/yii/FAQ.md",
-    "Заметки/Биология/FAQ.md",
+    "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
+    "Заметки/Разарботка/vscode/Статьи/Создание расширения для vscode.md",
+    "Заметки/Разарботка/vscode/Untitled.md",
+    "Заметки/Разарботка/vscode/Статьи",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Биология/FAQ.md",
+    "Заметки/Биология/Человеческая физиология",
     "Заметки/Химия/FAQ.md",
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/FAQ.md",
@@ -288,12 +281,9 @@
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/nginx/FAQ.md",
-    "Заметки/Разарботка/docker/FAQ.md",
     "Планы.md",
     "Найденное/Репозитории.md",
     "HISTORY.md",
-    "Заметки/Разарботка/php/yii/Статьи/Использование Faker для генерации тестовых данных в Yii2.md",
-    "Заметки/Разарботка/php/yii/Статьи/Виджет Breadcrumbs (хлебные крошки) на Yii 2.x.md",
     "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
     "Заметки/Linux/Утилиты/7z",
@@ -301,8 +291,6 @@
     "Заметки/Untitled",
     "Заметки/Разарботка/nginx",
     "Заметки/AI/LLama/Статьи",
-    "Заметки/AI/LLama",
-    "Заметки/Разарботка/sql",
-    "Заметки/Разарботка/redbeanphp"
+    "Заметки/AI/LLama"
   ]
 }
