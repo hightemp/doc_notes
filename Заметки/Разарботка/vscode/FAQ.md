@@ -1025,3 +1025,121 @@ vscode.workspace.getConfiguration().update('myExtension.myState', 'Hello, World!
 ```
 
 Здесь Hello, World! - это значение, которое нужно сохранить, а vscode.ConfigurationTarget.Global - это цель сохранения, которая указывает, что значение должно быть сохранено в глобальной конфигурации. Это значение можно также изменить на vscode.ConfigurationTarget.Workspace или vscode.ConfigurationTarget.WorkspaceFolder, чтобы сохранить значение в конфигурации рабочего пространства или папки рабочего пространства.
+
+## почему возникает ошибка `Failed to execute 'postMessage' on 'MessagePort': [object Array] could not be cloned.`
+
+Эта ошибка возникает, когда вы пытаетесь передать в postMessage объект, который нельзя склонировать. В частности, массивы не могут быть склонированы встроенным методом postMessage.
+
+Чтобы решить эту проблему, вам нужно передавать в postMessage только простые типы данных, такие как строки, числа, булевы значения, объекты и массивы, которые могут быть сериализованы.
+
+Если вам нужно передать сложный объект, который не может быть склонирован, вы можете воспользоваться библиотекой structured-clone для сериализации и десериализации объектов. Вот пример использования библиотеки structured-clone для передачи объекта, который содержит массив:
+
+```
+import { clone } from 'structured-clone';
+
+const obj = {
+  arr: [1, 2, 3]
+};
+
+const clonedObj = clone(obj);
+webview.postMessage(clonedObj);
+```
+
+
+Здесь мы импортируем функцию clone из библиотеки structured-clone, клонируем объект obj и передаем его через postMessage в Webview.
+
+В Webview мы можем получить клонированный объект и работать с ним как с обычным объектом:
+
+```
+window.addEventListener('message', event => {
+  const obj = event.data;
+  console.log(obj.arr);
+});
+```
+
+
+Здесь мы получаем объект obj из события message и выводим его свойство arr в консоль.
+
+## как граммотно реализовать обмен данными (например списка задач, массив объектов) между webview с vue composition api и расширением
+
+Для обмена данными между Webview с Vue Composition API и расширением можно использовать механизм window.postMessage. 
+
+В расширении:
+
+1. Создайте Webview с помощью vscode.window.createWebviewPanel.
+2. Сохраните данные в глобальной переменной или в состоянии расширения context.globalState.
+3. Отправьте данные в Webview через panel.webview.postMessage.
+
+```javascript
+// в расширении
+let tasks = [
+  { title: 'Task 1', done: false },
+  { title: 'Task 2', done: true },
+  { title: 'Task 3', done: false }
+];
+
+const panel = vscode.window.createWebviewPanel(
+  'myPanel',
+  'My Panel',
+  vscode.ViewColumn.One,
+  {}
+);
+
+panel.webview.postMessage({ type: 'init', tasks });
+
+panel.webview.onDidReceiveMessage(message => {
+  if (message.type === 'updateTask') {
+    const { index, done } = message.payload;
+    tasks[index].done = done;
+    context.globalState.update('tasks', tasks);
+  }
+});
+```
+
+В этом примере мы создаем Webview и сохраняем список задач в глобальной переменной tasks. Затем мы отправляем сообщение init в Webview с начальным состоянием tasks. Когда мы получаем сообщение updateTask из Webview, мы обновляем состояние задач и сохраняем его в состоянии расширения context.globalState.
+
+В Webview:
+
+1. Получите данные через window.addEventListener('message').
+2. Сохраните данные в состоянии Vue с помощью ref.
+3. Отправляйте измененные данные обратно в расширение через window.postMessage.
+
+```html
+<!-- в Webview -->
+<template>
+  <ul>
+    <li v-for="(task, index) in tasks" :key="index">
+      <input type="checkbox" v-model="task.done" @change="updateTask(index)">
+      {{ task.title }}
+    </li>
+  </ul>
+</template>
+
+<script>
+import { ref } from 'vue';
+
+export default {
+  setup() {
+    const tasks = ref([]);
+
+    window.addEventListener('message', event => {
+      const { type, tasks: initTasks } = event.data;
+      if (type === 'init') {
+        tasks.value = initTasks;
+      }
+    });
+
+    function updateTask(index) {
+      const task = tasks.value[index];
+      task.done = !task.done;
+      window.postMessage({ type: 'updateTask', payload: { index, done: task.done } }, '*');
+    }
+
+    return { tasks, updateTask };
+  }
+}
+</script>
+```
+
+
+В этом примере мы используем ref из Vue для хранения списка задач. Мы получаем данные из расширения через window.addEventListener('message') и сохраняем их в состоянии Vue. Когда пользователь изменяет состояние задачи, мы отправляем сообщение обратно в расширение через window.postMessage.
