@@ -168,3 +168,220 @@ Langserver позволяют значительно улучшить опыт �
 
 В VSCode уже есть множество доступных Language Server для различных языков программирования, а также возможность создавать свои собственные Language Server для поддержки нестандартных языков программирования.
 
+## напиши расширение для vscode для менеджмента задач
+
+Хорошо, давайте напишем простое расширение для VS Code, которое позволит создавать и управлять задачами. Для этого выполним следующие шаги:
+
+1. Создайте новое расширение в VS Code с помощью команды `yo code` в терминале. Выберите шаблон `New Extension (TypeScript)`.
+
+2. Добавьте команды для создания, удаления и выполнения задач в файл `package.json` вашего расширения. Например:
+
+```json
+{
+  "contributes": {
+    "commands": [
+      {
+        "command": "taskManager.createTask",
+        "title": "Create Task"
+      },
+      {
+        "command": "taskManager.deleteTask",
+        "title": "Delete Task"
+      },
+      {
+        "command": "taskManager.runTask",
+        "title": "Run Task"
+      }
+    ]
+  }
+}
+```
+
+3. Создайте класс `TaskManager`, который будет отвечать за создание, удаление и выполнение задач. Например:
+
+```typescript
+class TaskManager {
+  private readonly tasks: vscode.Task[];
+
+  constructor() {
+    this.tasks = [];
+  }
+
+  public createTask() {
+    // Здесь можно вывести интерфейс для создания новой задачи
+    const task = new vscode.Task(
+      { type: 'myTaskType' },
+      vscode.TaskScope.Workspace,
+      'My Task',
+      'myExtension',
+      new vscode.ShellExecution('my-task-command')
+    );
+    this.tasks.push(task);
+    vscode.window.showInformationMessage('Task created!');
+  }
+
+  public deleteTask(task: vscode.Task) {
+    const index = this.tasks.indexOf(task);
+    if (index !== -1) {
+      this.tasks.splice(index, 1);
+      vscode.window.showInformationMessage('Task deleted!');
+    }
+  }
+
+  public runTask(task: vscode.Task) {
+    vscode.tasks.executeTask(task);
+  }
+}
+```
+
+4. Добавьте обработчики команд в файл `extension.ts` вашего расширения. Например:
+
+```typescript
+function activate(context: vscode.ExtensionContext) {
+  const taskManager = new TaskManager();
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand('taskManager.createTask', () =>
+      taskManager.createTask()
+    ),
+    vscode.commands.registerCommand('taskManager.deleteTask', (task) =>
+      taskManager.deleteTask(task)
+    ),
+    vscode.commands.registerCommand('taskManager.runTask', (task) =>
+      taskManager.runTask(task)
+    )
+  );
+}
+```
+
+5. Проверьте, что ваше расширение работает корректно, запустив его в режиме разработки с помощью команды `F5`.
+
+6. Опубликуйте ваше расширение в маркетплейсе VS Code, чтобы другие пользователи могли его использовать.
+
+Данный пример расширения является простым и не содержит полный функционал менеджера задач, но вы можете доработать его, добавив новые функции.
+
+## напиши расширение для vscode для менеджмента списка обычных задач (купить молока и т.д.)
+
+Хорошо, давайте напишем простое расширение для VS Code, которое позволит создавать и управлять списком обычных задач. Для этого выполним следующие шаги:
+
+1. Создайте новое расширение в VS Code с помощью команды `yo code` в терминале. Выберите шаблон `New Extension (TypeScript)`.
+
+2. Добавьте команды для создания, удаления и выполнения задач в файл `package.json` вашего расширения. Например:
+
+```json
+{
+  "contributes": {
+    "commands": [
+      {
+        "command": "taskManager.createTask",
+        "title": "Create Task"
+      },
+      {
+        "command": "taskManager.deleteTask",
+        "title": "Delete Task"
+      },
+      {
+        "command": "taskManager.completeTask",
+        "title": "Complete Task"
+      }
+    ]
+  }
+}
+```
+
+3. Создайте класс `TaskManager`, который будет отвечать за создание, удаление и выполнение задач. Например:
+
+```typescript
+class TaskManager {
+  private readonly tasks: string[];
+
+  constructor() {
+    this.tasks = [];
+  }
+
+  public createTask() {
+    vscode.window.showInputBox({ prompt: 'Enter task name' }).then((value) => {
+      if (value) {
+        this.tasks.push(value);
+        vscode.window.showInformationMessage('Task created!');
+      }
+    });
+  }
+
+  public deleteTask(task: string) {
+    const index = this.tasks.indexOf(task);
+    if (index !== -1) {
+      this.tasks.splice(index, 1);
+      vscode.window.showInformationMessage('Task deleted!');
+    }
+  }
+
+  public completeTask(task: string) {
+    const index = this.tasks.indexOf(task);
+    if (index !== -1) {
+      this.tasks.splice(index, 1);
+      vscode.window.showInformationMessage('Task completed!');
+    }
+  }
+
+  public getTasks(): string[] {
+    return this.tasks;
+  }
+}
+```
+
+4. Добавьте обработчики команд в файл `extension.ts` вашего расширения. Например:
+
+```typescript
+function activate(context: vscode.ExtensionContext) {
+  const taskManager = new TaskManager();
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand('taskManager.createTask', () =>
+      taskManager.createTask()
+    ),
+    vscode.commands.registerCommand('taskManager.deleteTask', (task) =>
+      taskManager.deleteTask(task)
+    ),
+    vscode.commands.registerCommand('taskManager.completeTask', (task) =>
+      taskManager.completeTask(task)
+    ),
+    vscode.window.registerTreeDataProvider('taskManager', {
+      getChildren: () => {
+        return taskManager.getTasks();
+      },
+      getParent: () => {
+        return null;
+      },
+      getTreeItem: (task) => {
+        return {
+          label: task,
+          collapsibleState: vscode.TreeItemCollapsibleState.None,
+          command: {
+            command: 'taskManager.completeTask',
+            title: 'Complete Task',
+            arguments: [task],
+          },
+          contextValue: 'task',
+        };
+      },
+    })
+  );
+}
+```
+
+5. Добавьте в файл `package.json` вашего расширения зависимость `vscode`. Например:
+
+```json
+{
+  "dependencies": {
+    "vscode": "^1.60.0"
+  }
+}
+```
+
+6. Проверьте, что ваше расширение работает корректно, запустив его в режиме разработки с помощью команды `F5`.
+
+7. Опубликуйте ваше расширение в маркетплейсе VS Code, чтобы другие пользователи могли его использовать.
+
+Данный пример расширения является простым и не содержит полный функционал менеджера задач, но вы можете доработать его, добавив новые функции.

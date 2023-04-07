@@ -33,6 +33,18 @@
             }
           },
           {
+            "id": "8436f0b3c226f72f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Биология/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a013c54d71a89cf0",
             "type": "leaf",
             "state": {
@@ -45,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -191,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Биология/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Биология/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md"
+                "file": "Заметки/Биология/FAQ.md"
               }
             }
           }
@@ -254,10 +266,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "fc7b1e36410ebc27",
+  "active": "8436f0b3c226f72f",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Биология/FAQ.md",
+    "Заметки/Разарботка/vscode/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
     "Заметки/Химия/FAQ.md",
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/FAQ.md",
@@ -275,13 +289,11 @@
     "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/nginx/FAQ.md",
     "Заметки/Разарботка/docker/FAQ.md",
-    "Заметки/Разарботка/vscode/FAQ.md",
     "Планы.md",
     "Найденное/Репозитории.md",
     "HISTORY.md",
     "Заметки/Разарботка/php/yii/Статьи/Использование Faker для генерации тестовых данных в Yii2.md",
     "Заметки/Разарботка/php/yii/Статьи/Виджет Breadcrumbs (хлебные крошки) на Yii 2.x.md",
-    "Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md",
     "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
     "Заметки/Linux/Утилиты/7z",

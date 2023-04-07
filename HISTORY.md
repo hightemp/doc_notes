@@ -1,8 +1,10 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
- - [README.md](./README.md)
+ - [Заметки/Биология/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
  - [HISTORY.md](./HISTORY.md)
+ - [README.md](./README.md)
+ - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
+ - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
  - [Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Yii2%20%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%D1%81%D1%8F%20%D1%81%20GridView.md)
  - [Заметки/Химия/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A5%D0%B8%D0%BC%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Разарботка/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
@@ -12,7 +14,6 @@
  - [Заметки/AI/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Yii2%20RBAC.md)
  - [Заметки/Экономика/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/FAQ.md)
- - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
  - [Заметки/История/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Разарботка/sql/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/sql/FAQ.md)
  - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
@@ -146,7 +147,6 @@
  - [Заметки/Разарботка/nuxt/Статьи/Additional SSR performance with Nuxt fullstack server (Часть 2).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Additional%20SSR%20performance%20with%20Nuxt%20fullstack%20server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202).md)
  - [Заметки/Разарботка/nuxt/Статьи/Nuxt as fullstack server - frontend + backend API Server (Часть 1).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Nuxt%20as%20fullstack%20server%20-%20frontend%20+%20backend%20API%20Server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201).md)
  - [Заметки/Разарботка/rust/Статьи/Writing a Modern HTTP(S) Tunnel in Rust..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
- - [Заметки/Биология/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Подборки/Для работы/qtile/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/qtile/FAQ.md)
  - [Заметки/Подборки/Для работы/Файловые менеджеры/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B8/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/FAQ.md)
  - [Заметки/Биология/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
