@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/symfony/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/symfony/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/symfony/FAQ.md"
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
               }
             }
           }
@@ -338,12 +338,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "46ebc87c91fbdbc2",
+  "active": "5f457eef9ca787d2",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/python/fastapi/FAQ.md",
     "Заметки/Разарботка/apache/FAQ.md",
+    "Заметки/Разарботка/python/fastapi/Ссылки.md",
+    "Заметки/Разарботка/python/fastapi/Статьи",
+    "Заметки/Разарботка/python/fastapi",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/php/symfony/Ссылки.md",
     "Заметки/Разарботка/php/symfony/Статьи",
     "Заметки/Разарботка/php/symfony",
@@ -370,10 +374,6 @@
     "Заметки/Разарботка/php/yii/Ссылки.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/php/yii/Статьи/Как настроить RBAC в Yii2.md",
-    "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Разарботка/docker",
-    "Заметки/Разарботка/php/yii/Статьи",
-    "Заметки/Linux/Утилиты/7z"
+    "Заметки/Разарботка/docker"
   ]
 }
