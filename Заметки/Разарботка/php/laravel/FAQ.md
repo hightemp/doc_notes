@@ -1455,3 +1455,274 @@ resources/views/vendor/pagination/bootstrap-4.blade.php.
 В этом примере мы используем опубликованный шаблон пагинации Bootstrap-4, передав его имя pagination.bootstrap-4 в метод links(). Этот шаблон стилизован в соответствии с Bootstrap и может быть использован для создания пагинации в Laravel.
 
 Таким образом, для добавления шаблона пагинации для Bootstrap в Laravel нужно опубликовать его с помощью команды php artisan vendor:publish --tag=laravel-pagination и использовать его имя в методе links() в представлении.
+
+## как в laravel реализовать авторизацию?
+
+В Laravel авторизация пользователя может быть реализована с помощью встроенной системы аутентификации (Authentication). Эта система позволяет зарегистрированным пользователям входить на сайт, а неавторизованным пользователям – ограничивает доступ к определенным страницам.
+
+Для реализации аутентификации в Laravel нужно выполнить следующие шаги:
+
+1. Создание миграции для таблицы пользователей
+
+С помощью Artisan можно создать миграцию для таблицы пользователей:
+
+```
+php artisan make:migration create_users_table
+```
+
+В файле миграции нужно определить поля таблицы пользователей, например:
+
+```php
+public function up()
+{
+    Schema::create('users', function (Blueprint $table) {
+        $table->id();
+        $table->string('name');
+        $table->string('email')->unique();
+        $table->timestamp('email_verified_at')->nullable();
+        $table->string('password');
+        $table->rememberToken();
+        $table->timestamps();
+    });
+}
+```
+
+Затем нужно запустить миграцию:
+
+```
+php artisan migrate
+```
+
+2. Создание модели и контроллера для пользователей
+
+С помощью Artisan можно создать модель User и контроллер UserController:
+
+```
+php artisan make:model User -m
+php artisan make:controller UserController --resource
+```
+
+Модель User будет использоваться для работы с таблицей пользователей, а контроллер UserController – для обработки запросов, связанных с пользователями.
+
+3. Роутинг для авторизации
+
+В файле `routes/web.php` нужно добавить роуты для аутентификации:
+
+```php
+// Форма входа
+Route::get('login', 'AuthController@login')->name('login');
+Route::post('login', 'AuthController@authenticate');
+
+// Форма регистрации
+Route::get('register', 'AuthController@register')->name('register');
+Route::post('register', 'AuthController@store');
+
+// Выход
+Route::post('logout', 'AuthController@logout')->name('logout');
+```
+
+4. Создание контроллера для авторизации
+
+С помощью Artisan можно создать контроллер AuthController для обработки запросов, связанных с авторизацией:
+
+```
+php artisan make:controller AuthController
+```
+
+В контроллере AuthController нужно определить методы для обработки запросов на авторизацию, регистрацию и выход, например:
+
+```php
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+
+class AuthController extends Controller
+{
+    public function login()
+    {
+        return view('auth.login');
+    }
+
+    public function authenticate(Request $request)
+    {
+        $credentials = $request->validate([
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ]);
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended('/dashboard');
+        }
+
+        return back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+        ]);
+    }
+
+    public function register()
+    {
+        return view('auth.register');
+    }
+
+    public function store(Request $request)
+    {
+        $validatedData = $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        $user = User::create([
+            'name' => $validatedData['name'],
+            'email' => $validatedData['email'],
+            'password' => Hash::make($validatedData['password']),
+        ]);
+
+        Auth::login($user);
+
+        $request->session()->regenerate();
+
+        return redirect('/dashboard');
+    }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    }
+}
+```
+
+5. Создание представлений для форм авторизации и регистрации
+
+Создайте представления `login.blade.php` и `register.blade.php` в директории `resources/views/auth`. В них нужно добавить HTML-код для формы входа и формы регистрации, например:
+
+```php
+<!-- Форма входа -->
+<form method="POST" action="{{ route('login') }}">
+    @csrf
+
+    <div>
+        <label for="email">Email</label>
+
+        <div>
+            <input id="email" type="email" name="email" value="{{ old('email') }}" required autofocus>
+        </div>
+
+        @error('email')
+            <span>{{ $message }}</span>
+        @enderror
+    </div>
+
+    <div>
+        <label for="password">Пароль</label>
+
+        <div>
+            <input id="password" type="password" name="password" required>
+        </div>
+
+        @error('password')
+            <span>{{ $message }}</span>
+        @enderror
+    </div>
+
+    <div>
+        <div>
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Запомнить меня</label>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <button type="submit">
+                Войти
+            </button>
+
+            @if (Route::has('password.request'))
+                <a href="{{ route('password.request') }}">
+                    Забыли пароль?
+                </a>
+            @endif
+        </div>
+    </div>
+</form>
+
+<!-- Форма регистрации -->
+<form method="POST" action="{{ route('register') }}">
+    @csrf
+
+    <div>
+        <label for="name">Имя</label>
+
+        <div>
+            <input id="name" type="text" name="name" value="{{ old('name') }}" required autofocus>
+        </div>
+
+        @error('name')
+            <span>{{ $message }}</span>
+        @enderror
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+
+        <div>
+            <input id="email" type="email" name="email" value="{{ old('email') }}" required>
+        </div>
+
+        @error('email')
+            <span>{{ $message }}</span>
+        @enderror
+    </div>
+
+    <div>
+        <label for="password">Пароль</label>
+
+        <div>
+            <input id="password" type="password" name="password" required>
+        </div>
+
+        @error('password')
+            <span>{{ $message }}</span>
+        @enderror
+    </div>
+
+    <div>
+        <label for="password_confirmation">Подтвердите пароль</label>
+
+        <div>
+            <input id="password_confirmation" type="password" name="password_confirmation" required>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <button type="submit">
+                Зарегистрироваться
+            </button>
+        </div>
+    </div>
+</form>
+```
+
+6. Защита маршрутов
+
+Чтобы ограничить доступ к определенным страницам только для авторизованных пользователей, можно использовать Middleware `auth`. Добавьте его для маршрутов, которые должны быть доступны только для авторизованных пользователей:
+
+```php
+Route::middleware(['auth'])->group(function () {
+    // Защищенные маршруты
+});
+```
+
+Таким образом, для реализации аутентификации в Laravel нужно создать миграцию для таблицы пользователей, создать модель и контроллер для пользователей, определить роуты для аутентификации, создать контроллер AuthController для обработки запросов, создать представления для форм авторизации и регистрации, защитить маршруты для авторизованных пользователей с помощью Middleware `auth`.
+
+
+
