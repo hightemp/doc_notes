@@ -1724,5 +1724,114 @@ Route::middleware(['auth'])->group(function () {
 
 Таким образом, для реализации аутентификации в Laravel нужно создать миграцию для таблицы пользователей, создать модель и контроллер для пользователей, определить роуты для аутентификации, создать контроллер AuthController для обработки запросов, создать представления для форм авторизации и регистрации, защитить маршруты для авторизованных пользователей с помощью Middleware `auth`.
 
+## как пользоваться в laravel Policices?
+
+В Laravel Policies используются для определения правил авторизации, которые позволяют разрешать или запрещать определенные действия для авторизованных пользователей. Policies обычно используются для определения правил доступа к моделям или ресурсам.
+
+Для создания Policy в Laravel нужно выполнить следующие шаги:
+
+1. Создание Policy
+
+С помощью Artisan можно создать Policy для определенной модели:
+
+```
+php artisan make:policy PostPolicy --model=Post
+```
+
+В этом примере мы создаем Policy PostPolicy для модели Post. Policy будет содержать методы, определяющие правила доступа к модели.
+
+2. Регистрация Policy
+
+Policy необходимо зарегистрировать в провайдере AuthServiceProvider. Для этого нужно добавить его в свойство $policies:
+
+```
+namespace App\Providers;
+
+use App\Policies\PostPolicy;
+use App\Models\Post;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    protected $policies = [
+        Post::class => PostPolicy::class,
+    ];
+
+    // ...
+}
+```
 
 
+В этом примере мы регистрируем Policy PostPolicy для модели Post. Теперь Laravel будет использовать этот Policy для определения правил доступа к модели.
+
+3. Определение методов Policy
+
+Методы Policy определяют правила доступа к модели. Методы должны возвращать true, если действие разрешено, и false, если действие запрещено.
+
+```
+namespace App\Policies;
+
+use App\Models\User;
+use App\Models\Post;
+
+class PostPolicy
+{
+    public function viewAny(User $user)
+    {
+        return true;
+    }
+
+    public function view(User $user, Post $post)
+    {
+        return true;
+    }
+
+    public function create(User $user)
+    {
+        return $user->hasRole('admin');
+    }
+
+    public function update(User $user, Post $post)
+    {
+        return $user->id === $post->user_id;
+    }
+
+    public function delete(User $user, Post $post)
+    {
+        return $user->id === $post->user_id || $user->hasRole('admin');
+    }
+}
+```
+
+
+В этом примере мы определяем методы для Policy PostPolicy. Метод viewAny разрешает просмотр списка постов всем пользователям. Метод view разрешает просмотр конкретного поста только автору поста или администратору. Методы create, update и delete разрешают соответствующие действия только администраторам или авторам постов.
+
+4. Использование Policy
+
+Для использования Policy в контроллере или представлении нужно вызвать соответствующий метод Policy и передать в него модель, например:
+
+```
+public function show(Post $post)
+{
+    $this->authorize('view', $post);
+
+    return view('posts.show', compact('post'));
+}
+```
+
+
+В этом примере мы вызываем метод authorize с параметрами view (название метода Policy) и $post (модель). Метод authorize автоматически вызовет соответствующий метод Policy и проверит, разрешено ли действие для текущего пользователя.
+
+5. Доступ к методам Policy в Blade
+
+Для проверки прав доступа в Blade можно использовать директиву @can. Например:
+
+```
+@can('update', $post)
+    <a href="{{ route('posts.edit', $post) }}">Edit</a>
+@endcan
+```
+
+В этом примере мы проверяем, разрешено ли редактирование поста для текущего пользователя, используя метод Policy update. Если разрешено, выводим ссылку на редактирование.
+
+Таким образом, в Laravel Policies используются для определения правил авторизации, которые позволяют разрешать или запрещать определенные действия для авторизованных пользователей. Policy определяет методы, определяющие правила доступа к модели, и затем эти методы можно использовать в контроллерах и представлениях для проверки прав доступа.
