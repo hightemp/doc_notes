@@ -50,19 +50,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/mysql/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7c295f7ae59f66df",
+            "id": "17dca81d870350a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,21 +139,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "331381359d6c578b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -362,31 +350,32 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5f457eef9ca787d2",
+  "active": "17dca81d870350a6",
   "lastOpenFiles": [
-    "Заметки/Разарботка/Ссылки.md",
-    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
-    "Заметки/Разарботка/FAQ.md",
+    "Заметки/Разарботка/mysql/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
-    "Планы.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
+    "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
-    "Заметки/Разарботка/python/fastapi/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
+    "Заметки/Linux/FAQ.md",
+    "Заметки/Разарботка/vscode/FAQ.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/apache/FAQ.md",
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/FAQ.md",
+    "Планы.md",
+    "Заметки/Разарботка/python/fastapi/FAQ.md",
     "Заметки/Разарботка/python/fastapi/Ссылки.md",
     "Заметки/Разарботка/python/fastapi/Статьи",
     "Заметки/Разарботка/python/fastapi",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/symfony/Ссылки.md",
     "Заметки/Разарботка/php/symfony/Статьи",
     "Заметки/Разарботка/php/symfony",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/apache",
-    "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/bitrix/FAQ.md",
     "Заметки/Разарботка/bitrix",
-    "Заметки/Linux/FAQ.md",
-    "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
     "Заметки/Разарботка/реверсинжиниринг",
     "Заметки/Химия/FAQ.md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
@@ -398,7 +387,6 @@
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/php/yii/Ссылки.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/docker"
   ]
 }
