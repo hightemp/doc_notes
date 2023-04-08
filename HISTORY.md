@@ -1,8 +1,8 @@
 
 <!-- HTOC -->
  - [Заметки/Разарботка/php/laravel/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/FAQ.md)
- - [HISTORY.md](./HISTORY.md)
  - [README.md](./README.md)
+ - [HISTORY.md](./HISTORY.md)
  - [Заметки/Разарботка/java/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/java/FAQ.md)
  - [Заметки/Разарботка/mysql/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/FAQ.md)
  - [Заметки/Разарботка/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
