@@ -153,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -299,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md"
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
               }
             }
           }
@@ -362,11 +362,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "5f457eef9ca787d2",
   "lastOpenFiles": [
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Планы.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
     "Заметки/Разарботка/python/fastapi/FAQ.md",
@@ -382,7 +383,6 @@
     "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/apache",
     "Заметки/Разарботка/vscode/FAQ.md",
-    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/bitrix/FAQ.md",
     "Заметки/Разарботка/bitrix",
     "Заметки/Linux/FAQ.md",
