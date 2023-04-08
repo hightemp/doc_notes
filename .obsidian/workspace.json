@@ -57,6 +57,18 @@
             }
           },
           {
+            "id": "b75a48a71bdfbd05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/apache/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a45bb743b83f7218",
             "type": "leaf",
             "state": {
@@ -105,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -251,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/apache/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/apache/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметки/Разарботка/apache/FAQ.md"
               }
             }
           }
@@ -314,12 +326,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5f457eef9ca787d2",
+  "active": "b75a48a71bdfbd05",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/yii/FAQ.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
-    "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/docker/FAQ.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/apache/FAQ.md",
+    "Заметки/Разарботка/apache",
+    "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/bitrix/FAQ.md",
@@ -345,12 +359,10 @@
     "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
     "Заметки/История/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
-    "Заметки/Разарботка/sql/FAQ.md",
     "Заметки/Разарботка/docker",
     "Заметки/Разарботка/php/yii/Статьи",
     "Заметки/Linux/Утилиты/7z",
     "Заметки/OSINT/Статьи",
-    "Заметки/Untitled",
-    "Заметки/Разарботка/nginx"
+    "Заметки/Untitled"
   ]
 }
