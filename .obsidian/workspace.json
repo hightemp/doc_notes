@@ -57,6 +57,18 @@
             }
           },
           {
+            "id": "7c295f7ae59f66df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e117dab5b786535d",
             "type": "leaf",
             "state": {
@@ -141,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -287,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметки/Разарботка/Ссылки.md"
               }
             }
           }
@@ -350,10 +362,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5f457eef9ca787d2",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
+    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Планы.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
     "Заметки/Разарботка/python/fastapi/FAQ.md",
@@ -383,7 +396,6 @@
     "Заметки/Биология/FAQ.md",
     "Заметки/Биология/Человеческая физиология",
     "Заметки/Экономика/FAQ.md",
-    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/php/yii/Ссылки.md",
     "Заметки/Разарботка/golang/FAQ.md",
