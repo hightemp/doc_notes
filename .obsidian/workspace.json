@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/FAQ.md",
+                "file": "Заметки/Разарботка/python/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/FAQ.md"
+                "file": "Заметки/Разарботка/python/FAQ.md"
               }
             }
           }
@@ -305,11 +305,12 @@
   "active": "c7ae28788d5bf954",
   "lastOpenFiles": [
     "Заметки/Разарботка/docker/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Linux/FAQ.md",
     "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
     "Заметки/Разарботка/реверсинжиниринг",
     "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
-    "Заметки/Linux/FAQ.md",
     "Заметки/Химия/FAQ.md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
     "Заметки/Разарботка/vscode/Статьи/Создание расширения для vscode.md",
@@ -327,7 +328,6 @@
     "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/php/yii/Статьи/Настройка Yii2 RBAC.md",
     "Заметки/История/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Радиоэлектроника/FAQ.md",
     "Заметки/Разарботка/sql/FAQ.md",

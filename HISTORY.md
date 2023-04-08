@@ -1,8 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Linux/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
+ - [Заметки/Разарботка/python/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/FAQ.md)
  - [README.md](./README.md)
  - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Linux/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/FAQ.md)
  - [Заметки/Разарботка/docker/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/docker/FAQ.md)
  - [Заметки/Разарботка/реверсинжиниринг/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D1%80%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%BD%D0%B6%D0%B8%D0%BD%D0%B8%D1%80%D0%B8%D0%BD%D0%B3/FAQ.md)
  - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
@@ -56,7 +57,6 @@
  - [Заметки/Разарботка/golang/Статьи/Логирование в Golang — Записываем лог в файл.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9B%D0%BE%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20Golang%20%E2%80%94%20%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%20%D0%BB%D0%BE%D0%B3%20%D0%B2%20%D1%84%D0%B0%D0%B9%D0%BB.md)
  - [Заметки/Разарботка/langd/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
  - [Заметки/Разарботка/cpp/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/cpp/FAQ.md)
- - [Заметки/Разарботка/python/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/FAQ.md)
  - [Заметки/Разарботка/python/django/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/django/FAQ.md)
  - [Заметки/Математика/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/FAQ.md)
  - [Заметки/Разарботка/php/laravel/Статьи/Generate Migrations from an Existing Database With the Migration Generator Package.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Generate%20Migrations%20from%20an%20Existing%20Database%20With%20the%20Migration%20Generator%20Package.md)
