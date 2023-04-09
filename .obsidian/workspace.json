@@ -69,12 +69,36 @@
             }
           },
           {
-            "id": "e85acf240c6120a8",
+            "id": "965a2494618ddca9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb1cc9f5bfc30e2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37c0aad3793bbd1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
                 "mode": "source",
                 "source": false
               }
@@ -165,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -311,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/AI/Репозитории.md",
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/AI/Репозитории.md"
+                "file": "Заметки/Разарботка/golang/FAQ.md"
               }
             }
           }
@@ -374,9 +398,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e85acf240c6120a8",
+  "active": "cb1cc9f5bfc30e2c",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
+    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/make/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+    "Заметки/Разарботка/make",
     "Заметки/AI/Репозитории.md",
     "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
@@ -400,17 +429,12 @@
     "Заметки/Разарботка/FAQ.md",
     "Планы.md",
     "Заметки/Разарботка/python/fastapi/FAQ.md",
-    "Заметки/Разарботка/python/fastapi/Ссылки.md",
     "Заметки/Разарботка/python/fastapi/Статьи",
     "Заметки/Разарботка/python/fastapi",
-    "Заметки/Разарботка/php/symfony/Ссылки.md",
     "Заметки/Разарботка/php/symfony/Статьи",
     "Заметки/Разарботка/php/symfony",
     "Заметки/Разарботка/apache",
-    "Заметки/Разарботка/bitrix/FAQ.md",
     "Заметки/Разарботка/bitrix",
-    "Заметки/Разарботка/реверсинжиниринг",
-    "Заметки/Химия/FAQ.md",
-    "Заметки/Разарботка/vscode/Статьи"
+    "Заметки/Разарботка/реверсинжиниринг"
   ]
 }

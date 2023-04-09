@@ -61,6 +61,8 @@ https://hightemp.github.io/doc_notes/
      - [Книги.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - make
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/make/FAQ.md)
      - chrome-extension
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/chrome-extension/FAQ.md)
      - java
@@ -210,6 +212,8 @@ https://hightemp.github.io/doc_notes/
      - golang
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
        - Статьи
+         - [Разбираем go embed в Go 1.16.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%20go%20embed%20%D0%B2%20Go%201.16.md)
+         - [How to Use go embed in Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Use%20go%20embed%20in%20Go.md)
          - [How to Scrape HTML Tables in Golang Using Colly Quick Guide.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Scrape%20HTML%20Tables%20in%20Golang%20Using%20Colly%20Quick%20Guide.md)
          - [Go my way - Day 3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Go%20my%20way%20-%20Day%203.md)
          - [How To List Files In A Directory In Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20To%20List%20Files%20In%20A%20Directory%20In%20Go.md)

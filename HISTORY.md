@@ -1,8 +1,12 @@
 
 <!-- HTOC -->
- - [Заметки/AI/Репозитории.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
- - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
  - [README.md](./README.md)
+ - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC%20go%20embed%20%D0%B2%20Go%201.16.md)
+ - [Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Use%20go%20embed%20in%20Go.md)
+ - [Заметки/Разарботка/make/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/make/FAQ.md)
+ - [Заметки/AI/Репозитории.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/AI/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
  - [Заметки/Разарботка/php/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/chrome-extension/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/chrome-extension/FAQ.md)
  - [Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Scrape%20HTML%20Tables%20in%20Golang%20Using%20Colly%20Quick%20Guide.md)
@@ -37,7 +41,6 @@
  - [Заметки/Экономика/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/FAQ.md)
  - [Заметки/История/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/FAQ.md)
  - [Заметки/Разарботка/sql/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/sql/FAQ.md)
- - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
  - [Заметки/Разарботка/php/yii/Статьи/Использование Faker для генерации тестовых данных в Yii2.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20Faker%20%D0%B4%D0%BB%D1%8F%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B2%20Yii2.md)
  - [Заметки/Разарботка/php/yii/Статьи/Виджет Breadcrumbs (хлебные крошки) на Yii 2.x.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%92%D0%B8%D0%B4%D0%B6%D0%B5%D1%82%20Breadcrumbs%20(%D1%85%D0%BB%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5%20%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B8)%20%D0%BD%D0%B0%20Yii%202.x.md)
  - [Заметки/Разарботка/php/yii/Статьи/Yii2 basic Регистрация и авторизация через базу, меняем User класс.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Yii2%20basic%20%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%B1%D0%B0%D0%B7%D1%83,%20%D0%BC%D0%B5%D0%BD%D1%8F%D0%B5%D0%BC%20User%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.md)
