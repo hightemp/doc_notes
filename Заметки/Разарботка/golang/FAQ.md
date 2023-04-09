@@ -4129,3 +4129,65 @@ func main() {
 В этом примере мы использовали переменную типа `embed.FS`, чтобы получить доступ к содержимому встроенных файлов.
 
 Директива `//go:embed` может использоваться только в файлах, которые находятся в корневом пакете программы. Кроме того, директива может использоваться только для статических файлов, которые доступны во время компиляции программы.
+
+## напиши веб сервер с api который использует директиву //go:embed для упаковки static файлов для страницы с интерфейсом
+
+Код веб-сервера с API, использующего директиву `//go:embed` для упаковки статических файлов для страницы с интерфейсом, может выглядеть следующим образом:
+
+```go
+package main
+
+import (
+    "embed"
+    "encoding/json"
+    "fmt"
+    "log"
+    "net/http"
+)
+
+//go:embed static/* templates/*
+var embeddedFiles embed.FS
+
+type User struct {
+    Name  string `json:"name"`
+    Email string `json:"email"`
+}
+
+func main() {
+    // Обработчик API
+    http.HandleFunc("/api/user", func(w http.ResponseWriter, r *http.Request) {
+        user := User{Name: "John", Email: "john@example.com"}
+        json.NewEncoder(w).Encode(user)
+    })
+
+    // Обработчик статических файлов и страницы с интерфейсом
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+        if r.URL.Path == "/" {
+            // Выводим страницу с интерфейсом
+            tmpl, err := embeddedFiles.ReadFile("templates/index.html")
+            if err != nil {
+                http.Error(w, "File not found", http.StatusNotFound)
+                return
+            }
+            w.Write(tmpl)
+        } else {
+            // Возвращаем статический файл
+            file, err := embeddedFiles.ReadFile("static" + r.URL.Path)
+            if err != nil {
+                http.Error(w, "File not found", http.StatusNotFound)
+                return
+            }
+            w.Write(file)
+        }
+    })
+
+    // Запускаем веб-сервер на порту 8080
+    log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```
+
+В этом примере мы определили переменную `embeddedFiles` с помощью директивы `//go:embed`, чтобы упаковать все файлы в каталогах `static/` и `templates/`. Затем мы создали обработчики для API и статических файлов.
+
+Обработчик для страницы с интерфейсом проверяет URL-путь и, если он равен `/`, выводит файл `index.html` из каталога `templates/`. Для обработки статических файлов мы добавили префикс `/static/` к URL-пути и искали файлы в каталоге `static/`.
+
+В конце мы запустили веб-сервер на порту 8080 с помощью функции `http.ListenAndServe()`.

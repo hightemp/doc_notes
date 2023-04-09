@@ -9,36 +9,36 @@
         "dimension": 53.557814485387546,
         "children": [
           {
-            "id": "0b56f294b779f567",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Химия/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc7b1e36410ebc27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "946c94a3af9988b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Заметки/Разарботка/vscode/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ef4d92a39839547",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eae31044d3c4bd21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,18 +135,6 @@
               "type": "markdown",
               "state": {
                 "file": "Заметки/Разарботка/php/symfony/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b75a48a71bdfbd05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/apache/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -400,11 +388,22 @@
   },
   "active": "cb1cc9f5bfc30e2c",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
-    "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
-    "Заметки/Разарботка/make/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/mysql/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/golang/Ссылки.md",
+    "Заметки/Разарботка/vscode/FAQ.md",
+    "Заметки/Химия/FAQ.md",
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
+    "Заметки/Разарботка/java/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
+    "Заметки/Разарботка/docker/FAQ.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/symfony/FAQ.md",
+    "Заметки/Разарботка/apache/FAQ.md",
+    "Заметки/Разарботка/make/FAQ.md",
     "Заметки/Разарботка/make",
     "Заметки/AI/Репозитории.md",
     "Заметки/AI/Ссылки.md",
@@ -413,22 +412,11 @@
     "Заметки/Разарботка/chrome-extension/FAQ.md",
     "Заметки/Разарботка/chrome-extension",
     "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
-    "Заметки/Разарботка/java/FAQ.md",
     "Заметки/Разарботка/java",
-    "Заметки/Разарботка/mysql/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
-    "Заметки/Разарботка/docker/FAQ.md",
-    "Заметки/Разарботка/php/symfony/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Заметки/Linux/FAQ.md",
-    "Заметки/Разарботка/vscode/FAQ.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
-    "Заметки/Разарботка/apache/FAQ.md",
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/FAQ.md",
-    "Планы.md",
-    "Заметки/Разарботка/python/fastapi/FAQ.md",
     "Заметки/Разарботка/python/fastapi/Статьи",
     "Заметки/Разарботка/python/fastapi",
     "Заметки/Разарботка/php/symfony/Статьи",
