@@ -69,36 +69,12 @@
             }
           },
           {
-            "id": "fad7cbbf8b45a46f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e85acf240c6120a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a31707b540fe51ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "mode": "source",
                 "source": false
               }
@@ -189,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -335,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "file": "Заметки/AI/Репозитории.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/Ссылки.md"
+                "file": "Заметки/AI/Репозитории.md"
               }
             }
           }
@@ -398,13 +374,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "e85acf240c6120a8",
   "lastOpenFiles": [
-    "Заметки/Разарботка/chrome-extension/FAQ.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/AI/Репозитории.md",
+    "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
+    "Заметки/Разарботка/php/Ссылки.md",
+    "Заметки/Разарботка/chrome-extension/FAQ.md",
     "Заметки/Разарботка/chrome-extension",
     "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/java/FAQ.md",
     "Заметки/Разарботка/java",
     "Заметки/Разарботка/mysql/FAQ.md",
@@ -432,9 +411,6 @@
     "Заметки/Разарботка/bitrix",
     "Заметки/Разарботка/реверсинжиниринг",
     "Заметки/Химия/FAQ.md",
-    "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
-    "Заметки/Разарботка/vscode/Статьи/Создание расширения для vscode.md",
-    "Заметки/Разарботка/vscode/Untitled.md",
     "Заметки/Разарботка/vscode/Статьи"
   ]
 }
