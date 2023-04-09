@@ -69,6 +69,42 @@
             }
           },
           {
+            "id": "fad7cbbf8b45a46f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e85acf240c6120a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a31707b540fe51ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb4dc57f240310c2",
             "type": "leaf",
             "state": {
@@ -153,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -299,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/php/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/php/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметки/Разарботка/php/Ссылки.md"
               }
             }
           }
@@ -362,10 +398,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17dca81d870350a6",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/java/FAQ.md",
+    "Заметки/Разарботка/chrome-extension/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
+    "Заметки/Разарботка/chrome-extension",
+    "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/java/FAQ.md",
     "Заметки/Разарботка/java",
     "Заметки/Разарботка/mysql/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -395,10 +435,6 @@
     "Заметки/Разарботка/php/yii/Статьи/Yii2 Разбираемся с GridView.md",
     "Заметки/Разарботка/vscode/Статьи/Создание расширения для vscode.md",
     "Заметки/Разарботка/vscode/Untitled.md",
-    "Заметки/Разарботка/vscode/Статьи",
-    "Заметки/Биология/FAQ.md",
-    "Заметки/Биология/Человеческая физиология",
-    "Заметки/Экономика/FAQ.md",
-    "Заметки/Разарботка/Книги.md"
+    "Заметки/Разарботка/vscode/Статьи"
   ]
 }

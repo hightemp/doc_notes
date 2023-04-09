@@ -1835,3 +1835,88 @@ public function show(Post $post)
 В этом примере мы проверяем, разрешено ли редактирование поста для текущего пользователя, используя метод Policy update. Если разрешено, выводим ссылку на редактирование.
 
 Таким образом, в Laravel Policies используются для определения правил авторизации, которые позволяют разрешать или запрещать определенные действия для авторизованных пользователей. Policy определяет методы, определяющие правила доступа к модели, и затем эти методы можно использовать в контроллерах и представлениях для проверки прав доступа.
+
+## зечем нужен в laravel Resources?
+
+В Laravel Resources используются для преобразования данных моделей в удобочитаемый для API формат, который может быть отправлен клиентам. Resources позволяют разделять логику преобразования данных от логики контроллеров и представлений.
+
+Для создания Resource в Laravel нужно выполнить следующие шаги:
+
+1. Создание Resource
+
+С помощью Artisan можно создать Resource для определенной модели:
+
+```
+php artisan make:resource PostResource --model=Post
+```
+
+В этом примере мы создаем Resource PostResource для модели Post. Resource будет содержать методы, определяющие формат вывода данных.
+
+2. Определение свойств Resource
+
+В методе toArray Resource нужно определить свойства, которые должны быть включены в вывод данных:
+
+```
+namespace App\Http\Resources;
+
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class PostResource extends JsonResource
+{
+    public function toArray($request)
+    {
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'body' => $this->body,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+        ];
+    }
+}
+```
+
+
+В этом примере мы определяем свойства id, title, body, created_at и updated_at, которые будут включены в вывод данных.
+
+3. Использование Resource
+
+Для использования Resource в контроллере нужно создать экземпляр Resource и передать в него модель:
+
+```
+use App\Http\Resources\PostResource;
+use App\Models\Post;
+
+public function show(Post $post)
+{
+    return new PostResource($post);
+}
+```
+
+
+В этом примере мы создаем экземпляр Resource PostResource и передаем в него модель Post. Resource автоматически преобразует данные модели в формат, определенный в методе toArray.
+
+4. Формат вывода коллекций
+
+Resource также может быть использован для форматирования вывода коллекций. Например:
+
+```
+use App\Http\Resources\PostResource;
+use App\Models\Post;
+
+public function index()
+{
+    $posts = Post::paginate();
+
+    return PostResource::collection($posts);
+}
+```
+
+
+В этом примере мы используем метод collection для форматирования вывода коллекции постов, используя Resource PostResource.
+
+5. Доступ к Resource через API
+
+Resource может быть использован для отправки данных клиентам через API. Например, если вы используете Laravel как API для мобильного приложения, Resource может быть использован для форматирования данных, отправляемых на мобильное устройство.
+
+Таким образом, в Laravel Resources используются для преобразования данных моделей в удобочитаемый для API формат, который может быть отправлен клиентам. Resource позволяет разделять логику преобразования данных от логики контроллеров и представлений, что делает код более читабельным и легко поддерживаемым.
