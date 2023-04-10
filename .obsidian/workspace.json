@@ -117,6 +117,18 @@
             }
           },
           {
+            "id": "6df609d2b5dfbede",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb4dc57f240310c2",
             "type": "leaf",
             "state": {
@@ -189,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -335,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +387,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md"
+                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md"
               }
             }
           }
@@ -398,8 +410,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "6df609d2b5dfbede",
   "lastOpenFiles": [
+    "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/golang/Gorm/FAQ.md",
+    "Заметки/Разарботка/golang/Gorm",
     "Заметки/Разарботка/golang/bbolt/FAQ.md",
     "Заметки/Разарботка/golang/badgerDB/FAQ.md",
     "Заметки/Разарботка/golang/bbolt",
@@ -410,7 +425,6 @@
     "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
     "Заметки/Разарботка/Ссылки.md",
-    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/mysql/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/golang/Ссылки.md",
@@ -428,13 +442,11 @@
     "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
     "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/chrome-extension/FAQ.md",
     "Заметки/Разарботка/chrome-extension",
     "Заметки/Разарботка/java",
     "Заметки/Разарботка/python/fastapi/Статьи",
     "Заметки/Разарботка/python/fastapi",
     "Заметки/Разарботка/php/symfony/Статьи",
-    "Заметки/Разарботка/php/symfony",
-    "Заметки/Разарботка/apache"
+    "Заметки/Разарботка/php/symfony"
   ]
 }
