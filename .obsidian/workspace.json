@@ -69,36 +69,48 @@
             }
           },
           {
-            "id": "965a2494618ddca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb1cc9f5bfc30e2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "37c0aad3793bbd1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
+                "file": "Найденное/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53927ff584589f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Экономика/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cc48ecc7ccddd14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/badgerDB/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0500467af68e6aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -177,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -386,17 +398,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "cb1cc9f5bfc30e2c",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+    "Заметки/Разарботка/golang/bbolt/FAQ.md",
+    "Заметки/Разарботка/golang/badgerDB/FAQ.md",
+    "Заметки/Разарботка/golang/bbolt",
+    "Заметки/Экономика/FAQ.md",
+    "Заметки/Разарботка/golang/badgerDB",
+    "Найденное/Ссылки.md",
+    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Разарботка/mysql/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/golang/Ссылки.md",
     "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Химия/FAQ.md",
-    "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
     "Заметки/Разарботка/java/FAQ.md",
     "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Заметки/Разарботка/docker/FAQ.md",
@@ -411,18 +430,11 @@
     "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/chrome-extension/FAQ.md",
     "Заметки/Разарботка/chrome-extension",
-    "Заметки/Разарботка/golang/Статьи/Go my way - Day 3.md",
     "Заметки/Разарботка/java",
-    "Заметки/Разарботка/реверсинжиниринг/FAQ.md",
-    "Заметки/Linux/FAQ.md",
-    "Заметки/Разарботка/Ссылки.md",
-    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/python/fastapi/Статьи",
     "Заметки/Разарботка/python/fastapi",
     "Заметки/Разарботка/php/symfony/Статьи",
     "Заметки/Разарботка/php/symfony",
-    "Заметки/Разарботка/apache",
-    "Заметки/Разарботка/bitrix",
-    "Заметки/Разарботка/реверсинжиниринг"
+    "Заметки/Разарботка/apache"
   ]
 }
