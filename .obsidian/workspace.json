@@ -129,6 +129,18 @@
             }
           },
           {
+            "id": "86b61bbd3865713a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bb4dc57f240310c2",
             "type": "leaf",
             "state": {
