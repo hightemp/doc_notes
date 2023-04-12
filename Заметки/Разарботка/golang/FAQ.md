@@ -4333,3 +4333,78 @@ func main() {
 В данном примере мы загружаем переменные окружения из файла `.env` с помощью функции `godotenv.Load()`. Если файл `.env` не найден или происходит ошибка чтения, то программа завершится с ошибкой.
 
 После загрузки переменных окружения мы можем использовать их в программе с помощью функции `os.Getenv(name)`, как и раньше. Если переменная окружения не определена, то будет использовано значение по умолчанию из файла `.env`.
+
+## как в golang отправить в http.HandleFunc файл pdf прочтенный с диска?
+
+Для отправки файла PDF в Go используется пакет `net/http`. Вот пример кода, который отправляет файл PDF при обращении к определенному пути:
+
+```go
+func main() {
+    http.HandleFunc("/pdf", func(w http.ResponseWriter, r *http.Request) {
+        // Открываем файл PDF
+        pdf, err := os.Open("/path/to/pdf/file.pdf")
+        if err != nil {
+            http.Error(w, "Ошибка открытия файла", http.StatusInternalServerError)
+            return
+        }
+        defer pdf.Close()
+
+        // Устанавливаем заголовок Content-Type для отправки файла PDF
+        w.Header().Set("Content-Type", "application/pdf")
+
+        // Копируем содержимое файла PDF в ответ
+        if _, err := io.Copy(w, pdf); err != nil {
+            http.Error(w, "Ошибка отправки файла", http.StatusInternalServerError)
+            return
+        }
+    })
+
+    http.ListenAndServe(":8080", nil)
+}
+```
+
+В данном примере мы используем функцию `http.HandleFunc` для обработки запросов к пути `/pdf`. При обращении к этому пути открываем файл PDF и устанавливаем заголовок Content-Type для отправки файла PDF. Затем мы копируем содержимое файла PDF в ответ, используя функцию `io.Copy`, и отправляем его клиенту. Если возникает ошибка при открытии или отправке файла, мы отправляем соответствующий HTTP-код ошибки.
+
+## как в go gorm удалить все записи в таблице?
+
+Для удаления всех записей в таблице с помощью GORM в Go нужно выполнить следующие шаги:
+
+1. Определить модель для таблицы, из которой будут удаляться записи. Например, для таблицы "users" можно определить модель следующим образом:
+
+```go
+type User struct {
+    ID   uint
+    Name string
+    Age  int
+}
+```
+
+2. Получить экземпляр `gorm.DB` для этой таблицы с помощью функции `gorm.Open()` или `gorm.DB()`.
+
+```go
+db, err := gorm.Open("postgres", "host=localhost user=postgres dbname=test password=secret")
+if err != nil {
+    panic(err)
+}
+defer db.Close()
+```
+
+3. Вызвать метод `Delete()` на экземпляре `gorm.DB`, указав модель как аргумент.
+
+```go
+db.Delete(&User{})
+```
+
+Таким образом, полный код для удаления всех записей в таблице "users" с помощью GORM будет выглядеть следующим образом:
+
+```go
+db, err := gorm.Open("postgres", "host=localhost user=postgres dbname=test password=secret")
+if err != nil {
+    panic(err)
+}
+defer db.Close()
+
+db.Delete(&User{})
+```
+
+Этот код удалит все записи из таблицы "users". Обратите внимание, что этот код не удаляет таблицу, а только все ее записи. Если вы хотите удалить таблицу, вам нужно использовать метод `DropTableIfExists()`.

@@ -568,7 +568,7 @@ export default {
 
 ## напиши скрипт vue который из yaml схемы генерирует элементы формы и форму, в yaml указываются все свойства
 
-```Vue
+```vue
 <template>
   <form>
     <div v-for="field in fields">
@@ -625,4 +625,221 @@ fields:
 ```
 
 В этой схеме есть два поля: `email` и `password`. Каждое поле имеет свойства `name`, `label`, `type`, `placeholder` и `value`. Свойство `name` указывает имя поля в форме, `label` - текст метки поля, `type` - тип поля (например, `email` или `password`), `placeholder` - текст заполнителя поля, а `value` - значение поля по умолчанию. При загрузке этой схемы приложение Vue создаст элементы формы для ввода email и пароля.
+
+## почему пишется vue slot slot-scope is deprecated что использовать взамен
+
+Согласно официальной документации Vue.js, начиная с версии 2.6.0, рекомендуется использовать новый синтаксис для передачи данных в компоненты через слоты. Вместо директивы `slot-scope` следует использовать директиву `v-slot`. 
+
+Например, вместо:
+
+```vue
+<template>
+  <div>
+    <slot name="header" :data="headerData"></slot>
+    <slot name="body" :data="bodyData"></slot>
+  </div>
+</template>
+
+<template slot="header" slot-scope="data">
+  <h1>{{ data.title }}</h1>
+</template>
+
+<template slot="body" slot-scope="data">
+  <p>{{ data.text }}</p>
+</template>
+```
+
+Нужно использовать:
+
+```vue
+<template>
+  <div>
+    <slot name="header" v-bind:data="headerData">
+      <h1 v-if="headerData">{{ headerData.title }}</h1>
+    </slot>
+    <slot name="body" v-bind:data="bodyData">
+      <p v-if="bodyData">{{ bodyData.text }}</p>
+    </slot>
+  </div>
+</template>
+
+<template v-slot:header="data">
+  <h1>{{ data.title }}</h1>
+</template>
+
+<template v-slot:body="data">
+  <p>{{ data.text }}</p>
+</template>
+```
+
+Таким образом, следует использовать директиву `v-slot` вместо `slot-scope`.
+
+## напиши bootstrap таблицу на vue которая берет данные с помощью axios где используется сортировка и фильтр (они делаются на сервере)
+
+Для создания таблицы на Vue с использованием Bootstrap, которая получает данные с сервера через axios, и с возможностью сортировки и фильтрации на сервере, можно использовать следующий код:
+
+```vue
+<template>
+  <div>
+    <input v-model="search" placeholder="Search...">
+    <table class="table">
+      <thead>
+        <tr>
+          <th @click="sort('name')">Name</th>
+          <th @click="sort('email')">Email</th>
+          <th @click="sort('phone')">Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="user in filteredUsers" :key="user.id">
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.phone }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      users: [],
+      search: '',
+      sortKey: '',
+      sortOrder: 'asc'
+    };
+  },
+  async created() {
+    const response = await axios.get('https://example.com/users');
+    this.users = response.data;
+  },
+  computed: {
+    filteredUsers() {
+      return this.users.filter(user => {
+        return user.name.toLowerCase().includes(this.search.toLowerCase()) ||
+               user.email.toLowerCase().includes(this.search.toLowerCase()) ||
+               user.phone.toLowerCase().includes(this.search.toLowerCase());
+      });
+    }
+  },
+  methods: {
+    async sort(key) {
+      if (key === this.sortKey) {
+        this.sortOrder = this.sortOrder === 'asc' ? 'desc' : 'asc';
+      } else {
+        this.sortOrder = 'asc';
+        this.sortKey = key;
+      }
+      const response = await axios.get('https://example.com/users', {
+        params: {
+          sort: this.sortKey,
+          order: this.sortOrder
+        }
+      });
+      this.users = response.data;
+    }
+  }
+};
+</script>
+```
+
+В этом коде используется `axios` для получения данных с сервера и `computed` свойство для фильтрации пользователей по тексту, введенному в поле поиска. Для сортировки используется метод `sort`, который отправляет параметры сортировки на сервер и обновляет данные в таблице после получения ответа. Таблица отображает данные из массива `filteredUsers`, который обновляется при изменении введенного текста поиска.
+
+Также в таблице используется директива `v-for` для отображения каждого пользователя в отдельной строке таблицы. Ключ каждой строки устанавливается в свойство `key` для эффективного обновления списка при изменениях.
+
+Обратите внимание, что данная реализация предполагает, что сервер уже умеет обрабатывать параметры сортировки и фильтрации, и возвращает отсортированный и отфильтрованный список пользователей. Если сервер не умеет это делать, то необходимо реализовать логику сортировки и фильтрации на клиентской стороне.
+
+## что означает ошибка  Component name "Books" should always be multi-word
+
+Ошибка "Component name "Books" should always be multi-word" означает, что имя компонента должно быть составным словом, состоящим из двух или более слов, разделенных дефисом. Это сделано для того, чтобы избежать конфликтов с именами HTML-элементов и другими компонентами.
+
+Например, вместо "Books" следует использовать "BookList" или "BookShelf". Это поможет избежать ошибок и сделает код более понятным и читаемым.
+
+Также следует убедиться, что имя компонента не содержит пробелов или специальных символов, и начинается с буквы. Это также является частью правил именования компонентов во Vue.
+
+## напиши pagination на vue с использованием bootstrap без использования компнентов
+
+Для создания пагинации на Vue с использованием Bootstrap без использования компонентов необходимо выполнить следующие шаги:
+
+1. Добавьте в шаблон вашего компонента элементы пагинации:
+
+```vue
+<template>
+  <div>
+    <ul class="pagination">
+      <li class="page-item" :class="{ disabled: currentPage === 1 }">
+        <a class="page-link" href="#" @click.prevent="prevPage">Previous</a>
+      </li>
+      <li class="page-item" v-for="page in pages" :key="page" :class="{ active: currentPage === page }">
+        <a class="page-link" href="#" @click.prevent="changePage(page)">{{ page }}</a>
+      </li>
+      <li class="page-item" :class="{ disabled: currentPage === pageCount }">
+        <a class="page-link" href="#" @click.prevent="nextPage">Next</a>
+      </li>
+    </ul>
+  </div>
+</template>
+```
+
+2. Добавьте соответствующие вычисляемые свойства и методы в ваш компонент:
+
+```vue
+<script>
+export default {
+  data() {
+    return {
+      currentPage: 1,
+      itemsPerPage: 10,
+      totalItems: 100
+    }
+  },
+  computed: {
+    pageCount() {
+      return Math.ceil(this.totalItems / this.itemsPerPage)
+    },
+    pages() {
+      const startPage = Math.max(1, this.currentPage - 2)
+      const endPage = Math.min(this.pageCount, this.currentPage + 2)
+      const pages = []
+      for (let i = startPage; i <= endPage; i++) {
+        pages.push(i)
+      }
+      return pages
+    }
+  },
+  methods: {
+    changePage(page) {
+      this.currentPage = page
+      // Загрузка данных для текущей страницы
+    },
+    prevPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--
+        // Загрузка данных для текущей страницы
+      }
+    },
+    nextPage() {
+      if (this.currentPage < this.pageCount) {
+        this.currentPage++
+        // Загрузка данных для текущей страницы
+      }
+    }
+  }
+}
+</script>
+```
+
+В этом коде мы определяем начальные значения `currentPage`, `itemsPerPage` и `totalItems`. Вычисляемое свойство `pageCount` вычисляет количество страниц на основе общего количества элементов и количества элементов на странице.
+
+Метод `pages` вычисляет список страниц, которые будут отображаться в пагинации. В данном примере мы отображаем пять страниц, начиная с текущей страницы.
+
+Методы `changePage`, `prevPage` и `nextPage` обеспечивают переход на соответствующую страницу при клике на соответствующую ссылку в пагинации.
+
+Обратите внимание, что этот код предполагает, что данные для каждой страницы уже доступны на клиентской стороне. Если данные загружаются с сервера, необходимо добавить соответствующий код для отправки запросов на сервер при изменении страницы.
+
+Этот код демонстрирует, как создать пагинацию на Vue, используя средства Bootstrap без использования компонентов. Он может быть изменен и дополнен в зависимости от конкретных требований и задач.
 

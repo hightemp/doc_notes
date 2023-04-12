@@ -596,3 +596,277 @@ func main() {
 ```
 
 В этом примере мы добавили обработку запросов на удаление книги. Мы декодируем JSON-объект из тела запроса и ищем книгу в базе данных по ID. Затем мы удаляем книгу из базы данных. Обратите внимание, что мы использовали метод `Delete` для удаления объекта из базы данных. Этот метод удаляет запись из базы данных по ID. В данном случае, мы передаем указатель на объект `oldBook`, который содержит ID удаляемой книги.
+
+## напиши CRUD golang код для модели книг используя net/http для сервера и graphql для обмена данными (можно библиотеку) и Gorm для ORM
+
+Код для CRUD модели книг с использованием net/http для сервера, graphql для обмена данными и Gorm для ORM может выглядеть следующим образом:
+
+```go
+package main
+
+import (
+ "encoding/json"
+ "errors"
+ "fmt"
+ "net/http"
+
+ "github.com/graphql-go/graphql"
+ "gorm.io/driver/mysql"
+ "gorm.io/gorm"
+)
+
+// Book model
+type Book struct {
+ ID     uint   `gorm:"primary_key" json:"id"`
+ Title  string `json:"title"`
+ Author string `json:"author"`
+}
+
+func main() {
+ // Initialize database
+ dsn := "user:password@tcp(localhost:3306)/database?charset=utf8mb4&parseTime=True&loc=Local"
+ db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+ if err != nil {
+  panic("failed to connect database")
+ }
+
+ // Migrate the schema
+ err = db.AutoMigrate(&Book{})
+ if err != nil {
+  panic("failed to migrate database schema")
+ }
+
+ // Initialize GraphQL schema
+ fields := graphql.Fields{
+  "book": &graphql.Field{
+   Type:        bookType,
+   Description: "Get book by ID",
+   Args: graphql.FieldConfigArgument{
+    "id": &graphql.ArgumentConfig{
+     Type: graphql.NewNonNull(graphql.Int),
+    },
+   },
+   Resolve: resolveGetBook,
+  },
+  "books": &graphql.Field{
+   Type:        graphql.NewList(bookType),
+   Description: "Get all books",
+   Resolve:     resolveGetBooks,
+  },
+  "createBook": &graphql.Field{
+   Type:        bookType,
+   Description: "Create a new book",
+   Args: graphql.FieldConfigArgument{
+    "title": &graphql.ArgumentConfig{
+     Type: graphql.NewNonNull(graphql.String),
+    },
+    "author": &graphql.ArgumentConfig{
+     Type: graphql.NewNonNull(graphql.String),
+    },
+   },
+   Resolve: resolveCreateBook,
+  },
+  "updateBook": &graphql.Field{
+   Type:        bookType,
+   Description: "Update an existing book",
+   Args: graphql.FieldConfigArgument{
+    "id": &graphql.ArgumentConfig{
+     Type: graphql.NewNonNull(graphql.Int),
+    },
+    "title": &graphql.ArgumentConfig{
+     Type: graphql.String,
+    },
+    "author": &graphql.ArgumentConfig{
+     Type: graphql.String,
+    },
+   },
+   Resolve: resolveUpdateBook,
+  },
+  "deleteBook": &graphql.Field{
+   Type:        bookType,
+   Description: "Delete a book",
+   Args: graphql.FieldConfigArgument{
+    "id": &graphql.ArgumentConfig{
+     Type: graphql.NewNonNull(graphql.Int),
+    },
+   },
+   Resolve: resolveDeleteBook,
+  },
+ }
+
+ rootQuery := graphql.ObjectConfig{Name: "RootQuery", Fields: fields}
+ rootMutation := graphql.ObjectConfig{Name: "RootMutation", Fields: fields}
+ schemaConfig := graphql.SchemaConfig{Query: graphql.NewObject(rootQuery), Mutation: graphql.NewObject(rootMutation)}
+ schema, err := graphql.NewSchema(schemaConfig)
+ if err != nil {
+  panic("failed to create GraphQL schema")
+ }
+
+ // Initialize HTTP server
+ http.HandleFunc("/graphql", func(w http.ResponseWriter, r *http.Request) {
+  if r.Method != "POST" {
+   http.Error(w, "Unsupported HTTP method", http.StatusMethodNotAllowed)
+   return
+  }
+
+  // Parse request body
+  var requestBody struct {
+   Query string `json:"query"`
+  }
+  err := json.NewDecoder(r.Body).Decode(&requestBody)
+  if err != nil {
+   http.Error(w, "Invalid request body", http.StatusBadRequest)
+   return
+  }
+
+  // Execute GraphQL query
+  result := graphql.Do(graphql.Params{
+   Schema:        schema,
+   RequestString: requestBody.Query,
+  })
+  if len(result.Errors) > 0 {
+   http.Error(w, fmt.Sprintf("GraphQL error: %v", result.Errors), http.StatusInternalServerError)
+   return
+  }
+
+  // Return response
+  json.NewEncoder(w).Encode(result)
+ })
+
+ err = http.ListenAndServe(":8080", nil)
+ if err != nil {
+  panic("failed to start HTTP server")
+ }
+}
+
+var bookType = graphql.NewObject(graphql.ObjectConfig{
+ Name: "Book",
+ Fields: graphql.Fields{
+  "id": &graphql.Field{
+   Type: graphql.NewNonNull(graphql.Int),
+  },
+  "title": &graphql.Field{
+   Type: graphql.NewNonNull(graphql.String),
+  },
+  "author": &graphql.Field{
+   Type: graphql.NewNonNull(graphql.String),
+  },
+  },
+})
+
+// GraphQL resolvers
+func resolveGetBook(p graphql.ResolveParams) (interface{}, error) {
+ // Retrieve book ID from arguments
+ ID, ok := p.Args["id"].(int)
+ if !ok {
+  return nil, errors.New("invalid book ID")
+ }
+
+ // Retrieve book with specified ID from database
+ var book Book
+ err := db.Where("id = ?", ID).First(&book).Error
+ if err != nil {
+  return nil, errors.New("failed to get book from database")
+ }
+
+ return book, nil
+}
+
+func resolveGetBooks(p graphql.ResolveParams) (interface{}, error) {
+ // Retrieve all books from database
+ var books []Book
+ err := db.Find(&books).Error
+ if err != nil {
+  return nil, errors.New("failed to get books from database")
+ }
+
+ return books, nil
+}
+
+func resolveCreateBook(p graphql.ResolveParams) (interface{}, error) {
+ // Retrieve book title and author from arguments
+ title, ok := p.Args["title"].(string)
+ if !ok {
+  return nil, errors.New("invalid book title")
+ }
+
+ author, ok := p.Args["author"].(string)
+ if !ok {
+  return nil, errors.New("invalid book author")
+ }
+
+ // Create new book with specified title and author
+ newBook := Book{Title: title, Author: author}
+ err := db.Create(&newBook).Error
+ if err != nil {
+  return nil, errors.New("failed to create book in database")
+ }
+
+ return newBook, nil
+}
+
+func resolveUpdateBook(p graphql.ResolveParams) (interface{}, error) {
+ // Retrieve book ID, title and author from arguments
+ ID, ok := p.Args["id"].(int)
+ if !ok {
+  return nil, errors.New("invalid book ID")
+ }
+
+ title, _ := p.Args["title"].(string)
+ author, _ := p.Args["author"].(string)
+
+ // Retrieve book with specified ID from database
+ var book Book
+ err := db.Where("id = ?", ID).First(&book).Error
+ if err != nil {
+  return nil, errors.New("failed to get book from database")
+ }
+
+ // Update book fields if specified
+ if title != "" {
+  book.Title = title
+ }
+ if author != "" {
+  book.Author = author
+ }
+
+ // Save book changes to database
+ err = db.Save(&book).Error
+ if err != nil {
+  return nil, errors.New("failed to update book in database")
+ }
+
+ return book, nil
+}
+
+func resolveDeleteBook(p graphql.ResolveParams) (interface{}, error) {
+ // Retrieve book ID from arguments
+ ID, ok := p.Args["id"].(int)
+ if !ok {
+  return nil, errors.New("invalid book ID")
+ }
+
+ // Delete book with specified ID from database
+ var book Book
+ err := db.Where("id = ?", ID).First(&book).Error
+ if err != nil {
+  return nil, errors.New("failed to get book from database")
+ }
+ err = db.Delete(&book).Error
+ if err != nil {
+  return nil, errors.New("failed to delete book from database")
+ }
+
+ return book, nil
+}
+```
+
+Это полный код для CRUD модели книг с использованием net/http для сервера, graphql для обмена данными и Gorm для ORM. Обратите внимание, что в этом коде предполагается, что у вас уже есть настроенная база данных MySQL и установлены следующие зависимости:
+
+```
+github.com/graphql-go/graphql
+gorm.io/gorm
+gorm.io/driver/mysql
+```
+
+Если вам нужно использовать другую базу данных, вы можете изменить соответствующий код в этом примере. Однако обратитесь к документации Gorm для получения более подробной информации по установке и настройке библиотеки для соответствующей базы данных.

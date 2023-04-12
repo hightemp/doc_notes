@@ -129,12 +129,48 @@
             }
           },
           {
-            "id": "86b61bbd3865713a",
+            "id": "886f4b72e22d6806",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/golang/FAQ.md",
+                "file": "Заметки/Разарботка/vue/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b61b87821a04e1d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27e908119467f865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/fastapi/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9ab9867e30fc482",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -359,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md"
+                "file": "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md"
               }
             }
           }
@@ -422,10 +458,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6df609d2b5dfbede",
+  "active": "f9ab9867e30fc482",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/fastapi/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md",
+    "Заметки/Разарботка/javascript/axios/FAQ.md",
+    "Заметки/AI/Ссылки.md",
+    "Заметки/Разарботка/javascript/axios",
+    "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
+    "Заметки/Разарботка/vue/FAQ.md",
     "Заметки/Разарботка/golang/Gorm/FAQ.md",
+    "Заметки/Разарботка/vue/bootstrap-vue/FAQ.md",
+    "Заметки/Разарботка/vue/bootstrap-vue",
     "Заметки/Разарботка/golang/Gorm",
     "Заметки/Разарботка/golang/bbolt/FAQ.md",
     "Заметки/Разарботка/golang/badgerDB/FAQ.md",
@@ -446,19 +491,10 @@
     "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
-    "Заметки/Разарботка/php/symfony/FAQ.md",
-    "Заметки/Разарботка/apache/FAQ.md",
-    "Заметки/Разарботка/make/FAQ.md",
     "Заметки/Разарботка/make",
-    "Заметки/AI/Репозитории.md",
-    "Заметки/AI/Ссылки.md",
-    "Заметки/Разарботка/golang/Статьи/How to Scrape HTML Tables in Golang Using Colly Quick Guide.md",
-    "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/chrome-extension",
     "Заметки/Разарботка/java",
     "Заметки/Разарботка/python/fastapi/Статьи",
-    "Заметки/Разарботка/python/fastapi",
-    "Заметки/Разарботка/php/symfony/Статьи",
-    "Заметки/Разарботка/php/symfony"
+    "Заметки/Разарботка/python/fastapi"
   ]
 }
