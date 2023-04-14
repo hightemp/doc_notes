@@ -1,9 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/MySQL/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/MySQL/FAQ.md)
+ - [Заметки/Разарботка/PostgreSQL/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/PostgreSQL/FAQ.md)
  - [README.md](./README.md)
  - [HISTORY.md](./HISTORY.md)
- - [Заметки/Разарботка/PostgreSQL/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/PostgreSQL/FAQ.md)
+ - [Заметки/Разарботка/MySQL/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/MySQL/FAQ.md)
  - [Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Building%20a%20GraphQL%20Server%20with%20Laravel.md)
  - [Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/GraphQL%20%D0%B8%20Laravel.md)
  - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
