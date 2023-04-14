@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-04-14T14:35:43.730Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="e3oEhVBFyYkI9j95rJlS" version="21.1.2" type="device">
+  <diagram name="Page-1" id="8G44pra1-FNCVcBNus4H">
+    <mxGraphModel dx="1430" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-1" value="Laravel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-2" value="Маршрутизация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-5" value="Контроллеры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-7" value="Модели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-8" value="Миграции" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-9" value="View (представление)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-10" value="Сидер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-11" value="Формы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-12" value="Валидация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-15" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-16" value="Сессии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-18" value="Cookies" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-19" value="Работа с файлами" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

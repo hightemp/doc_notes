@@ -9,6 +9,18 @@
         "dimension": 53.557814485387546,
         "children": [
           {
+            "id": "a30ccd1758c1e2b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1ef4d92a39839547",
             "type": "leaf",
             "state": {
@@ -45,6 +57,18 @@
             }
           },
           {
+            "id": "32d611e91b4fbf34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7dc0b6f921ebe504",
             "type": "leaf",
             "state": {
@@ -69,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -83,6 +107,18 @@
               "type": "markdown",
               "state": {
                 "file": "Заметка дня/ChatGPT promts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "171eab9084bf7902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +196,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md",
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md"
+                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
               }
             }
           }
@@ -289,9 +326,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e203bff192abc4b6",
+  "active": "17dca81d870350a6",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/FAQ.md",
+    "Заметки/Разарботка/MySQL/FAQ.md",
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/php/laravel/laravel.drawio",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/Темы для обучения.md",
     "Заметки/Темы.md",
@@ -301,10 +343,8 @@
     "Планы.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
-    "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/vscode/FAQ.md",
     "Заметки/Разарботка/golang/Ссылки.md",
-    "Заметки/Разарботка/MySQL/FAQ.md",
     "Заметки/Разарботка/PostgreSQL/FAQ.md",
     "Заметки/Разарботка/design-patterns/FAQ.md",
     "Заметки/Разарботка/design-patterns",
@@ -317,15 +357,12 @@
     "Заметки/Разарботка/MySQL/Статьи/MySQL Document Store.md",
     "Заметки/Разарботка/PostgreSQL",
     "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 1. Сервер.md",
-    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 2. Клиент.md",
-    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 3. Мутации.md",
     "Заметки/Физика",
     "Заметки/Разарботка/javascript/axios",
     "Заметки/Разарботка/vue/bootstrap-vue",
     "Заметки/Разарботка/golang/Gorm",
     "Заметки/Разарботка/golang/bbolt",
     "Заметки/Разарботка/golang/badgerDB",
-    "Заметки/Разарботка/make",
-    "Заметки/Разарботка/chrome-extension"
+    "Заметки/Разарботка/make"
   ]
 }
