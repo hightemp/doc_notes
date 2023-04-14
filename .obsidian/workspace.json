@@ -69,6 +69,42 @@
             }
           },
           {
+            "id": "7dc0b6f921ebe504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "571473e6497e9bee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8ada3287eacf163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "944bfd6c50cb7915",
             "type": "leaf",
             "state": {
@@ -177,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -322,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md"
               }
             }
           }
@@ -385,8 +421,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17dca81d870350a6",
+  "active": "e8ada3287eacf163",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 1. Сервер.md",
+    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 2. Клиент.md",
+    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 3. Мутации.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Темы.md",
     "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/golang/Gorm/FAQ.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
@@ -396,9 +440,7 @@
     "Заметки/Разарботка/php/laravel/Статьи/40 лучших инструментов и ресурсов Laravel.md",
     "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/vue/FAQ.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Физика",
-    "Заметки/Темы.md",
     "Заметки/AI/Темы.md",
     "Книги.md",
     "Найденное/Ссылки.md",
@@ -408,17 +450,11 @@
     "Заметки/Экономика/FAQ.md",
     "Заметки/Разарботка/golang/badgerDB/FAQ.md",
     "Заметки/Разарботка/javascript/axios/FAQ.md",
-    "Заметки/AI/Ссылки.md",
     "Заметки/Разарботка/javascript/axios",
-    "Заметки/Разарботка/vue/bootstrap-vue/FAQ.md",
     "Заметки/Разарботка/vue/bootstrap-vue",
     "Заметки/Разарботка/golang/Gorm",
-    "Заметки/Разарботка/golang/bbolt/FAQ.md",
     "Заметки/Разарботка/golang/bbolt",
     "Заметки/Разарботка/golang/badgerDB",
-    "Заметки/Разарботка/golang/Статьи/Разбираем go embed в Go 1.16.md",
-    "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
-    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/make",
     "Заметки/Разарботка/chrome-extension",
     "Заметки/Разарботка/java",
