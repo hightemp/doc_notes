@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/mysql/FAQ.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,129 +91,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e8ada3287eacf163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "944bfd6c50cb7915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Физика/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6df609d2b5dfbede",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/Gorm/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "886f4b72e22d6806",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/vue/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b61b87821a04e1d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27e908119467f865",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/fastapi/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46ebc87c91fbdbc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/symfony/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a45bb743b83f7218",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8230df49ee5ace2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7ae28788d5bf954",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -358,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md"
+                "file": "Заметки/Разарботка/MySQL/FAQ.md"
               }
             }
           }
@@ -421,19 +301,23 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "e8ada3287eacf163",
+  "active": "5f457eef9ca787d2",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
-    "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
+    "Заметки/Разарботка/php/symfony/FAQ.md",
+    "Заметки/Разарботка/golang/Gorm/FAQ.md",
+    "Заметки/Физика/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
+    "Заметки/Разарботка/MySQL/FAQ.md",
+    "Заметки/Разарботка/MySQL/Статьи/MySQL Document Store.md",
+    "Заметки/Разарботка/PostgreSQL/FAQ.md",
+    "Заметки/Разарботка/PostgreSQL",
     "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 1. Сервер.md",
     "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 2. Клиент.md",
     "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 3. Мутации.md",
-    "Заметки/Разарботка/php/laravel/FAQ.md",
     "Заметки/Темы.md",
-    "Заметки/Физика/FAQ.md",
-    "Заметки/Разарботка/golang/Gorm/FAQ.md",
-    "Заметки/Разарботка/php/symfony/FAQ.md",
     "Заметки/Разарботка/python/fastapi/FAQ.md",
     "Заметки/Разарботка/php/laravel/Статьи/PHP Frameworks Choosing Between Symfony and Laravel.md",
     "Заметки/Разарботка/java/FAQ.md",
@@ -445,11 +329,8 @@
     "Книги.md",
     "Найденное/Ссылки.md",
     "Найденное/Репозитории.md",
-    "Заметки/Разарботка/mysql/FAQ.md",
     "Заметки/Разарботка/golang/FAQ.md",
     "Заметки/Экономика/FAQ.md",
-    "Заметки/Разарботка/golang/badgerDB/FAQ.md",
-    "Заметки/Разарботка/javascript/axios/FAQ.md",
     "Заметки/Разарботка/javascript/axios",
     "Заметки/Разарботка/vue/bootstrap-vue",
     "Заметки/Разарботка/golang/Gorm",
@@ -457,7 +338,6 @@
     "Заметки/Разарботка/golang/badgerDB",
     "Заметки/Разарботка/make",
     "Заметки/Разарботка/chrome-extension",
-    "Заметки/Разарботка/java",
-    "Заметки/Разарботка/python/fastapi/Статьи"
+    "Заметки/Разарботка/java"
   ]
 }

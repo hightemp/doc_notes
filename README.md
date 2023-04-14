@@ -63,6 +63,12 @@ https://hightemp.github.io/doc_notes/
      - [Книги.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
+     - MySQL
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/MySQL/FAQ.md)
+       - Статьи
+         - [MySQL Document Store.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/MySQL/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/MySQL%20Document%20Store.md)
+     - PostgreSQL
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/PostgreSQL/FAQ.md)
      - make
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/make/FAQ.md)
      - chrome-extension
@@ -209,10 +215,6 @@ https://hightemp.github.io/doc_notes/
          - [Additional SSR performance with Nuxt fullstack server (Часть 2).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Additional%20SSR%20performance%20with%20Nuxt%20fullstack%20server%20(%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202).md)
      - nim
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nim/FAQ.md)
-     - mysql
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/FAQ.md)
-       - Статьи
-         - [MySQL Document Store.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/mysql/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/MySQL%20Document%20Store.md)
      - langd
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/langd/FAQ.md)
      - javascript
