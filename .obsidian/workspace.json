@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметка дня/ChatGPT promts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметка дня/ChatGPT promts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметка дня/ChatGPT promts.md"
               }
             }
           }
@@ -289,10 +289,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17dca81d870350a6",
+  "active": "e203bff192abc4b6",
   "lastOpenFiles": [
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/Темы для обучения.md",
     "Заметки/Темы.md",
     "Найденное/Репозитории.md",
