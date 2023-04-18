@@ -105,6 +105,18 @@
             }
           },
           {
+            "id": "d21b58ad4edcc248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/javascript/mithril/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "32d611e91b4fbf34",
             "type": "leaf",
             "state": {
@@ -141,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -311,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/javascript/mithril/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/javascript/mithril/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md"
+                "file": "Заметки/Разарботка/javascript/mithril/Ссылки.md"
               }
             }
           }
@@ -374,8 +386,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "d21b58ad4edcc248",
   "lastOpenFiles": [
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/javascript/mithril/Ссылки.md",
+    "Заметки/Разарботка/javascript/mithril",
     "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
     "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/КНИГИ/Статьи",
@@ -405,12 +420,9 @@
     "Заметки/Разарботка/design-patterns/FAQ.md",
     "Заметки/Разарботка/design-patterns",
     "Заметки/Разарботка/Untitled.md",
-    "HISTORY.md",
-    "Заметки/Разарботка/php/symfony/FAQ.md",
     "Заметки/Разарботка/PostgreSQL",
     "Заметки/Физика",
     "Заметки/Разарботка/javascript/axios",
-    "Заметки/Разарботка/javascript/vue/bootstrap-vue",
-    "Заметки/Разарботка/golang/Gorm"
+    "Заметки/Разарботка/javascript/vue/bootstrap-vue"
   ]
 }
