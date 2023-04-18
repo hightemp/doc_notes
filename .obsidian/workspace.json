@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -311,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+                "file": "Заметки/Разарботка/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -351,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md"
+                "file": "Заметки/Разарботка/Ссылки.md"
               }
             }
           }
@@ -374,10 +374,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7665390e8cf7dfa3",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+    "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/КНИГИ/Статьи",
     "Заметки/Разарботка/КНИГИ",
     "Заметки/Разарботка/javascript/vue/Ссылки.md",
