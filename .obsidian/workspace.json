@@ -57,6 +57,54 @@
             }
           },
           {
+            "id": "dc5dc9e89c07daed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Экономика/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75d071cc654f9eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bb5c07485aa0a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Физика/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7665390e8cf7dfa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "32d611e91b4fbf34",
             "type": "leaf",
             "state": {
@@ -93,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -263,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
+                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +351,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md"
+                "file": "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md"
               }
             }
           }
@@ -326,10 +374,18 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "17dca81d870350a6",
+  "active": "7665390e8cf7dfa3",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
+    "Заметки/Физика/FAQ.md",
+    "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
+    "Заметки/Разарботка/КНИГИ/Статьи",
+    "Заметки/Разарботка/КНИГИ",
+    "Заметки/Разарботка/javascript/vue/Ссылки.md",
+    "Заметки/Разарботка/javascript/easyui/FAQ.md",
+    "Заметки/Экономика/FAQ.md",
+    "Заметки/Разарботка/javascript/easyui",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
     "Заметки/Разарботка/FAQ.md",
     "Заметки/Разарботка/MySQL/FAQ.md",
     "Заметки/Разарботка/python/FAQ.md",
@@ -351,18 +407,10 @@
     "Заметки/Разарботка/Untitled.md",
     "HISTORY.md",
     "Заметки/Разарботка/php/symfony/FAQ.md",
-    "Заметки/Разарботка/golang/Gorm/FAQ.md",
-    "Заметки/Физика/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Статьи/Building a GraphQL Server with Laravel.md",
-    "Заметки/Разарботка/MySQL/Статьи/MySQL Document Store.md",
     "Заметки/Разарботка/PostgreSQL",
-    "Заметки/Разарботка/php/yii/Статьи/Пишем GraphQL API сервер на Yii2 с клиентом на Polymer + Apollo. Часть 1. Сервер.md",
     "Заметки/Физика",
     "Заметки/Разарботка/javascript/axios",
-    "Заметки/Разарботка/vue/bootstrap-vue",
-    "Заметки/Разарботка/golang/Gorm",
-    "Заметки/Разарботка/golang/bbolt",
-    "Заметки/Разарботка/golang/badgerDB",
-    "Заметки/Разарботка/make"
+    "Заметки/Разарботка/javascript/vue/bootstrap-vue",
+    "Заметки/Разарботка/golang/Gorm"
   ]
 }
