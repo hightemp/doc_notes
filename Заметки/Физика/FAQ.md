@@ -275,3 +275,16 @@
 - Переход с второго возбужденного уровня (номер 3) на основной уровень (номер 1) соответствует красной линии с длиной волны 630,0 нм.
 
 Отметим, что это не полный список всех возможных переходов в атоме кислорода, а только некоторые примеры.
+
+## существуют ли базы спектров пламени, напиши список со ссылкаими
+
+Да, существуют базы данных спектров пламени. Ниже представлены некоторые из них:
+
+1. National Institute of Standards and Technology (NIST) - https://www.nist.gov/pml/atomic-spectra-database
+2. Atomic Line List (ALL) - http://www.pa.uky.edu/~peter/newpage/
+3. Kurucz Atomic Line Database (KALD) - http://kurucz.harvard.edu/atoms.html
+4. VALD - https://vald.astro.uu.se/
+5. Theoretical Atomic Line List (TALL) - http://www.tallhouse.net/linelists/
+6. GRAMS/AI Spectral Database - https://www.sciencegateway.org/databases/grams.htm
+
+Кроме того, также есть множество коммерческих баз данных, которые могут быть доступны только по подписке или за определенную плату.

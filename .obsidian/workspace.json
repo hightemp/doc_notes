@@ -57,12 +57,36 @@
             }
           },
           {
-            "id": "7c0aebf1adefce43",
+            "id": "ee0c7a0a5fe7b128",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
+                "file": "Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b47a3d278b7ae73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Физика/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a2db1f2558f9062",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/bitrix/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,7 +225,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -370,7 +394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
+                "file": "Заметки/Разарботка/bitrix/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +411,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
+                "file": "Заметки/Разарботка/bitrix/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md"
+                "file": "Заметки/Разарботка/bitrix/FAQ.md"
               }
             }
           }
@@ -433,13 +457,19 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "7c0aebf1adefce43",
+  "active": "3a2db1f2558f9062",
   "lastOpenFiles": [
+    "Заметки/Физика/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Экономика/Самозанятые/FAQ.md",
+    "Заметки/Экономика/Самозанятые/Статьи/Как заключить договор с самозанятым.md",
+    "Заметки/Разарботка/bitrix/FAQ.md",
+    "Заметки/Экономика/Самозанятые/Статьи",
+    "Заметки/Экономика/Самозанятые",
     "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/python/pyqt/FAQ.md",
-    "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/php/laravel/Статьи/Laravel Components.md",
     "Заметки/Разарботка/Администрирование/Статьи/Лучшие сертификаты Linux.md",
     "Заметки/Разарботка/Администрирование/Статьи/10 лучших в мире сертификатов Linux  2023 г..md",
@@ -463,13 +493,7 @@
     "Заметки/Разарботка/javascript/mithril",
     "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
     "Заметки/Разарботка/КНИГИ/Статьи",
-    "Заметки/Разарботка/КНИГИ",
     "Заметки/Разарботка/javascript/easyui/FAQ.md",
-    "Заметки/Разарботка/javascript/easyui",
-    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
-    "Заметки/Разарботка/FAQ.md",
-    "Заметки/Разарботка/MySQL/FAQ.md",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/Темы для обучения.md"
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md"
   ]
 }
