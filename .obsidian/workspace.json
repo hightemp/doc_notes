@@ -153,6 +153,30 @@
             }
           },
           {
+            "id": "ab3413eb0c25a0e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/natasha/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94482cb88db519b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7dc0b6f921ebe504",
             "type": "leaf",
             "state": {
@@ -177,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -346,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
+                "file": "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
+                "file": "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +410,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/pyqt/FAQ.md"
+                "file": "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md"
               }
             }
           }
@@ -409,8 +433,13 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "94482cb88db519b7",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/natasha/FAQ.md",
+    "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md",
+    "Заметки/Разарботка/python/natasha/Статьи",
+    "Заметки/Разарботка/python/pyqt/FAQ.md",
+    "Заметки/Разарботка/python/natasha",
     "Заметки/Разарботка/python/FAQ.md",
     "Заметки/Разарботка/python/Статьи/Packaging PyQt application using pyqtdeploy for both Linux and Android.md",
     "Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md",
@@ -431,21 +460,16 @@
     "Заметки/Экономика/Самозанятые",
     "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
     "Заметка дня/ChatGPT promts.md",
-    "Заметки/Разарботка/python/pyqt/FAQ.md",
     "Заметки/Разарботка/php/laravel/Статьи/Laravel Components.md",
     "Заметки/Разарботка/Администрирование/Статьи/Лучшие сертификаты Linux.md",
     "Заметки/Разарботка/Администрирование/Статьи/10 лучших в мире сертификатов Linux  2023 г..md",
     "Заметки/Разарботка/Администрирование/snap/FAQ.md",
     "Найденное/Ссылки.md",
-    "Заметки/Книги.md",
-    "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/python/pyqt",
     "Заметки/Разарботка/Администрирование/snap",
     "Заметки/Разарботка/html/Статьи",
     "Заметки/Разарботка/html",
     "Заметки/Разарботка/Администрирование/Статьи",
-    "Заметки/Разарботка/Администрирование",
-    "Заметки/Разарботка/javascript/mithril",
-    "Заметки/Разарботка/КНИГИ/Статьи"
+    "Заметки/Разарботка/Администрирование"
   ]
 }
