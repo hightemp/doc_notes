@@ -1,8 +1,11 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/bitrix/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bitrix/FAQ.md)
+ - [Заметки/Разарботка/python/pyqt/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/pyqt/FAQ.md)
  - [HISTORY.md](./HISTORY.md)
  - [README.md](./README.md)
+ - [Заметки/Разарботка/python/Статьи/Packaging PyQt application using pyqtdeploy for both Linux and Android.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Packaging%20PyQt%20application%20using%20pyqtdeploy%20for%20both%20Linux%20and%20Android.md)
+ - [Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/PEP%208%20%D0%BA%D0%B0%D0%BA%D0%B8%D0%BC%20%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%20%D0%B1%D1%8B%D1%82%D1%8C%20%D0%BA%D0%BE%D0%B4%20%D0%BD%D0%B0%20Python.md)
+ - [Заметки/Разарботка/bitrix/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bitrix/FAQ.md)
  - [Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Laravel%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%D0%BE%D0%B2.md)
  - [Заметки/Экономика/Самозанятые/Статьи/Как заключить договор с самозанятым.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D0%B5/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9A%D0%B0%D0%BA%20%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D1%81%D0%B0%D0%BC%D0%BE%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D0%BC.md)
  - [Заметки/Экономика/Самозанятые/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8B%D0%B5/FAQ.md)
@@ -10,7 +13,6 @@
  - [Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/User%20Levels,%20Enums%20and%20Policies,%20Oh%20My!.md)
  - [Заметки/Разарботка/php/laravel/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/FAQ.md)
  - [Заметка дня/ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
- - [Заметки/Разарботка/python/pyqt/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/pyqt/FAQ.md)
  - [Найденное/Ссылки.md](./%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/Администрирование/snap/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/snap/FAQ.md)
  - [Заметки/Разарботка/Администрирование/Статьи/10 лучших в мире сертификатов Linux  2023 г..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/10%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D0%B2%20Linux%20%202023%20%D0%B3..md)

@@ -63,3 +63,90 @@ editor.textChanged.connect(highlighter.update_highlighting)
 ```
 
 Теперь подсветка будет обновляться автоматически после каждого изменения текста в редакторе.
+
+## напиши как собрать android приложение с помощью pyqtdeploy
+
+Для сборки Android-приложения с помощью PyQtDeploy вам потребуется:
+
+1. Установить PyQt5 и PyQtDeploy на свой компьютер.
+2. Установить Android SDK и NDK на свой компьютер и настроить переменные окружения.
+3. Создать проект PyQt5, который вы хотите развернуть на Android, и убедиться, что он работает на вашем компьютере.
+4. Создать файл конфигурации PyQtDeploy для вашего проекта.
+5. Скомпилировать ваш проект с помощью PyQtDeploy.
+6. Создать APK-файл из скомпилированных файлов.
+
+Вот пример шагов, которые нужно выполнить для сборки Android-приложения с помощью PyQtDeploy:
+
+1. Установите PyQt5 и PyQtDeploy с помощью pip:
+
+   ```
+   pip install PyQt5 PyQtDeploy
+   ```
+
+2. Установите Android SDK и NDK на свой компьютер. Вы можете найти инструкции по установке на официальном сайте Android:
+
+   - Android SDK (https://developer.android.com/studio/#downloads)
+   - Android NDK (https://developer.android.com/ndk/downloads)
+
+   После установки настройте переменные окружения, чтобы они указывали на папки с SDK и NDK.
+
+3. Создайте проект PyQt5, который вы хотите развернуть на Android. Убедитесь, что он работает на вашем компьютере. Например, вот простой пример PyQt5-приложения:
+
+   ```
+   import sys
+   from PyQt5.QtWidgets import QApplication, QLabel
+
+   app = QApplication(sys.argv)
+   label = QLabel("Hello, World!")
+   label.show()
+   sys.exit(app.exec_())
+   ```
+
+4. Создайте файл конфигурации PyQtDeploy для вашего проекта. Например, вот пример файла конфигурации android.json для простого PyQt5-приложения:
+
+   ```
+   {
+       "android_apk": {
+           "package": "com.mycompany.myapp",
+           "name": "My App",
+           "version": "1.0",
+           "icon": "myapp.png",
+           "sdk_version": "21",
+           "permissions": [
+               "INTERNET"
+           ]
+       },
+       "deploy": {
+           "sources": [
+               "main.py",
+               "myapp.png"
+           ],
+           "imports": [
+               "PyQt5.QtCore",
+               "PyQt5.QtGui",
+               "PyQt5.QtWidgets"
+           ],
+           "target": "android"
+       }
+   }
+   ```
+
+   В этом примере мы указываем параметры для APK-файла, включая пакет, имя, версию, иконку и разрешения. Мы также указываем исходные файлы и импортируемые модули, а также целевую платформу.
+
+5. Скомпилируйте ваш проект с помощью PyQtDeploy. Для этого запустите следующую команду:
+
+   ```
+   pyqtdeploy-build android.json
+   ```
+
+   Эта команда создаст директорию android со скомпилированными файлами.
+
+6. Создайте APK-файл из скомпилированных файлов. Для этого запустите следующую команду:
+
+   ```
+   pyqtdeploy-make-apk android.json
+   ```
+
+   Эта команда создаст файл android-debug.apk, который вы можете установить на устройство Android.
+
+Надеюсь, это поможет вам собрать ваше PyQt5-приложение для Android с помощью PyQtDeploy.

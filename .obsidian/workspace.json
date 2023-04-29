@@ -57,18 +57,6 @@
             }
           },
           {
-            "id": "ee0c7a0a5fe7b128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4b47a3d278b7ae73",
             "type": "leaf",
             "state": {
@@ -141,60 +129,24 @@
             }
           },
           {
-            "id": "7665390e8cf7dfa3",
+            "id": "fea729877342af76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/Ссылки.md",
+                "file": "Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1065203793be7d1c",
+            "id": "fe1467eb6b17c528",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/Администрирование/Статьи/Уходим с «Яндекс.Почты» на свой почтовый сервер.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdd0c793afd3804a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/html/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84a64be7ff3df712",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/html/Статьи/How to Create a Link Preview The Definite Guide Implementation and Demo Included.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32d611e91b4fbf34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
+                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -225,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -394,7 +346,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/bitrix/FAQ.md",
+                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/bitrix/FAQ.md",
+                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/bitrix/FAQ.md"
+                "file": "Заметки/Разарботка/python/pyqt/FAQ.md"
               }
             }
           }
@@ -457,14 +409,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3a2db1f2558f9062",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/python/FAQ.md",
+    "Заметки/Разарботка/python/Статьи/Packaging PyQt application using pyqtdeploy for both Linux and Android.md",
+    "Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md",
     "Заметки/Физика/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md",
+    "Заметки/Разарботка/Ссылки.md",
+    "Заметки/Разарботка/Администрирование/Статьи/Уходим с «Яндекс.Почты» на свой почтовый сервер.md",
+    "Заметки/Разарботка/html/FAQ.md",
+    "Заметки/Разарботка/html/Статьи/How to Create a Link Preview The Definite Guide Implementation and Demo Included.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
     "Заметки/Разарботка/php/laravel/FAQ.md",
+    "Заметки/Разарботка/php/laravel/Статьи/Laravel разработка пакетов.md",
+    "Заметки/Разарботка/bitrix/FAQ.md",
     "Заметки/Экономика/Самозанятые/FAQ.md",
     "Заметки/Экономика/Самозанятые/Статьи/Как заключить договор с самозанятым.md",
-    "Заметки/Разарботка/bitrix/FAQ.md",
     "Заметки/Экономика/Самозанятые/Статьи",
     "Заметки/Экономика/Самозанятые",
     "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My!.md",
@@ -476,24 +438,14 @@
     "Заметки/Разарботка/Администрирование/snap/FAQ.md",
     "Найденное/Ссылки.md",
     "Заметки/Книги.md",
-    "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/Книги.md",
     "Заметки/Разарботка/python/pyqt",
     "Заметки/Разарботка/Администрирование/snap",
-    "Заметки/Разарботка/javascript/vue/Ссылки.md",
-    "Заметки/Экономика/FAQ.md",
-    "Заметки/Разарботка/Администрирование/Статьи/Уходим с «Яндекс.Почты» на свой почтовый сервер.md",
-    "Заметки/Разарботка/html/FAQ.md",
-    "Заметки/Разарботка/html/Статьи/How to Create a Link Preview The Definite Guide Implementation and Demo Included.md",
     "Заметки/Разарботка/html/Статьи",
     "Заметки/Разарботка/html",
     "Заметки/Разарботка/Администрирование/Статьи",
     "Заметки/Разарботка/Администрирование",
-    "Заметки/Разарботка/javascript/mithril/Ссылки.md",
     "Заметки/Разарботка/javascript/mithril",
-    "Заметки/Разарботка/КНИГИ/Статьи/Книги для начинающих Python-разработчиков.md",
-    "Заметки/Разарботка/КНИГИ/Статьи",
-    "Заметки/Разарботка/javascript/easyui/FAQ.md",
-    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md"
+    "Заметки/Разарботка/КНИГИ/Статьи"
   ]
 }
