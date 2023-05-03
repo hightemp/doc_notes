@@ -150,3 +150,8 @@ editor.textChanged.connect(highlighter.update_highlighting)
    Эта команда создаст файл android-debug.apk, который вы можете установить на устройство Android.
 
 Надеюсь, это поможет вам собрать ваше PyQt5-приложение для Android с помощью PyQtDeploy.
+
+## Как установить модель для QListWidget
+
+Я не думаю, что вы можете установить модель для QListWidget. Потому что у QListWidget своя модель. Но вы можете использовать QListView, и вы можете установить свою собственную модель в QListView.
+
