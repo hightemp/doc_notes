@@ -769,3 +769,295 @@ class MyTest extends AbstractHttpControllerTestCase
 
 ## как в laminas использовать redis?
 
+Для использования Redis в Laminas можно использовать библиотеку laminas/laminas-cache. Она предоставляет абстрактный интерфейс для работы с различными кэш-системами, включая Redis.
+
+Для начала необходимо установить библиотеку с помощью Composer:
+
+```
+composer require laminas/laminas-cache
+```
+
+
+Затем необходимо создать экземпляр класса Redis и передать его в конструктор класса Laminas\Cache\Storage\Adapter\Redis:
+
+```php
+use Laminas\Cache\Storage\Adapter\Redis;
+use Redis as RedisClient;
+
+$redis = new RedisClient();
+$redis->connect('127.0.0.1', 6379);
+
+$cache = new Redis(['redis' => $redis]);
+```
+
+
+В этом примере мы создаем экземпляр класса Redis и подключаемся к локальному серверу Redis на порту 6379. Затем создаем экземпляр класса Laminas\Cache\Storage\Adapter\Redis и передаем ему объект Redis.
+
+Теперь можно использовать объект $cache для выполнения операций с Redis, таких как сохранение и получение данных:
+
+```php
+$cache->setItem('key', 'value');
+$value = $cache->getItem('key');
+```
+
+
+В этом примере мы сохраняем строковое значение "value" под ключом "key" в Redis с помощью метода setItem(). Затем получаем значение по ключу "key" с помощью метода getItem().
+
+Библиотека laminas/laminas-cache также предоставляет множество других возможностей для работы с кэш-системами, таких как кэширование в файловой системе, APCu, Memcached и других. Выбор конкретной кэш-системы зависит от требований и особенностей приложения.
+
+## как определяется что попадет в метод конструктора контроллера в виде параметра в limunas (например модель или что-то еще)?
+
+В Laminas параметры, передаваемые в конструктор контроллера, определяются в конфигурации маршрутов (Routing configuration). 
+
+В файле конфигурации маршрутов, как правило, определяется маршрут для каждого запроса и указывается, какой контроллер должен обрабатывать этот маршрут. Для этого используется ключ controller, в котором указывается полное имя класса контроллера, который будет использоваться для обработки запроса. 
+
+Например:
+
+```php
+return [
+    'router' => [
+        'routes' => [
+            'my-route' => [
+                'type' => 'Literal',
+                'options' => [
+                    'route' => '/my-route',
+                    'defaults' => [
+                        'controller' => MyApp\Controller\MyController::class,
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
+```
+
+В этом примере мы определяем маршрут /my-route и указываем, что для его обработки должен использоваться контроллер MyApp\Controller\MyController. 
+
+Если в классе контроллера определен конструктор, то при создании объекта контроллера, фреймворк Laminas будет пытаться передать в него параметры, определенные в конфигурации маршрута. Параметры передаются в массиве __construct() в порядке, в котором они определены в конфигурации маршрута. 
+
+Например, если в конфигурации маршрута мы определили параметр model:
+
+```php
+return [
+    'router' => [
+        'routes' => [
+            'my-route' => [
+                'type' => 'Literal',
+                'options' => [
+                    'route' => '/my-route',
+                    'defaults' => [
+                        'controller' => MyApp\Controller\MyController::class,
+                        'model' => MyApp\Model\MyModel::class,
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
+```
+
+
+то параметр model будет передан в конструктор контроллера следующим образом:
+
+```php
+namespace MyApp\Controller;
+
+use MyApp\Model\MyModel;
+
+class MyController
+{
+    protected $myModel;
+
+    public function __construct(MyModel $myModel)
+    {
+        $this->myModel = $myModel;
+    }
+}
+```
+
+
+В этом примере мы определяем, что в конструкторе контроллера должен быть параметр MyModel $myModel, который будет передаваться при создании объекта контроллера. 
+
+Таким образом, параметры, которые попадут в метод конструктора контроллера в виде параметра, определяются в конфигурации маршрутов и передаются в порядке, в котором они определены.
+
+## как в luminas определяется как выводится информация от контроллера (в json или html)?
+
+В Laminas вы можете указать, какой контент-тип должен быть возвращен из контроллера, используя объект Laminas\View\Model\ViewModel. Этот объект содержит информацию о том, какие данные должны быть возвращены из вашего контроллера, а также о том, какой шаблон должен быть использован для отображения этих данных (если это необходимо).
+
+Чтобы вернуть данные в формате JSON, вам нужно создать объект Laminas\View\Model\JsonModel и передать ему данные, которые должны быть возвращены в формате JSON. Например:
+
+```php
+use Laminas\View\Model\JsonModel;
+
+class MyController
+{
+    public function myAction()
+    {
+        $data = [
+            'foo' => 'bar',
+            'baz' => 123,
+        ];
+
+        $jsonModel = new JsonModel($data);
+        return $jsonModel;
+    }
+}
+```
+
+
+В этом примере мы создаем объект JsonModel и передаем ему ассоциативный массив $data. Объект JsonModel автоматически преобразует этот массив в JSON и отправит его клиенту.
+
+Чтобы вернуть данные в другом формате, например, в формате XML, можно создать объект Laminas\View\Model\XmlModel и передать ему данные в виде объекта SimpleXMLElement. Например:
+
+```php
+use Laminas\View\Model\XmlModel;
+
+class MyController
+{
+    public function myAction()
+    {
+        $xml = new SimpleXMLElement('<root/>');
+        $xml->addChild('foo', 'bar');
+        $xml->addChild('baz', 123);
+
+        $xmlModel = new XmlModel(['data' => $xml]);
+        return $xmlModel;
+    }
+}
+```
+
+
+В этом примере мы создаем объект SimpleXMLElement и добавляем в него два элемента \<foo\> и \<baz\>. Затем мы создаем объект XmlModel и передаем ему данные в виде ассоциативного массива, содержащего объект SimpleXMLElement.
+
+Когда вы возвращаете объект ViewModel из вашего контроллера, Laminas автоматически выбирает соответствующий рендерер для форматирования данных. Если вы вернете объект JsonModel, Laminas выберет Laminas\View\JsonRenderer, который автоматически преобразует данные в формат JSON. Если вы вернете объект XmlModel, Laminas выберет Laminas\View\XmlRenderer, который автоматически преобразует данные в формат XML.
+
+## что такое Hydrator?
+
+Hydrator - это паттерн проектирования, который используется для преобразования данных из одного формата в другой. В контексте разработки программного обеспечения, hydrator используется для преобразования данных объекта в другой формат, например в массив или в объект другого типа.
+
+В PHP, библиотека Laminas предоставляет класс Laminas\Hydrator\HydratorInterface, который определяет интерфейс для классов, реализующих функциональность hydrator. Этот интерфейс содержит методы для преобразования данных из объекта в другой формат и обратно.
+
+Например, если у вас есть объект User с полями id, name и email, и вы хотите преобразовать его в массив, вы можете использовать hydrator для этого. Вот как это может выглядеть с использованием Laminas:
+
+```php
+use Laminas\Hydrator\ReflectionHydrator;
+
+class User
+{
+    public $id;
+    public $name;
+    public $email;
+}
+
+$user = new User();
+$user->id = 1;
+$user->name = 'John Doe';
+$user->email = 'john.doe@example.com';
+
+$hydrator = new ReflectionHydrator();
+$data = $hydrator->extract($user);
+
+// Результат: ['id' => 1, 'name' => 'John Doe', 'email' => 'john.doe@example.com']
+```
+
+
+В этом примере мы создаем объект User и заполняем его данными. Затем мы создаем объект ReflectionHydrator, который может преобразовывать данные объектов в массивы и обратно. С помощью метода extract() мы преобразуем объект User в массив.
+
+Hydrator также может быть использован для преобразования данных из массива в объект. Например:
+
+```php
+$data = ['id' => 1, 'name' => 'John Doe', 'email' => 'john.doe@example.com'];
+
+$hydrator = new ReflectionHydrator();
+$user = $hydrator->hydrate($data, new User());
+
+// Результат: объект User с заполненными полями
+```
+
+В этом примере мы используем метод hydrate() для преобразования массива данных в объект User. Hydrator автоматически присваивает значения свойствам объекта, используя ключи массива в качестве имен свойств.
+
+Hydrator может быть полезен, когда вам нужно преобразовывать данные между различными форматами, например, при работе с базами данных, сервисами API или форматами данных, используемыми в различных частях вашего приложения.
+
+Hydrator - это не классический паттерн проектирования, а скорее понятие, связанное с преобразованием данных между разными форматами. Однако, концепция Hydrator может быть использована в сочетании с другими паттернами, такими как Data Transfer Object (DTO), для улучшения производительности и эффективности приложения.
+
+DTO - это объект, который содержит данные, которые передаются между слоями приложения. Он может использоваться для избежания передачи лишних данных между слоями и уменьшения нагрузки на сеть. Hydrator может использоваться для преобразования этих объектов в другие форматы, такие как массивы или объекты другого типа.
+
+Также, Hydrator может быть использован в сочетании с паттерном Factory для создания объектов из разных источников данных. Например, если у вас есть класс, который представляет данные из базы данных, вы можете использовать Hydrator для создания объектов этого класса из записей в базе данных или из других источников данных.
+
+Таким образом, Hydrator может быть использован в сочетании с другими паттернами проектирования для улучшения производительности и эффективности приложения.
+
+## где и когда появились термины Hydrator и DTO
+
+Термин DTO (Data Transfer Object) был введен в 2003 году Мартином Фаулером и Ребеккой Парсонс в книге "Enterprise Patterns and MDA: Building Better Software with Archetype Patterns and UML". DTO - это простой класс, который содержит только данные и не имеет бизнес-логики. Он используется для передачи данных между слоями приложения и для уменьшения нагрузки на сеть.
+
+Термин Hydrator появился в контексте разработки PHP-фреймворка Zend Framework (предшественника Laminas). Hydrator в Zend Framework был добавлен в версии 2.0 в 2012 году. Он был создан для упрощения преобразования данных между форматами, такими как объекты и массивы.
+
+Таким образом, термины Hydrator и DTO появились в разное время и в разных контекстах, но оба они являются широко используемыми концепциями в современном программировании.
+
+## Как в luminas определяется что будет передено в конструктор контроллера в примере кода:
+
+В Laminas контроллеры создаются с помощью фабрик. Фабрика - это класс, который создает и настраивает экземпляр объекта, который будет использоваться как контроллер. Фабрика может принимать аргументы в свой конструктор, которые будут переданы в конструктор создаваемого контроллера.
+
+В приведенном примере кода, создается экземпляр класса ActivityStatusesController с помощью фабрики. Фабрика принимает экземпляр CompanyService в свой конструктор, который будет передан в конструктор создаваемого контроллера.
+
+Создание фабрики и настройка зависимостей выполняется в конфигурационном файле модуля (например, module.config.php):
+
+```php
+return [
+    'controllers' => [
+        'factories' => [
+            ActivityStatusesController::class => ActivityStatusesControllerFactory::class,
+        ],
+    ],
+    'service_manager' => [
+        'factories' => [
+            CompanyService::class => CompanyServiceFactory::class,
+        ],
+    ],
+];
+```
+
+
+В данном примере используется фабрика ActivityStatusesControllerFactory, которая создает экземпляр контроллера ActivityStatusesController и передает ему экземпляр CompanyService. В свою очередь, CompanyService создается с помощью фабрики CompanyServiceFactory.
+
+```php
+namespace Companies\V1\Rpc\ActivityStatuses;
+
+use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
+use Companies\Service\CompanyService;
+
+class ActivityStatusesControllerFactory implements FactoryInterface
+{
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    {
+        $companyService = $container->get(CompanyService::class);
+
+        return new ActivityStatusesController($companyService);
+    }
+}
+```
+
+
+```php
+namespace Companies\Service;
+
+use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
+use Doctrine\ORM\EntityManagerInterface;
+
+class CompanyServiceFactory implements FactoryInterface
+{
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    {
+        $entityManager = $container->get(EntityManagerInterface::class);
+
+        return new CompanyService($entityManager);
+    }
+}
+```
+
+Таким образом, для передачи зависимостей в конструктор контроллера в Laminas используется механизм фабрик и контейнеров внедрения зависимостей.
+
+## какой метод вызывается в luminas если он не указан в конфиге, а только контроллер?
+
