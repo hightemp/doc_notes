@@ -6,207 +6,38 @@
       {
         "id": "90171f8499a0e1ff",
         "type": "tabs",
-        "dimension": 53.557814485387546,
+        "dimension": 53.503184713375795,
         "children": [
           {
-            "id": "a30ccd1758c1e2b4",
+            "id": "f9bccae53813359d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/FAQ.md",
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ef4d92a39839547",
+            "id": "52c3e4077c56ca17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/python/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f457eef9ca787d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/MySQL/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17dca81d870350a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b47a3d278b7ae73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Физика/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a2db1f2558f9062",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/bitrix/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adef06611d5ec1d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/pyqt/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fc93de753cbcd8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/Laravel Components.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75d071cc654f9eb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bb5c07485aa0a3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Физика/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fea729877342af76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe1467eb6b17c528",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab3413eb0c25a0e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/natasha/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9868ea2609710bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/react/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7dc0b6f921ebe504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "571473e6497e9bee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/laravel/Статьи/GraphQL и Laravel.md",
+                "file": "Заметки/Разарботка/php/doctrine/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       },
       {
         "id": "5d9308b82dc6abf0",
         "type": "tabs",
-        "dimension": 46.44218551461245,
+        "dimension": 46.496815286624205,
         "children": [
           {
             "id": "e693db056e4010f8",
@@ -231,21 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "aa8a860f2d5690c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Репозитории.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -319,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md",
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -359,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/docker/FAQ.md"
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md"
               }
             }
           }
@@ -382,8 +201,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "f9bccae53813359d",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/doctrine/FAQ.md",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
+    "Заметки/Разарботка/php/doctrine",
+    "Заметки/Разарботка/php/laminas",
+    "Планы.md",
+    "Найденное/Репозитории.md",
+    "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/python/pyqt/FAQ.md",
     "all.drawio",
     "Заметки/Разарботка/python/natasha/FAQ.md",
@@ -391,9 +217,7 @@
     "Заметки/Разарботка/react/FAQ.md",
     "Заметки/Разарботка/javascript/Ссылки.md",
     "Заметки/Разарботка/apache/FAQ.md",
-    "Найденное/Репозитории.md",
     "Книги.md",
-    "Планы.md",
     "HISTORY.md",
     "Найденное/Ссылки.md",
     "Заметки/Разарботка/Темы для обучения.md",
@@ -414,11 +238,7 @@
     "Заметки/Физика/FAQ.md",
     "Заметки/Разарботка/Администрирование/Статьи/Уходим с «Яндекс.Почты» на свой почтовый сервер.md",
     "Заметки/Разарботка/html/FAQ.md",
-    "Заметки/Разарботка/html/Статьи/How to Create a Link Preview The Definite Guide Implementation and Demo Included.md",
-    "Заметки/Разарботка/php/laravel/Статьи/Laravel Route Grouping 6 Методов организации маршрутов.md",
     "Заметки/Экономика/Самозанятые/Статьи",
-    "Заметки/Экономика/Самозанятые",
-    "Заметки/Разарботка/python/pyqt",
-    "Заметки/Разарботка/Администрирование/snap"
+    "Заметки/Экономика/Самозанятые"
   ]
 }
