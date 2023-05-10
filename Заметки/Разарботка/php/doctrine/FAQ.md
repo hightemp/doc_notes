@@ -270,3 +270,126 @@ class ProductService
 
 Теперь вы можете использовать созданную модель для выполнения операций с базой данных.
 
+## что делает метод в Doctrine prePersist
+
+Метод prePersist в Doctrine выполняется до сохранения новой сущности в базе данных и позволяет произвести какие-либо манипуляции с данными перед сохранением. 
+
+В этом методе можно задать значения для полей сущности, которые не были установлены вручную, или произвести какие-либо другие манипуляции с данными.
+
+Пример использования метода prePersist:
+
+```php
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\HasLifecycleCallbacks
+ */
+class User
+{
+    // ...
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function prePersist()
+    {
+        $this->createdAt = new \DateTime();
+        $this->updatedAt = new \DateTime();
+    }
+}
+```
+
+
+В этом примере мы определяем метод prePersist в сущности User, который устанавливает значения для полей createdAt и updatedAt перед сохранением сущности в базе данных. Затем мы помечаем сущность аннотацией @ORM\HasLifecycleCallbacks, чтобы Doctrine вызывала метод prePersist автоматически перед сохранением новой сущности.
+
+## как в Doctrine проверить существует ли объект по id
+
+Для проверки существования объекта с заданным идентификатором в Doctrine можно использовать метод find() или getReference() менеджера сущностей.
+
+Метод find() возвращает объект сущности по его идентификатору или null, если запись не найдена:
+
+```php
+use App\Entity\Category;
+
+$id = 1;
+
+$entityManager = $this->getDoctrine()->getManager();
+$category = $entityManager->find(Category::class, $id);
+
+if ($category === null) {
+    // Объект не найден
+} else {
+    // Объект найден
+}
+```
+
+
+Метод getReference() возвращает прокси-объект сущности по его идентификатору. Если запись не найдена, будет выброшено исключение Doctrine\ORM\EntityNotFoundException:
+
+```php
+use App\Entity\Category;
+
+$id = 1;
+
+$entityManager = $this->getDoctrine()->getManager();
+try {
+    $category = $entityManager->getReference(Category::class, $id);
+    // Объект найден
+} catch (Doctrine\ORM\EntityNotFoundException $e) {
+    // Объект не найден
+}
+```
+
+
+Оба метода могут быть использованы для проверки существования объекта в базе данных.
+
+## как с помощью Doctrine создать новую запись объекта Category
+
+Для создания новой записи объекта Category с помощью Doctrine следует выполнить следующие шаги:
+
+1. Создать новый объект Category и заполнить его свойства.
+
+```
+$category = new Category();
+$category->setName('My Category');
+$category->setDescription('This is my category');
+// ...
+```
+
+2. Получить менеджер сущностей (Entity Manager) из объекта Doctrine.
+
+```
+$entityManager = $this->getDoctrine()->getManager();
+```
+
+3. Добавить объект Category в менеджер сущностей.
+
+```
+$entityManager->persist($category);
+```
+
+
+4. Вызвать метод flush() для сохранения изменений в базе данных.
+
+```
+$entityManager->flush();
+```
+
+
+Весь код вместе:
+
+```
+use App\Entity\Category;
+
+$category = new Category();
+$category->setName('My Category');
+$category->setDescription('This is my category');
+// ...
+
+$entityManager = $this->getDoctrine()->getManager();
+$entityManager->persist($category);
+$entityManager->flush();
+```
+
+Здесь мы создали новый объект Category, заполнили его свойства и добавили его в менеджер сущностей. Затем мы вызвали метод flush() для сохранения изменений в базе данных.
