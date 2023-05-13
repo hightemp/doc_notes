@@ -68,8 +68,6 @@ https://hightemp.github.io/doc_notes/
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - [Книги.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8.md)
      - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/FAQ.md)
-     - git
-       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/git/FAQ.md)
      - Хранение информации
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8/FAQ.md)
      - Реверсинжиниринг
@@ -109,6 +107,7 @@ https://hightemp.github.io/doc_notes/
        - [Видео.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE.md)
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/FAQ.md)
        - Статьи
+         - [Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B0,%20%D1%87%D0%B0%D1%81%D1%82%D1%8C%202%20%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC.md)
          - [Использование SQLite с Rust и Actix Web (с тестами).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20SQLite%20%D1%81%20Rust%20%D0%B8%20Actix%20Web%20(%D1%81%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%D0%BC%D0%B8).md)
          - [Writing a Modern HTTP(S) Tunnel in Rust..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Writing%20a%20Modern%20HTTP(S)%20Tunnel%20in%20Rust..md)
          - [Web Scraping With Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Web%20Scraping%20With%20Rust.md)
@@ -116,7 +115,6 @@ https://hightemp.github.io/doc_notes/
          - [Vector.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Vector.md)
          - [Top 3 templating libraries for Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Top%203%20templating%20libraries%20for%20Rust.md)
          - [Three Kinds of Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Three%20Kinds%20of%20Polymorphism%20in%20Rust.md)
-         - [Rust выходит за рамки объектно-ориентированного подхода, часть 2 полиморфизм.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D0%B8%D1%82%20%D0%B7%D0%B0%20%D1%80%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B0,%20%D1%87%D0%B0%D1%81%D1%82%D1%8C%202%20%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC.md)
          - [Rust Web Scraping.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Web%20Scraping.md)
          - [Rust Is Beyond Object-Oriented, Part 2 Polymorphism.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Rust%20Is%20Beyond%20Object-Oriented,%20Part%202%20Polymorphism.md)
          - [Polymorphism in Rust.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/rust/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Polymorphism%20in%20Rust.md)
@@ -170,12 +168,6 @@ https://hightemp.github.io/doc_notes/
      - php
        - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/FAQ.md)
-       - guzzle
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/guzzle/FAQ.md)
-       - doctrine
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/doctrine/FAQ.md)
-       - laminas
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laminas/FAQ.md)
        - yii
          - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
@@ -207,6 +199,14 @@ https://hightemp.github.io/doc_notes/
            - [Generate Migrations from an Existing Database With the Migration Generator Package.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Generate%20Migrations%20from%20an%20Existing%20Database%20With%20the%20Migration%20Generator%20Package.md)
            - [Building a GraphQL Server with Laravel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Building%20a%20GraphQL%20Server%20with%20Laravel.md)
            - [40 лучших инструментов и ресурсов Laravel.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laravel/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/40%20%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2%20Laravel.md)
+       - laminas
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laminas/FAQ.md)
+       - guzzle
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/guzzle/FAQ.md)
+       - doctrine
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/doctrine/FAQ.md)
+       - PhpOffice
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/PhpOffice/FAQ.md)
      - obsidian
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/obsidian/FAQ.md)
      - nuxt
@@ -258,10 +258,10 @@ https://hightemp.github.io/doc_notes/
          - [Лучшие книги по Golang - что стоит почитать как начинающему, так и опытному разработчику.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5%20%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8%20%D0%BF%D0%BE%20Golang%20-%20%D1%87%D1%82%D0%BE%20%D1%81%D1%82%D0%BE%D0%B8%D1%82%20%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B5%D0%BC%D1%83,%20%D1%82%D0%B0%D0%BA%20%D0%B8%20%D0%BE%D0%BF%D1%8B%D1%82%D0%BD%D0%BE%D0%BC%D1%83%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D1%83.md)
          - [Логирование в Golang — Записываем лог в файл.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9B%D0%BE%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20Golang%20%E2%80%94%20%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%20%D0%BB%D0%BE%D0%B3%20%D0%B2%20%D1%84%D0%B0%D0%B9%D0%BB.md)
          - [Всё, что вы хотели знать про GOPATH и GOROOT.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%92%D1%81%D1%91,%20%D1%87%D1%82%D0%BE%20%D0%B2%D1%8B%20%D1%85%D0%BE%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%20GOPATH%20%D0%B8%20GOROOT.md)
+         - [How To List Files In A Directory In Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20To%20List%20Files%20In%20A%20Directory%20In%20Go.md)
          - [How to Use go embed in Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Use%20go%20embed%20in%20Go.md)
          - [How to Scrape HTML Tables in Golang Using Colly Quick Guide.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Scrape%20HTML%20Tables%20in%20Golang%20Using%20Colly%20Quick%20Guide.md)
          - [How to Handle Forms with Gin.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20Handle%20Forms%20with%20Gin.md)
-         - [How To List Files In A Directory In Go.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20To%20List%20Files%20In%20A%20Directory%20In%20Go.md)
          - [Go my way - Day 3.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Go%20my%20way%20-%20Day%203.md)
          - [19 Top Golang Web Frameworks You Can’t Miss in 2023.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/19%20Top%20Golang%20Web%20Frameworks%20You%20Can%E2%80%99t%20Miss%20in%202023.md)
        - bbolt
@@ -270,6 +270,8 @@ https://hightemp.github.io/doc_notes/
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/badgerDB/FAQ.md)
        - Gorm
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/Gorm/FAQ.md)
+     - git
+       - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/git/FAQ.md)
      - flask
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/flask/FAQ.md)
        - Статьи
@@ -354,9 +356,9 @@ https://hightemp.github.io/doc_notes/
    - Браузер
      - [Как работает браузер....md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80/%D0%9A%D0%B0%D0%BA%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80....md)
    - Биология
+     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
      - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
      - [Радиозвук RF Hearing.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%20RF%20Hearing.md)
-     - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/FAQ.md)
      - Радиозвук
        - [Hearing of microwave pulses by humans and animals effects, mechanism, and thresholds.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Hearing%20of%20microwave%20pulses%20by%20humans%20and%20animals%20effects,%20mechanism,%20and%20thresholds.md)
        - [Generalized model of the microwave auditory effect.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%B7%D0%B2%D1%83%D0%BA/Generalized%20model%20of%20the%20microwave%20auditory%20effect.md)
