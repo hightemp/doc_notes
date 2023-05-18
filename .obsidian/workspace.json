@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
+                "file": "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
+                "file": "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
+                "file": "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md"
+                "file": "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md"
               }
             }
           }
@@ -264,8 +264,9 @@
   },
   "active": "552665eca763beac",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
     "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
+    "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
+    "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
     "Заметки/Разарботка/php/Статьи/DDD.md",
     "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/php/Статьи",
@@ -299,7 +300,6 @@
     "Заметки/Разарботка/python/natasha/FAQ.md",
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/react/FAQ.md",
-    "Заметки/Разарботка/javascript/Ссылки.md",
     "Untitled.canvas"
   ]
 }
