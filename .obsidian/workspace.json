@@ -9,6 +9,42 @@
         "dimension": 53.503184713375795,
         "children": [
           {
+            "id": "676b58adb991277c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/xdebug/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c24ef808f2bfbdec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/bash/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38b35559384636ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f9bccae53813359d",
             "type": "leaf",
             "state": {
@@ -44,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -150,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/PhpOffice/FAQ.md",
+                "file": "Заметки/Разарботка/bash/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/PhpOffice/FAQ.md",
+                "file": "Заметки/Разарботка/bash/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/PhpOffice/FAQ.md"
+                "file": "Заметки/Разарботка/bash/FAQ.md"
               }
             }
           }
@@ -213,13 +250,16 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f9bccae53813359d",
+  "active": "c24ef808f2bfbdec",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/xdebug/FAQ.md",
+    "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/php/laminas/FAQ.md",
-    "Заметки/Разарботка/php/PhpOffice/FAQ.md",
-    "Заметки/Разарботка/php/PhpOffice",
-    "Заметки/Разарботка/php/guzzle/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
+    "Заметки/Разарботка/php/guzzle/FAQ.md",
+    "Заметки/Разарботка/php/PhpOffice/FAQ.md",
+    "Заметки/Разарботка/php/xdebug",
+    "Заметки/Разарботка/php/PhpOffice",
     "Заметки/Разарботка/git/FAQ.md",
     "Заметки/Разарботка/php/guzzle",
     "Заметка дня/ChatGPT promts.md",
@@ -248,9 +288,6 @@
     "Заметки/Разарботка/Хранение информации",
     "Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).md",
     "Заметки/Разарботка/php/laravel/all.drawio",
-    "Заметки/Разарботка/python/natasha/Статьи",
-    "Заметки/Разарботка/python/FAQ.md",
-    "Заметки/Разарботка/python/Статьи/Packaging PyQt application using pyqtdeploy for both Linux and Android.md",
-    "Заметки/Разарботка/python/Статьи/PEP 8 каким должен быть код на Python.md"
+    "Заметки/Разарботка/python/FAQ.md"
   ]
 }

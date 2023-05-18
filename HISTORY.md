@@ -1,9 +1,11 @@
 
 <!-- HTOC -->
- - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Разарботка/bash/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bash/FAQ.md)
  - [README.md](./README.md)
- - [Заметки/Разарботка/php/PhpOffice/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/PhpOffice/FAQ.md)
+ - [HISTORY.md](./HISTORY.md)
  - [Заметки/Разарботка/php/laminas/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/laminas/FAQ.md)
+ - [Заметки/Разарботка/php/xdebug/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/xdebug/FAQ.md)
+ - [Заметки/Разарботка/php/PhpOffice/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/PhpOffice/FAQ.md)
  - [Заметки/Разарботка/php/guzzle/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/guzzle/FAQ.md)
  - [Заметки/Разарботка/php/doctrine/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/doctrine/FAQ.md)
  - [Заметка дня/ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
@@ -223,7 +225,6 @@
  - [Заметки/Linux/Структура linux/Сеть/Прокси/ssh socks proxy.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/%D0%9F%D1%80%D0%BE%D0%BA%D1%81%D0%B8/ssh%20socks%20proxy.md)
  - [Заметки/Linux/Структура linux/Сеть/Tunneling and Port Forwarding.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Tunneling%20and%20Port%20Forwarding.md)
  - [Заметки/История/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
- - [Заметки/Разарботка/bash/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/bash/FAQ.md)
  - [Заметки/Linux/Структура linux/proc/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/proc/FAQ.md)
  - [Заметки/Linux/Структура linux/Сеть/Linux — Networking Deep Dive.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/%D0%A1%D0%B5%D1%82%D1%8C/Linux%20%E2%80%94%20Networking%20Deep%20Dive.md)
  - [Заметки/Разарботка/vpn/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vpn/FAQ.md)
