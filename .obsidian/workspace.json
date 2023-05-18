@@ -33,6 +33,18 @@
             }
           },
           {
+            "id": "552665eca763beac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "38b35559384636ca",
             "type": "leaf",
             "state": {
@@ -81,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -187,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/FAQ.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/FAQ.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/FAQ.md"
+                "file": "Заметки/Разарботка/php/FAQ.md"
               }
             }
           }
@@ -250,10 +262,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c24ef808f2bfbdec",
+  "active": "552665eca763beac",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/микросервисы/FAQ.md",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/php/xdebug/FAQ.md",
     "Заметки/Разарботка/микросервисы/Статьи/Определения понятий Stateful и Stateless в контексте веб-сервисов (перевод).md",
     "Заметки/Разарботка/микросервисы/Статьи/8 шаблонов проектирования микросервисов для опытных разработчиков.md",
