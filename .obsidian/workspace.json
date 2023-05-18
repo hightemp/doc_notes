@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
+                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md"
+                "file": "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md"
               }
             }
           }
@@ -264,6 +264,12 @@
   },
   "active": "552665eca763beac",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
+    "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
+    "Заметки/Разарботка/php/Статьи/DDD.md",
+    "Заметки/Разарботка/php/Ссылки.md",
+    "Заметки/Разарботка/php/Статьи",
+    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/микросервисы/FAQ.md",
     "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/php/xdebug/FAQ.md",
@@ -294,12 +300,6 @@
     "Заметки/Разарботка/Ссылки.md",
     "Заметки/Разарботка/react/FAQ.md",
     "Заметки/Разарботка/javascript/Ссылки.md",
-    "Заметки/Разарботка/apache/FAQ.md",
-    "Книги.md",
-    "HISTORY.md",
-    "Найденное/Ссылки.md",
-    "Заметки/Разарботка/Темы для обучения.md",
-    "Untitled.canvas",
-    "Заметки/Разарботка/react"
+    "Untitled.canvas"
   ]
 }
