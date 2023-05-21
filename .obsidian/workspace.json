@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/xdebug/FAQ.md",
+                "file": "Заметки/Разарботка/php/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md"
+                "file": "Заметки/Разарботка/javascript/react/FAQ.md"
               }
             }
           }
@@ -262,19 +262,24 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "552665eca763beac",
+  "active": "38b35559384636ca",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
     "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+    "Заметки/Разарботка/javascript/react/FAQ.md",
+    "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
+    "Заметки/Разарботка/javascript/react",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
+    "Заметки/Разарботка/python/imgui/Статьи",
+    "Заметки/Разарботка/python/imgui",
+    "Заметки/Разарботка/микросервисы/FAQ.md",
+    "Заметки/Разарботка/php/FAQ.md",
+    "Заметки/Разарботка/php/xdebug/FAQ.md",
+    "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
     "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
     "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
     "Заметки/Разарботка/php/Статьи/DDD.md",
     "Заметки/Разарботка/php/Ссылки.md",
     "Заметки/Разарботка/php/Статьи",
-    "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/микросервисы/FAQ.md",
-    "Заметки/Разарботка/php/laminas/FAQ.md",
-    "Заметки/Разарботка/php/xdebug/FAQ.md",
     "Заметки/Разарботка/микросервисы/Статьи/Определения понятий Stateful и Stateless в контексте веб-сервисов (перевод).md",
     "Заметки/Разарботка/микросервисы/Статьи/8 шаблонов проектирования микросервисов для опытных разработчиков.md",
     "Заметки/Разарботка/микросервисы/Статьи/26 основных паттернов микросервисной разработки.md",
@@ -292,14 +297,9 @@
     "Заметка дня/ChatGPT promts.md",
     "Планы.md",
     "Заметки/Разарботка/git",
-    "Заметки/Разарботка/php/doctrine",
-    "Заметки/Разарботка/php/laminas",
     "Найденное/Репозитории.md",
     "Заметки/Разарботка/docker/FAQ.md",
     "Заметки/Разарботка/python/pyqt/FAQ.md",
-    "all.drawio",
-    "Заметки/Разарботка/python/natasha/FAQ.md",
-    "Заметки/Разарботка/Ссылки.md",
     "Untitled.canvas"
   ]
 }

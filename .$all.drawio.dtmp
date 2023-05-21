@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2023-05-21T11:09:30.059Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="bJUZTtxGazDDrNfTelko" version="21.2.8" type="device">
+  <diagram name="Page-1" id="8G44pra1-FNCVcBNus4H">
+    <mxGraphModel dx="2800" dy="1755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-1" value="Laravel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="370" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-2" value="Маршрутизация" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-5" value="Контроллеры" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-7" value="Модели" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-8" value="Миграции" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-9" value="View (представление)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-10" value="Сидер" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-11" value="Формы" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-12" value="Валидация" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-15" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-16" value="Сессии" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-18" value="Cookies" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-19" value="Работа с файлами" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-20" value="Python" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-21" value="Natasha" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-22" value="Обработка языков" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-25" value="Физика" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-26" value="Энергия переходов" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-27" value="Теория относительности" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="720" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-28" value="Работа с информацией" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="120" y="870" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-29" value="Coda" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-30" value="Airtable" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-31" value="nocodb" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-32" value="odoo" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-33" value="Symphytum" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="900" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-34" value="Электроника" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-1220" y="850" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ozs2COWOQWzYaIoTThsG-35" value="Радары" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1320" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5VkuY7LwnGAMs-2Njmg5-2" value="I. Настройка среды разработки и первые шаги&#xa;&#xa;&#xa;- Установка Node.js и npm&#xa;- Создание проекта React с помощью Create React App&#xa;- Запуск первого приложения React&#xa;- Изучение структуры проекта React&#xa;- Основы JSX &#xa;&#xa;&#xa;II. Основные концепции React&#xa;&#xa;&#xa;- Компоненты React и данные&#xa;- Props и State&#xa;- Жизненный цикл компонента&#xa;- Обработка событий и методы жизненного цикла&#xa;- Работа с формами&#xa;- Управление состоянием, в т.ч. useState и useContext Hooks &#xa;- Работа с условным рендерингом&#xa;- Методы style и className для стилизации компонентов&#xa;&#xa;&#xa;III. Работа с сервером и API&#xa;&#xa;&#xa;- Основы работы с сервером&#xa;- Использование Fetch и Axios для взаимодействия с сервером&#xa;- Аутентификация пользователей &#xa;&#xa;&#xa;IV. Роутинг и навигация в React&#xa;&#xa;&#xa;- Использование BrowserRouter и NavLink&#xa;- Передача параметров через URL&#xa;- Роутинг на основе аутентификации &#xa;&#xa;&#xa;V. React Libraries&#xa;&#xa;&#xa;- Изучение библиотек, которые позволяют расширить возможности React&#xa;- Библиотеки для работы с формами и валидации &#xa;- Библиотеки для управления данными, такие как Redux и MobX &#xa;&#xa;&#xa;VI. Перформанс и оптимизация приложений&#xa;&#xa;&#xa;- Изучение принципов оптимизации приложений React&#xa;- Code splitting и lazy loading&#xa;- Работа с мемоизацией и useMemo &#xa;- Взаимодействие с React Developer Tools &#xa;&#xa;&#xa;VII. Тестирование приложений&#xa;&#xa;&#xa;- Изучение методов тестирования приложений React&#xa;- Использование Jest и React Testing Library&#xa;- Тестирование компонентов и асинхронных запросов к серверу&#xa;&#xa;&#xa;VIII. Заключение&#xa;&#xa;&#xa;- Создание собственного проекта на основе React&#xa;- Практические задания и самостоятельное изучение&#xa;- Дальнейшие перспективы обучения React" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="-1010" width="440" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="5VkuY7LwnGAMs-2Njmg5-3" value="React" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
