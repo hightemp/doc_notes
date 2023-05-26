@@ -21,6 +21,42 @@
             }
           },
           {
+            "id": "b72c397751414e09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bf1ed86378dfb35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a239aa289ef229ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c24ef808f2bfbdec",
             "type": "leaf",
             "state": {
@@ -93,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -183,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 384.5
   },
   "right": {
     "id": "a8f1179d65101410",
@@ -264,15 +300,21 @@
   },
   "active": "38b35559384636ca",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+    "Заметки/Разарботка/микросервисы/FAQ.md",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
+    "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/doctrine/FAQ.md",
+    "Заметки/Разарботка/php/guzzle/FAQ.md",
+    "Заметки/Разарботка/php/PhpOffice/FAQ.md",
     "Заметки/Разарботка/javascript/react/FAQ.md",
     "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
     "Заметки/Разарботка/javascript/react",
-    "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/python/imgui/Статьи",
     "Заметки/Разарботка/python/imgui",
-    "Заметки/Разарботка/микросервисы/FAQ.md",
-    "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/php/xdebug/FAQ.md",
     "Заметки/Разарботка/php/Статьи/The Onion Architecture part 1.md",
     "Заметки/Разарботка/php/Статьи/Архитектурные паттерны.md",
@@ -287,9 +329,6 @@
     "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/микросервисы/Статьи",
     "Заметки/Разарботка/микросервисы",
-    "Заметки/Разарботка/php/doctrine/FAQ.md",
-    "Заметки/Разарботка/php/guzzle/FAQ.md",
-    "Заметки/Разарботка/php/PhpOffice/FAQ.md",
     "Заметки/Разарботка/php/xdebug",
     "Заметки/Разарботка/php/PhpOffice",
     "Заметки/Разарботка/git/FAQ.md",
@@ -297,9 +336,6 @@
     "Заметка дня/ChatGPT promts.md",
     "Планы.md",
     "Заметки/Разарботка/git",
-    "Найденное/Репозитории.md",
-    "Заметки/Разарботка/docker/FAQ.md",
-    "Заметки/Разарботка/python/pyqt/FAQ.md",
     "Untitled.canvas"
   ]
 }
