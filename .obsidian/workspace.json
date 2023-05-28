@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/javascript/react/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/javascript/react/FAQ.md"
+                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md"
               }
             }
           }
@@ -300,6 +300,9 @@
   },
   "active": "38b35559384636ca",
   "lastOpenFiles": [
+    "Заметки/Разарботка/javascript/react/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/vuex-orm",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
     "Заметки/Разарботка/микросервисы/FAQ.md",
@@ -310,7 +313,6 @@
     "Заметки/Разарботка/php/doctrine/FAQ.md",
     "Заметки/Разарботка/php/guzzle/FAQ.md",
     "Заметки/Разарботка/php/PhpOffice/FAQ.md",
-    "Заметки/Разарботка/javascript/react/FAQ.md",
     "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
     "Заметки/Разарботка/javascript/react",
     "Заметки/Разарботка/python/imgui/Статьи",
@@ -334,8 +336,6 @@
     "Заметки/Разарботка/git/FAQ.md",
     "Заметки/Разарботка/php/guzzle",
     "Заметка дня/ChatGPT promts.md",
-    "Планы.md",
-    "Заметки/Разарботка/git",
     "Untitled.canvas"
   ]
 }

@@ -1,8 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/javascript/react/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/react/FAQ.md)
- - [README.md](./README.md)
+ - [Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/vue/vuex-orm/FAQ.md)
  - [HISTORY.md](./HISTORY.md)
+ - [README.md](./README.md)
+ - [Заметки/Разарботка/javascript/react/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/react/FAQ.md)
  - [Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/REST%20API%20%E2%80%94%20%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20HATEOAS?.md)
  - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
  - [Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Yii2.%20%D0%A4%D0%98%D0%9B%D0%AC%D0%A2%D0%A0%D0%AB%20%D0%9A%D0%9E%D0%9D%D0%A2%D0%A0%D0%9E%D0%9B%D0%AF%20%D0%94%D0%9E%D0%A1%D0%A2%D0%A3%D0%9F%D0%90%20(ACCESS%20CONTROL%20FILTERS).md)
