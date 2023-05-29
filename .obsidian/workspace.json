@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "3d9fa5ee19522974",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b72c397751414e09",
             "type": "leaf",
             "state": {
@@ -129,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -235,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md"
+                "file": "Заметки/Разарботка/php/yii/FAQ.md"
               }
             }
           }
@@ -298,21 +310,25 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "38b35559384636ca",
+  "active": "3d9fa5ee19522974",
   "lastOpenFiles": [
-    "Заметки/Разарботка/javascript/react/FAQ.md",
-    "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
-    "Заметки/Разарботка/javascript/vue/vuex-orm",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
-    "Заметки/Разарботка/микросервисы/FAQ.md",
-    "Заметки/Разарботка/php/laminas/FAQ.md",
-    "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
-    "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
     "Заметки/Разарботка/php/guzzle/FAQ.md",
     "Заметки/Разарботка/php/PhpOffice/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
+    "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+    "Заметки/Разарботка/микросервисы/FAQ.md",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
+    "Заметки/Разарботка/javascript/expressjs",
+    "Заметки/Разарботка/javascript/nestjs",
+    "Заметки/Разарботка/javascript/koa",
+    "Заметки/Разарботка/javascript/strapi",
+    "Заметки/Разарботка/javascript/react/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/vuex-orm",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
     "Заметки/Разарботка/javascript/react",
     "Заметки/Разарботка/python/imgui/Статьи",
@@ -330,12 +346,7 @@
     "Заметки/Разарботка/микросервисы/Статьи/Микросервисные паттерны проектирования.md",
     "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/микросервисы/Статьи",
-    "Заметки/Разарботка/микросервисы",
-    "Заметки/Разарботка/php/xdebug",
-    "Заметки/Разарботка/php/PhpOffice",
     "Заметки/Разарботка/git/FAQ.md",
-    "Заметки/Разарботка/php/guzzle",
-    "Заметка дня/ChatGPT promts.md",
     "Untitled.canvas"
   ]
 }
