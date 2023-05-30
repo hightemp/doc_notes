@@ -5203,3 +5203,115 @@ class CreateAction extends Action
 Здесь мы определили класс действия CreateAction, который наследуется от базового класса yii\base\Action. Мы реализуем метод run(), который будет вызываться при выполнении действия. Внутри метода мы создаем новую модель пользователя, загружаем данные из запроса и сохраняем модель в базе данных. Если данные были успешно сохранены, мы перенаправляем пользователя на страницу просмотра созданного пользователя, в противном случае мы отображаем форму создания пользователя.
 
 Таким образом, использование действий в контроллерах позволяет упростить обработку запросов и обеспечить удобный и гибкий подход к обработке различных действий приложения.
+
+## что делает метод yii2 getAccessRules и как им пользоваться
+
+Метод getAccessRules() в Yii2 возвращает правила доступа, определенные для данного контроллера. Метод наследуется от родительского класса yii\\base\\Controller, который предоставляет базовую реализацию правил доступа.
+
+Пример использования метода getAccessRules():
+
+```php
+use yii\web\Controller;
+
+class TaskController extends Controller
+{
+    public function accessRules()
+    {
+        return [
+            [
+                'allow' => true,
+                'actions' => ['index', 'view'],
+                'roles' => ['@'],
+            ],
+            [
+                'allow' => true,
+                'actions' => ['create', 'update', 'delete'],
+                'roles' => ['admin'],
+            ],
+        ];
+    }
+
+    public function actionIndex()
+    {
+        // ...
+    }
+}
+```
+
+
+Здесь мы определили правила доступа в методе accessRules(), который возвращает массив правил доступа. Правила доступа определяют, какие действия контроллера разрешены для каких ролей пользователей. В этом примере мы разрешили действия index и view для всех авторизованных пользователей, а действия create, update и delete только для пользователей с ролью admin.
+
+Чтобы использовать правила доступа в контроллере, можно вызвать метод getAccessRules() внутри метода behaviors(), который возвращает массив поведений контроллера. Например:
+
+```php
+use yii\web\Controller;
+use yii\filters\AccessControl;
+
+class TaskController extends Controller
+{
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => $this->getAccessRules(),
+            ],
+        ];
+    }
+
+    public function actionIndex()
+    {
+        // ...
+    }
+}
+```
+
+
+Здесь мы определили поведение AccessControl, которое определяет правила доступа к действиям контроллера. Мы передали правила доступа с помощью метода $this->getAccessRules(). Таким образом, правила доступа, определенные в методе accessRules(), будут применяться для всех действий контроллера.
+
+## напиши пример behavior для расширения yii\web\User
+
+Для расширения класса yii\web\User в Yii2 можно использовать поведение (behavior), которое будет добавлять дополнительные методы и свойства в класс пользователя.
+
+Пример behavior для расширения yii\web\User:
+
+```php
+use yii\base\Behavior;
+use yii\web\User;
+
+class UserBehavior extends Behavior
+{
+    public $isAdmin = false;
+
+    public function getFullName()
+    {
+        return $this->owner->identity->firstName . ' ' . $this->owner->identity->lastName;
+    }
+
+    public function isAdmin()
+    {
+        return $this->isAdmin;
+    }
+}
+
+// Использование behavior в классе yii\web\User
+class MyUser extends User
+{
+    public function behaviors()
+    {
+        return [
+            UserBehavior::className(),
+        ];
+    }
+}
+
+// Использование расширенного класса MyUser
+$myUser = Yii::$app->user;
+echo $myUser->getFullName(); // выводит полное имя пользователя
+echo $myUser->isAdmin(); // выводит значение свойства isAdmin
+```
+
+
+Здесь мы определили behavior UserBehavior, который добавляет два метода в класс пользователя: getFullName() для получения полного имени пользователя и isAdmin() для получения значения свойства isAdmin. Мы также определили класс MyUser, который наследуется от класса yii\web\User и добавляет behavior UserBehavior. 
+
+Чтобы использовать расширенный класс MyUser, мы можем использовать объект класса yii\web\User, который будет автоматически расширен behavior UserBehavior.
