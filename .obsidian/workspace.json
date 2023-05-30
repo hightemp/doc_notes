@@ -21,24 +21,24 @@
             }
           },
           {
-            "id": "3d9fa5ee19522974",
+            "id": "fd0ed160d81e21b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
+                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b72c397751414e09",
+            "id": "3d9fa5ee19522974",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/laminas/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
                 "mode": "source",
                 "source": false
               }
@@ -57,36 +57,12 @@
             }
           },
           {
-            "id": "a239aa289ef229ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c24ef808f2bfbdec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Заметки/Разарботка/микросервисы/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "552665eca763beac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
                 "mode": "source",
                 "source": false
               }
@@ -247,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
+                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
+                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md"
+                "file": "Заметки/Разарботка/php/yii/Ссылки.md"
               }
             }
           }
@@ -310,26 +286,27 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3d9fa5ee19522974",
+  "active": "fd0ed160d81e21b3",
   "lastOpenFiles": [
-    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Связь «Один ко многим» (One to many).md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
+    "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
+    "Заметки/Разарботка/микросервисы/FAQ.md",
+    "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
+    "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
     "Заметки/Разарботка/php/FAQ.md",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
     "Заметки/Разарботка/php/guzzle/FAQ.md",
     "Заметки/Разарботка/php/PhpOffice/FAQ.md",
-    "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
-    "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
-    "Заметки/Разарботка/микросервисы/FAQ.md",
-    "Заметки/Разарботка/php/laminas/FAQ.md",
-    "Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md",
     "Заметки/Разарботка/javascript/expressjs",
     "Заметки/Разарботка/javascript/nestjs",
     "Заметки/Разарботка/javascript/koa",
     "Заметки/Разарботка/javascript/strapi",
     "Заметки/Разарботка/javascript/react/FAQ.md",
     "Заметки/Разарботка/javascript/vue/vuex-orm",
-    "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
     "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
     "Заметки/Разарботка/javascript/react",
     "Заметки/Разарботка/python/imgui/Статьи",
@@ -347,7 +324,6 @@
     "Заметки/Разарботка/микросервисы/Статьи/Микросервисные паттерны проектирования.md",
     "Заметки/Разарботка/bash/FAQ.md",
     "Заметки/Разарботка/микросервисы/Статьи",
-    "Заметки/Разарботка/git/FAQ.md",
     "Untitled.canvas"
   ]
 }

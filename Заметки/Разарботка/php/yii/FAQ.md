@@ -5587,3 +5587,119 @@ $container->setDefinitions([
 Здесь мы создали экземпляр контейнера DI и зарегистрировали определения зависимостей с помощью метода setDefinitions(). Массив содержит определения зависимостей для класса app\components\MyComponent и, возможно, других классов.
 
 Метод setDefinitions полезен, когда нужно зарегистрировать множество зависимостей в одном месте или когда нужно загрузить определения зависимостей из внешнего источника, например, из файла конфигурации.
+
+## напиши пример для yii2 моделей с связью 1 ко многим и использования из для совместного вывода в GridView
+
+В Yii2 модели с отношением «один ко многим» могут использоваться для связи двух таблиц в базе данных, чтобы совместно выводить данные из этих таблиц в GridView.
+
+В данном примере у нас есть две таблицы: users и orders. У одного пользователя может быть несколько заказов, поэтому мы определяем отношение «один ко многим» между таблицами. Используем две модели: User и Order.
+
+1. Создайте таблицы в базе данных с помощью миграции:
+
+```php
+class m200101_000000_create_tables extends yii\db\Migration
+{
+    public function up()
+    {
+        $this->createTable('users', [
+            'id' => $this->primaryKey(),
+            'name' => $this->string(255)->notNull(),
+            'email' => $this->string(255)->notNull()->unique(),
+        ]);
+
+        $this->createTable('orders', [
+            'id' => $this->primaryKey(),
+            'user_id' => $this->integer()->notNull(),
+            'item' => $this->string(255)->notNull(),
+            'price' => $this->decimal(10, 2)->notNull(),
+        ]);
+
+        $this->addForeignKey('fk_orders_users', 'orders', 'user_id', 'users', 'id', 'CASCADE', 'CASCADE');
+    }
+
+    public function down()
+    {
+        $this->dropForeignKey('fk_orders_users', 'orders');
+        $this->dropTable('orders');
+        $this->dropTable('users');
+    }
+}
+```
+
+
+2. Определите модели User и Order, определив отношение «один ко многим» в модели User. Модель User содержит метод getOrders(), который определяет, как связать таблицы users и orders:
+
+```php
+namespace app\models;
+
+use yii\db\ActiveRecord;
+
+class User extends ActiveRecord
+{
+    public function getOrders()
+    {
+        return $this->hasMany(Order::class, ['user_id' => 'id']);
+    }
+}
+
+class Order extends ActiveRecord
+{
+    // ...
+}
+```
+
+
+3. В контроллере создайте экземпляры моделей User и Order и передайте их в GridView, чтобы отобразить данные из двух таблиц:
+
+```php
+namespace app\controllers;
+
+use yii\web\Controller;
+use app\models\User;
+
+class UserController extends Controller
+{
+    public function actionIndex()
+    {
+        $users = User::find()->all();
+
+        return $this->render('index', [
+            'users' => $users,
+        ]);
+    }
+}
+```
+
+
+4. Создайте представление index.php и отобразите данные из двух таблиц в GridView:
+
+
+```php
+use yii\grid\GridView;
+
+echo GridView::widget([
+    'dataProvider' => new \yii\data\ArrayDataProvider([
+        'allModels' => $users,
+        'sort' => [
+            'attributes' => ['name', 'email', 'orders.item', 'orders.price'],
+        ],
+    ]),
+    'columns' => [
+        'name',
+        'email',
+        [
+            'attribute' => 'orders.item',
+            'label' => 'Item',
+        ],
+        [
+            'attribute' => 'orders.price',
+            'label' => 'Price',
+        ],
+    ],
+]);
+```
+
+
+Здесь мы используем GridView::widget() для отображения данных из двух таблиц. В dataProvider мы передаем объект yii\data\ArrayDataProvider, который содержит данные из двух таблиц. В columns мы определяем, какие данные отображать в каждой колонке.
+
+Теперь мы можем отображать данные из двух таблиц в GridView.
