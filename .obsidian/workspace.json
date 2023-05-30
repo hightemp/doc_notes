@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
                 "mode": "source",
                 "source": false
               }
@@ -247,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md"
+                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md"
               }
             }
           }
@@ -312,6 +312,8 @@
   },
   "active": "3d9fa5ee19522974",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
     "Заметки/Разарботка/php/guzzle/FAQ.md",
@@ -328,7 +330,6 @@
     "Заметки/Разарботка/javascript/react/FAQ.md",
     "Заметки/Разарботка/javascript/vue/vuex-orm",
     "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.md",
     "Заметки/Разарботка/javascript/react",
     "Заметки/Разарботка/python/imgui/Статьи",

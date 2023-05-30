@@ -5315,3 +5315,275 @@ echo $myUser->isAdmin(); // выводит значение свойства isA
 Здесь мы определили behavior UserBehavior, который добавляет два метода в класс пользователя: getFullName() для получения полного имени пользователя и isAdmin() для получения значения свойства isAdmin. Мы также определили класс MyUser, который наследуется от класса yii\web\User и добавляет behavior UserBehavior. 
 
 Чтобы использовать расширенный класс MyUser, мы можем использовать объект класса yii\web\User, который будет автоматически расширен behavior UserBehavior.
+
+## что такое contentNegotiator и как им пользоваться в yii2
+
+Content Negotiation (в переводе "согласование содержимого") - это процесс выбора наиболее подходящего формата ответа на основе предпочтений, указанных в заголовках запроса. 
+
+В Yii2 Content Negotiator является фильтром, который позволяет автоматически выбирать формат ответа в зависимости от заголовков запроса (например, Accept). Content Negotiator поддерживает множество форматов ответа, включая HTML, JSON, XML и другие.
+
+Чтобы использовать Content Negotiator в Yii2, можно воспользоваться фильтром ContentNegotiator. Например, если нужно вернуть JSON-ответ, если заголовок Accept содержит "application/json", и HTML-ответ во всех остальных случаях, можно использовать следующий код:
+
+```php
+use yii\filters\ContentNegotiator;
+use yii\web\Response;
+
+class TaskController extends \yii\web\Controller
+{
+    public function behaviors()
+    {
+        return [
+            'contentNegotiator' => [
+                'class' => ContentNegotiator::class,
+                'formats' => [
+                    'application/json' => Response::FORMAT_JSON,
+                    'text/html' => Response::FORMAT_HTML,
+                ],
+            ],
+        ];
+    }
+
+    public function actionView($id)
+    {
+        $model = Task::findOne($id);
+        return $model;
+    }
+}
+```
+
+
+Здесь мы определили behavior contentNegotiator и указали, что нужно использовать формат JSON для заголовка "application/json" и формат HTML для всех остальных случаев.
+
+При запросе на действие actionView() контроллера, Content Negotiator автоматически выберет подходящий формат ответа в зависимости от заголовков запроса. Если заголовок Accept содержит "application/json", будет возвращен JSON-ответ, а если заголовок Accept содержит "text/html", будет возвращен HTML-ответ.
+
+## напиши примеры использования rabbitmq в yii2
+
+RabbitMQ - это брокер сообщений, который позволяет асинхронно отправлять и получать сообщения между различными приложениями и компонентами. В Yii2 RabbitMQ можно использовать с помощью компонента yii\queue\amqp\Queue.
+
+Пример использования RabbitMQ в Yii2:
+
+1. Установите компонент php-amqplib/php-amqplib через Composer:
+
+```
+composer require php-amqplib/php-amqplib
+```
+
+2. Настройте компонент yii\\queue\\amqp\\Queue в конфигурационном файле приложения (config/web.php):
+
+```
+'bootstrap' => [ 'queue', // The component registers own console commands ],
+'components' => [
+    'rabbitmq' => [
+        'class' => \yii\queue\amqp\Queue::class,
+        'port' => 5672,
+        'user' => 'guest',
+        'password' => 'guest',
+        'queueName' => 'my_queue',
+        'exchangeName' => 'my_exchange',
+    ],
+],
+```
+
+3. Создайте класс задания (job), которое будет выполняться в очереди:
+
+```
+class MyJob extends \yii\base\BaseObject implements \yii\queue\JobInterface
+{
+    public $message;
+
+    public function execute($queue)
+    {
+        echo $this->message;
+    }
+}
+```
+
+
+4. Добавьте задание в очередь:
+
+```
+Yii::$app->rabbitmq->push(new MyJob([
+    'message' => 'Hello, RabbitMQ!',
+]));
+```
+
+
+Здесь мы добавляем задание класса MyJob в очередь my_queue. При выполнении задания будет выведено сообщение "Hello, RabbitMQ!".
+
+5. Запустите консольный скрипт для обработки заданий в очереди:
+
+```
+yii queue/run
+```
+
+
+Этот скрипт будет запускать обработчик очереди, который будет выполнять задания, добавленные в очередь.
+
+Другой способ использования RabbitMQ в Yii2 - использование модуля yii2-queue. Этот модуль позволяет использовать несколько брокеров сообщений, включая RabbitMQ. Примеры использования модуля можно найти в его документации: https://github.com/yiisoft/yii2-queue/blob/master/docs/guide/README.md
+
+## напиши зачем нужен yii\di\Container и примеры использования
+
+Контейнер внедрения зависимостей (DI) является важной частью Yii2, который позволяет управлять зависимостями компонентов приложения. Контейнер DI используется для создания и внедрения объектов в другие объекты, часто с помощью настройки параметров конструктора.
+
+Контейнер DI в Yii2 реализован в классе yii\\di\\Container. Этот класс предоставляет методы для регистрации зависимостей и их получения.
+
+Примеры использования контейнера DI в Yii2:
+
+1. Регистрация зависимости:
+
+```php
+use yii\di\Container;
+use app\components\MyComponent;
+
+$container = new Container();
+$container->set('myComponent', MyComponent::class);
+```
+
+Здесь мы создали экземпляр контейнера DI и зарегистрировали зависимость myComponent с помощью класса MyComponent.
+
+2. Получение зависимости:
+
+```
+$myComponent = $container->get('myComponent');
+```
+
+Здесь мы получаем экземпляр зависимости myComponent из контейнера DI.
+
+3. Регистрация зависимости с параметрами конструктора:
+
+```php
+use yii\di\Container;
+use app\components\MyComponent;
+
+$container = new Container();
+$container->set('myComponent', function () {
+    return new MyComponent('param1', 'param2');
+});
+```
+
+Здесь мы зарегистрировали зависимость myComponent с помощью анонимной функции, которая создает объект MyComponent с параметрами param1 и param2.
+
+4. Использование зависимостей в контроллере:
+
+```php
+use app\components\MyComponent;
+use yii\web\Controller;
+
+class MyController extends Controller
+{
+    public $myComponent;
+
+    public function __construct(
+        $id, $module,
+        MyComponent $myComponent,
+        $config = []
+    ) {
+        $this->myComponent = $myComponent;
+        parent::__construct($id, $module, $config);
+    }
+
+    public function actionIndex()
+    {
+        $this->myComponent->myMethod();
+    }
+}
+```
+
+
+Здесь мы определили контроллер MyController, который получает зависимость myComponent через конструктор. Зависимость будет автоматически создана и внедрена в контроллер при создании объекта контроллера.
+
+Контейнер DI также используется во многих компонентах Yii2, таких как yii\web\Application, yii\db\Connection и других. Чтобы получить более подробную информацию об использовании контейнера DI в Yii2, рекомендуется обратиться к документации Yii2.
+
+## в каком месте приложения можно зарегистрировать зависимости в Container
+
+Зависимости можно зарегистрировать в контейнере DI (yii\di\Container) в разных местах приложения, в зависимости от потребностей приложения и способа использования зависимостей.
+
+1. В конфигурационном файле приложения (config/web.php или config/console.php). Например:
+
+```php
+return [
+    // ...
+    'container' => [
+        'definitions' => [
+            'app\components\MyComponent' => [
+                'class' => 'app\components\MyComponent',
+                'param1' => 'value1',
+                'param2' => 'value2',
+            ],
+            // ...
+        ],
+    ],
+];
+```
+
+
+Здесь мы определили контейнер DI в конфигурационном файле и зарегистрировали зависимость app\\components\\MyComponent с помощью свойства definitions. Это свойство содержит список определений зависимостей в виде массива, где ключом является имя класса, а значением - массив настроек зависимости.
+
+2. В классе приложения (например, в классе yii\\web\\Application или yii\\console\\Application). Например:
+
+```php
+use yii\di\Container;
+use app\components\MyComponent;
+
+class MyApplication extends \yii\web\Application
+{
+    public function __construct($config = [])
+    {
+        $container = new Container();
+        $container->set('app\components\MyComponent', function () {
+            return new MyComponent('value1', 'value2');
+        });
+        $this->set('myComponent', 'app\components\MyComponent');
+        parent::__construct($config);
+    }
+}
+```
+
+
+Здесь мы создали класс MyApplication, который наследуется от класса yii\web\Application и определяет зависимость app\components\MyComponent через анонимную функцию в конструкторе класса. Зависимость затем была зарегистрирована с помощью метода set().
+
+3. В классе контроллера или действия. Например:
+
+```php
+use app\components\MyComponent;
+use yii\web\Controller;
+
+class MyController extends Controller
+{
+    public function actionIndex()
+    {
+        $myComponent = \Yii::$container->get('app\components\MyComponent');
+        $myComponent->myMethod();
+    }
+}
+```
+
+
+Здесь мы создали экземпляр зависимости app\components\MyComponent внутри метода actionIndex() контроллера, используя статический метод get() контейнера DI (\Yii::$container).
+
+## зачем нужен setDefinitions в yii2
+
+Метод setDefinitions в Yii2 используется для установки определений зависимостей контейнера в одном месте. Определения зависимостей - это наборы конфигурационных данных, которые определяют, как создавать объекты и как связывать их с другими объектами.
+
+Метод setDefinitions позволяет зарегистрировать определения зависимостей в контейнере DI (yii\\di\\Container) с помощью массива. Массив содержит ключи в виде имен классов и значения в виде массивов настроек, которые определяют, как создавать экземпляры этих классов.
+
+Пример использования метода setDefinitions:
+
+```php
+use yii\di\Container;
+
+$container = new Container();
+$container->setDefinitions([
+    'app\components\MyComponent' => [
+        'class' => 'app\components\MyComponent',
+        'param1' => 'value1',
+        'param2' => 'value2',
+    ],
+    // ...
+]);
+```
+
+
+Здесь мы создали экземпляр контейнера DI и зарегистрировали определения зависимостей с помощью метода setDefinitions(). Массив содержит определения зависимостей для класса app\components\MyComponent и, возможно, других классов.
+
+Метод setDefinitions полезен, когда нужно зарегистрировать множество зависимостей в одном месте или когда нужно загрузить определения зависимостей из внешнего источника, например, из файла конфигурации.

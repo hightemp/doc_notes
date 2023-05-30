@@ -1,8 +1,9 @@
 
 <!-- HTOC -->
- - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
+ - [Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Yii2%20-%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%20%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9.%20%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%20%D0%BD%D1%83%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B..md)
  - [README.md](./README.md)
  - [HISTORY.md](./HISTORY.md)
+ - [Заметки/Разарботка/php/yii/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/FAQ.md)
  - [Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/vue/vuex-orm/FAQ.md)
  - [Заметки/Разарботка/javascript/react/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/javascript/react/FAQ.md)
  - [Заметки/Разарботка/php/yii/Статьи/REST API — Что такое HATEOAS?.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/php/yii/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/REST%20API%20%E2%80%94%20%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20HATEOAS?.md)
