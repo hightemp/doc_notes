@@ -5703,3 +5703,31 @@ echo GridView::widget([
 Здесь мы используем GridView::widget() для отображения данных из двух таблиц. В dataProvider мы передаем объект yii\data\ArrayDataProvider, который содержит данные из двух таблиц. В columns мы определяем, какие данные отображать в каждой колонке.
 
 Теперь мы можем отображать данные из двух таблиц в GridView.
+
+## напиши сравнение с примером кода в виде таблицы добавление элемента в связи многие ко многим для фреймворков  laravel, yii2, symphony
+
+В Laravel мы используем метод attach() для добавления элемента в связь многие ко многим. Например:
+
+```php
+$book = Book::find(1);
+$author = Author::find(1);
+$book->authors()->attach($author);
+```
+
+В Yii2 мы используем метод link(). Например:
+
+```php
+$book = Book::findOne(1);
+$author = Author::findOne(1);
+$book->link('authors', $author);
+```
+
+В Symfony мы используем метод addAuthor(). Например:
+
+```php
+$book = $entityManager->getRepository(Book::class)->find(1);
+$author = $entityManager->getRepository(Author::class)->find(1);
+$book->addAuthor($author);
+```
+
+В целом, все три фреймворка предоставляют удобные способы добавления элемента в связь многие ко многим. В Laravel мы используем метод attach(), в Yii2 - метод link(), а в Symfony - метод addAuthor().

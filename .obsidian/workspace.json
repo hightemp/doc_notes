@@ -6,7 +6,7 @@
       {
         "id": "90171f8499a0e1ff",
         "type": "tabs",
-        "dimension": 53.503184713375795,
+        "dimension": 53.494623655913976,
         "children": [
           {
             "id": "676b58adb991277c",
@@ -26,31 +26,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
+                "file": "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3d9fa5ee19522974",
+            "id": "cd714e0b5c47d6d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
+                "file": "Заметки/Разарботка/javascript/vue/FAQ.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6bf1ed86378dfb35",
+            "id": "a079c977a5cc8cda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,12 +117,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
         "type": "tabs",
-        "dimension": 46.496815286624205,
+        "dimension": 46.50537634408602,
         "children": [
           {
             "id": "e693db056e4010f8",
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Ссылки.md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/Ссылки.md"
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md"
               }
             }
           }
@@ -286,8 +286,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "fd0ed160d81e21b3",
+  "active": "a079c977a5cc8cda",
   "lastOpenFiles": [
+    "Заметки/Разарботка/javascript/vue/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
+    "Заметки/Разарботка/javascript/Статьи",
+    "Заметки/Разарботка/php/yii/FAQ.md",
+    "Заметки/Разарботка/javascript/vue/Статьи",
+    "Заметки/Разарботка/php/yii/Статьи/Объединение таблиц в БД.md",
+    "Заметки/Разарботка/php/yii/Ссылки.md",
     "Заметки/Разарботка/php/yii/Статьи/Связь «Один ко многим» (One to many).md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2 - контейнер внедрения зависимостей. Добавляем нужные классы..md",
     "Заметки/Разарботка/php/yii/Статьи/Yii2. ФИЛЬТРЫ КОНТРОЛЯ ДОСТУПА (ACCESS CONTROL FILTERS).md",
@@ -296,7 +303,6 @@
     "Заметки/Разарботка/php/Статьи/The Clean Code Blog.md",
     "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
     "Заметки/Разарботка/php/FAQ.md",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/php/laminas/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
     "Заметки/Разарботка/php/guzzle/FAQ.md",
@@ -317,13 +323,7 @@
     "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
     "Заметки/Разарботка/php/Статьи/DDD.md",
     "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/php/Статьи",
     "Заметки/Разарботка/микросервисы/Статьи/Определения понятий Stateful и Stateless в контексте веб-сервисов (перевод).md",
-    "Заметки/Разарботка/микросервисы/Статьи/8 шаблонов проектирования микросервисов для опытных разработчиков.md",
-    "Заметки/Разарботка/микросервисы/Статьи/26 основных паттернов микросервисной разработки.md",
-    "Заметки/Разарботка/микросервисы/Статьи/Микросервисные паттерны проектирования.md",
-    "Заметки/Разарботка/bash/FAQ.md",
-    "Заметки/Разарботка/микросервисы/Статьи",
     "Untitled.canvas"
   ]
 }
