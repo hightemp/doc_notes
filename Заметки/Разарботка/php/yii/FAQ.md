@@ -5869,3 +5869,56 @@ $query = (new \yii\db\Query())
 В примере выше мы вкладываем три оператора OR друг в друга, чтобы создать более сложное условие для WHERE. Это условие будет искать записи, удовлетворяющие любому из указанных условий.
 
 Рекурсивный подход позволяет вкладывать операторы OR друг в друга на любой глубине вложенности, что позволяет создавать более сложные запросы для поиска и фильтрации данных.
+
+## как ограничить количество полей для вложенного объекта в REST в yii2 (например в post есть модель comment)
+
+Для ограничения количества полей вложенного объекта в REST API в Yii2 можно использовать класс yii\rest\Serializer. Для этого необходимо переопределить метод serializeModel(), который вызывается при сериализации модели.
+
+Вот пример ограничения количества полей для вложенного объекта comment в модели post:
+
+```php
+use yii\rest\Serializer;
+
+class MySerializer extends Serializer
+{
+    public function serializeModel($model)
+    {
+        $data = parent::serializeModel($model);
+        if ($model instanceof \app\models\Post) {
+            unset($data['comment']['field1']);
+            unset($data['comment']['field2']);
+        }
+        return $data;
+    }
+}
+```
+
+
+Здесь мы создаем класс MySerializer, который наследуется от стандартного сериализатора yii\rest\Serializer. Мы переопределяем метод serializeModel(), который вызывается при сериализации модели.
+
+Далее мы проверяем, является ли модель экземпляром класса Post, и если да, то удаляем из массива данных, представляющего модель, некоторые поля вложенного объекта comment, которые мы хотим скрыть.
+
+Затем мы возвращаем отредактированный массив данных модели.
+
+Чтобы использовать наш собственный сериализатор, необходимо задать его в настройках контроллера REST. Например, в методе behaviors() контроллера можно сделать следующее:
+
+```php
+use app\components\MySerializer;
+
+class MyController extends \yii\rest\ActiveController
+{
+    public function behaviors()
+    {
+        $behaviors = parent::behaviors();
+        $behaviors['contentNegotiator']['formats']['application/json'] = [
+            'class' => 'yii\web\JsonResponseFormatter',
+            'prettyPrint' => YII_DEBUG,
+            'serializer' => MySerializer::className(),
+        ];
+        return $behaviors;
+    }
+}
+```
+
+
+Здесь мы добавляем свой собственный сериализатор MySerializer в настройки форматирования ответов JSON для контроллера REST. Теперь при сериализации моделей в ответе будут скрыты некоторые поля вложенного объекта comment.

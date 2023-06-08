@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md",
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/php/yii/FAQ.md"
+                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md"
               }
             }
           }
@@ -299,6 +299,7 @@
   },
   "active": "ec75fcf34770f700",
   "lastOpenFiles": [
+    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/MySQL/FAQ.md",
     "Заметки/Разарботка/микросервисы/FAQ.md",
     "Заметки/Разарботка/php/doctrine/FAQ.md",
@@ -310,7 +311,6 @@
     "Заметки/Разарботка/javascript/vue/FAQ.md",
     "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
     "Заметки/Разарботка/javascript/Статьи",
-    "Заметки/Разарботка/php/yii/FAQ.md",
     "Заметки/Разарботка/javascript/vue/Статьи",
     "Заметки/Разарботка/php/yii/Статьи/Объединение таблиц в БД.md",
     "Заметки/Разарботка/php/yii/Ссылки.md",
