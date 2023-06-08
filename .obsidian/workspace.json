@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
+                "file": "Заметки/Разарботка/MySQL/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md"
+                "file": "Заметки/Разарботка/MySQL/FAQ.md"
               }
             }
           }
@@ -286,8 +286,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a079c977a5cc8cda",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
+    "Заметки/Разарботка/javascript/vue/Ссылки.md",
     "Заметки/Разарботка/javascript/vue/FAQ.md",
     "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
     "Заметки/Разарботка/javascript/Статьи",
@@ -323,7 +324,6 @@
     "Заметки/Разарботка/php/Статьи/Matthias Noback Об Идеальной Архитектуре — Слои, Порты и Адаптеры(Часть 2 — Слои).md",
     "Заметки/Разарботка/php/Статьи/DDD.md",
     "Заметки/Разарботка/php/Ссылки.md",
-    "Заметки/Разарботка/микросервисы/Статьи/Определения понятий Stateful и Stateless в контексте веб-сервисов (перевод).md",
     "Untitled.canvas"
   ]
 }
