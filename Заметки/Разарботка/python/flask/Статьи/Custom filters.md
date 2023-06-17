@@ -1,7 +1,6 @@
 ::: v-pre
 https://uniwebsidad.com/libros/explore-flask/chapter-8/custom-filters
 
-
 {% raw %}
 
 Jinja filters are functions that can be applied to the result of an expression in the `{{ ... }}` delimeters. It is applied before that result is printed to the template.
