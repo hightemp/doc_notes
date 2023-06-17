@@ -1,3 +1,4 @@
+::: v-pre
 {% raw %}
 
 ## какие библиотеки для генерации форм существуют для django
@@ -3420,3 +3421,4 @@ class PersonTable(tables.Table):
 В данном примере мы добавляем `prefetch_related('hobbies')` к `queryset` в методе `__init__()` класса таблицы. Это позволяет получить связанные объекты `Hobby` через ManyToManyField в одном запросе.
 
 {% endraw %}
+:::

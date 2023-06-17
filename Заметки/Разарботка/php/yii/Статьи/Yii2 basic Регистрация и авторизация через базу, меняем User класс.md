@@ -1,3 +1,4 @@
+::: v-pre
 http://bologer.ru/yii2-basic-registraciya-i-avtorizaciya-cherez-bazu-menyaem-user-klass/
 
 # Yii2 basic: Регистрация и авторизация через базу, меняем User класс
@@ -557,3 +558,4 @@ echo Nav::widget([
 ## Послесловие
 
 На этом изменения касательно User класса заканчиваются. Теперь вы можете регистрироваться на сайте и входить в систему использую базу данных.
+:::

@@ -1,3 +1,4 @@
+::: v-pre
 https://habr.com/ru/post/501652/
 
 # Nuxt as fullstack server: frontend + backend API Server (Часть 1)  
@@ -366,3 +367,4 @@ https://habr.com/ru/post/501652/
   
 → Финальную версию данного примера можно посмотреть [здесь](https://3gzhl.sse.codesandbox.io/)  
 → Песочница [здесь](https://codesandbox.io/s/codesandbox-nuxt-3gzhl)
+:::

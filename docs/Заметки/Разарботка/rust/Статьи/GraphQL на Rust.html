@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.e8e4f3a3.css" as="style"><link rel="preload" href="/assets/js/app.dec9f71a.js" as="script"><link rel="preload" href="/assets/js/2.733019b2.js" as="script"><link rel="preload" href="/assets/js/298.8e5a5ef7.js" as="script"><link rel="prefetch" href="/assets/js/10.3c45a7ae.js"><link rel="prefetch" href="/assets/js/100.945d3075.js"><link rel="prefetch" href="/assets/js/101.c304dc04.js"><link rel="prefetch" href="/assets/js/102.c4ea246f.js"><link rel="prefetch" href="/assets/js/103.3fa17de4.js"><link rel="prefetch" href="/assets/js/104.10b346d7.js"><link rel="prefetch" href="/assets/js/105.37af8494.js"><link rel="prefetch" href="/assets/js/106.580b656c.js"><link rel="prefetch" href="/assets/js/107.bbf35ca8.js"><link rel="prefetch" href="/assets/js/108.ef31db2d.js"><link rel="prefetch" href="/assets/js/109.e0b67167.js"><link rel="prefetch" href="/assets/js/11.2369400d.js"><link rel="prefetch" href="/assets/js/110.f5f9eacf.js"><link rel="prefetch" href="/assets/js/111.a566b9a5.js"><link rel="prefetch" href="/assets/js/112.9872e360.js"><link rel="prefetch" href="/assets/js/113.55c7a352.js"><link rel="prefetch" href="/assets/js/114.12ee164e.js"><link rel="prefetch" href="/assets/js/115.1fb2093f.js"><link rel="prefetch" href="/assets/js/116.d46141e0.js"><link rel="prefetch" href="/assets/js/117.d60c7d89.js"><link rel="prefetch" href="/assets/js/118.c3b7612c.js"><link rel="prefetch" href="/assets/js/119.10367318.js"><link rel="prefetch" href="/assets/js/12.286d27d6.js"><link rel="prefetch" href="/assets/js/120.be792f55.js"><link rel="prefetch" href="/assets/js/121.9b95acc0.js"><link rel="prefetch" href="/assets/js/122.eaab2843.js"><link rel="prefetch" href="/assets/js/123.cc552dc6.js"><link rel="prefetch" href="/assets/js/124.cce7d459.js"><link rel="prefetch" href="/assets/js/125.c5c5f203.js"><link rel="prefetch" href="/assets/js/126.9fb20891.js"><link rel="prefetch" href="/assets/js/127.06235e8b.js"><link rel="prefetch" href="/assets/js/128.a7d21829.js"><link rel="prefetch" href="/assets/js/129.cf5cb2cd.js"><link rel="prefetch" href="/assets/js/13.47981763.js"><link rel="prefetch" href="/assets/js/130.53cfb33f.js"><link rel="prefetch" href="/assets/js/131.3a8b27b3.js"><link rel="prefetch" href="/assets/js/132.872dde3d.js"><link rel="prefetch" href="/assets/js/133.82865bbc.js"><link rel="prefetch" href="/assets/js/134.f3b5d42f.js"><link rel="prefetch" href="/assets/js/135.4c91805f.js"><link rel="prefetch" href="/assets/js/136.dcb8f9e2.js"><link rel="prefetch" href="/assets/js/137.07d2bab8.js"><link rel="prefetch" href="/assets/js/138.ea94033d.js"><link rel="prefetch" href="/assets/js/139.79ad652e.js"><link rel="prefetch" href="/assets/js/14.2f49c0ab.js"><link rel="prefetch" href="/assets/js/140.d6518035.js"><link rel="prefetch" href="/assets/js/141.6b166b92.js"><link rel="prefetch" href="/assets/js/142.c4466c2b.js"><link rel="prefetch" href="/assets/js/143.141061b6.js"><link rel="prefetch" href="/assets/js/144.5cee20dc.js"><link rel="prefetch" href="/assets/js/145.97956c27.js"><link rel="prefetch" href="/assets/js/146.23cb4066.js"><link rel="prefetch" href="/assets/js/147.bb1e6c1a.js"><link rel="prefetch" href="/assets/js/148.a5bd7077.js"><link rel="prefetch" href="/assets/js/149.57694ad8.js"><link rel="prefetch" href="/assets/js/15.0cb65b1e.js"><link rel="prefetch" href="/assets/js/150.faf7fa9f.js"><link rel="prefetch" href="/assets/js/151.2ee47c84.js"><link rel="prefetch" href="/assets/js/152.9a82c536.js"><link rel="prefetch" href="/assets/js/153.5bd8c4a5.js"><link rel="prefetch" href="/assets/js/154.7cdc00ab.js"><link rel="prefetch" href="/assets/js/155.a2a1c88e.js"><link rel="prefetch" href="/assets/js/156.92796b90.js"><link rel="prefetch" href="/assets/js/157.f247bf22.js"><link rel="prefetch" href="/assets/js/158.eaeb08c7.js"><link rel="prefetch" href="/assets/js/159.555a6593.js"><link rel="prefetch" href="/assets/js/16.6fd62cc7.js"><link rel="prefetch" href="/assets/js/160.bf19eb80.js"><link rel="prefetch" href="/assets/js/161.7ce1d12b.js"><link rel="prefetch" href="/assets/js/162.f6dc5f4b.js"><link rel="prefetch" href="/assets/js/163.16df5c09.js"><link rel="prefetch" href="/assets/js/164.bdd3ee47.js"><link rel="prefetch" href="/assets/js/165.ba85290c.js"><link rel="prefetch" href="/assets/js/166.6b1a560c.js"><link rel="prefetch" href="/assets/js/167.59b9445e.js"><link rel="prefetch" href="/assets/js/168.69cc230d.js"><link rel="prefetch" href="/assets/js/169.55882eed.js"><link rel="prefetch" href="/assets/js/17.94447945.js"><link rel="prefetch" href="/assets/js/170.129124fc.js"><link rel="prefetch" href="/assets/js/171.cf1a85f9.js"><link rel="prefetch" href="/assets/js/172.36f3cdfc.js"><link rel="prefetch" href="/assets/js/173.cddbfa1b.js"><link rel="prefetch" href="/assets/js/174.a32fe0ad.js"><link rel="prefetch" href="/assets/js/175.c1414217.js"><link rel="prefetch" href="/assets/js/176.a678371f.js"><link rel="prefetch" href="/assets/js/177.583b2ac2.js"><link rel="prefetch" href="/assets/js/178.6dd3c8d6.js"><link rel="prefetch" href="/assets/js/179.dac91cd2.js"><link rel="prefetch" href="/assets/js/18.75e97365.js"><link rel="prefetch" href="/assets/js/180.9dfd9728.js"><link rel="prefetch" href="/assets/js/181.9afd854f.js"><link rel="prefetch" href="/assets/js/182.d0dbacf1.js"><link rel="prefetch" href="/assets/js/183.1dbeb096.js"><link rel="prefetch" href="/assets/js/184.27b34aeb.js"><link rel="prefetch" href="/assets/js/185.13641773.js"><link rel="prefetch" href="/assets/js/186.d79c8675.js"><link rel="prefetch" href="/assets/js/187.484bb501.js"><link rel="prefetch" href="/assets/js/188.f73564d2.js"><link rel="prefetch" href="/assets/js/189.25f0971d.js"><link rel="prefetch" href="/assets/js/19.9abedc68.js"><link rel="prefetch" href="/assets/js/190.00b862d0.js"><link rel="prefetch" href="/assets/js/191.a255f76b.js"><link rel="prefetch" href="/assets/js/192.6b6a1c68.js"><link rel="prefetch" href="/assets/js/193.916ffb26.js"><link rel="prefetch" href="/assets/js/194.2c928fb3.js"><link rel="prefetch" href="/assets/js/195.20a9fc51.js"><link rel="prefetch" href="/assets/js/196.f2abf901.js"><link rel="prefetch" href="/assets/js/197.871f3d6a.js"><link rel="prefetch" href="/assets/js/198.3ea5cf81.js"><link rel="prefetch" href="/assets/js/199.3f37d030.js"><link rel="prefetch" href="/assets/js/20.1c33d690.js"><link rel="prefetch" href="/assets/js/200.7e20b89c.js"><link rel="prefetch" href="/assets/js/201.ae9ed05e.js"><link rel="prefetch" href="/assets/js/202.d686563a.js"><link rel="prefetch" href="/assets/js/203.5a9ac59e.js"><link rel="prefetch" href="/assets/js/204.4abf0169.js"><link rel="prefetch" href="/assets/js/205.94fe861e.js"><link rel="prefetch" href="/assets/js/206.76e93465.js"><link rel="prefetch" href="/assets/js/207.92c5e562.js"><link rel="prefetch" href="/assets/js/208.79f31d54.js"><link rel="prefetch" href="/assets/js/209.eb534898.js"><link rel="prefetch" href="/assets/js/21.de3ad1f7.js"><link rel="prefetch" href="/assets/js/210.38242c09.js"><link rel="prefetch" href="/assets/js/211.ca8aa9a4.js"><link rel="prefetch" href="/assets/js/212.189fa4e2.js"><link rel="prefetch" href="/assets/js/213.239f2bd6.js"><link rel="prefetch" href="/assets/js/214.b1a9ece6.js"><link rel="prefetch" href="/assets/js/215.823222d2.js"><link rel="prefetch" href="/assets/js/216.6c3fbaad.js"><link rel="prefetch" href="/assets/js/217.c2bd084b.js"><link rel="prefetch" href="/assets/js/218.7ad57fcc.js"><link rel="prefetch" href="/assets/js/219.4ef0266b.js"><link rel="prefetch" href="/assets/js/22.a45331de.js"><link rel="prefetch" href="/assets/js/220.e9fd4c5f.js"><link rel="prefetch" href="/assets/js/221.0b0f609a.js"><link rel="prefetch" href="/assets/js/222.ff25599e.js"><link rel="prefetch" href="/assets/js/223.8319d2d0.js"><link rel="prefetch" href="/assets/js/224.da5c4d3e.js"><link rel="prefetch" href="/assets/js/225.9378291a.js"><link rel="prefetch" href="/assets/js/226.0d8b2ef5.js"><link rel="prefetch" href="/assets/js/227.82cd2e2d.js"><link rel="prefetch" href="/assets/js/228.db49009d.js"><link rel="prefetch" href="/assets/js/229.e735fec4.js"><link rel="prefetch" href="/assets/js/23.de5de683.js"><link rel="prefetch" href="/assets/js/230.47e7011d.js"><link rel="prefetch" href="/assets/js/231.7f0e5905.js"><link rel="prefetch" href="/assets/js/232.a6cb0759.js"><link rel="prefetch" href="/assets/js/233.09bbd53b.js"><link rel="prefetch" href="/assets/js/234.b9341514.js"><link rel="prefetch" href="/assets/js/235.3563b4bf.js"><link rel="prefetch" href="/assets/js/236.7d5da9ca.js"><link rel="prefetch" href="/assets/js/237.c7a693f3.js"><link rel="prefetch" href="/assets/js/238.803df100.js"><link rel="prefetch" href="/assets/js/239.ef64fcf2.js"><link rel="prefetch" href="/assets/js/24.b363b117.js"><link rel="prefetch" href="/assets/js/240.2befed40.js"><link rel="prefetch" href="/assets/js/241.10a01506.js"><link rel="prefetch" href="/assets/js/242.3b369ac8.js"><link rel="prefetch" href="/assets/js/243.31958eb9.js"><link rel="prefetch" href="/assets/js/244.b9489a7d.js"><link rel="prefetch" href="/assets/js/245.b9b191e5.js"><link rel="prefetch" href="/assets/js/246.18aeb9f6.js"><link rel="prefetch" href="/assets/js/247.39cc492f.js"><link rel="prefetch" href="/assets/js/248.b08e232c.js"><link rel="prefetch" href="/assets/js/249.6d660682.js"><link rel="prefetch" href="/assets/js/25.5e2fe982.js"><link rel="prefetch" href="/assets/js/250.235cee85.js"><link rel="prefetch" href="/assets/js/251.66edac43.js"><link rel="prefetch" href="/assets/js/252.28ec4821.js"><link rel="prefetch" href="/assets/js/253.828cd3b6.js"><link rel="prefetch" href="/assets/js/254.6b19e7b7.js"><link rel="prefetch" href="/assets/js/255.7808e23e.js"><link rel="prefetch" href="/assets/js/256.33572d7d.js"><link rel="prefetch" href="/assets/js/257.8044242f.js"><link rel="prefetch" href="/assets/js/258.2eb93b76.js"><link rel="prefetch" href="/assets/js/259.6d222e72.js"><link rel="prefetch" href="/assets/js/26.b3336cf9.js"><link rel="prefetch" href="/assets/js/260.b3345d12.js"><link rel="prefetch" href="/assets/js/261.6f64a148.js"><link rel="prefetch" href="/assets/js/262.283e9e13.js"><link rel="prefetch" href="/assets/js/263.10934b95.js"><link rel="prefetch" href="/assets/js/264.52a220d8.js"><link rel="prefetch" href="/assets/js/265.3099a02f.js"><link rel="prefetch" href="/assets/js/266.d093c25c.js"><link rel="prefetch" href="/assets/js/267.ffd0ea6c.js"><link rel="prefetch" href="/assets/js/268.71a5b2a5.js"><link rel="prefetch" href="/assets/js/269.e02d0a12.js"><link rel="prefetch" href="/assets/js/27.bacb7462.js"><link rel="prefetch" href="/assets/js/270.717bdd21.js"><link rel="prefetch" href="/assets/js/271.ceef3037.js"><link rel="prefetch" href="/assets/js/272.b040f2d8.js"><link rel="prefetch" href="/assets/js/273.e06cd101.js"><link rel="prefetch" href="/assets/js/274.9c206962.js"><link rel="prefetch" href="/assets/js/275.46ae609d.js"><link rel="prefetch" href="/assets/js/276.16e277a9.js"><link rel="prefetch" href="/assets/js/277.fcb15734.js"><link rel="prefetch" href="/assets/js/278.0cc37dab.js"><link rel="prefetch" href="/assets/js/279.55e66e78.js"><link rel="prefetch" href="/assets/js/28.f9359f93.js"><link rel="prefetch" href="/assets/js/280.e4809dbc.js"><link rel="prefetch" href="/assets/js/281.0889dba5.js"><link rel="prefetch" href="/assets/js/282.459e1cec.js"><link rel="prefetch" href="/assets/js/283.0b2d1fb1.js"><link rel="prefetch" href="/assets/js/284.ffe54aa9.js"><link rel="prefetch" href="/assets/js/285.d9ed13ce.js"><link rel="prefetch" href="/assets/js/286.5574e754.js"><link rel="prefetch" href="/assets/js/287.f9187311.js"><link rel="prefetch" href="/assets/js/288.cd2b56c3.js"><link rel="prefetch" href="/assets/js/289.8552c742.js"><link rel="prefetch" href="/assets/js/29.9a6765b0.js"><link rel="prefetch" href="/assets/js/290.7d0673a7.js"><link rel="prefetch" href="/assets/js/291.5c185731.js"><link rel="prefetch" href="/assets/js/292.fab6d535.js"><link rel="prefetch" href="/assets/js/293.457fd94a.js"><link rel="prefetch" href="/assets/js/294.748e6f29.js"><link rel="prefetch" href="/assets/js/295.99a4bc36.js"><link rel="prefetch" href="/assets/js/296.f02a6f54.js"><link rel="prefetch" href="/assets/js/297.a2899d72.js"><link rel="prefetch" href="/assets/js/299.eff3af7f.js"><link rel="prefetch" href="/assets/js/3.e54eedac.js"><link rel="prefetch" href="/assets/js/30.8899ae33.js"><link rel="prefetch" href="/assets/js/300.ea47d06a.js"><link rel="prefetch" href="/assets/js/301.0f51c16c.js"><link rel="prefetch" href="/assets/js/302.0672bd76.js"><link rel="prefetch" href="/assets/js/303.99557654.js"><link rel="prefetch" href="/assets/js/304.069ee3f6.js"><link rel="prefetch" href="/assets/js/305.bbbcb69f.js"><link rel="prefetch" href="/assets/js/306.458f04ac.js"><link rel="prefetch" href="/assets/js/307.d8a121f6.js"><link rel="prefetch" href="/assets/js/308.4e353bdf.js"><link rel="prefetch" href="/assets/js/309.41135b53.js"><link rel="prefetch" href="/assets/js/31.907a86ff.js"><link rel="prefetch" href="/assets/js/310.d9900cca.js"><link rel="prefetch" href="/assets/js/311.4c8d1049.js"><link rel="prefetch" href="/assets/js/312.e461412c.js"><link rel="prefetch" href="/assets/js/313.b481fec8.js"><link rel="prefetch" href="/assets/js/314.7c9d7531.js"><link rel="prefetch" href="/assets/js/315.493dd60b.js"><link rel="prefetch" href="/assets/js/316.b892fdb3.js"><link rel="prefetch" href="/assets/js/317.0488dbc0.js"><link rel="prefetch" href="/assets/js/318.e3024dfc.js"><link rel="prefetch" href="/assets/js/319.cbeb3017.js"><link rel="prefetch" href="/assets/js/32.566fa885.js"><link rel="prefetch" href="/assets/js/320.6bbdcb6f.js"><link rel="prefetch" href="/assets/js/321.393ba5b9.js"><link rel="prefetch" href="/assets/js/322.e1ac37db.js"><link rel="prefetch" href="/assets/js/323.ecada34d.js"><link rel="prefetch" href="/assets/js/324.b5a78957.js"><link rel="prefetch" href="/assets/js/325.78a07f6c.js"><link rel="prefetch" href="/assets/js/326.18acb16b.js"><link rel="prefetch" href="/assets/js/327.f1fdf85e.js"><link rel="prefetch" href="/assets/js/328.cb4e6a88.js"><link rel="prefetch" href="/assets/js/329.7064a56d.js"><link rel="prefetch" href="/assets/js/33.089e8d27.js"><link rel="prefetch" href="/assets/js/330.eb5d365c.js"><link rel="prefetch" href="/assets/js/331.7413cc1f.js"><link rel="prefetch" href="/assets/js/332.268810a7.js"><link rel="prefetch" href="/assets/js/333.14b9f266.js"><link rel="prefetch" href="/assets/js/334.79f3c205.js"><link rel="prefetch" href="/assets/js/335.4c1fa2f4.js"><link rel="prefetch" href="/assets/js/336.2a555b98.js"><link rel="prefetch" href="/assets/js/337.c8d1a7eb.js"><link rel="prefetch" href="/assets/js/338.027e65ab.js"><link rel="prefetch" href="/assets/js/339.e913eb02.js"><link rel="prefetch" href="/assets/js/34.5cbcf358.js"><link rel="prefetch" href="/assets/js/340.ccfb0701.js"><link rel="prefetch" href="/assets/js/341.2bf59012.js"><link rel="prefetch" href="/assets/js/342.43214bf6.js"><link rel="prefetch" href="/assets/js/343.860e5acc.js"><link rel="prefetch" href="/assets/js/344.af2b1413.js"><link rel="prefetch" href="/assets/js/345.6dfaf1a7.js"><link rel="prefetch" href="/assets/js/346.4bccf6c8.js"><link rel="prefetch" href="/assets/js/347.c42d14ab.js"><link rel="prefetch" href="/assets/js/348.f00c8f2c.js"><link rel="prefetch" href="/assets/js/349.47f740a6.js"><link rel="prefetch" href="/assets/js/35.e9eab731.js"><link rel="prefetch" href="/assets/js/350.30d3e969.js"><link rel="prefetch" href="/assets/js/351.1295792b.js"><link rel="prefetch" href="/assets/js/352.363b9177.js"><link rel="prefetch" href="/assets/js/353.601c5370.js"><link rel="prefetch" href="/assets/js/354.047a1d22.js"><link rel="prefetch" href="/assets/js/355.3f32b1c2.js"><link rel="prefetch" href="/assets/js/356.1816f3c9.js"><link rel="prefetch" href="/assets/js/357.c81f86b9.js"><link rel="prefetch" href="/assets/js/358.a2fdfdd3.js"><link rel="prefetch" href="/assets/js/359.a5e1fa6a.js"><link rel="prefetch" href="/assets/js/36.a655d7e3.js"><link rel="prefetch" href="/assets/js/360.cecc875b.js"><link rel="prefetch" href="/assets/js/361.c8915051.js"><link rel="prefetch" href="/assets/js/362.5c07a421.js"><link rel="prefetch" href="/assets/js/363.adc2e062.js"><link rel="prefetch" href="/assets/js/364.f0f96ce6.js"><link rel="prefetch" href="/assets/js/365.a4a5cc32.js"><link rel="prefetch" href="/assets/js/366.4dbc70ea.js"><link rel="prefetch" href="/assets/js/367.626ad073.js"><link rel="prefetch" href="/assets/js/368.033096e1.js"><link rel="prefetch" href="/assets/js/369.ba1ab9e8.js"><link rel="prefetch" href="/assets/js/37.46464e89.js"><link rel="prefetch" href="/assets/js/370.5a4de7d9.js"><link rel="prefetch" href="/assets/js/371.8e19304c.js"><link rel="prefetch" href="/assets/js/372.00d24aa5.js"><link rel="prefetch" href="/assets/js/373.5d43f401.js"><link rel="prefetch" href="/assets/js/374.eeea88f6.js"><link rel="prefetch" href="/assets/js/38.5710d281.js"><link rel="prefetch" href="/assets/js/39.22cd4ce1.js"><link rel="prefetch" href="/assets/js/4.d12742be.js"><link rel="prefetch" href="/assets/js/40.ac785c50.js"><link rel="prefetch" href="/assets/js/41.e52206b8.js"><link rel="prefetch" href="/assets/js/42.fbd0e0ce.js"><link rel="prefetch" href="/assets/js/43.e0830f9d.js"><link rel="prefetch" href="/assets/js/44.23c6ba45.js"><link rel="prefetch" href="/assets/js/45.b9a24221.js"><link rel="prefetch" href="/assets/js/46.83cf1192.js"><link rel="prefetch" href="/assets/js/47.220fb3ae.js"><link rel="prefetch" href="/assets/js/48.130760fa.js"><link rel="prefetch" href="/assets/js/49.d6f4ded1.js"><link rel="prefetch" href="/assets/js/5.216cae74.js"><link rel="prefetch" href="/assets/js/50.9cbfe92f.js"><link rel="prefetch" href="/assets/js/51.3446f694.js"><link rel="prefetch" href="/assets/js/52.72649f7e.js"><link rel="prefetch" href="/assets/js/53.6f0f60f7.js"><link rel="prefetch" href="/assets/js/54.a1d865f2.js"><link rel="prefetch" href="/assets/js/55.474dea5b.js"><link rel="prefetch" href="/assets/js/56.34577514.js"><link rel="prefetch" href="/assets/js/57.f6fc2205.js"><link rel="prefetch" href="/assets/js/58.a47a439e.js"><link rel="prefetch" href="/assets/js/59.06b99b85.js"><link rel="prefetch" href="/assets/js/6.2d0a63f8.js"><link rel="prefetch" href="/assets/js/60.20e5a404.js"><link rel="prefetch" href="/assets/js/61.06eb00d3.js"><link rel="prefetch" href="/assets/js/62.ef43b805.js"><link rel="prefetch" href="/assets/js/63.96d7abec.js"><link rel="prefetch" href="/assets/js/64.828a623b.js"><link rel="prefetch" href="/assets/js/65.8270a1b7.js"><link rel="prefetch" href="/assets/js/66.3da895e0.js"><link rel="prefetch" href="/assets/js/67.30e83906.js"><link rel="prefetch" href="/assets/js/68.c5db27df.js"><link rel="prefetch" href="/assets/js/69.561fe0b5.js"><link rel="prefetch" href="/assets/js/7.929bde26.js"><link rel="prefetch" href="/assets/js/70.0b3415d2.js"><link rel="prefetch" href="/assets/js/71.4351b7f3.js"><link rel="prefetch" href="/assets/js/72.ce1be2c6.js"><link rel="prefetch" href="/assets/js/73.d9f4c187.js"><link rel="prefetch" href="/assets/js/74.b8e2035e.js"><link rel="prefetch" href="/assets/js/75.f721109d.js"><link rel="prefetch" href="/assets/js/76.1fffa028.js"><link rel="prefetch" href="/assets/js/77.392e6f02.js"><link rel="prefetch" href="/assets/js/78.788b59e8.js"><link rel="prefetch" href="/assets/js/79.0118ba12.js"><link rel="prefetch" href="/assets/js/8.81ac42c3.js"><link rel="prefetch" href="/assets/js/80.41299197.js"><link rel="prefetch" href="/assets/js/81.d5c7efcc.js"><link rel="prefetch" href="/assets/js/82.0686785a.js"><link rel="prefetch" href="/assets/js/83.1c3c9afc.js"><link rel="prefetch" href="/assets/js/84.77cbfea0.js"><link rel="prefetch" href="/assets/js/85.a72511bb.js"><link rel="prefetch" href="/assets/js/86.ee7de8e7.js"><link rel="prefetch" href="/assets/js/87.6725a162.js"><link rel="prefetch" href="/assets/js/88.de798e46.js"><link rel="prefetch" href="/assets/js/89.e3b19fd4.js"><link rel="prefetch" href="/assets/js/9.0286aa6e.js"><link rel="prefetch" href="/assets/js/90.15a0b0a1.js"><link rel="prefetch" href="/assets/js/91.9c080a3d.js"><link rel="prefetch" href="/assets/js/92.2d7e99de.js"><link rel="prefetch" href="/assets/js/93.3a7c19cd.js"><link rel="prefetch" href="/assets/js/94.da299190.js"><link rel="prefetch" href="/assets/js/95.54d70fa0.js"><link rel="prefetch" href="/assets/js/96.68967f40.js"><link rel="prefetch" href="/assets/js/97.6ec5cb5a.js"><link rel="prefetch" href="/assets/js/98.4ce5bd4a.js"><link rel="prefetch" href="/assets/js/99.de11b345.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e8e4f3a3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><p>https://habr.com/ru/post/546208/</p> <p>В этой статье я покажу как создать GraphQL сервер, используя Rust и его экосистему; будут приведены примеры реализации наиболее часто встречающихся задач при разработке GraphQL API. В итоге API трёх микросервисов будут объединены в единую точку доступа с помощью Apollo Server и <a href="https://www.apollographql.com/docs/federation/" target="_blank" rel="noopener noreferrer">Apollo Federation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. Это позволит клиентам запрашивать данные одновременно из нескольких источников без необходимости знать какие данные приходят из какого сервиса.</p> <h2 id="введение"><a href="#введение" class="header-anchor">#</a> Введение</h2> <h3 id="обзор"><a href="#обзор" class="header-anchor">#</a> Обзор</h3> <p>С точки зрения функциональности описываемый проект довольно похож на представленный в моей <a href="https://romankudryashov.com/blog/2020/02/how-to-graphql/" target="_blank" rel="noopener noreferrer">предыдущей статье<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, но в этот раз с использованием стэка Rust. Архитектурно проект выглядит так:</p> <p><img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/9c7/3ab/c80/9c73abc80275f109b3b7fb98edaff10a.png" alt=""></p> <p>Каждый компонент архитектуры освещает несколько вопросов, которые могут возникнуть при реализации GraphQL API. Доменная модель включает данные о планетах Солнечной системы и их спутниках. Проект имеет многомодульную структуру (или монорепозиторий) и состоит из следующих модулей:</p> <ul><li><p><a href="https://github.com/rkudryashov/graphql-rust-demo/tree/master/planets-service" target="_blank" rel="noopener noreferrer">planets-service<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (Rust)</p></li> <li><p><a href="https://github.com/rkudryashov/graphql-rust-demo/tree/master/satellites-service" target="_blank" rel="noopener noreferrer">satellites-service<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (Rust)</p></li> <li><p><a href="https://github.com/rkudryashov/graphql-rust-demo/tree/master/auth-service" target="_blank" rel="noopener noreferrer">auth-service<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (Rust)</p></li> <li><p><a href="https://github.com/rkudryashov/graphql-rust-demo/tree/master/apollo-server" target="_blank" rel="noopener noreferrer">apollo-server<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (JS)</p></li></ul> <p>Существуют две основных библиотеки для разработки GraphQL сервера на Rust: <a href="https://github.com/graphql-rust/juniper" target="_blank" rel="noopener noreferrer">Juniper<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> и <a href="https://github.com/async-graphql/async-graphql" target="_blank" rel="noopener noreferrer">Async-graphql<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, но только последняя поддерживает Apollo Federation, поэтому она была выбрана для реализации проекта (есть также открытый <a href="https://github.com/graphql-rust/juniper/issues/376" target="_blank" rel="noopener noreferrer">запрос<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> на реализацию поддержки Federation в Juniper). Обе библиотеки предлагают <a href="https://blog.logrocket.com/code-first-vs-schema-first-development-graphql/" target="_blank" rel="noopener noreferrer">code-first<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> подход.</p> <p>Помимо этого использованы PostgreSQL — для реализации слоя данных, <a href="https://jwt.io/" target="_blank" rel="noopener noreferrer">JWT<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> — для аутентификации и Kafka — для асинхронного обмена сообщениями.</p> <h3 id="стэк-технологии"><a href="#стэк-технологии" class="header-anchor">#</a> Стэк технологий</h3> <p>В следующей таблице показан стэк основных технологий, использованных в проекте:</p> <p>Тип</p> <p>Название</p> <p>Сайт</p> <p>GitHub</p> <p>Язык программирования</p> <p>Rust</p> <p><a href="https://www.rust-lang.org/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/rust-lang/rust" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>GraphQL библиотека</p> <p>Async-graphql</p> <p><a href="https://async-graphql.github.io/async-graphql/en/index.html" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/async-graphql/async-graphql" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Единая GraphQL точка доступа</p> <p>Apollo Server</p> <p><a href="https://www.apollographql.com/docs/apollo-server/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/apollographql/apollo-server" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Web фреймворк</p> <p>actix-web</p> <p><a href="https://actix.rs/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/actix/actix-web" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>База даных</p> <p>PostgreSQL</p> <p><a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/postgres/postgres" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Брокер сообщений</p> <p>Apache Kafka</p> <p><a href="https://kafka.apache.org/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/apache/kafka" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Оркестрация контейнеров</p> <p>Docker Compose</p> <p><a href="https://docs.docker.com/compose/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/docker/compose" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Также некоторые использованные Rust библиотеки:</p> <p>Тип</p> <p>Название</p> <p>Сайт</p> <p>GitHub</p> <p>ORM</p> <p>Diesel</p> <p><a href="https://diesel.rs/" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/diesel-rs/diesel" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Kafka клиент</p> <p>rust-rdkafka</p> <p><a href="https://crates.io/crates/rdkafka" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/fede1024/rust-rdkafka" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Хэширование паролей</p> <p>argonautica</p> <p><a href="https://crates.io/crates/argonautica" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/bcmyers/argonautica" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>JWT библиотека</p> <p>jsonwebtoken</p> <p><a href="https://crates.io/crates/jsonwebtoken" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/Keats/jsonwebtoken" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>Библиотека для тестирования</p> <p>Testcontainers-rs</p> <p><a href="https://crates.io/crates/testcontainers" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p><a href="https://github.com/testcontainers/testcontainers-rs" target="_blank" rel="noopener noreferrer">link<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="необходимое-по"><a href="#необходимое-по" class="header-anchor">#</a> Необходимое ПО</h3> <p>Чтобы запустить проект локально, вам нужен только Docker Compose. В противном случае вам может понадобиться следующее:</p> <ul><li><p><a href="https://www.rust-lang.org/tools/install" target="_blank" rel="noopener noreferrer">Rust<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://diesel.rs/guides/getting-started/" target="_blank" rel="noopener noreferrer">Diesel CLI<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (для установки выполните <code>cargo install diesel_cli --no-default-features --features postgres</code>)</p></li> <li><p><a href="https://releases.llvm.org/download.html" target="_blank" rel="noopener noreferrer">LLVM<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (это нужно для работы крэйта <code>argonautica</code>)</p></li> <li><p><a href="https://cmake.org/install/" target="_blank" rel="noopener noreferrer">CMake<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (это нужно для работы крэйта <code>rust-rdkafka</code>)</p></li> <li><p><a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">PostgreSQL<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://kafka.apache.org/quickstart" target="_blank" rel="noopener noreferrer">Apache Kafka<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://www.npmjs.com/get-npm" target="_blank" rel="noopener noreferrer">npm<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li></ul> <h2 id="реализация"><a href="#реализация" class="header-anchor">#</a> Реализация</h2> <p>В <code>Cargo.toml</code> в корне проекта указаны три приложения и одна библиотека:</p> <p><em>Root</em> <a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/Cargo.toml" target="_blank" rel="noopener noreferrer"><em>Cargo.toml</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>[workspace]
+members = [
+    &quot;auth-service&quot;,
+    &quot;planets-service&quot;,
+    &quot;satellites-service&quot;,
+    &quot;common-utils&quot;,
+]
+</code></pre></div><p>Начнём с <code>planets-service</code>.</p> <h3 id="зависимости"><a href="#зависимости" class="header-anchor">#</a> Зависимости</h3> <p><code>Cargo.toml</code> выглядит так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/Cargo.toml" target="_blank" rel="noopener noreferrer"><em>Cargo.toml</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>[package]
+name = &quot;planets-service&quot;
+version = &quot;0.1.0&quot;
+edition = &quot;2018&quot;
+
+[dependencies]
+common-utils = { path = &quot;../common-utils&quot; }
+async-graphql = &quot;2.4.3&quot;
+async-graphql-actix-web = &quot;2.4.3&quot;
+actix-web = &quot;3.3.2&quot;
+actix-rt = &quot;1.1.1&quot;
+actix-web-actors = &quot;3.0.0&quot;
+futures = &quot;0.3.8&quot;
+async-trait = &quot;0.1.42&quot;
+bigdecimal = { version = &quot;0.1.2&quot;, features = [&quot;serde&quot;] }
+serde = { version = &quot;1.0.118&quot;, features = [&quot;derive&quot;] }
+serde_json = &quot;1.0.60&quot;
+diesel = { version = &quot;1.4.5&quot;, features = [&quot;postgres&quot;, &quot;r2d2&quot;, &quot;numeric&quot;] }
+diesel_migrations = &quot;1.4.0&quot;
+dotenv = &quot;0.15.0&quot;
+strum = &quot;0.20.0&quot;
+strum_macros = &quot;0.20.1&quot;
+rdkafka = { version = &quot;0.24.0&quot;, features = [&quot;cmake-build&quot;] }
+async-stream = &quot;0.3.0&quot;
+lazy_static = &quot;1.4.0&quot;
+
+[dev-dependencies]
+jsonpath_lib = &quot;0.2.6&quot;
+testcontainers = &quot;0.9.1&quot;
+</code></pre></div><p><code>async-graphql</code> — это GraphQL библиотека, <code>actix-web</code> — web фреймворк, а <code>async-graphql-actix-web</code> обеспечивает интеграцию между ними.</p> <h3 id="ключевые-функции"><a href="#ключевые-функции" class="header-anchor">#</a> Ключевые функции</h3> <p>Начнём с <code>main.rs</code>:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/main.rs" target="_blank" rel="noopener noreferrer"><em>main.rs</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[actix_rt::main]
+async fn main() -&gt; std::io::Result&lt;()&gt; {
+    dotenv().ok();
+    let pool = create_connection_pool();
+    run_migrations(&amp;pool);
+
+    let schema = create_schema_with_context(pool);
+
+    HttpServer::new(move || App::new()
+        .configure(configure_service)
+        .data(schema.clone())
+    )
+        .bind(&quot;0.0.0.0:8001&quot;)?
+        .run()
+        .await
+}
+</code></pre></div><p>Здесь окружение и HTTP сервер конфигурируются с помощью функций, определённых в <code>lib.rs</code>:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/lib.rs" target="_blank" rel="noopener noreferrer"><em>lib.rs</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub fn configure_service(cfg: &amp;mut web::ServiceConfig) {
+    cfg
+        .service(web::resource(&quot;/&quot;)
+            .route(web::post().to(index))
+            .route(web::get().guard(guard::Header(&quot;upgrade&quot;, &quot;websocket&quot;)).to(index_ws))
+            .route(web::get().to(index_playground))
+        );
+}
+
+async fn index(schema: web::Data&lt;AppSchema&gt;, http_req: HttpRequest, req: Request) -&gt; Response {
+    let mut query = req.into_inner();
+
+    let maybe_role = common_utils::get_role(http_req);
+    if let Some(role) = maybe_role {
+        query = query.data(role);
+    }
+
+    schema.execute(query).await.into()
+}
+
+async fn index_ws(schema: web::Data&lt;AppSchema&gt;, req: HttpRequest, payload: web::Payload) -&gt; Result&lt;HttpResponse&gt; {
+    WSSubscription::start(Schema::clone(&amp;*schema), &amp;req, payload)
+}
+
+async fn index_playground() -&gt; HttpResponse {
+    HttpResponse::Ok()
+        .content_type(&quot;text/html; charset=utf-8&quot;)
+        .body(playground_source(GraphQLPlaygroundConfig::new(&quot;/&quot;).subscription_endpoint(&quot;/&quot;)))
+}
+
+pub fn create_schema_with_context(pool: PgPool) -&gt; Schema&lt;Query, Mutation, Subscription&gt; {
+    let arc_pool = Arc::new(pool);
+    let cloned_pool = Arc::clone(&amp;arc_pool);
+    let details_batch_loader = Loader::new(DetailsBatchLoader {
+        pool: cloned_pool
+    }).with_max_batch_size(10);
+
+    let kafka_consumer_counter = Mutex::new(0);
+
+    Schema::build(Query, Mutation, Subscription)
+        .data(arc_pool)
+        .data(details_batch_loader)
+        .data(kafka::create_producer())
+        .data(kafka_consumer_counter)
+        .finish()
+}
+</code></pre></div><p>Эти функции делают следующее:</p> <ul><li><p><code>index</code> — обрабатывает GraphQL <a href="https://graphql.org/learn/queries/" target="_blank" rel="noopener noreferrer">запросы (query) и мутации<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><code>index_ws</code> — обрабатывает GraphQL <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">подписки<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><code>index_playground</code> — предоставляет Playground GraphQL IDE</p></li> <li><p><code>create_schema_with_context</code> — создаёт GraphQL схему с глобальным контекстом доступным в рантайме, например, пул соединений с БД</p></li></ul> <h3 id="определение-graphql-запроса-и-типа"><a href="#определение-graphql-запроса-и-типа" class="header-anchor">#</a> Определение GraphQL запроса и типа</h3> <p>Рассмотрим как определить запрос:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение запроса</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[Object]
+impl Query {
+    async fn get_planets(&amp;self, ctx: &amp;Context&lt;'_&gt;) -&gt; Vec&lt;Planet&gt; {
+        repository::get_all(&amp;get_conn_from_ctx(ctx)).expect(&quot;Can't get planets&quot;)
+            .iter()
+            .map(|p| { Planet::from(p) })
+            .collect()
+    }
+
+    async fn get_planet(&amp;self, ctx: &amp;Context&lt;'_&gt;, id: ID) -&gt; Option&lt;Planet&gt; {
+        find_planet_by_id_internal(ctx, id)
+    }
+
+    #[graphql(entity)]
+    async fn find_planet_by_id(&amp;self, ctx: &amp;Context&lt;'_&gt;, id: ID) -&gt; Option&lt;Planet&gt; {
+        find_planet_by_id_internal(ctx, id)
+    }
+}
+
+fn find_planet_by_id_internal(ctx: &amp;Context&lt;'_&gt;, id: ID) -&gt; Option&lt;Planet&gt; {
+    let id = id.to_string().parse::&lt;i32&gt;().expect(&quot;Can't get id from String&quot;);
+    repository::get(id, &amp;get_conn_from_ctx(ctx)).ok()
+        .map(|p| { Planet::from(&amp;p) })
+}
+</code></pre></div><p>Эти запросы получают данные из БД используя слой репозитория. Полученные сущности конвертируются в GraphQL DTO (это позволяет соблюсти принцип единственной ответственности для каждой структуры). Запросы <code>get_planets</code> и <code>get_planet</code> могут быть выполнены из любой GraphQL IDE например так:</p> <p><em>Пример использования запроса</em></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  getPlanets {
+    name
+    type
+  }
+}
+</code></pre></div><p>Структура <code>Planet</code> определена так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение GraphQL типа</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(Serialize, Deserialize)]
+struct Planet {
+    id: ID,
+    name: String,
+    planet_type: PlanetType,
+}
+
+#[Object]
+impl Planet {
+    async fn id(&amp;self) -&gt; &amp;ID {
+        &amp;self.id
+    }
+
+    async fn name(&amp;self) -&gt; &amp;String {
+        &amp;self.name
+    }
+
+    /// From an astronomical point of view
+    #[graphql(name = &quot;type&quot;)]
+    async fn planet_type(&amp;self) -&gt; &amp;PlanetType {
+        &amp;self.planet_type
+    }
+
+    #[graphql(deprecation = &quot;Now it is not in doubt. Do not use this field&quot;)]
+    async fn is_rotating_around_sun(&amp;self) -&gt; bool {
+        true
+    }
+
+    async fn details(&amp;self, ctx: &amp;Context&lt;'_&gt;) -&gt; Details {
+        let loader = ctx.data::&lt;Loader&lt;i32, Details, DetailsBatchLoader&gt;&gt;().expect(&quot;Can't get loader&quot;);
+        let planet_id = self.id.to_string().parse::&lt;i32&gt;().expect(&quot;Can't convert id&quot;);
+        loader.load(planet_id).await
+    }
+}
+</code></pre></div><p>В <code>impl</code> определяется резолвер для каждого поля. Также для некоторых полей определены описание (в виде Rust комментария) и deprecation reason. Это будет отображено в GraphQL IDE.</p> <h3 id="проблема-n-1"><a href="#проблема-n-1" class="header-anchor">#</a> Проблема N+1</h3> <p>В случае <em>наивной</em> реализации функции <code>Planet.details</code> выше возникла бы проблема N+1, то есть, при выполнении такого запроса:</p> <p><em>Пример возможного ресурсоёмкого GraphQL запроса</em></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  getPlanets {
+    name
+    details {
+      meanRadius
+    }
+  }
+}
+</code></pre></div><p>для поля <code>details</code> каждой из планет был бы сделан отдельный SQL запрос, т. к. <code>Details</code> — отдельная от <code>Planet</code> сущность и хранится в собственной таблице.</p> <p>Но с помощью <a href="https://github.com/graphql/dataloader" target="_blank" rel="noopener noreferrer">DataLoader<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, реализованного в Async-graphql, резолвер <code>details</code> может быть определён так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение резолвера</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>async fn details(&amp;self, ctx: &amp;Context&lt;'_&gt;) -&gt; Result&lt;Details&gt; {
+    let data_loader = ctx.data::&lt;DataLoader&lt;DetailsLoader&gt;&gt;().expect(&quot;Can't get data loader&quot;);
+    let planet_id = self.id.to_string().parse::&lt;i32&gt;().expect(&quot;Can't convert id&quot;);
+    let details = data_loader.load_one(planet_id).await?;
+    details.ok_or_else(|| &quot;Not found&quot;.into())
+}
+</code></pre></div><p><code>data_loader</code> — это объект в контектсе приложения, определённый так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/lib.rs" target="_blank" rel="noopener noreferrer"><em>Определение DataLoader'а</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>let details_data_loader = DataLoader::new(DetailsLoader {
+    pool: cloned_pool
+}).max_batch_size(10);
+</code></pre></div><p><code>DetailsLoader</code> реализован следующим образом:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>DetailsLoader definition</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub struct DetailsLoader {
+    pub pool: Arc&lt;PgPool&gt;
+}
+
+#[async_trait::async_trait]
+impl Loader&lt;i32&gt; for DetailsLoader {
+    type Value = Details;
+    type Error = Error;
+
+    async fn load(&amp;self, keys: &amp;[i32]) -&gt; Result&lt;HashMap&lt;i32, Self::Value&gt;, Self::Error&gt; {
+        let conn = self.pool.get().expect(&quot;Can't get DB connection&quot;);
+        let details = repository::get_details(keys, &amp;conn).expect(&quot;Can't get planets' details&quot;);
+
+        Ok(details.iter()
+            .map(|details_entity| (details_entity.planet_id, Details::from(details_entity)))
+            .collect::&lt;HashMap&lt;_, _&gt;&gt;())
+    }
+}
+</code></pre></div><p>Такой подход позволяет предотвратить проблему N+1, т. к. каждый вызов <code>DetailsLoader.load</code> выполняет только один SQL запрос, возвращающий пачку <code>DetailsEntity</code>.</p> <h3 id="определение-интерфеиса"><a href="#определение-интерфеиса" class="header-anchor">#</a> Определение интерфейса</h3> <p>GraphQL интерфейс и его реализации могут быть определены следующим образом:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение GraphQL интерфейса</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(Interface, Clone)]
+#[graphql(
+    field(name = &quot;mean_radius&quot;, type = &quot;&amp;CustomBigDecimal&quot;),
+    field(name = &quot;mass&quot;, type = &quot;&amp;CustomBigInt&quot;),
+)]
+pub enum Details {
+    InhabitedPlanetDetails(InhabitedPlanetDetails),
+    UninhabitedPlanetDetails(UninhabitedPlanetDetails),
+}
+
+#[derive(SimpleObject, Clone)]
+pub struct InhabitedPlanetDetails {
+    mean_radius: CustomBigDecimal,
+    mass: CustomBigInt,
+    /// In billions
+    population: CustomBigDecimal,
+}
+
+#[derive(SimpleObject, Clone)]
+pub struct UninhabitedPlanetDetails {
+    mean_radius: CustomBigDecimal,
+    mass: CustomBigInt,
+}
+</code></pre></div><p>Здесь вы также можете видеть, что если в структуре нет ни одного поля со &quot;сложным&quot; резолвером, то она может быть реализована с использованием атрибута <code>SimpleObject</code>.</p> <h3 id="определение-кастомного-скалярного-типа"><a href="#определение-кастомного-скалярного-типа" class="header-anchor">#</a> Определение кастомного скалярного типа</h3> <p>Кастомные скаляры позволяют определить как представлять и как парсить значения определённого типа. Проект содержит два примера определения кастомных скаляров; оба являются обёртками для числовых структур (т. к. невозможно определить внешний трейт на внешней структуре из-за <a href="https://doc.rust-lang.org/book/ch10-02-traits.html#implementing-a-trait-on-a-type" target="_blank" rel="noopener noreferrer"><em>orphan rule</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>). Эти обёртки определены так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Кастомный скаляр: обёртка для BigInt</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(Clone)]
+pub struct CustomBigInt(BigDecimal);
+
+#[Scalar(name = &quot;BigInt&quot;)]
+impl ScalarType for CustomBigInt {
+    fn parse(value: Value) -&gt; InputValueResult&lt;Self&gt; {
+        match value {
+            Value::String(s) =&gt; {
+                let parsed_value = BigDecimal::from_str(&amp;s)?;
+                Ok(CustomBigInt(parsed_value))
+            }
+            _ =&gt; Err(InputValueError::expected_type(value)),
+        }
+    }
+
+    fn to_value(&amp;self) -&gt; Value {
+        Value::String(format!(&quot;{:e}&quot;, &amp;self))
+    }
+}
+
+impl LowerExp for CustomBigInt {
+    fn fmt(&amp;self, f: &amp;mut Formatter&lt;'_&gt;) -&gt; fmt::Result {
+        let val = &amp;self.0.to_f64().expect(&quot;Can't convert BigDecimal&quot;);
+        LowerExp::fmt(val, f)
+    }
+}
+</code></pre></div><p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Кастомный скаляр: обёртка для BigDecimal</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(Clone)]
+pub struct CustomBigDecimal(BigDecimal);
+
+#[Scalar(name = &quot;BigDecimal&quot;)]
+impl ScalarType for CustomBigDecimal {
+    fn parse(value: Value) -&gt; InputValueResult&lt;Self&gt; {
+        match value {
+            Value::String(s) =&gt; {
+                let parsed_value = BigDecimal::from_str(&amp;s)?;
+                Ok(CustomBigDecimal(parsed_value))
+            }
+            _ =&gt; Err(InputValueError::expected_type(value)),
+        }
+    }
+
+    fn to_value(&amp;self) -&gt; Value {
+        Value::String(self.0.to_string())
+    }
+}
+</code></pre></div><p>В первом примере также показано, как представить гигантское число в виде экспоненциальной записи.</p> <h3 id="определение-мутации"><a href="#определение-мутации" class="header-anchor">#</a> Определение мутации</h3> <p>Мутация может быть определена следующим образом:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение мутации</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub struct Mutation;
+
+#[Object]
+impl Mutation {
+    #[graphql(guard(RoleGuard(role = &quot;Role::Admin&quot;)))]
+    async fn create_planet(&amp;self, ctx: &amp;Context&lt;'_&gt;, planet: PlanetInput) -&gt; Result&lt;Planet, Error&gt; {
+        let new_planet = NewPlanetEntity {
+            name: planet.name,
+            planet_type: planet.planet_type.to_string(),
+        };
+
+        let details = planet.details;
+        let new_planet_details = NewDetailsEntity {
+            mean_radius: details.mean_radius.0,
+            mass: BigDecimal::from_str(&amp;details.mass.0.to_string()).expect(&quot;Can't get BigDecimal from string&quot;),
+            population: details.population.map(|wrapper| { wrapper.0 }),
+            planet_id: 0,
+        };
+
+        let created_planet_entity = repository::create(new_planet, new_planet_details, &amp;get_conn_from_ctx(ctx))?;
+
+        let producer = ctx.data::&lt;FutureProducer&gt;().expect(&quot;Can't get Kafka producer&quot;);
+        let message = serde_json::to_string(&amp;Planet::from(&amp;created_planet_entity)).expect(&quot;Can't serialize a planet&quot;);
+        kafka::send_message(producer, message).await;
+
+        Ok(Planet::from(&amp;created_planet_entity))
+    }
+}
+</code></pre></div><p>Чтобы использовать объект как входной параметр мутации, надо определить структуру следующим образом:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение input type</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(InputObject)]
+struct PlanetInput {
+    name: String,
+    #[graphql(name = &quot;type&quot;)]
+    planet_type: PlanetType,
+    details: DetailsInput,
+}
+</code></pre></div><p>Мутация защищена <code>RoleGuard</code>'ом, который гарантирует что только пользователи с ролью <code>Admin</code> могут выполнить её. Таким образом, для выполнения, например, следующей мутации:</p> <p><em>Пример использования мутации</em></p> <div class="language- extra-class"><pre class="language-text"><code>mutation {
+  createPlanet(
+    planet: {
+      name: &quot;test_planet&quot;
+      type: TERRESTRIAL_PLANET
+      details: { meanRadius: &quot;10.5&quot;, mass: &quot;8.8e24&quot;, population: &quot;0.5&quot; }
+    }
+  ) {
+    id
+  }
+}
+</code></pre></div><p>вам нужно указать заголовок <code>Authorization</code> с JWT, полученным из <code>auth-service</code> (это будет описано далее).</p> <h3 id="определение-подписки"><a href="#определение-подписки" class="header-anchor">#</a> Определение подписки</h3> <p>В определении мутации выше вы могли видеть что при добавлении новой планеты отправляется сообщение:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Отправка сообщения в Kafka</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>let producer = ctx.data::&lt;FutureProducer&gt;().expect(&quot;Can't get Kafka producer&quot;);
+let message = serde_json::to_string(&amp;Planet::from(&amp;created_planet_entity)).expect(&quot;Can't serialize a planet&quot;);
+kafka::send_message(producer, message).await;
+</code></pre></div><p>Клиент API может быть уведомлен об этом событии с помощью подписки, слушающей Kafka consumer:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение подписки</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub struct Subscription;
+
+#[Subscription]
+impl Subscription {
+    async fn latest_planet&lt;'ctx&gt;(&amp;self, ctx: &amp;'ctx Context&lt;'_&gt;) -&gt; impl Stream&lt;Item=Planet&gt; + 'ctx {
+        let kafka_consumer_counter = ctx.data::&lt;Mutex&lt;i32&gt;&gt;().expect(&quot;Can't get Kafka consumer counter&quot;);
+        let consumer_group_id = kafka::get_kafka_consumer_group_id(kafka_consumer_counter);
+        let consumer = kafka::create_consumer(consumer_group_id);
+
+        async_stream::stream! {
+            let mut stream = consumer.start();
+
+            while let Some(value) = stream.next().await {
+                yield match value {
+                    Ok(message) =&gt; {
+                        let payload = message.payload().expect(&quot;Kafka message should contain payload&quot;);
+                        let message = String::from_utf8_lossy(payload).to_string();
+                        serde_json::from_str(&amp;message).expect(&quot;Can't deserialize a planet&quot;)
+                    }
+                    Err(e) =&gt; panic!(&quot;Error while Kafka message processing: {}&quot;, e)
+                };
+            }
+        }
+    }
+}
+</code></pre></div><p>Подписка может быть использована так же, как запросы и мутации:</p> <p><em>Пример использования подписки</em></p> <div class="language- extra-class"><pre class="language-text"><code>subscription {
+  latestPlanet {
+    id
+    name
+    type
+    details {
+      meanRadius
+    }
+  }
+}
+</code></pre></div><p>Подписки должны отправляться на <code>ws://localhost:8001</code>.</p> <h3 id="интеграционные-тесты"><a href="#интеграционные-тесты" class="header-anchor">#</a> Интеграционные тесты</h3> <p>Тесты запросов и мутаций можно написать так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/tests/query_tests.rs" target="_blank" rel="noopener noreferrer"><em>Тест запроса</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[actix_rt::test]
+async fn test_get_planets() {
+    let docker = Cli::default();
+    let (_pg_container, pool) = common::setup(&amp;docker);
+
+    let mut service = test::init_service(App::new()
+        .configure(configure_service)
+        .data(create_schema_with_context(pool))
+    ).await;
+
+    let query = &quot;
+        {
+            getPlanets {
+                id
+                name
+                type
+                details {
+                    meanRadius
+                    mass
+                    ... on InhabitedPlanetDetails {
+                        population
+                    }
+                }
+            }
+        }
+        &quot;.to_string();
+
+    let request_body = GraphQLCustomRequest {
+        query,
+        variables: Map::new(),
+    };
+
+    let request = test::TestRequest::post().uri(&quot;/&quot;).set_json(&amp;request_body).to_request();
+
+    let response: GraphQLCustomResponse = test::read_response_json(&amp;mut service, request).await;
+
+    fn get_planet_as_json(all_planets: &amp;serde_json::Value, index: i32) -&gt; &amp;serde_json::Value {
+        jsonpath::select(all_planets, &amp;format!(&quot;$.getPlanets[{}]&quot;, index)).expect(&quot;Can't get planet by JSON path&quot;)[0]
+    }
+
+    let mercury_json = get_planet_as_json(&amp;response.data, 0);
+    common::check_planet(mercury_json, 1, &quot;Mercury&quot;, &quot;TERRESTRIAL_PLANET&quot;, &quot;2439.7&quot;);
+
+    let earth_json = get_planet_as_json(&amp;response.data, 2);
+    common::check_planet(earth_json, 3, &quot;Earth&quot;, &quot;TERRESTRIAL_PLANET&quot;, &quot;6371.0&quot;);
+
+    let neptune_json = get_planet_as_json(&amp;response.data, 7);
+    common::check_planet(neptune_json, 8, &quot;Neptune&quot;, &quot;ICE_GIANT&quot;, &quot;24622.0&quot;);
+}
+</code></pre></div><p>Если часть запроса может быть переиспользована в другом запросе, вы можете использовать <a href="https://graphql.org/learn/queries/#fragments" target="_blank" rel="noopener noreferrer">фрагменты<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/tests/query_tests.rs" target="_blank" rel="noopener noreferrer"><em>Тест запроса с использованием фрагмента</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>const PLANET_FRAGMENT: &amp;str = &quot;
+    fragment planetFragment on Planet {
+        id
+        name
+        type
+        details {
+            meanRadius
+            mass
+            ... on InhabitedPlanetDetails {
+                population
+            }
+        }
+    }
+&quot;;
+
+#[actix_rt::test]
+async fn test_get_planet_by_id() {
+    ...
+
+    let query = &quot;
+        {
+            getPlanet(id: 3) {
+                ... planetFragment
+            }
+        }
+        &quot;.to_string() + PLANET_FRAGMENT;
+
+    let request_body = GraphQLCustomRequest {
+        query,
+        variables: Map::new(),
+    };
+
+    ...
+}
+</code></pre></div><p>Чтобы использовать <a href="https://graphql.org/learn/queries/#variables" target="_blank" rel="noopener noreferrer">переменные<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, запишите тест так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/tests/query_tests.rs" target="_blank" rel="noopener noreferrer"><em>Тест запроса с использованием фрагмента и переменной</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[actix_rt::test]
+async fn test_get_planet_by_id_with_variable() {
+    ...
+
+    let query = &quot;
+        query testPlanetById($planetId: String!) {
+            getPlanet(id: $planetId) {
+                ... planetFragment
+            }
+        }&quot;.to_string() + PLANET_FRAGMENT;
+
+    let jupiter_id = 5;
+    let mut variables = Map::new();
+    variables.insert(&quot;planetId&quot;.to_string(), jupiter_id.into());
+
+    let request_body = GraphQLCustomRequest {
+        query,
+        variables,
+    };
+
+    ...
+}
+</code></pre></div><p>В этом проекте используется библиотека <code>Testcontainers-rs</code>, что позволяет подготовить тестовое окружение, то есть, создать временную БД PostgreSQL.</p> <h3 id="клиент-к-graphql-api"><a href="#клиент-к-graphql-api" class="header-anchor">#</a> Клиент к GraphQL API</h3> <p>Вы можете использовать код из предыдущего раздела для создания клиента к внешнему GraphQL API. Также для этого существуют специальные библиотеки, например, <a href="https://github.com/graphql-rust/graphql-client" target="_blank" rel="noopener noreferrer">graphql-client<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, но я их не использовал.</p> <h3 id="безопасность-api"><a href="#безопасность-api" class="header-anchor">#</a> Безопасность API</h3> <p>Существуют различные угрозы безопасности GraphQL API (см. <a href="https://leapgraph.com/graphql-api-security" target="_blank" rel="noopener noreferrer">список<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>); рассмотрим некоторые из них.</p> <h4 id="ограничения-глубины-и-сложности-запроса"><a href="#ограничения-глубины-и-сложности-запроса" class="header-anchor">#</a> Ограничения глубины и сложности запроса</h4> <p>Если бы структура <code>Satellite</code> содержала поле <code>planet</code>, был бы возможен такой запрос:</p> <p><em>Пример тяжёлого запроса</em></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  getPlanet(id: &quot;1&quot;) {
+    satellites {
+      planet {
+        satellites {
+          planet {
+            satellites {
+              ... # more deep nesting!
+            }
+          }
+        }
+      }
+    }
+  }
+}
+</code></pre></div><p>Сделать такой запрос невалидным можно так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/lib.rs" target="_blank" rel="noopener noreferrer"><em>Пример ограничения глубины и сложности запроса</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub fn create_schema_with_context(pool: PgPool) -&gt; Schema&lt;Query, Mutation, Subscription&gt; {
+    ...
+
+    Schema::build(Query, Mutation, Subscription)
+        .limit_depth(3)
+        .limit_complexity(15)
+
+    ...
+}
+</code></pre></div><p>Стоит отметить, что при указании ограничений выше может перестать отображаться документация сервиса в GraphQL IDE. Это происходит потому, что IDE пытается выполнить introspection query, который имеет заметные глубину и сложность.</p> <h4 id="аутентификация"><a href="#аутентификация" class="header-anchor">#</a> Аутентификация</h4> <p>Эта функциональность реализована в <code>auth-service</code> с использованием крэйтов <code>argonautica</code> и <code>jsonwebtoken</code>. Первый отвечает за хэширование паролей пользователей с использованием алгоритма <a href="https://en.wikipedia.org/wiki/Argon2" target="_blank" rel="noopener noreferrer">Argon2<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. Аутентификация и авторизация показаны исключительно в демонстрационных целях; пожалуйста, изучите вопрос более тщательно перед использованием в продакшене.</p> <p>Рассмотрим как реализован вход в систему:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/auth-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Реализация входа в систему</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>pub struct Mutation;
+
+#[Object]
+impl Mutation {
+
+    async fn sign_in(&amp;self, ctx: &amp;Context&lt;'_&gt;, input: SignInInput) -&gt; Result&lt;String, Error&gt; {
+        let maybe_user = repository::get_user(&amp;input.username, &amp;get_conn_from_ctx(ctx)).ok();
+
+        if let Some(user) = maybe_user {
+            if let Ok(matching) = verify_password(&amp;user.hash, &amp;input.password) {
+                if matching {
+                    let role = AuthRole::from_str(user.role.as_str()).expect(&quot;Can't convert &amp;str to AuthRole&quot;);
+                    return Ok(common_utils::create_token(user.username, role));
+                }
+            }
+        }
+
+        Err(Error::new(&quot;Can't authenticate a user&quot;))
+    }
+}
+
+#[derive(InputObject)]
+struct SignInInput {
+    username: String,
+    password: String,
+}
+</code></pre></div><p>Посмотреть реализацию функции <code>verify_password</code> можно в <a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/auth-service/src/utils.rs" target="_blank" rel="noopener noreferrer">модуле<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>utils</code>, <code>create_token</code> в <a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/common-utils/src/lib.rs" target="_blank" rel="noopener noreferrer">модуле<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>common_utils</code>. Как вы могли бы ожидать, функция <code>sign_in</code> возвращает JWT, который в дальнейшем может быть использован для авторизации в других сервисах.</p> <p>Для получения JWT выполните следующую мутацию:</p> <p><em>Получение JWT</em></p> <div class="language- extra-class"><pre class="language-text"><code>mutation {
+  signIn(input: { username: &quot;john_doe&quot;, password: &quot;password&quot; })
+}
+</code></pre></div><p>Используйте параметры <em>john_doe/password</em>. Включение полученного JWT в последующие запросы позволит получить доступ к защищённым ресурсам (см. следующий раздел).</p> <h4 id="авторизация"><a href="#авторизация" class="header-anchor">#</a> Авторизация</h4> <p>Чтобы запросить защищённые данные, добавьте заголовок в HTTP запрос в формате <code>Authorization: Bearer $JWT</code>. Функция <code>index</code> извлечёт роль пользователя из HTTP запроса и добавит её в параметры GraphQL запроса/мутации:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/lib.rs" target="_blank" rel="noopener noreferrer"><em>Получение роли</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>async fn index(schema: web::Data&lt;AppSchema&gt;, http_req: HttpRequest, req: Request) -&gt; Response {
+    let mut query = req.into_inner();
+
+    let maybe_role = common_utils::get_role(http_req);
+    if let Some(role) = maybe_role {
+        query = query.data(role);
+    }
+
+    schema.execute(query).await.into()
+}
+</code></pre></div><p>К ранее показанной мутации <code>create_planet</code> применён следующий атрибут:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Использование гарда</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[graphql(guard(RoleGuard(role = &quot;Role::Admin&quot;)))]
+</code></pre></div><p>Сам гард реализован так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Реализация гарда</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>struct RoleGuard {
+    role: Role,
+}
+
+#[async_trait::async_trait]
+impl Guard for RoleGuard {
+    async fn check(&amp;self, ctx: &amp;Context&lt;'_&gt;) -&gt; Result&lt;()&gt; {
+        if ctx.data_opt::&lt;Role&gt;() == Some(&amp;self.role) {
+            Ok(())
+        } else {
+            Err(&quot;Forbidden&quot;.into())
+        }
+    }
+}
+</code></pre></div><p>Таким образом, если вы не укажете токен, сервер ответит сообщением &quot;Forbidden&quot;.</p> <h3 id="определение-перечисления"><a href="#определение-перечисления" class="header-anchor">#</a> Определение перечисления</h3> <p>GraphQL перечисление может быть определено так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/satellites-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение перечисления</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(SimpleObject)]
+struct Satellite {
+    ...
+    life_exists: LifeExists,
+}
+
+#[derive(Copy, Clone, Eq, PartialEq, Debug, Enum, EnumString)]
+#[strum(serialize_all = &quot;SCREAMING_SNAKE_CASE&quot;)]
+pub enum LifeExists {
+    Yes,
+    OpenQuestion,
+    NoData,
+}
+</code></pre></div><h3 id="работа-с-датами"><a href="#работа-с-датами" class="header-anchor">#</a> Работа с датами</h3> <p>Async-graphql поддерживает типы даты/времени из библиотеки <code>chrono</code>, поэтому вы можете определить такие поля как обычно:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/satellites-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение поля с датой</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(SimpleObject)]
+struct Satellite {
+    ...
+    first_spacecraft_landing_date: Option&lt;NaiveDate&gt;,
+}
+</code></pre></div><h3 id="поддержка-apollo-federation"><a href="#поддержка-apollo-federation" class="header-anchor">#</a> Поддержка Apollo Federation</h3> <p>Одна из целей <code>satellites-service</code> — продемонстрировать как распределённая GraphQL <a href="https://www.apollographql.com/docs/federation/entities/" target="_blank" rel="noopener noreferrer"><em>сущность</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> (<code>Planet</code>) может резолвиться в двух (или более) сервисах и затем запрашиваться через Apollo Server.</p> <p>Тип <code>Planet</code> был ранее определён в <code>planets-service</code> так:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение типа</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>Planet</code> в <code>planets-service</code></p> <div class="language- extra-class"><pre class="language-text"><code>#[derive(Serialize, Deserialize)]
+struct Planet {
+    id: ID,
+    name: String,
+    planet_type: PlanetType,
+}
+</code></pre></div><p>Также в <code>planets-service</code> тип <code>Planet</code> является сущностью:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/planets-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Определение сущности</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>Planet</code></p> <div class="language- extra-class"><pre class="language-text"><code>#[Object]
+impl Query {
+    #[graphql(entity)]
+    async fn find_planet_by_id(&amp;self, ctx: &amp;Context&lt;'_&gt;, id: ID) -&gt; Option&lt;Planet&gt; {
+        find_planet_by_id_internal(ctx, id)
+    }
+}
+</code></pre></div><p><code>satellites-service</code> расширяет сущность <code>Planet</code> путём добавления поля <code>satellites</code>:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/satellites-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Расширение типа</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>Planet</code> в <code>satellites-service</code></p> <div class="language- extra-class"><pre class="language-text"><code>struct Planet {
+    id: ID
+}
+
+#[Object(extends)]
+impl Planet {
+    #[graphql(external)]
+    async fn id(&amp;self) -&gt; &amp;ID {
+        &amp;self.id
+    }
+
+    async fn satellites(&amp;self, ctx: &amp;Context&lt;'_&gt;) -&gt; Vec&lt;Satellite&gt; {
+        let id = self.id.to_string().parse::&lt;i32&gt;().expect(&quot;Can't get id from String&quot;);
+        repository::get_by_planet_id(id, &amp;get_conn_from_ctx(ctx)).expect(&quot;Can't get satellites of planet&quot;)
+            .iter()
+            .map(|e| { Satellite::from(e) })
+            .collect()
+    }
+}
+</code></pre></div><p>Также вам нужно реализовать функцию поиска для расширяемого типа. В примере ниже функция просто создаёт новый инстанс <code>Planet</code>:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/satellites-service/src/graphql.rs" target="_blank" rel="noopener noreferrer"><em>Функция поиска для типа</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <code>Planet</code></p> <div class="language- extra-class"><pre class="language-text"><code>#[Object]
+impl Query {
+
+    #[graphql(entity)]
+    async fn get_planet_by_id(&amp;self, id: ID) -&gt; Planet {
+        Planet { id }
+    }
+}
+</code></pre></div><p>Async-graphql генерирует два дополнительных запроса (<code>_service</code> and <code>_entities</code>), которые будут использованы Apollo Server'ом. Эти запросы — внутренние, то есть они не будут отображены в API Apollo Server'а. Конечно, сервис с поддержкой Apollo Federation по-прежнему может работать автономно.</p> <h3 id="apollo-server"><a href="#apollo-server" class="header-anchor">#</a> Apollo Server</h3> <p>Apollo Server и Apollo Federation позволяют достичь две основные цели:</p> <ul><li><p>создать единую точку доступа к нескольким GraphQL API</p></li> <li><p>создать единый граф данных из распределённых сущностей</p></li></ul> <p>Таким образом, даже если вы не используете распределённые сущности, для frontend разработчиков удобнее использовать одну точку доступа, чем несколько.</p> <p>Существует и другой способ создания единой GraphQL схемы, <a href="https://www.graphql-tools.com/docs/schema-stitching/" target="_blank" rel="noopener noreferrer">schema stitching<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, но пока что я его не использовал.</p> <p>Модуль включает следующий исходный код:</p> <p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/apollo-server/package.json" target="_blank" rel="noopener noreferrer"><em>Мета-информация и зависимости</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;name&quot;: &quot;api-gateway&quot;,
+  &quot;main&quot;: &quot;gateway.js&quot;,
+  &quot;scripts&quot;: {
+    &quot;start-gateway&quot;: &quot;nodemon gateway.js&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;concurrently&quot;: &quot;5.3.0&quot;,
+    &quot;nodemon&quot;: &quot;2.0.6&quot;
+  },
+  &quot;dependencies&quot;: {
+    &quot;@apollo/gateway&quot;: &quot;0.21.3&quot;,
+    &quot;apollo-server&quot;: &quot;2.19.0&quot;,
+    &quot;graphql&quot;: &quot;15.4.0&quot;
+  }
+}
+</code></pre></div><p><a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/apollo-server/gateway.js" target="_blank" rel="noopener noreferrer"><em>Определение Apollo Server</em><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- extra-class"><pre class="language-text"><code>const {ApolloServer} = require(&quot;apollo-server&quot;);
+const {ApolloGateway, RemoteGraphQLDataSource} = require(&quot;@apollo/gateway&quot;);
+
+class AuthenticatedDataSource extends RemoteGraphQLDataSource {
+    willSendRequest({request, context}) {
+        if (context.authHeaderValue) {
+            request.http.headers.set('Authorization', context.authHeaderValue);
+        }
+    }
+}
+
+let node_env = process.env.NODE_ENV;
+
+function get_service_url(service_name, port) {
+    let host;
+    switch (node_env) {
+        case 'docker':
+            host = service_name;
+            break;
+        case 'local': {
+            host = 'localhost';
+            break
+        }
+    }
+
+    return &quot;http://&quot; + host + &quot;:&quot; + port;
+}
+
+const gateway = new ApolloGateway({
+    serviceList: [
+        {name: &quot;planets-service&quot;, url: get_service_url(&quot;planets-service&quot;, 8001)},
+        {name: &quot;satellites-service&quot;, url: get_service_url(&quot;satellites-service&quot;, 8002)},
+        {name: &quot;auth-service&quot;, url: get_service_url(&quot;auth-service&quot;, 8003)},
+    ],
+    buildService({name, url}) {
+        return new AuthenticatedDataSource({url});
+    },
+});
+
+const server = new ApolloServer({
+    gateway, subscriptions: false, context: ({req}) =&gt; ({
+        authHeaderValue: req.headers.authorization
+    })
+});
+
+server.listen({host: &quot;0.0.0.0&quot;, port: 4000}).then(({url}) =&gt; {
+    console.log(`? Server ready at ${url}`);
+});
+</code></pre></div><p>Если код выше может быть упрощён, не стесняйтесь поправить.</p> <p>Авторизация в <code>apollo-service</code> работает так же, как было показано ранее для Rust сервисов (вам надо указать заголовок <code>Authorization</code> и его значение).</p> <p>Приложение, написанное на любом языке или фреймворке, может быть добавлено в качестве нижележащего сервиса под Apollo Server, если оно реализует <a href="https://www.apollographql.com/docs/federation/federation-spec/" target="_blank" rel="noopener noreferrer">спецификацию Federation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>; список библиотек, добавляющих поддержку этой спецификации доступен в <a href="https://www.apollographql.com/docs/federation/other-servers/" target="_blank" rel="noopener noreferrer">документации<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>При реализации модуля я столкнулся со следующими ограничениями:</p> <ul><li><p>Apollo Gateway <a href="https://github.com/apollographql/apollo-server/issues/3357" target="_blank" rel="noopener noreferrer">не поддерживает<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> подписки (но они по-прежнему работают в standalone Rust сервисе)</p></li> <li><p>сервису, пытающемуся расширить GraphQL интерфейс <a href="https://github.com/apollographql/apollo-server/issues/2849" target="_blank" rel="noopener noreferrer">требуется информация о его конкретных имплементациях<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li></ul> <h3 id="взаимодеиствие-с-бд"><a href="#взаимодеиствие-с-бд" class="header-anchor">#</a> Взаимодействие с БД</h3> <p>Уровень хранения реализован с помощью PostgreSQL and Diesel. Если вы не используете Docker при локальном запуске, то нужно выполнить <code>diesel setup</code>, находясь в директории каждого из сервисов. Это создаст пустую БД, к которой далее будут применены миграции, создающие таблицы и инициализирующие данные.</p> <h3 id="запуск-проекта-и-тестирование-api"><a href="#запуск-проекта-и-тестирование-api" class="header-anchor">#</a> Запуск проекта и тестирование API</h3> <p>Как было отмечено ранее, проект можно запустить двумя способами:</p> <ul><li><p>с использованием Docker Compose (<a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/docker-compose.yml" target="_blank" rel="noopener noreferrer">docker-compose.yml<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)</p> <p>Здесь, в свою очередь, также возможны два варианта:</p> <ul><li><p>режим разработки (используя локально собранные образы)</p> <p><code>docker-compose up --build</code></p></li> <li><p>production mode (используя релизные образы)</p> <p><code>docker-compose -f docker-compose.yml up</code></p></li></ul></li> <li><p>без Docker</p> <p>Запустите каждый Rust сервис с помощью <code>cargo run</code>, потом запустите Apollo Server:</p> <ul><li><p><code>cd</code> в папку <code>apollo-server</code></p></li> <li><p>определите переменную среды <code>NODE_ENV</code>, например, <code>set NODE_ENV=local</code> (для Windows)</p></li> <li><p><code>npm install</code></p></li> <li><p><code>npm run start-gateway</code></p></li></ul></li></ul> <p>Успешный запуск <code>apollo-server</code> должен выглядеть так:</p> <p><em>Лог запуска Apollo Server</em></p> <div class="language- extra-class"><pre class="language-text"><code>[nodemon] 2.0.6
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node gateway.js`
+Server ready at http://0.0.0.0:4000/
+</code></pre></div><p>Вы можете перейти на <code>http://localhost:4000</code> в браузере и использовать встроенную Playground IDE:</p> <p><img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/fdf/52c/53b/fdf52c53bf8835a98aaab0f5ef04256c.png" alt=""></p> <p>Здесь возможно выполнять запросы, мутации и подписки, определённые в нижележащих сервисах. Кроме того, каждый из этих сервисов имеет собственную Playground IDE.</p> <h3 id="тест-подписки"><a href="#тест-подписки" class="header-anchor">#</a> Тест подписки</h3> <p>Чтобы убедиться в том, что подписка работает, откройте две вкладки любой GraphQL IDE; в первой подпишитесь таким образом:</p> <p><em>Пример подписки</em></p> <div class="language- extra-class"><pre class="language-text"><code>subscription {
+  latestPlanet {
+    name
+    type
+  }
+}
+</code></pre></div><p>Во второй укажите заголовок <code>Authorization</code> как было описано ранее и выполните мутацию:</p> <p><em>Пример мутации</em></p> <div class="language- extra-class"><pre class="language-text"><code>mutation {
+  createPlanet(
+    planet: {
+      name: &quot;Pluto&quot;
+      type: DWARF_PLANET
+      details: { meanRadius: &quot;1188&quot;, mass: &quot;1.303e22&quot; }
+    }
+  ) {
+    id
+  }
+}
+</code></pre></div><p>Подписанный клиент будет уведомлен о событии:</p> <p><img src="https://habrastorage.org/getpro/habr/upload_files/2df/bcf/421/2dfbcf4219935882b3ad6c3483bcb53e.gif" alt=""></p> <h3 id="ci-cd"><a href="#ci-cd" class="header-anchor">#</a> CI/CD</h3> <p>CI/CD сконфигурирован с помощью GitHub Actions (<a href="https://github.com/rkudryashov/graphql-rust-demo/blob/master/.github/workflows/workflow.yml" target="_blank" rel="noopener noreferrer">workflow<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>), который запускает тесты приложений, собирает их Docker образы и разворачивает их на Google Cloud Platform.</p> <p>Вы можете посмотреть на описанные API <a href="http://demo.romankudryashov.com/" target="_blank" rel="noopener noreferrer">здесь<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p><strong>Замечание:</strong> На &quot;продакшн&quot; среде пароль отличается от указанного ранее, чтобы предотвратить изменение данных.</p> <h2 id="заключение"><a href="#заключение" class="header-anchor">#</a> Заключение</h2> <p>В этой статье я рассмотрел как решать наиболее частые вопросы, которые могут возникнуть при разработке GraphQL API на Rust. Также было показано как объединить API Rust GraphQL микросервисов для получения единого GraphQL интерфейса; в подобной архитектуре сущность может быть распределена среди нескольких микросервисов. Это достигается за счёт использования Apollo Server, Apollo Federation и библиотеки Async-graphql. Исходный код рассмотренного проекта доступен на <a href="https://github.com/rkudryashov/graphql-rust-demo" target="_blank" rel="noopener noreferrer">GitHub<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. Не стесняйтесь написать мне, если найдёте ошибки в статье или исходном коде. Благодарю за внимание!</p> <h2 id="полезные-ссылки"><a href="#полезные-ссылки" class="header-anchor">#</a> Полезные ссылки</h2> <ul><li><p><a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">graphql.org<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://spec.graphql.org/" target="_blank" rel="noopener noreferrer">spec.graphql.org<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://graphql.org/learn/best-practices/" target="_blank" rel="noopener noreferrer">graphql.org/learn/best-practices<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://www.howtographql.com/" target="_blank" rel="noopener noreferrer">howtographql.com<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://github.com/async-graphql/async-graphql" target="_blank" rel="noopener noreferrer">Async-graphql<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://async-graphql.github.io/async-graphql/en/index.html" target="_blank" rel="noopener noreferrer">Async-graphql book<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://github.com/chentsulin/awesome-graphql" target="_blank" rel="noopener noreferrer">Awesome GraphQL<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://github.com/APIs-guru/graphql-apis" target="_blank" rel="noopener noreferrer">Public GraphQL APIs<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li> <li><p><a href="https://github.com/apollographql/federation-demo" target="_blank" rel="noopener noreferrer">Apollo Federation demo<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.dec9f71a.js" defer></script><script src="/assets/js/2.733019b2.js" defer></script><script src="/assets/js/298.8e5a5ef7.js" defer></script>
+  </body>
+</html>

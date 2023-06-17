@@ -1,3 +1,4 @@
+::: v-pre
 https://blog.jetbrains.com/go/2021/06/09/how-to-use-go-embed-in-go-1-16/
 
 One of the most anticipated features of Go 1.16 is the support for embedding files and folders into the application binary at compile-time without using an external tool. This feature is also known as _go:embed_, and it gets its name from the compiler directive that makes this functionality possible: _//go:embed_.
@@ -190,3 +191,4 @@ The embedded paths must exist and match the pattern. Otherwise, the compiler wil
 That’s it for now! We learned why and how to use Go 1.16’s new embedding feature, took a look at how it works, and considered some caveats to remember when using it. We’ve also seen how GoLand helps you work with this feature and provides features such as completion, error detection, and more.
 
 We are looking forward to hearing from you about how you use this feature. You can leave us a note in the comments section below, [on Twitter](https://twitter.com/GoLandIDE), [on the Gophers Slack](https://app.slack.com/client/T029RQSE6/C3FJ8M2PN/), or [our issue tracker](https://youtrack.jetbrains.com/issues/Go) if you’d like to let us know about additional features you’d like to see related to this or other Go functionality.
+:::

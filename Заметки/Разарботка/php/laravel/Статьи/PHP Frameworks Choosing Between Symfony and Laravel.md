@@ -1,3 +1,4 @@
+::: v-pre
 https://www.toptal.com/php/choosing-between-symfony-and-laravel-frameworks
 
 Today, when starting a new project, one of the key decisions is to pick the right framework. It’s become hard to imagine building a complex web application from scratch nowadays without one.
@@ -1068,3 +1069,4 @@ There’s no clear winner between Laravel and Symfony, as everything depends on 
 -   You’re building a complex enterprise application, as it is very scalable, maintainable, and well structured.
 -   You’re building a migration of a big long-term project, as Symfony has predictable release plans for the next six years, so it’s less likely that there will be any surprises.
 - 
+:::

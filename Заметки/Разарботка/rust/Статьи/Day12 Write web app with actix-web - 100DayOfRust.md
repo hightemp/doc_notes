@@ -1,3 +1,4 @@
+::: v-pre
 https://dev.to/0xbf/day11-write-web-app-with-actix-web-100dayofrust-1lkn
 
 {% raw %}
@@ -300,3 +301,4 @@ fn main() {
 -   [https://github.com/actix/examples/blob/master/template_tera/src/main.rs](https://github.com/actix/examples/blob/master/template_tera/src/main.rs)
 
 {% endraw %}
+:::

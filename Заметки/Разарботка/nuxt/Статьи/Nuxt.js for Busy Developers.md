@@ -1,3 +1,4 @@
+::: v-pre
 https://www.codemag.com/Article/2105101/Nuxt.js-for-Busy-Developers
 # Nuxt.js for Busy Developers
 
@@ -972,3 +973,4 @@ In addition, Nuxt.js has an active community backing it up with awesome modules,
 You can visit them at:
 
 -   Awesome Nuxt.js modules: [https://github.com/nuxt-community/awesome-nuxt#official](https://github.com/nuxt-community/awesome-nuxt#official)
+:::

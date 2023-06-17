@@ -1,3 +1,4 @@
+::: v-pre
 https://blog.lichter.io/posts/dynamic-images-vue-nuxt/
 
 # How to load dynamic images in Vue and Nuxt with ease
@@ -184,3 +185,4 @@ If you want some further reading, I suggest checking out the [vue-loader docs](
 Still have questions? No problem, tweet me at [@TheAlexLichter](https://twitter.com/TheAlexLichter), reach out on the Vue/Nuxt Discord or write me a mail (blog at lichter dot io).
 
 I really hope you’ve enjoyed that article! If you know some people who also have trouble with dynamic image loading in Vue or Nuxt, I’d gladly ask you to **spread the word** and help them out!
+:::

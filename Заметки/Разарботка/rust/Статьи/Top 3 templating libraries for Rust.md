@@ -1,3 +1,4 @@
+::: v-pre
 https://blog.logrocket.com/top-3-templating-libraries-for-rust/
 
 {% raw %}
@@ -252,3 +253,4 @@ Having looked at three of the most popular templating crates, it is easy to say 
 It’s worth noting that there are plenty more than these three crates for doing templating in Rust, but most of the other options are less popular and don’t yet have a stable release. No matter which crate you decide to use, you will be able to reap the performance and reliability benefits of writing web applications in Rust.
 
 {% endraw %}
+:::

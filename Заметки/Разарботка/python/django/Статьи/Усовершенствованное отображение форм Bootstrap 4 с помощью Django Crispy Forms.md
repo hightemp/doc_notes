@@ -1,3 +1,4 @@
+::: v-pre
 https://django.fun/ru/articles/tutorials/usovershenstvovannoe-otobrazhenie-form-bootstrap-4-s-pomoshyu-django-crispy-forms/
 
 {% raw %}
@@ -349,3 +350,4 @@ class CustomFieldForm(AddressForm):
 _Перевод статьи https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html_
 
 {% endraw %}
+:::

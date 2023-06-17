@@ -26,31 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/php/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dddc270dd4f1590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/golang/Index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea8499f4a09fe51f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+                "file": "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -173,7 +149,7 @@
             }
           },
           {
-            "id": "c9007b3e401c60e8",
+            "id": "f9e0e916588d49db",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -247,7 +223,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +239,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,9 +260,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -308,19 +280,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea8499f4a09fe51f",
+  "active": "f9e0e916588d49db",
   "lastOpenFiles": [
-    "node_modules/cac/dist/index.mjs",
-    "node_modules/cac/dist/index.js",
-    "node_modules/cac/dist/index.d.ts",
-    "node_modules/cac/deno/utils.ts",
-    "node_modules/cac/deno/index.ts",
-    "node_modules/cac/deno/deno.ts",
-    "node_modules/cac/deno/Option.ts",
-    "node_modules/cac/deno/Command.ts",
-    "node_modules/cac/deno/CAC.ts",
-    "node_modules/@vuepress/types/tsconfig.json",
-    "node_modules/@vuepress/types/src",
+    "HISTORY.md",
+    "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
+    "docs/Заметки/Разарботка/python/scrapy/Статьи/Scrapy Items The Better Way To Format Your Data.html",
+    "docs/Заметки/Разарботка/python/scrapy/Статьи/Saving Scraped Data To CSV With Scrapy Feed Exporters.html",
+    "docs/Заметки/Разарботка/python/natasha/Статьи/Проект Natasha. Набор качественных открытых инструментов для обработки естественного русского языка (NLP).html",
+    "docs/Заметки/Разарботка/python/imgui/Статьи/Быстрый, мощный интерфейс на Python.html",
+    "docs/Заметки/Разарботка/python/flask/Статьи/Функция render_template() модуля flask в Python..html",
+    "docs/Заметки/Разарботка/python/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..html",
+    "docs/Заметки/Разарботка/python/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..html",
+    "docs/Заметки/Разарботка/python/flask/Статьи/Custom filters.html",
+    "docs/Заметки/Разарботка/python/flask/Статьи/Beautiful Interactive Tables for your Flask Templates.html",
+    "docs/Заметки/Разарботка/python/django/Статьи/Усовершенствованное отображение форм Bootstrap 4 с помощью Django Crispy Forms.html",
+    "docs/assets/img/search.83621669.svg",
+    "Заметки/Разарботка/python/flask/Статьи/Декораторы для добавления фильтров или функции в среду Jinja..md",
+    "Заметки/Разарботка/golang/Статьи/How to Use go embed in Go.md",
+    "Заметки/Разарботка/php/FAQ.md",
+    "Заметки/Разарботка/golang/Index.md",
+    "README.md",
+    "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+    "Заметки/Разарботка/php/laravel/Статьи/User Levels, Enums and Policies, Oh My.md",
     "node_modules/@vuepress/theme-default/README.md",
     "node_modules/@vuepress/shared-utils/README.md",
     "node_modules/@vuepress/plugin-search/search.svg",
@@ -339,14 +320,6 @@
     "node_modules/@babel/preset-env/README.md",
     "node_modules/@babel/plugin-transform-runtime/README.md",
     "node_modules/@babel/plugin-syntax-jsx/README.md",
-    "node_modules/@babel/plugin-syntax-dynamic-import/README.md",
-    "node_modules/@babel/plugin-proposal-decorators/README.md",
-    "node_modules/@babel/plugin-proposal-class-properties/README.md",
-    "node_modules/@babel/parser/README.md",
-    "node_modules/@babel/parser/CHANGELOG.md",
-    "node_modules/@babel/highlight/README.md",
-    "node_modules/@babel/helpers/README.md",
-    "node_modules/@babel/helper-validator-option/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

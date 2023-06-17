@@ -1,3 +1,4 @@
+::: v-pre
 https://www.educba.com/laravel-components/
 
 ## Introduction to Laravel Components
@@ -174,3 +175,4 @@ You have now successfully called the component navbar and passed data to it.
 [‘variable1’=>’value1’, ‘variable2’=>’value2’,..]
 
 Now, this component can be reused whenever and wherever you want in your application development project.
+:::

@@ -1,3 +1,4 @@
+::: v-pre
 https://universalglue.dev/posts/gin-post-form-data/
 
 > This is the fourth in a [series of articles](https://universalglue.dev/series/how-to-build-a-web-app-with-gin/) about writing a small reading list app in Go for personal use.
@@ -525,3 +526,4 @@ You can see the [merge request](https://gitlab.com/bstpierre/aklatan/-/merge_re
 -   also enforcing naming schemes on templates and test functions
 -   enforcing some conventions on test functions and helpers
 -   catching some “oops” mistakes in templates
+:::
