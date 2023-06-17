@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/менеджмент, management/Ссылки.md",
+                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -247,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/менеджмент, management/Ссылки.md",
+                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/менеджмент, management/Ссылки.md",
+                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +287,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/менеджмент, management/Ссылки.md"
+                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md"
               }
             }
           }
@@ -308,11 +308,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "ea8499f4a09fe51f",
   "lastOpenFiles": [
+    "Заметки/Разарботка/менеджмент, management/Ссылки.md",
+    "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+    "Заметки/Разарботка/данные, медиа, парсинг",
     "Заметки/Разарботка/javascript/vue/VuePress",
     "Заметки/Разарботка/golang/FAQ.md",
-    "Заметки/Разарботка/менеджмент, management/Ссылки.md",
     "Заметки/Разарботка/менеджмент, management",
     "Заметки/Разарботка/php/FAQ.md",
     "Заметки/Разарботка/golang/Index.md",
@@ -346,8 +348,6 @@
     "Заметки/Разарботка/javascript/koa",
     "Заметки/Разарботка/javascript/strapi",
     "Заметки/Разарботка/javascript/vue/vuex-orm",
-    "Заметки/Разарботка/javascript/react",
-    "Заметки/Разарботка/python/imgui/Статьи",
     "Untitled.canvas"
   ]
 }
