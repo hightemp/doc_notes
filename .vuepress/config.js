@@ -3,6 +3,8 @@ module.exports = {
   base: '/doc_notes/', // https://hightemp.github.io/doc_notes/
   docsDir: '../notes', // '.',
 
+  toc: { includeLevel: [1, 2, 3, 4] },
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -35,30 +37,9 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
     }
   },
 

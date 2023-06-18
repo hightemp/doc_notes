@@ -1,7 +1,9 @@
 
 <!-- HTOC -->
+ - [РАЗГРЕБСТИ - Ссылки.md](./%D0%A0%D0%90%D0%97%D0%93%D0%A0%D0%95%D0%91%D0%A1%D0%A2%D0%98%20-%20%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [HISTORY.md](./HISTORY.md)
  - [README.md](./README.md)
+ - [Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5,%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0,%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/python/flask/Статьи/Custom filters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
  - [Заметки/Разарботка/python/flask/Статьи/Функция render_template() модуля flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
  - [Заметки/Разарботка/python/flask/Статьи/Расширение Flask-Paginate для приложения Flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20Flask-Paginate%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20Flask%20%D0%B2%20Python..md)
@@ -31,7 +33,6 @@
  - [Заметки/Разарботка/vscode/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/vscode/FAQ.md)
  - [Заметки/Разарботка/nuxt/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/nuxt/FAQ.md)
  - [Заметки/Разарботка/golang/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/FAQ.md)
- - [Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5,%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0,%20%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/менеджмент, management/Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82,%20management/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
  - [Заметки/Разарботка/golang/Index.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/golang/Index.md)
  - [2023-06-06 test.md](./2023-06-06%20test.md)

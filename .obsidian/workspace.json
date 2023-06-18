@@ -21,24 +21,36 @@
             }
           },
           {
-            "id": "676b58adb991277c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fd0ed160d81e21b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ee549207bc3c467",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dd93a24b9040ac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "РАЗГРЕБСТИ - Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -223,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
+                "file": "РАЗГРЕБСТИ - Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
+                "file": "РАЗГРЕБСТИ - Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/python/flask/Статьи/Custom filters.md"
+                "file": "РАЗГРЕБСТИ - Ссылки.md"
               }
             }
           }
@@ -284,8 +296,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "676b58adb991277c",
+  "active": "1dd93a24b9040ac1",
   "lastOpenFiles": [
+    "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+    "РАЗГРЕБСТИ - Ссылки.md",
+    "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
+    "Заметки/Разарботка/javascript/vue/Ссылки.md",
+    "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
     "docs/Заметки/AI/LLama/Статьи/How to install LLaMA 8-bit and 4-bit.html",
     "docs/Заметки/Разарботка/микросервисы/Статьи/8 шаблонов проектирования микросервисов для опытных разработчиков.html",
     "docs/Заметки/FAQ/rust.html",
@@ -296,7 +313,6 @@
     "docs/Заметки/AI/LLama/FAQ.html",
     "docs/Найденное/Obsidian/Расширения.html",
     "docs/Найденное/Obsidian",
-    "docs/Заметки/Разарботка/sql/FAQ.html",
     "docs/assets/img/search.83621669.svg",
     "node_modules/webpack-dev-server/README.md",
     "node_modules/watchpack/README.md",
@@ -328,10 +344,6 @@
     "node_modules/regex-not/README.md",
     "node_modules/utf8-byte-length/README.md",
     "node_modules/truncate-utf8-bytes/README.md",
-    "node_modules/sanitize-filename/README.md",
-    "node_modules/sanitize-filename/Changelog.md",
-    "node_modules/sanitize-filename/LICENSE.md",
-    "HISTORY.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
