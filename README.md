@@ -154,14 +154,6 @@ https://hightemp.github.io/doc_notes/
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/react/FAQ.md)
      - python
        - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/FAQ.md)
-       - flask
-         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/FAQ.md)
-         - Статьи
-           - [Функция render_template() модуля flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
-           - [Расширение Flask-Paginate для приложения Flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20Flask-Paginate%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20Flask%20%D0%B2%20Python..md)
-           - [Декораторы для добавления фильтров или функции в среду Jinja..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20%D0%B8%D0%BB%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D1%83%20Jinja..md)
-           - [Custom filters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
-           - [Beautiful Interactive Tables for your Flask Templates.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Beautiful%20Interactive%20Tables%20for%20your%20Flask%20Templates.md)
        - Статьи
          - [Создание запускаемых файлов из скриптов на языке Python с помощью cx_Freeze.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D0%BC%D1%8B%D1%85%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5%20Python%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20cx_Freeze.md)
          - [Packaging PyQt application using pyqtdeploy for both Linux and Android.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Packaging%20PyQt%20application%20using%20pyqtdeploy%20for%20both%20Linux%20and%20Android.md)
@@ -180,6 +172,14 @@ https://hightemp.github.io/doc_notes/
        - imgui
          - Статьи
            - [Быстрый, мощный интерфейс на Python.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/imgui/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9,%20%D0%BC%D0%BE%D1%89%D0%BD%D1%8B%D0%B9%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%D0%BD%D0%B0%20Python.md)
+       - flask
+         - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/FAQ.md)
+         - Статьи
+           - [Функция render_template() модуля flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20render_template()%20%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%20flask%20%D0%B2%20Python..md)
+           - [Расширение Flask-Paginate для приложения Flask в Python..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20Flask-Paginate%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20Flask%20%D0%B2%20Python..md)
+           - [Декораторы для добавления фильтров или функции в среду Jinja..md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%20%D0%B8%D0%BB%D0%B8%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D1%83%20Jinja..md)
+           - [Custom filters.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Custom%20filters.md)
+           - [Beautiful Interactive Tables for your Flask Templates.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/flask/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Beautiful%20Interactive%20Tables%20for%20your%20Flask%20Templates.md)
        - fastapi
          - [Ссылки.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/fastapi/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/%D0%A0%D0%B0%D0%B7%D0%B0%D1%80%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/python/fastapi/FAQ.md)
@@ -480,8 +480,8 @@ https://hightemp.github.io/doc_notes/
        - polybar
          - [FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/polybar/FAQ.md)
          - Статьи
-           - [All modules that are available for polybar – any desktop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/polybar/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/All%20modules%20that%20are%20available%20for%20polybar%20%E2%80%93%20any%20desktop.md)
            - [Установка и настройка i3wm c polybar.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/polybar/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B8%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20i3wm%20c%20polybar.md)
+           - [All modules that are available for polybar – any desktop.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/polybar/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/All%20modules%20that%20are%20available%20for%20polybar%20%E2%80%93%20any%20desktop.md)
        - leftwm
          - Статьи
            - [How to configure LeftWM.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%8B/leftwm/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/How%20to%20configure%20LeftWM.md)
