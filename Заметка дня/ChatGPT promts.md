@@ -1,4 +1,9 @@
 ```
+опиши приложение(что делает, что может, зачем) с страницы
+https://github.com/staniel359/muffon
+```
+
+```
 напиши класс сервиса для laminas для работы с ozon-seller https://docs.ozon.ru/api/seller/#operation/CategoryAPI_GetCategoryTree, где будет метод кторый запрашивает через curl в /v2/category/tree получает список категорий и сохраняет в entity Category
 
 напиши цельный код на PyQt где с помощью ORM можно: 

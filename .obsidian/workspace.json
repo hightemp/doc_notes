@@ -164,8 +164,12 @@
             "id": "f9e0e916588d49db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Заметка дня/ChatGPT promts.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -298,8 +302,9 @@
   },
   "active": "1dd93a24b9040ac1",
   "lastOpenFiles": [
-    "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
+    "Заметка дня/ChatGPT promts.md",
     "РАЗГРЕБСТИ - Ссылки.md",
+    "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
     "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
     "Заметки/Разарботка/javascript/vue/Ссылки.md",
     "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
@@ -343,7 +348,6 @@
     "node_modules/send/HISTORY.md",
     "node_modules/regex-not/README.md",
     "node_modules/utf8-byte-length/README.md",
-    "node_modules/truncate-utf8-bytes/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
