@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
+                "file": "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
                 "mode": "source",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
+                "file": "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
+                "file": "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md"
+                "file": "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md"
               }
             }
           }
@@ -302,8 +302,11 @@
   },
   "active": "1dd93a24b9040ac1",
   "lastOpenFiles": [
-    "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
+    "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
+    "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи",
+    "Заметки/Linux/Сетевые утилиты/tun2socks",
+    "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
     "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи",
     "Заметка дня/ChatGPT promts.md",
@@ -318,8 +321,6 @@
     "docs/Заметки/FAQ/i3.html",
     "docs/Заметки/AI/Ссылки.html",
     "docs/Заметки/AI/Репозитории.html",
-    "docs/Заметки/AI/LLama/FAQ.html",
-    "docs/Найденное/Obsidian/Расширения.html",
     "docs/assets/img/search.83621669.svg",
     "node_modules/webpack-dev-server/README.md",
     "node_modules/watchpack/README.md",
@@ -347,7 +348,6 @@
     "node_modules/serve-index/HISTORY.md",
     "node_modules/send/SECURITY.md",
     "node_modules/send/README.md",
-    "node_modules/send/HISTORY.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

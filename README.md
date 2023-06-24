@@ -434,6 +434,9 @@ https://hightemp.github.io/doc_notes/
          - [Linux IP Networking(EN).md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/Linux%20IP%20Networking(EN).md)
          - [D.2. ip route.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20linux/Linux%20IP%20Networking/D.2.%20ip%20route.md)
      - Сетевые утилиты
+       - tun2socks
+         - Статьи
+           - [Tun2socks установка и настройка для проксирования трафика.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/tun2socks/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/Tun2socks%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B8%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0.md)
        - traceroute
          - [traceroute.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5%20%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B/traceroute/traceroute.md)
        - tcpdump
