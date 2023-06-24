@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md"
+                "file": "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md"
               }
             }
           }
@@ -302,8 +302,9 @@
   },
   "active": "1dd93a24b9040ac1",
   "lastOpenFiles": [
-    "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
+    "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
+    "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
@@ -347,7 +348,6 @@
     "node_modules/send/SECURITY.md",
     "node_modules/send/README.md",
     "node_modules/send/HISTORY.md",
-    "node_modules/regex-not/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
