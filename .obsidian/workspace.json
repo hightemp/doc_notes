@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "РАЗГРЕБСТИ - Ссылки.md",
+                "file": "Найденное/Репозитории.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "РАЗГРЕБСТИ - Ссылки.md",
+                "file": "Найденное/Репозитории.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "РАЗГРЕБСТИ - Ссылки.md",
+                "file": "Найденное/Репозитории.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "РАЗГРЕБСТИ - Ссылки.md"
+                "file": "Найденное/Репозитории.md"
               }
             }
           }
@@ -314,27 +314,36 @@
   },
   "active": "1c489860f32dbd8b",
   "lastOpenFiles": [
+    "РАЗГРЕБСТИ - Ссылки.md",
+    "conf/conf.jsonavqpfnp.tmp",
+    "history/2023-06-25-153158-delete/20210808180117-6v0mkxr/20201121224345-rc27qvo.sy",
+    "history/2023-06-25-153158-delete/20210808180117-6v0mkxr",
+    "history/2023-06-25-153158-delete",
+    "history/2023-06-25-153154-delete/20210808180117-6v0mkxr/20200923234602-gy54e67.sy",
+    "history/2023-06-25-153154-delete/20210808180117-6v0mkxr",
+    "history/2023-06-25-153154-delete",
+    "history/2023-06-25-153152-delete/20210808180117-6v0mkxr/20230405172236-pg3l9eu.sy",
+    "history/2023-06-25-153152-delete/20210808180117-6v0mkxr",
+    "history/2023-06-25-153152-delete",
+    "data/assets/unordered-list-20210512171214-90nb6w0.svg",
+    "data/assets/task-list-20210512171226-br51zxn.svg",
+    "data/assets/table-20210512171208-hgfm17w.svg",
+    "data/assets/super-block-20210512171243-ydsukhs.svg",
+    "data/assets/siyuan-128-20210604092437-7iqzf90.png",
+    "data/assets/paragraph-20210512171139-2x8lgt5.svg",
+    "data/assets/ordered-list-20210512171220-ghfzj2f.svg",
+    "data/assets/math-block-20210512171155-9w2eti5.svg",
+    "data/assets/list-item-20210512171231-2yc3wfd.svg",
+    "data/assets/html-block-20220429115636-e80k6ty.svg",
     "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
     "Найденное/Ссылки.md",
-    "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
-    "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи",
-    "Заметки/Linux/Сетевые утилиты/tun2socks",
-    "Заметки/Linux/Сетевые утилиты/ssh/Статьи",
     "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
     "Заметки/Разарботка/javascript/vue/Ссылки.md",
     "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
-    "docs/Заметки/AI/LLama/Статьи/How to install LLaMA 8-bit and 4-bit.html",
-    "docs/Заметки/Разарботка/микросервисы/Статьи/8 шаблонов проектирования микросервисов для опытных разработчиков.html",
-    "docs/Заметки/FAQ/rust.html",
-    "docs/Заметки/FAQ/linux cli.html",
-    "docs/Заметки/FAQ/i3.html",
-    "docs/Заметки/AI/Ссылки.html",
-    "docs/Заметки/AI/Репозитории.html",
-    "docs/assets/img/search.83621669.svg",
     "node_modules/webpack-dev-server/README.md",
     "node_modules/watchpack/README.md",
     "node_modules/vuepress-html-webpack-plugin/README.md",
@@ -348,18 +357,8 @@
     "node_modules/terser-webpack-plugin/CHANGELOG.md",
     "node_modules/split-string/README.md",
     "node_modules/snapdragon/README.md",
-    "node_modules/serve-index/public/icons/page_white_csharp.png",
-    "node_modules/serve-index/public/icons/page_attach.png",
-    "node_modules/serve-index/public/icons/page_add.png",
-    "node_modules/serve-index/public/icons/page.png",
-    "node_modules/serve-index/public/icons/map.png",
-    "node_modules/serve-index/public/icons/image.png",
-    "node_modules/serve-index/public/icons/font.png",
-    "node_modules/serve-index/public/icons/folder.png",
-    "node_modules/serve-index/public/icons/film.png",
     "node_modules/serve-index/README.md",
     "node_modules/serve-index/HISTORY.md",
-    "node_modules/send/SECURITY.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
