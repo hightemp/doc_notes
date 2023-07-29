@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md"
+                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md"
               }
             }
           }
@@ -324,8 +324,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9b5a1900f5c1e082",
+  "active": "e82fccc56c957891",
   "lastOpenFiles": [
+    "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+    "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
+    "Заметки/Linux/Кастомизация/Gnome",
     "Excalidraw/Drawing 2023-07-09 10.46.54.excalidraw.md",
     "Заметка дня/ChatGPT promts.md",
     "Найденное/Репозитории.md",
@@ -339,7 +342,6 @@
     "history/2023-07-08-104930-delete",
     "history/2023-07-08-104928-delete/20210808180117-6v0mkxr/20230405172236-pg3l9eu.sy",
     "history/2023-07-08-104928-delete/20210808180117-6v0mkxr",
-    "history/2023-07-08-104928-delete",
     "data/assets/unordered-list-20210512171214-90nb6w0.svg",
     "data/assets/task-list-20210512171226-br51zxn.svg",
     "data/assets/table-20210512171208-hgfm17w.svg",
@@ -370,8 +372,6 @@
     "node_modules/terser-webpack-plugin/README.md",
     "node_modules/terser-webpack-plugin/CHANGELOG.md",
     "node_modules/split-string/README.md",
-    "node_modules/snapdragon/README.md",
-    "node_modules/serve-index/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
