@@ -9,6 +9,18 @@
         "dimension": 53.494623655913976,
         "children": [
           {
+            "id": "e82fccc56c957891",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ec75fcf34770f700",
             "type": "leaf",
             "state": {
@@ -152,8 +164,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "5d9308b82dc6abf0",
@@ -214,7 +225,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "библиотеки",
+                "query": "администрирование",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -251,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Найденное/Репозитории.md",
+                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Найденное/Репозитории.md"
+                "file": "Заметки/Linux/Кастомизация/KDE/FAQ.md"
               }
             }
           }
@@ -309,22 +320,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c489860f32dbd8b",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
-    "РАЗГРЕБСТИ - Ссылки.md",
-    "conf/conf.jsonavqpfnp.tmp",
-    "history/2023-06-25-153158-delete/20210808180117-6v0mkxr/20201121224345-rc27qvo.sy",
-    "history/2023-06-25-153158-delete/20210808180117-6v0mkxr",
-    "history/2023-06-25-153158-delete",
-    "history/2023-06-25-153154-delete/20210808180117-6v0mkxr/20200923234602-gy54e67.sy",
-    "history/2023-06-25-153154-delete/20210808180117-6v0mkxr",
-    "history/2023-06-25-153154-delete",
-    "history/2023-06-25-153152-delete/20210808180117-6v0mkxr/20230405172236-pg3l9eu.sy",
-    "history/2023-06-25-153152-delete/20210808180117-6v0mkxr",
-    "history/2023-06-25-153152-delete",
+    "Excalidraw/Drawing 2023-07-09 10.46.54.excalidraw.md",
+    "Заметка дня/ChatGPT promts.md",
+    "Найденное/Репозитории.md",
+    "Excalidraw",
+    "Заметки/Разарботка/javascript/vue/Ссылки.md",
+    "history/2023-07-08-104933-delete/20210808180117-6v0mkxr/20201121224345-rc27qvo.sy",
+    "history/2023-07-08-104933-delete/20210808180117-6v0mkxr",
+    "history/2023-07-08-104933-delete",
+    "history/2023-07-08-104930-delete/20210808180117-6v0mkxr/20200923234602-gy54e67.sy",
+    "history/2023-07-08-104930-delete/20210808180117-6v0mkxr",
+    "history/2023-07-08-104930-delete",
+    "history/2023-07-08-104928-delete/20210808180117-6v0mkxr/20230405172236-pg3l9eu.sy",
+    "history/2023-07-08-104928-delete/20210808180117-6v0mkxr",
+    "history/2023-07-08-104928-delete",
     "data/assets/unordered-list-20210512171214-90nb6w0.svg",
     "data/assets/task-list-20210512171226-br51zxn.svg",
     "data/assets/table-20210512171208-hgfm17w.svg",
@@ -335,14 +350,13 @@
     "data/assets/math-block-20210512171155-9w2eti5.svg",
     "data/assets/list-item-20210512171231-2yc3wfd.svg",
     "data/assets/html-block-20220429115636-e80k6ty.svg",
+    "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
     "Найденное/Ссылки.md",
     "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
-    "Заметка дня/ChatGPT promts.md",
     "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
-    "Заметки/Разарботка/javascript/vue/Ссылки.md",
     "Заметки/Разарботка/python/flask/Статьи/Custom filters.md",
     "node_modules/webpack-dev-server/README.md",
     "node_modules/watchpack/README.md",
@@ -358,7 +372,6 @@
     "node_modules/split-string/README.md",
     "node_modules/snapdragon/README.md",
     "node_modules/serve-index/README.md",
-    "node_modules/serve-index/HISTORY.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
