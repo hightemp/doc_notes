@@ -1,10 +1,10 @@
 
 <!-- HTOC -->
- - [Заметки/Linux/Кастомизация/Gnome/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/Gnome/FAQ.md)
+ - [Заметка дня/ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
  - [HISTORY.md](./HISTORY.md)
  - [README.md](./README.md)
+ - [Заметки/Linux/Кастомизация/Gnome/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/Gnome/FAQ.md)
  - [Заметки/Linux/Кастомизация/KDE/FAQ.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/Linux/%D0%9A%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/KDE/FAQ.md)
- - [Заметка дня/ChatGPT promts.md](./%D0%97%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BD%D1%8F/ChatGPT%20promts.md)
  - [Excalidraw/Drawing 2023-07-09 10.46.54.excalidraw.md](./Excalidraw/Drawing%202023-07-09%2010.46.54.excalidraw.md)
  - [Найденное/Репозитории.md](./%D0%9D%D0%B0%D0%B9%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5/%D0%A0%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8.md)
  - [РАЗГРЕБСТИ - Ссылки.md](./%D0%A0%D0%90%D0%97%D0%93%D0%A0%D0%95%D0%91%D0%A1%D0%A2%D0%98%20-%20%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8.md)

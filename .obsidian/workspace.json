@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
+                "file": "Заметка дня/ChatGPT promts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
+                "file": "Заметка дня/ChatGPT promts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md"
+                "file": "Заметка дня/ChatGPT promts.md"
               }
             }
           }
@@ -324,10 +324,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e82fccc56c957891",
+  "active": "f9e0e916588d49db",
   "lastOpenFiles": [
-    "Заметки/Linux/Кастомизация/KDE/FAQ.md",
     "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
+    "Заметки/Linux/Кастомизация/KDE/FAQ.md",
     "Заметки/Linux/Кастомизация/Gnome",
     "Excalidraw/Drawing 2023-07-09 10.46.54.excalidraw.md",
     "Заметка дня/ChatGPT promts.md",
