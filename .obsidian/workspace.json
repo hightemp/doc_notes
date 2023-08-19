@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
+                "file": "Заметки/Разарботка/golang/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
+                "file": "Заметки/Разарботка/golang/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
+                "file": "Заметки/Разарботка/golang/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметки/Разарботка/микросервисы/Ссылки.md"
+                "file": "Заметки/Разарботка/golang/Ссылки.md"
               }
             }
           }
@@ -167,7 +167,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "685b796b7c9c6498",
+  "active": "9b5a1900f5c1e082",
   "lastOpenFiles": [
     "Заметки/Разарботка/микросервисы/Ссылки.md",
     "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
