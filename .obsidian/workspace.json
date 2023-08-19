@@ -9,156 +9,12 @@
         "dimension": 53.494623655913976,
         "children": [
           {
-            "id": "e82fccc56c957891",
+            "id": "685b796b7c9c6498",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec75fcf34770f700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd0ed160d81e21b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/vue/Статьи/Vue Project Folder Structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ee549207bc3c467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dd93a24b9040ac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c489860f32dbd8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Найденное/Репозитории.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd714e0b5c47d6d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/vue/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a079c977a5cc8cda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/MySQL/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c24ef808f2bfbdec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/микросервисы/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38b35559384636ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/javascript/vue/vuex-orm/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9bccae53813359d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/PhpOffice/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0afefa8910463629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/guzzle/FAQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "924f0b0a8b71d709",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметки/Разарботка/php/doctrine/FAQ.md",
+                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,21 +38,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f9e0e916588d49db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Заметка дня/ChatGPT promts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md",
+                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md",
+                "file": "Заметки/Разарботка/микросервисы/Ссылки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Заметка дня/ChatGPT promts.md"
+                "file": "Заметки/Разарботка/микросервисы/Ссылки.md"
               }
             }
           }
@@ -324,13 +167,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f9e0e916588d49db",
+  "active": "685b796b7c9c6498",
   "lastOpenFiles": [
+    "Заметки/Разарботка/микросервисы/Ссылки.md",
     "Заметки/Linux/Кастомизация/Gnome/FAQ.md",
+    "HISTORY.md",
+    "Найденное/Ссылки.md",
+    "Заметка дня/ChatGPT promts.md",
     "Заметки/Linux/Кастомизация/KDE/FAQ.md",
     "Заметки/Linux/Кастомизация/Gnome",
     "Excalidraw/Drawing 2023-07-09 10.46.54.excalidraw.md",
-    "Заметка дня/ChatGPT promts.md",
     "Найденное/Репозитории.md",
     "Excalidraw",
     "Заметки/Разарботка/javascript/vue/Ссылки.md",
@@ -354,7 +200,6 @@
     "data/assets/html-block-20220429115636-e80k6ty.svg",
     "РАЗГРЕБСТИ - Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/tun2socks/Статьи/Tun2socks установка и настройка для проксирования трафика.md",
-    "Найденное/Ссылки.md",
     "Заметки/Разарботка/данные, медиа, парсинг/Ссылки.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Наглядное руководство по SSH-туннелям.md",
     "Заметки/Linux/Сетевые утилиты/ssh/Статьи/Магия SSH.md",
@@ -370,8 +215,6 @@
     "node_modules/unset-value/README.md",
     "node_modules/to-regex/README.md",
     "node_modules/terser-webpack-plugin/README.md",
-    "node_modules/terser-webpack-plugin/CHANGELOG.md",
-    "node_modules/split-string/README.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
